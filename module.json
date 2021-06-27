@@ -3,7 +3,7 @@
   "title": "中文PF2系统",
   "description": "在 PF2 系统中加入中文",
   "minimumCoreVersion": "0.6.5",
-  "compatibleCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.8.8",
   "author": "losy&羊肉",
   "scripts": [
     "./babele.js"
