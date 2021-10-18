@@ -2,489 +2,651 @@
     "label": "专长",
     "entries": {
         "Aldori Riposte": {
-            "name": "奥多里剑反 Aldori Riposte"
+            "name": "奥多里剑反 Aldori Riposte",
+            "description": "<p><strong>要求</strong> 你正受益于奥多里剑格<br /><strong>触发</strong> 在你触及范围内的敌人对你的攻击大失败。<br /></p>\n<hr />\n<p>当敌人露出破绽时，你将用奥多里决斗剑 @Compendium[pf2e.equipment-srd.iSceAVMkVv1uKK7t]{Aldori Dueling Sword} 进行反击。使用你的奥多里决斗剑对触发的敌人进行一次近战打击(Strike)或者卸武动作 @Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{Disarm}</p>"
         },
         "Angelic Magic": {
-            "name": "天界奥秘 Angelic Magic"
+            "name": "天界奥秘 Angelic Magic",
+            "description": "<p>You can tap into the magic of angels that runs through your blood. You can cast @Compendium[pf2e.spells-srd.2qGqa33E4GPUCbMV]{Humanoid Form} and @Compendium[pf2e.spells-srd.EfFMLVbmkBWmzoLF]{Remove Fear} each once per day as 2nd-level divine innate spells.</p>"
         },
         "Armor Specialist": {
-            "name": "护甲专精 Armor Specialist"
+            "name": "护甲专精 Armor Specialist",
+            "description": "<p>你努力继续优化自己穿着护甲的防御效果。你获得轻甲和中甲的盔甲专精效果（Armor Specialization Effects）。</p>"
         },
         "Adaptive Mask Familiar": {
+            "description": "<p>你的面具魔宠快速地适应了它的躯体，使它可提供更多主人与魔宠能力。你每日可选取4种主人和魔宠能力，而非2种。</p>",
             "name": "适应面具魔宠 Adaptive Mask Familiar"
         },
         "Align Armament": {
-            "name": "阵营武装 Align Armament"
+            "name": "阵营武装 Align Armament",
+            "description": "<p><strong>频率</strong> 每轮一次</p>\n<hr />\n<p>你令一件武器与对神祇的信仰产生超然共鸣。当你选择该专长时，选择混乱，邪恶，善良或者秩序之一。该选择必须对应你的神祇阵营组成之一。该动作具有对应所选阵营组成的特征。</p>\n<p>当你使用该动作时，你触摸一件武器。在1轮中，该武器对选择阵营的对立阵营的生物造成额外1d6所选阵营类型的伤害。例如，如果选择邪恶，该武器会对邪恶生物造成1d6善良伤害。如果你再次使用阵营武装，任何之前的阵营武装失去额外伤害。</p>\n<p>@Compendium[pf2e.feat-effects.XC3dRbwfu35vuvmM]{Effect: Align Armament (Chaotic)}</p>\n<p>@Compendium[pf2e.feat-effects.eA14bUF7xhNCzw2v]{Effect: Align Armament (Evil)}</p>\n<p>@Compendium[pf2e.feat-effects.bl4HXm1e4NQ0iJs5]{Effect: Align Armament (Good)}</p>\n<p>@Compendium[pf2e.feat-effects.KkbFlNfcQQUfSVXd]{Effect: Align Armament (Lawful)}</p>\n<hr />\n<p><strong>特殊</strong> 你可以选择该专长两次，选择你的神祇的另一个阵营组成。当你使用阵营武装时，你可以选择任一阵营组成。</p>"
         },
         "Animal Companion": {
+            "description": "<p>你获得一只幼年动物伙伴陪你旅行，它会尽量服从你的简单命令。见214页动物伙伴。</p>",
             "name": "动物伙伴 Animal Companion"
         },
         "Adopted Ancestry": {
-            "name": "异族情谊 Adopted Ancestry"
+            "name": "异族情谊 Adopted Ancestry",
+            "description": "<p>你曾经深深地浸淫在另一个种族的文化和社会风俗当中——可能你是被收养的异族后代，或是获得了该种族的社会认可，又或是因为友谊，亲情和爱情而永远地与他们相连。在你的角色本身的族裔以外选择一个常见的族裔，你可以选择该族裔的族裔专长（Ancestry Feats），前提是你的生理结构可以做到该族裔专长赋予的能力。具体情况由GM判定是否合适。</p>"
         },
         "All In My Head": {
-            "name": "盘据脑海 All In My Head"
+            "name": "盘据脑海 All In My Head",
+            "description": "<p><strong>触发</strong> 你即将从一次打击@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} 中受伤，或即将从一个没有死亡特征或其他不会造成立即性死亡(例如解离术<em>@Compendium[pf2e.spells-srd.r7ihOgKv19eJQnik]{Disintegrate}</em>)的法术中受伤。</p>\n<hr />\n<p>借由你对神祕的联系还有不可思议的信念之力，你说服自己那触发条件的伤害不过是你幻想出来的。</p>\n<p>该伤害从原本的伤害类型变为心灵伤害，并且该伤害效果获得瘀伤特征。如果你免疫心灵效果或心灵伤害，那你就不能使用此反应动作。</p>"
         },
         "Animal Elocutionist": {
-            "name": "兽语者 Animal Elocutionist"
+            "name": "兽语者 Animal Elocutionist",
+            "description": "<p>你听见动物之声绝非无意的噪音，而是在沟通交流，你还能以此回应。你可以与所有动物交谈，不再限于有掘地速度的动物。你对动物改变印象Make an Impression时+1环境加值（通常使用交涉技能）。</p>"
         },
         "Armored Rebuff": {
-            "name": "反应装甲 Armored Rebuff"
+            "name": "反应装甲 Armored Rebuff",
+            "description": "<p><strong>触发</strong>一个邻近生物对你发动的一次近战武器或无武装攻击的攻击检定结果为重击</p>\n<p><strong>需求</strong> 你穿着中甲或重甲</p>\n<hr />\n<p>你用厚重的铠甲弹开奋力尝试攻击你的敌人。对触发本反应动作的生物尝试一次运动技能检定来推撞它。你不能在成功的推撞以后跟随被你撞开的生物一起移动——你使用铠甲弹开了它，而非使用自己移动的动能推动它。</p>"
         },
         "Armored Stealth": {
-            "name": "披甲隐秘 Armored Stealth"
+            "name": "披甲隐秘 Armored Stealth",
+            "description": "<p>你学习过如何调整护甲和步伐来减少隐秘时发出的声音。</p>\n<p>当你穿戴不具有嘈杂特征且熟练度至少为受训的护甲时，你的隐秘检定所受到的减值减少1点（最低为0）。若你隐秘技能为大师熟练度，则减值减少2点，传奇隐秘技能的减值减少3点。</p>\n<p>若护甲拥有嘈杂特征，则并非减少隐秘检定减值，而是忽略嘈杂特征的效果，使你可以正常通过足量的力量属性值来去除检定减值。</p>"
         },
         "Amorphous Aspect": {
+            "description": "<p>你的身体非常灵活。你获得+1环境加值，当你在逃跑或挤入空间检定为大失败时，会变为失败。</p>",
             "name": "无定型之相 Amorphous Aspect"
         },
         "A Home In Every Port": {
-            "name": "百家饭 A Home In Every Port"
+            "name": "百家饭 A Home In Every Port",
+            "description": "<p>你到访过的村镇都流传着你的故事，百姓都愿意敞开大门欢迎你的到来。</p>\n<p>若你在城镇（town）或村庄（village）度过休整期，你可以花费8小时找到一位热心村民免费为你和至多六位你的盟友提供一天的食宿。这顿免费食宿的生活开支标准为舒适（comfortable），食物亦免费。</p>\n<p>24小时后，若想继续留宿则要正常支付生活开支，或再用该专长找新一位村民提供服务。</p>"
         },
         "Amplifying Touch": {
-            "name": "扬善之触 Amplifying Touch"
+            "name": "扬善之触 Amplifying Touch",
+            "description": "<p>你的治疗能量能强化攻击。</p>\n<p>因你的圣疗@Compendium[pf2e.spells-srd.zNN9212H2FGfM7VS]{Lay on Hands} 恢复生命值的盟友，直到他们下一轮结束前，攻击骰上获得+1状态加值，并且他们所有的打击都会增加1点额外善良伤害。</p>\n<p>@Compendium[pf2e.spell-effects.MjtPtndJx31q2N9R]{Spell Effect: Amplifying Touch}</p>"
         },
         "Absorb Spell": {
-            "name": "吸收法术 Absorb Spell"
+            "name": "吸收法术 Absorb Spell",
+            "description": "<p><strong>频率</strong>每10分钟1次<br /><strong>触发</strong> 你在对抗敌人法术的豁免上大成功，且该法术是你能正常施放的环级</p>\n<hr />\n<p>你将法术吸收后存在体内。若你是自发施法者，即使该法术不在你的法术表上，你能在接下来的10分钟内施放触发的法术1次，如同该法术存在于你的法术库中一般。若你是准备施法者，你能将1个环级相同的法术位中已准备的法术，替换成触发的法术，但必须在10分钟内施放之，否则依然在当日失去该法术位。你以触发法术原本的环级施放之，但改为你自己的魔法根源，并使用该根源的法术攻击与DC，及其他根据根源变化的数据来决定其效果。</p>"
         },
         "Analyze Weakness": {
-            "name": "分析弱点 Analyze Weakness"
+            "name": "分析弱点 Analyze Weakness",
+            "description": "<p><strong>需求</strong> 你必须用回忆知识辨识出该生物 <br />@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge}.</p>\n<hr />\n<p>你对该生物生理机制和战术的了解能助你克敌机先。你小心翼翼的研究已辨识的生物，试图在他当前的姿态或型态上找到特别的弱点。</p>\n<p>在你下一回合结束前，如果你用打击对所选生物造成偷袭伤害，额外多2d6点精准伤害。 </p>\n<p>11跟17级时，如果偷袭的额外伤害增加，那本能力的额外伤害也会在11级跟17级时分别增加到3d6和4d6。</p>"
         },
         "Agile Grace": {
+            "description": "<p>你使用灵巧武器时的优雅步伐无人能及。你使用灵巧武器与灵巧非武装攻击时的多重攻击减值在第二击变为-3，在随后的攻击变为-6（而不是-4和-8）。</p>",
             "name": "灵巧优雅 Agile Grace"
         },
         "Alchemical Crafting": {
-            "name": "制作炼金物品 Alchemical Crafting"
+            "name": "制作炼金物品 Alchemical Crafting",
+            "description": "<p>你可以使用手艺技能的制作技能动作制作炼金物品（Alchemical Items）。当你选择本专长时，你自动获得所有稀有度为普通（Common）的1级炼金物品的设计图。</p>"
         },
         "Advanced Arcana": {
+            "description": "<p>你获得一个法师专长。为了满足其先决条件，将你的法师等级视为你的等级减半。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择本专长。每次都必须选择不同的法师专长。</p>",
             "name": "进阶奥法 Advanced Arcana"
         },
         "Advanced Muse's Whispers": {
+            "description": "<p>你获得一个吟游诗人专长。为了满足其先决条件，将你的吟游诗人等级视为你的等级减半。</p>\n<p><strong>特殊</strong> 你可以多次选择本专长。每次都必须选择不同的吟游诗人专长。</p>",
             "name": "进阶缪斯低语 Advanced Muse's Whispers"
         },
         "Advanced Wilding": {
+            "description": "<p>你获得一个德鲁伊专长。为了满足其先决条件，将你的德鲁伊等级视为你的等级减半。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择本专长。每次都必须选择不同的德鲁伊专长。</p>",
             "name": "进阶野性 Advanced Wilding"
         },
         "Ancestral Blood Magic": {
+            "description": "<p>你血液中的魔力已经流入了你的族裔血脉。除了正常情况之外，当你施放一个从传承heritage或是族裔专长ancestry feat中获取的非戏法法术也会使你获得血统奥秘的效果。</p>",
             "name": "先祖血脉法术 Ancestral Blood Magic"
         },
         "Aberration Kinship": {
+            "description": "<p>你的大脑可以通过不可思议的思维和非人的畸变生物产生共鸣。每日一次，你可以将@Compendium[pf2e.spells-srd.D442XMADp01qJ7Cs]{Mindlink} 作为内在异能法术施展，但是目标只能是异怪（aberration）。</p>",
             "name": "异怪亲和 Aberration Kinship"
         },
         "Aasimar's Mercy": {
-            "name": "神裔慈悲 Aasimar's Mercy"
+            "name": "神裔慈悲 Aasimar's Mercy",
+            "description": "<p>你的天界威能让你能轻松地解除较微弱的苦难。</p>\n<p>每日共2次，你可以4级神术内在法术的形式施放下列法术： @Compendium[pf2e.spells-srd.OyFCwQuw8XRazsNr]{Remove Curse}, @Compendium[pf2e.spells-srd.RneiyehRO6f7LP44]{Remove Disease}, 和 @Compendium[pf2e.spells-srd.SUKaxVZW2TlM8lu0]{Neutralize Poison}.</p>"
         },
         "Abundant Step": {
-            "name": "遁术 Abundant Step"
+            "name": "遁术 Abundant Step",
+            "description": "<p>你可以传送自己一小段距离。你获得遁术真气法术（401页）。你聚能池中聚能点的数量+1。</p>"
         },
         "Accelerating Touch": {
-            "name": "加速之触 Accelerating Touch"
+            "name": "加速之触 Accelerating Touch",
+            "description": "<p>你的医疗能力被注入了动态的能量。一名因为你的圣疗恢复生命值的生物，直到他下一轮结束前，在速度上获得+10呎状态加值。</p>\n<p>@Compendium[pf2e.spell-effects.alyNtkHLNnt98Ewz]{Spell Effect: Accelerating Touch}</p>"
         },
         "Acclimatization": {
-            "name": "适应环境 Acclimatization"
+            "name": "适应环境 Acclimatization",
+            "description": "<p>你在这个世界上最具有恶意的地区内的经历让你已经适应了极端气候。</p>\n<p>在你的偏好地形内，你获得等同于等级一半的抗力（resistance），它对所有环境伤害（environmental damage）生效，并且在被温度效果（temperature effects）所影响时视为向着更弱的方向降低1级（酷寒和酷热变极寒和炽热，极寒和炽热变严寒和炎热等等）。</p>\n<p>当其他生物进行跟随专家（Follow The Expert）探索行动并将你作为向导，且位于你的偏好地形中时，他们也会将温度效果视为向着更弱的方向降低1级。</p>"
         },
         "Accompany": {
-            "name": "代奏 Accompany"
+            "name": "代奏 Accompany",
+            "description": "<p><strong>触发：</strong>30呎内有个盟友正在 @Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Casts a Spell}</p>\n<hr />\n<p>你使用你的表演协助一位盟友的师法，为他的法术增添魔法能量。</p>\n<p>进行一次表演检定，使用该盟友等级「非常困难(very high)」的DC(<em>Core Rulebook</em> 503-504)，然后使用一点聚能点(如果触发法术是一个聚能法术)，或消耗一个至少比触发法术高一环的法术位。如果你的表演检定成功，你盟友的法术就不消耗聚能点或法术位。</p>"
         },
         "Advanced Mysteries": {
-            "name": "进阶秘术 Advanced Mysteries"
+            "name": "进阶秘术 Advanced Mysteries",
+            "description": "<p>你获得1个先知专长。在判断专长的先决条件时，你的先知等级等同于自身角色等级的一半。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取该专长。每次选取都会获得另一个先知专长。</p>"
         },
         "Accurate Flurry": {
-            "name": "精准连击 Accurate Flurry"
+            "name": "精准连击 Accurate Flurry",
+            "description": "<p><strong>需求：</strong> 你持握两件近战武器，<br />而且是不同手分别持握</p>\n<hr />\n<p>你重新校准超常连击的精确度。当你使用超常连击时，你每件武器首次攻击须承受的多重攻击罚值，依照你已经在本回合进行过一次攻击计算。接下来的攻击按最高的多重攻击罚值计算，就好像你已经在这回合做了两次甚至更多次的攻击。</p>"
         },
         "Advantageous Assault": {
-            "name": "趁虚突袭 Advantageous Assault"
+            "name": "趁虚突袭 Advantageous Assault",
+            "description": "<p>你抓住敌人行动受到限制的时机，送出一记更加致命的打击。</p>\n<p>对正被 @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}, @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}, 或@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}的敌人进行一次普通攻击。 你在此次普通攻击的伤害上得到等于武器伤害骰数量的环境加值，若该武器为双手握持，则环境加值额外+2。此次普通攻击得到以下失败效果：</p>\n<p><strong>失败</strong> 你对目标造成等于武器伤害骰数量的伤害，若该武器为双手握持，则伤害额外+2。此伤害与武器伤害类型相同。</p>"
         },
         "Alchemical Savant": {
-            "name": "炼金学究 Alchemical Savant"
+            "name": "炼金学究 Alchemical Savant",
+            "description": "<p>你能够快速鉴定炼金物品。当对你手持的炼金物品使用手艺技能来鉴别炼金术（Identify Alchemy）时，取代原本所需的10分钟，你只需要一个单独的动作就可以这样做，这个动作会具有专注和操纵特征。</p>\n<p>如果你拥有你正在尝试鉴定的这件物品的公式，你在检定上获得+2环境加值，如果你骰出大失败，你可以用失败代替。</p>"
         },
         "Accursed Claws": {
+            "description": "<p>你的利爪中充盈着你母亲的鬼婆魔力。当你爪抓的打击造成重击时，目标额外承受[[/r 1d4 #persistent mental]] 持续心灵伤害。</p>",
             "name": "魔咒利爪 Accursed Claws"
         },
         "Acquired Tolerance": {
-            "name": "后天耐毒性 Acquired Tolerance"
+            "name": "后天耐毒性 Acquired Tolerance",
+            "description": "<p><strong>触发</strong>你在对抗毒素的豁免中失败</p>\n<hr />\n<p>你以非致命的剂量服用少量毒素，久而久之便让身体建立起足矣对抗致命剂量的抵抗力。重掷触发反应动作的检定并使用第二次结果。</p>\n<p>一旦你使用后天耐毒性（Acquired Tolerance），你就能在当日继续使用它对抗同类毒素，但直至你下次进行每日准备（daily preparations）为止，都无法用它对抗不同种类的毒素。</p>\n<p>举例说明，若你在对抗巨蝎毒（giant scorpion venom）时使用反应动作，那么即便来源不同，你也仍旧可以使用它来对抗巨蝎毒；但你无法再用它来对抗荨麻草渣（nettleweed residue）、巫妖尘（lich dust）或其他毒素。</p>"
         },
         "Acrobat Dedication": {
-            "name": "特技演员入门 Acrobat Dedication"
+            "name": "特技演员入门 Acrobat Dedication",
+            "description": "<p>你的特技技能的熟练度变为专家。在7级时，特技的熟练度变为大师；在15级时，熟练度变为传奇。</p>\n<p>当你进行翻滚（Tumble Through）通过敌人所占据的空间@Compendium[pf2e.actionspf2e.21WIfSu7Xd7uKqV8]{Tumble Through}时，若特技检定的结果为大成功，则不会将敌人占据的空间视为困难地形。</p>\n<p><strong>特殊</strong>直至选取另外2个特技演员变体的专长之前，你无法再选择任何其他入门专长（dedication feat）。</p>"
         },
         "Acrobatic Performer": {
-            "name": "特技演员 Acrobatic Performer"
+            "name": "特技演员 Acrobatic Performer",
+            "description": "<p>你的特技表现非凡，通过表演从观众处收获大量惊叹和掌声。这才是真正的表演！</p>\n<p>当使用表演技能的演出（Perform）动作时，你可以骰特技检定而非表演检定。 @Compendium[pf2e.actionspf2e.EEDElIyin4z60PXx]{Perform} </p>"
         },
         "Acute Scent": {
+            "description": "<p>狂暴时，你的嗅觉感官得到加强。你获得30英尺范围的模糊嗅觉（imprecise scent）。</p>",
             "name": "灵敏嗅觉 Acute Scent"
         },
         "Acute Vision": {
-            "name": "灵敏视觉 Acute Vision"
+            "name": "灵敏视觉 Acute Vision",
+            "description": "<p>狂暴时，你的视觉感官得到加强，获得黑暗视觉。</p>"
         },
         "Adapted Cantrip": {
-            "name": "调整戏法 Adapted Cantrip"
+            "name": "调整戏法 Adapted Cantrip",
+            "description": "<p>对于多种魔法传统的研究揭示了如何改变一个法术来适应你的施法风格。选择一个你施法列表外的戏法。如果你拥有一个法术序列或是法术书，替换其中一个你已知或是在法术书上的戏法为你选择的戏法。如果你不通过法术书准备（比如你是牧师或是德鲁伊）法术，那么你的戏法之一必须是你选择的法术，你依旧要休息后才能准备它。如果你在之后交换或是重训这个戏法，你可以在一个相同或是不同替换列表中选择它的替代。</p>"
         },
         "Adaptive Adept": {
-            "name": "适应调整 Adaptive Adept"
+            "name": "适应调整 Adaptive Adept",
+            "description": "<p>你就调整你的魔法来混合你的职业传统和自己的习惯。从你在调整戏法选择的魔法传统中选择1个戏法或是1环法术。你获得该法术，如同调整戏法中的戏法一样将其添加到自己的法术序列，法术书或是准备法术。如果你选择1个一环法术，那你就无法获得该法术的升阶版本，这意味着如果你是准备施法，那你就无法准备他们；如果你拥有一个法术序列，那你无法学习他们或是选择这个法术作为招牌法术。</p>"
         },
         "Advanced Blood Potency": {
+            "description": "<p>你获得一个术士专长。为了满足其先决条件，将你的术士等级视为你的等级减半。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择本专长。每次都必须选择不同的术士专长。</p>",
             "name": "进阶血脉潜能 Advanced Blood Potency"
         },
         "Affliction Mercy": {
+            "description": "<p>流淌于你体内的神圣恩典能够缓解苦难。</p>\n<p>当你使用救济时，你能够转而尝试反制（Counteract）一个诅咒、疾病或毒素。@Compendium[pf2e.feats-srd.zilwynzk8lIujgZo]{Mercy}</p>",
             "name": "苦难救济 Affliction Mercy"
         },
         "Ancestral Mage": {
+            "description": "<p>来自于你族裔的魔力与你血脉中的魔力同为一脉。将一个你从传承heritage或是族裔专长中获得的内在法术加入到你的法术库中，这意味着你可以使用你的法术位来施放它们。</p>",
             "name": "先祖魔法 Ancestral Mage"
         },
         "Animal Feature": {
+            "description": "<p>你与动物的世界紧密相依，令自己得以获得动物的特征与能力。妳获得动物特征戍卫法术。你的聚能池增加1点聚能点。@Compendium[pf2e.spells-srd.vGEgI8e7AW6FQ3tP]{Animal Feature}</p>",
             "name": "动物特征 Animal Feature"
         },
         "Aggravating Scratch": {
-            "name": "毒素猫爪 Aggravating Scratch"
+            "name": "毒素猫爪 Aggravating Scratch",
+            "description": "<p>你的爪子上带有对你无害却能伤害敌人的刺激性物质。当你爪抓@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strikes} 的打击造成重击时，目标额外承受 [[/r 1d4 #persistent poison]]持续毒素伤害。</p>"
         },
         "Animal Skin": {
-            "name": "野兽之肤 Animal Skin"
+            "name": "野兽之肤 Animal Skin",
+            "description": "<p>你在无甲防御上的熟练度提升到专家等级。</p>\n<p>在狂暴且未穿甲时，你的皮肤变为与你所选动物相似的厚实兽皮。</p>\n<p>你的AC不需要承受-1减值，而是获得+1物品加值；若你拥有职业特性高等威武，该状态加值提高到+2。兽皮的厚度会使你AC上的敏捷调整值有+3的上限。</p>"
         },
         "Advanced Revelation": {
+            "description": "<p>你学会了与你秘示域相关的进阶启示法术。此外，你学会了在一定程度上防止诅咒的效果。每天一次，你可以在不增加你诅咒强度的情况下施放一个启示法术。</p>",
             "name": "进阶启示 Advanced Revelation"
         },
         "Ancestral Paragon": {
-            "name": "族裔典范"
+            "description": "<p>因为种种原因——血脉的传承，深入研究或是魔法增强——你和自己所属种族的联系比一般人更紧密。你获得一个1级族裔专长。</p>",
+            "name": "族裔典范 Ancestral Paragon"
         },
         "Animalistic Resistance": {
-            "name": "兽性抗力 Animalistic Resistance"
+            "name": "兽性抗力 Animalistic Resistance",
+            "description": "<p>你的兽性联系帮助你抵抗自然性苦难的影响。你在对抗疾病和毒素的豁免鉴定中获得+2环境价值。</p>"
         },
         "Advanced Seeker of Truths": {
-            "name": "进阶真相追寻 Advanced Seeker of Truths"
+            "name": "进阶真相追寻 Advanced Seeker of Truths",
+            "description": "<p>You have unlocked deeper secrets to uncovering and hoarding lore. You gain an advanced domain spell from one domain you selected with Seeker of Truths. Increase the number of Focus Points in your focus pool by 1.</p>\n<hr />\n<p><strong>Special</strong> You can take this feat up to three times, each time selecting a different advanced domain spell from a domain you selected with Seeker of Truths.</p>"
         },
         "Advanced Targeting System": {
-            "name": "先进定位系统 Advanced Targeting System"
+            "name": "先进定位系统 Advanced Targeting System",
+            "description": "<p>你的眼部处理器配备了先进的瞄准系统，可以让你更容易地定位你的敌人并读取他们的动作。你可以施展“克敌机先”@Compendium[pf2e.spells-srd.Gb7SeieEvd0pL2Eh]{True Strike} 作为你的奥术内在法术，每天一次。</p>"
         },
         "Ancestral Weaponry": {
-            "name": "祖传武艺 Ancestral Weaponry"
+            "name": "祖传武艺 Ancestral Weaponry",
+            "description": "<p>你将祖传的战斗风格与修道技艺结合。选择一个你让你使用有族裔特征武器的族裔。对你来说，有该族裔特征和灵巧或娴熟的近战武器获得武僧特征。</p>"
         },
         "Advanced Bow Training": {
+            "description": "<p>通过持续不断地进行严苛的练习，你加强了使用进阶弓（advanced bows）的技巧。你获得所有进阶弓（advanced bows）的熟练度，就好像这些武器是弓弩武器组（bow weapon group）中的军用武器一般。</p>",
             "name": "进阶弓训练 Advanced Bow Training"
         },
         "Annotate Composition": {
-            "name": "乐曲注解 Annotate Composition"
+            "name": "乐曲注解 Annotate Composition",
+            "description": "<p>你为乐曲写谱，创造了激励人心的歌词或曲子的载体让他人得以阅读、理解。</p>\n<p>你花10分钟和1点聚能点，把组曲法术转移到一张特别的卷轴，让你或其他人接下来可以激活。这个组曲法术必须一个动作即可施放。如果该法术作为施法的一部分需要进行一次表演检定，GM会根据你的属性进行一次秘密检定。如果你有激发英勇或绕梁组曲(lingering composition)，并且选择的法术符合条件，妳也可以使用其中一个法术调整乐曲注解，GM骰秘密表演检定。如果这么做了，就算秘密检定失败，你也要花多一点聚能点。</p>\n<p>任何可以看懂你使用的语言，且要解读你的组曲的生物，都可以用一个动作激活(Activate)这件物品，并添加专注特征。这个组曲产物所产生的效果，约略于激活生物在施法。</p>\n<p>你用此法创造的组曲会在你下次进行每日准备时失去其功效。如果此组曲现在为你拥有，你可以用一个有专注特征的动作，令它无效化。</p>\n<p>直到此卷轴被激活或失去魔法，你都无法重获为了创造这有注解的乐曲所使用的聚能点。</p>"
         },
         "Anoint Ally": {
-            "name": "膏立盟友 Anoint Ally"
+            "name": "膏立盟友 Anoint Ally",
+            "description": "<p>以自己的血肉作为焦点，你与一名盟友间建立起了一种神秘的联系，使他们能够从你的血统奥秘中获益。</p>\n<p>你在一名相邻的盟友身上按上能够持续1分钟的鲜血符文。当你能够获得一次血统奥秘效果时，你可以放弃之，改为由你的盟友获得此效果。</p>\n<p>你一次只能膏立一名盟友；如果你在另一名盟友身上按上符文，则结束先前的指定。</p>"
         },
         "Anticipate Ambush": {
-            "name": "反埋伏 Anticipate Ambush"
+            "name": "反埋伏 Anticipate Ambush",
+            "description": "<p>你精于埋伏之道，总留意任何躲起来的敌人(hidden enemy)或那些危险的地点，并用半速移动。</p>\n<p>如果你在遭遇开始时使用反埋伏，那你骰个察觉当作先攻，同时所有用骰隐匿当作先攻的敌人都在隐匿检定上承受-2环境罚值。</p>"
         },
         "Arcane Breadth": {
-            "name": "奥术扩展 Arcane Breadth"
+            "name": "奥术扩展 Arcane Breadth",
+            "description": "<p>你每天可以施展更多的法师法术。除了最高两个环级以外，每个环级你都额外获得一个来自法师变体专长的每日法术位。</p>"
         },
         "Additional Companion": {
-            "name": "额外伙伴 Additional Companion"
+            "name": "额外伙伴 Additional Companion",
+            "description": "<p>另一只动物与你一同走上旅途。这是1只具有仆从（minion）特征的幼年动物伙伴（Young Animal Companions）。关于如何让多个动物伙伴生效，请见兽王动物伙伴（Beastmaster Animal Companions）。</p>\n<p><strong>特殊</strong> 你能多次选取该专长，每次选取都会获得1只额外动物伙伴，至多为合计4只动物伙伴，这包含兽王入门（Beastmaster Dedication）专长以及兽王变体之外的其他来源提供的动物伙伴。</p>"
         },
         "Additional Lore": {
-            "name": "额外学识 Additional Lore"
+            "name": "额外学识 Additional Lore",
+            "description": "<p>你了解的学识触类旁通到了其他的领域。选择一个新的学识技能门类，你在该门类上获得受训。在你的等级达到3、7和15级时，你可以获得一个额外的技能提升（Skill Increase），但必须用来提升你通过本专长所选的这个学识门类。</p>\n<p><strong>特殊</strong> 你可以多次选择本专长。每次选择本专长时，你斗可以获得一个新的学识技能门类和相应等级的技能增长。</p>"
         },
         "Additional Shadow Magic": {
+            "description": "<p>选择一个你没有在获得阴影魔法专长时选择的聚能法术，你习得这个聚能法术，并且你的聚能池增加1点。</p>",
             "name": "额外阴影魔法 Additional Shadow Magic"
         },
         "Additional Recollection": {
-            "name": "一心二用 Additional Recollection"
+            "name": "一心二用 Additional Recollection",
+            "description": "<p><strong>触发</strong> 你对你的猎杀目标进行回忆知识检定@Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{Recall Knowledge}时成功或大成功</p>\n<hr />\n<p>你迅速观察战场，记起各种敌人的关键情报。你立刻对有意识到的不同生物进行一次回忆知识检定。</p>"
         },
         "Adrenaline Rush": {
-            "name": "兴奋激发 Adrenaline Rush"
+            "name": "兴奋激发 Adrenaline Rush",
+            "description": "<p>在激烈战斗中，你能够以力量实现惊人的壮举。</p>\n<p>狂暴@Compendium[pf2e.actionspf2e.Ah5g9pDwWF9b9VW9]{Raging}期间，你的超载和负重上限提高2点；你还会在用于举起重物、脱逃@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escape}、破拆@Compendium[pf2e.actionspf2e.SjmKHgI7a5Z9JzBx]{Force Open}的运动检定中获得+1状况加值。</p>"
         },
         "Advanced Bloodline": {
+            "description": "<p>你研究了自己的血脉，获悉了其中魔力的奥秘。你获得与你血统相关的高等血统法术。你聚能池中的聚能点增加1点。</p>",
             "name": "高等血统 Advanced Bloodline"
         },
         "Advanced Deduction": {
+            "description": "<p>你获得1个调查员专长。在判断专长的先决条件时，你的调查员等级等同于自身角色等级的一半。</p>\n<hr />\n<p><strong>特殊　</strong> 你可以多次选取该专长。每次选取都会获得另一个调查员专长。</p>",
             "name": "进阶演绎法 Advanced Deduction"
         },
         "Advanced Concoction": {
-            "name": "进阶调和 Advanced Concoction"
+            "name": "进阶调和 Advanced Concoction",
+            "description": "<p>你获得一个炼金术师专长。为了满足其先决条件，将你的炼金术师等级视为你的等级减半。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择本专长。每次都必须选择不同的炼金术师专长。</p>"
         },
         "Advanced Deity's Domain": {
-            "name": "高阶神授领域 Advanced Deity's Domain"
+            "name": "高阶神授领域 Advanced Deity's Domain",
+            "description": "<p>凭借你的信仰，你得以一窥神祇领域更深层的秘密。你从你在神授领域中选择的领域里获得高阶领域法术。你能够将这个法术作为虔诚法术施展。你的聚能池中的聚能点容量提升1。</p>"
         },
         "Advanced Devotion": {
-            "name": "进阶虔诚 Advanced Devotion"
+            "name": "进阶虔诚 Advanced Devotion",
+            "description": "<p>你获得一个神卫专长。为了满足其先决条件，将你的神卫等级视为你的等级减半。</p>"
         },
         "Advanced Dogma": {
+            "description": "<p>你获得一个牧师专长。为了满足其先决条件，将你的牧师等级视为你的等级减半。</p>\n<hr />\n<p><strong>特殊</strong>你可以多次选择本专长。每次都必须选择不同的牧师专长。</p>",
             "name": "进阶信条 Advanced Dogma"
         },
         "Advanced Domain": {
-            "name": "进阶领域 Advanced Domain"
+            "name": "进阶领域 Advanced Domain",
+            "description": "<p>你的研究或者祈祷解开了神祇领域中更深的奥秘。你从你的领域（如441页，表8-2：领域所列出的）之一中获得一个进阶领域法术。你的聚能池中的聚能点数增加1。</p>\n<hr />\n<p><strong>特殊</strong>你可以选择该专长多次。每一次，你从一个不同的，你已经有初始领域法术的领域，获得一项进阶领域法术。</p>"
         },
         "Advanced First Aid": {
-            "name": "进阶急救 Advanced First Aid"
+            "name": "进阶急救 Advanced First Aid",
+            "description": "<p>你接受过医疗训练，用以减少伤病痛苦和安抚恐惧的心。</p>\n<p>当你用医疗技能进行急救（Administer First Aid）行动时，你可以不做稳定伤势和止血，@Compendium[pf2e.actionspf2e.MHLuKy4nQO2Z4Am1]{Administer First Aid} @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} @Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{Sickened}而是减少一位盟友的恶心或惊惧状态2点状态值，若为大成功则可完全移除其中一种状态。同一时间你只能移除一种状态。</p>\n<p>医疗检定的DC通常为造成该状态的效果的DC。</p>"
         },
         "Archaeologist Dedication": {
-            "name": "考古学家入门 Archaeologist Dedication"
+            "name": "考古学家入门 Archaeologist Dedication",
+            "description": "<p>你是民俗与历史的学徒，追求着来自过往时光的知识与文物。你的社群和贼活的熟练度变为专家，而且在关于古代历史、民族和文化（ancient history, peoples, and cultures）的回忆知识（Recall Knowledge）检定中获得+1环境加值。@Compendium[pf2e.actionspf2e.1OagaWtBpVXExToo]{Recall Knowledge} </p>\n<p><strong>特殊</strong> 直至选取另外2个考古学家变体的专长之前，你无法再选择任何其他入门专长（dedication feat）。</p>"
         },
         "Archer Dedication": {
-            "name": "射手入门 Archer Dedication"
+            "name": "射手入门 Archer Dedication",
+            "description": "<p>你在所有弓弩武器组（bow weapon group）中的简易（simple）和军用（martial）武器熟练度上变为受训。每当你从职业特性（class feature）中获得熟练度提升，将弓弩武器组中的部分武器熟练度提升至专家或更高时，你在弓弩武器组中的所有简易和军用武器的熟练度等级均会提升至相应等级。若你正在使用的弓弩（bow）的熟练度等级至少达到了专家，则会获得此弓弩（bow）的重击专精效果（Critical Specialization Effects）。</p>\n<p><strong>特殊</strong> 直至选取另外2个射手变体的专长之前，你无法再选择任何其他入门专长（dedication feat）。</p>"
         },
         "Advanced Flair": {
+            "description": "<p>你获得1个浪客专长。在判断专长的先决条件时，你的浪客等级等同于自身角色等级的一半。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取该专长。每次选取都会获得另一个浪客专长。</p>",
             "name": "才华横溢 Advanced Flair"
         },
         "Advanced Fury": {
+            "description": "<p>你获得一个野蛮人专长。为了满足其先决条件，将你的野蛮人等级视为你的等级减半。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择本专长。每次都必须选择不同的野蛮人专长。</p>",
             "name": "进阶狂怒 Advanced Fury"
         },
         "Advanced General Training": {
-            "name": "进阶通用训练 Advanced General Training"
+            "name": "进阶通用训练 Advanced General Training",
+            "description": "<p>在冒险途中，你的适应力让自己习得了许多有用的能力。你获得1个7级或更低等级的通用专长（general feat），你必须满足专长的先决条件（prerequisites）。</p>\n<hr />\n<p><strong>特殊</strong> 你能够多次选取该专长，每次选取都要选择不同的专长。</p>"
         },
         "Advanced Hunter's Trick": {
-            "name": "进阶猎人技巧 Advanced Hunter's Trick"
+            "name": "进阶猎人技巧 Advanced Hunter's Trick",
+            "description": "<p>你获得一个游侠专长。为了满足其先决条件，将你的游侠等级视为你的等级减半。</p>\n<hr />\n<p><strong>特殊</strong>你可以多次选择本专长。每次都必须选择不同的游侠专长。</p>"
         },
         "Advanced Kata": {
-            "name": "进阶形 Advanced Kata"
+            "name": "进阶形 Advanced Kata",
+            "description": "<p>你获得一个武僧专长。为了满足其先决条件，将你的武僧等级视为你的等级减半。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择本专长。每次都必须选择不同的武僧专长。</p>"
         },
         "Advanced Maneuver": {
-            "name": "进阶演习 Advanced Maneuver"
+            "name": "进阶演习 Advanced Maneuver",
+            "description": "<p>你获得一个战士专长。为了满足其先决条件，将你的战士等级视为你的等级减半。</p>\n<hr />\n<p><strong>特殊</strong>你可以多次选择本专长。每次都必须选择不同的战士专长。</p>"
         },
         "Advanced Order Training": {
+            "description": "<p>你获得所属地狱骑士团的高等恩惠。</p>",
             "name": "进阶地狱骑士团训练 Advanced Order Training"
         },
         "Advanced Red Mantis Magic": {
-            "name": "进阶红螳螂魔法 Advanced Red Mantis Magic"
+            "name": "进阶红螳螂魔法 Advanced Red Mantis Magic",
+            "description": "<p>你的红螳螂魔法训练得到提升。往你的红螳螂杀手法术书里增加两个2环法术。你获得一个2环法术位并可以从红螳螂杀手法术书中准备一个2环法术。</p>\n<p>在8级时，往你的红螳螂杀手法术书里增加两个3环法术。你获得一个3环法术位并可以从红螳螂杀手法术书中准备一个3环法术。</p>\n<p>在10级时，往你的红螳螂杀手法术书里增加两个4环法术。你获得一个4环法术位并可以从红螳螂杀手法术书中准备一个4环法术。</p>"
         },
         "Advanced School Spell": {
-            "name": "进阶学派法术 Advanced School Spell"
+            "name": "进阶学派法术 Advanced School Spell",
+            "description": "<p>You gain access to a powerful new school spell depending on your arcane school.</p>\n<p>If you're an abjurer, you gain @Compendium[pf2e.spells-srd.LoBjvguamA12iyW0]{Energy Absorption}; if you're a conjurer, you gain @Compendium[pf2e.spells-srd.zjG6NncHyAKqSF7m]{Dimensional Steps}; if you're a diviner, you gain @Compendium[pf2e.spells-srd.4LSf04FFvDgMyDk6]{Vigilant Eye}; if you're an enchanter, you gain @Compendium[pf2e.spells-srd.KPGGkyBFbKse7KpK]{Dread Aura}; if you're an evoker, you gain @Compendium[pf2e.spells-srd.vfHr1N8Rf2bBpdgn]{Elemental Tempest}; if you're an illusionist, you gain @Compendium[pf2e.spells-srd.Nun72GTmb31YqSKh]{Invisibility Cloak}; if you're a necromancer, you gain @Compendium[pf2e.spells-srd.zvvHOQV78WKUB33l]{Life Siphon}; and if you're a transmuter, you gain @Compendium[pf2e.spells-srd.SDkIFrrO1PsE02Kd]{Shifting Form}.</p>\n<p>Increase the number of Focus Points in your focus pool by 1.</p>"
         },
         "Advanced Trickery": {
+            "description": "<p>你获得一个游荡者专长。为了满足其先决条件，将你的游荡者等级视为你的等级减半。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择本专长。每次都必须选择不同的游荡者专长。</p>",
             "name": "进阶诡计 Advanced Trickery"
         },
         "Advanced Weapon Training": {
-            "name": "异种武器训练 Advanced Weapon Training"
+            "name": "异种武器训练 Advanced Weapon Training",
+            "description": "<p>你学会了如何使用一柄异种武器。选择一个武器组，你如同此武器组内的军用武器一般获得此武器组内异种武器的熟练等级。</p>"
         },
         "Advanced Witchcraft": {
+            "description": "<p>你获得1个女巫专长。在判断专长的先决条件时，你的女巫等级等同于自身角色等级的一半。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取该专长。每次选取都会获得另一个女巫专长。</p>",
             "name": "进阶巫术 Advanced Witchcraft"
         },
         "Aegis of Arnisant": {
-            "name": "阿尼森特神盾 Aegis of Arnisant"
+            "name": "阿尼森特神盾 Aegis of Arnisant",
+            "description": "<p><strong>需求</strong> 你正持握盾牌</p>\n<hr />\n<p>仿效阿尼森特的奇谭，你将盾牌化为魔法屏障。直到你的下回合开始前，你获得下述反应动作： @Compendium[pf2e.actionspf2e.S9PZFOVe7zhORkUc]{Absorb into the Aegis} 。</p>"
         },
         "Aerobatics Mastery": {
-            "name": "特级飞行员 Aerobatics Mastery"
+            "name": "特级飞行员 Aerobatics Mastery",
+            "description": "<p>轻巧优雅飞行着的你，可以做出令人惊叹的空中特技机动。</p>\n<p>使用的空中机动（Maneuver in Flight）动作@Compendium[pf2e.actionspf2e.Qf1ylAbdVi1rkc8M]{Maneuver in Flight} 的特技检定获得+2环境加值并且能将两种机动融入到这一个动作当中，例如在强风中边转头边进行爬升、俯冲或盘旋。该此特技DC等于组合中较难空中机动的DC+5。</p>\n<p>若你的特技熟练度为传奇，你可以将三种机动容易到这一个动作当中；DC为组合中最难空中机动的DC+10。无论如何组合，空中机动都不会让移动超过飞行速度。@Compendium[pf2e.actionspf2e.cS9nfDRGD83bNU1p]{Fly} 。</p>"
         },
         "After You": {
-            "name": "压轴登场 After You"
+            "name": "压轴登场 After You",
+            "description": "<p><strong>触发 </strong>你正要掷先攻。 </p>\n<hr />\n<p>Y你放任敌手抢占先机来昭示自己的无比信心。你不掷先攻，改为自愿最后行动。你获得派头</p>\n<p>@Compendium[pf2e.classfeatures.LzYi0OuOoypNb6jd]{Panache}。若复数生物同时使用此能力，或其他使自身最后行动的能力，则采用处理先攻平局的标准规则：NPC与怪物在PC之前行动，同一个群组内的个别生物则可自由决定行动顺序。</p>"
         },
         "Ageless Patience": {
-            "name": "永恒耐心 Ageless Patience"
+            "name": "永恒耐心 Ageless Patience",
+            "description": "<p>缓慢的节奏让你行事更加缜密。你在进行察觉检定或是技能检定时可以花费2倍时间来在检定上获得+2加值。你在该检定上不会因为自然1而造成更坏的效果;你只有在比DC低于5点时才会大失败。比如，你通常需要1个动作进行潜行。你可以通过花费2个动作来获得这项增益。你也可以在探险期间与休整期间花费双倍时间来获得增益。如果GM认为拖延会造成负面影响时，比方说你在和一个不耐烦的人进行紧张的谈判时，这项加值会变为减值。</p>"
         },
         "Aggressive Block": {
-            "name": "侵略性格挡 Aggressive Block"
+            "name": "侵略性格挡 Aggressive Block",
+            "description": "<p><strong>触发</strong>你使用盾牌格挡（Shield Block）反应动作，且触发盾牌格挡的敌人与你相邻，体型与你的尺寸相同或更小。</p>\n<hr />\n<p>你在格挡攻击的同时向外推出，将你的敌人推开或让他失去平衡。</p>\n<p>你使用你的盾牌推动触发此动作的生物，令其自动被推出@Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shoving} 5尺或直到你下回合开始处于措手不及状态@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} ，这需由触发此动作的生物选择。</p>\n<p>若触发动作的生物选择被移动，你选择移动的方向。如果这一推出动作会导致他撞击另一个物体、进入一个复杂地形方格或进入另一个生物占有的格子，他必须选择变为措手不及状态而不是被移动。</p>"
         },
         "Agile Maneuvers": {
-            "name": "灵巧战技 Agile Maneuvers"
+            "name": "灵巧战技 Agile Maneuvers",
+            "description": "<p>你能轻松地向敌人发动战技。你的擒抱、推撞、摔绊行动受到较轻的多次攻击罚值：当回合第2次攻击时-4而非-5，第3次及后续攻击时-8而非-10。</p>"
         },
         "Agonizing Rebuke": {
-            "name": "折磨怒斥 Agonizing Rebuke"
+            "name": "折磨怒斥 Agonizing Rebuke",
+            "description": "<p>当你恐吓你的敌人时，你也能让他陷入巨大的精神痛苦中。当你成功对一个敌人挫败士气@Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} 时，只要该敌人仍然处于惊惧@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} 状态并正在与你交战，就会在每回合开始时承受1d4点精神伤害。如果你在<a href=\"https://2e.aonprd.com/Skills.aspx?ID=7\">威吓技能</a>上达到大师熟练，伤害提升至2d4，如果你有传奇熟练，伤害提升至3d4。</p>"
         },
         "Airy Step": {
-            "name": "轻灵步 Airy Step"
+            "name": "轻灵步 Airy Step",
+            "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> A creature targets you with an attack or other targeted effect, and you can see the attacker.</p>\n<hr />\n<p>You create a blanket of fog in a 5–foot burst centered on one corner of your space. All creatures within that area are @Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{Concealed}, and all others are concealed to them. This concealment applies to the triggering effect, and the fog lasts for 1 minute or until dispersed by a strong wind. After resolving the triggering effect, you Step. If an effect prevents you from Stepping, you attempt to Escape the effect and Step if you succeed.</p>"
         },
         "Alchemical Discoveries": {
-            "name": "炼金发现 Alchemical Discoveries"
+            "name": "炼金发现 Alchemical Discoveries",
+            "description": "<p>你在实验室上花费了额外的时间来提高对炼金术的了解。每次升级时，你可以学习两个炼金物品的公式，而非一个（仍然必须是灵药或工具）。</p>\n<p>如果你工艺上是专家熟练，则每天可以制造的多用途瓶数量将增加1，如果你是大师熟练则增加2，如果你是传奇熟练，则增加3。</p>"
         },
         "Alchemical Familiar": {
-            "name": "炼金魔宠 Alchemical Familiar"
+            "name": "炼金魔宠 Alchemical Familiar",
+            "description": "<p>你运用炼金术创造生命，一个由炼金材料、试剂再加上一点你的血液构成的简单生物。这个炼金魔宠看上去就像拥有血肉之躯的小型生物，尽管它可能会因为你在制造过程中的创意而具有一些不同寻常或是格外显眼的样貌。就像其他魔宠那样，你的炼金魔宠能够在你的实验室和你的冒险中协助你。这只魔宠使用你的智力调整值决定它的察觉，特技和隐匿调整值（参考217页的魔宠获得更多信息）。</p>"
         },
         "Alchemical Scholar": {
-            "name": "炼金学者 Alchemical Scholar"
+            "name": "炼金学者 Alchemical Scholar",
+            "description": "<p>你能更加轻松地学习公式。当你选取了该专长时，你获得4个1级常见炼金公式，并且每当你获得一个等级，你能获得该等级能学习的一个常见炼金公式。你仍然需要炼金工艺专长来制造炼金。@Compendium[pf2e.feats-srd.is3Oz9wt11lNq62K]{Alchemical Crafting}<br /><br /><strong>特殊</strong> 你只能在1级时选取该专长，并无法通过重训获得或抛弃该专长。</p>"
         },
         "Alchemist Dedication": {
-            "name": "炼金术师入门 Alchemist Dedication"
+            "name": "炼金术师入门 Alchemist Dedication",
+            "description": "<p>你将对炼金术的兴趣转变成系统的训练。你在炼金炸弹和手艺Crafting中受训；如果你已经受训于手艺Crafting，你在另一个你自选的技能中受训。你在炼金术师职业DC中受训。你获得炼金术师灌注试剂Infused Reagents职业特性，获得等同于你等级灌注试剂数量。你也获得炼金工艺Alchemical Crafting专长，以及额外4个1级炼金物品的公式，也能够在每日准备中创造免费的物品。你的高阶炼金术等级是1级，并且不会自动升级。</p>\n<p><strong>特殊</strong> 你不能选择其他入门专长，除非你从炼金术师变体中获得了其他两个专长。</p>"
         },
         "Align Ki": {
-            "name": "调息 Align Ki"
+            "name": "调息 Align Ki",
+            "description": "<p><strong>频率</strong> 一小时一次</p>\n<p><strong>触发</strong> 你施放@Compendium[pf2e.actionspf2e.aBQ8ajvEBByv45yz]{Cast a Spell} 具有武僧特征的法术。</p>\n<hr />\n<p>气的能量能抚慰你的伤口，在战场上重新生龙活虎。你恢复你的等级加你的感知调整值的生命值。</p>"
         },
         "Allegro": {
-            "name": "快板曲 allegro"
+            "name": "快板曲 allegro",
+            "description": "<p>你可以通过快节奏的表演让盟友获得加速效果。你获得快板曲组曲戏法。@Compendium[pf2e.spells-srd.IQchIYUwbsVTa9Mc]{Allegro}</p>"
         },
         "Ally's Shelter": {
-            "name": "同伴的庇护 Ally's Shelter"
+            "name": "同伴的庇护 Ally's Shelter",
+            "description": "<p><strong>频率</strong> 1次/日</p>\n<p><strong>触发</strong> 当你与1名或更多的盟友相邻且尝试1次豁免检定，还没有掷出结果时</p>\n<hr />\n<p>在充满压力的环境中，你能以盟友作为榜样来获得力量。以1名相邻盟友的对应类型的调整值来投掷豁免检定，以取代使用你自己的数据。</p>"
         },
         "Ambushing Knockdown": {
-            "name": "埋伏击倒 Ambushing Knockdown"
+            "name": "埋伏击倒 Ambushing Knockdown",
+            "description": "<p><strong>途径 </strong> 在帮派战争中站在搓衣板狗一方。<br /><strong>需求</strong> 你正持握一件造成钝击伤害的近战武器，而你对敌人为藏匿（hidden）或无踪（undetected）状态。@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} from or @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected} <br /></p>\n<hr />\n<p>你从藏匿之处突然出现，迅猛一击可以将敌人击倒（knock）在地。你以半速行走，但是你必须在行动结束时和一个视你为藏匿（hidden）或无踪（undetected）状态的敌人相邻。然后你用满足条件的武器对敌人进行打击，如果命中则目标被击倒（knocked prone）。@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.</p>"
         },
         "Analyze Idiolect": {
-            "name": "口癖分析 Analyze Idiolect"
+            "name": "口癖分析 Analyze Idiolect",
+            "description": "<p>你分析出某个特定个体的个人用词特点（idiolect），记住他说话的癖好和习惯。</p>\n<p>若你与某人互动至少10分钟，之后便会在乔装（Impersonate）该个体时，让你的欺骗（Deception）检定和DC获得+4环境加值。由于模仿具体性格的学习成本很高，所以你在同一时间只能记住1个人的个人用词特点。</p>"
         },
         "Anarchic Arcana": {
-            "name": "混乱奥秘"
+            "name": "混乱奥秘",
+            "description": "<p>The magic in your blood is unpredictable. When you make your daily preparations, roll [[/r 1d12]] twice and consult the following list:</p>\n<ol>\n<li>@Compendium[pf2e.spells-srd.f8hRqLJaxBVhF1u0]{Acid Arrow};</li>\n<li>@Compendium[pf2e.spells-srd.3JG1t3T4mWn6vTke]{Blur};</li>\n<li>@Compendium[pf2e.spells-srd.tlSE7Ly8vi1Dgddv]{Hideous Laughter};</li>\n<li>@Compendium[pf2e.spells-srd.2qGqa33E4GPUCbMV]{Humanoid Form};</li>\n<li>@Compendium[pf2e.spells-srd.2oH5IufzdESuYxat]{Illusory Object};</li>\n<li>@Compendium[pf2e.spells-srd.j8vIoIEWElvpwkcI]{Mirror Image};</li>\n<li>@Compendium[pf2e.spells-srd.Fr58LDSrbndgld9n]{Resist Energy};</li>\n<li>@Compendium[pf2e.spells-srd.jwK43yKsHTkJQvQ9]{See Invisibility};</li>\n<li>@Compendium[pf2e.spells-srd.1xbFBQDRs0hT5xZ9]{Shatter};</li>\n<li>@Compendium[pf2e.spells-srd.wzLkNU3AAqOSKFPR]{Sound Burst};</li>\n<li>@Compendium[pf2e.spells-srd.5KobTMrZeZxuXMgl]{Spider Climb};</li>\n<li>@Compendium[pf2e.spells-srd.mrDi3v933gsmnw25]{Telekinetic Maneuver}.</li>\n</ol>\n<p>You can cast each of those two spells once during the following day (or one spell twice if you rolled doubles) as 2nd-level divine innate spells.</p>"
         },
         "Ancestral Linguistics": {
-            "name": "传世语言学 Ancestral Linguistics"
+            "name": "传世语言学 Ancestral Linguistics",
+            "description": "<p>在你漫长的生命历程中，你已经学会了许多种语言。在你进行日常准备（Daily Preparations）时，能够从往日记忆中抽取回忆，变得能够流利使用1种常见语言（common language）或者其他你有权选取的语言。你会在直至再次进行日常准备前了解这种语言。由于这是种临时的知识，因此你无法将其作为常驻角色选项（permanent character option）的先决条件来使用。</p>"
         },
         "Ancestral Longevity": {
-            "name": "长寿族裔 Ancestral Longevity"
+            "name": "长寿族裔 Ancestral Longevity",
+            "description": "<p>你在漫长的生命历程中累积了极其广泛的生活知识。在你进行日常准备时，你可以回忆过往的生活经验，从而让你在一项自选的技能上受训。此擅长会持续到你下次进行准备。由于这种熟练的暂时的，所以你并不能将其作为技能增强或是其他类似专长一样的永久性角色选项的前置。</p>"
         },
         "Ancestral Suspicion": {
-            "name": "传世之疑虑"
+            "name": "传世之疑虑",
+            "description": "<p>长寿的精灵们见证了文明的兴衰，而这种事情通常经由外部势力之手达成。因此这些精灵会对那些试图控制或影响自身的人尤为谨慎。</p>\n<p>你接受过如何抵御这些操弄之术的训练，你在对抗那些会让你被操控（controlled）的效果时，比如支配术（dominate），豁免检定获得加值；而且会在使用察觉（Perception）检定来察言观色（Sense Motive），尝试鉴别生物是否处于此类效果影响之下时获得加值，上述加值均为+2环境加值。</p>\n<p>当你在对抗此类效果的豁免检定中投出成功时，你会得到大成功作为替代。</p>"
         },
         "Anchoring Aura": {
-            "name": "锚定灵光 Anchoring Aura"
+            "name": "锚定灵光 Anchoring Aura",
+            "description": "<p><strong>需求</strong> 驱魔誓约</p>\n<hr />\n<p>你的灵光阻碍魔族的传送。你的灵光会尝试反制（Counteract）15尺范围内由魔族施展的传送（Teleportation）法术，这会使用你的虔诚法术的DC和法术环级。</p>"
         },
         "Angel Of Death": {
-            "name": "告死天使 Angel Of Death"
+            "name": "告死天使 Angel Of Death",
+            "description": "<p>你对被死亡标记@Compendium[pf2e.actionspf2e.orjJjLdm4XNAcFi8]{Marked for Death} 所标记的生物作出的所有打击@Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strikes }均被视为具有死亡（death）特征，这使得目标在生命值被你降至0点时会立即被杀死。</p>\n<p>若有生物被如此杀死，那么尝试与其沟通、使其复活或将其转化为不死生物或其他扰乱目标来世的行为均会失败，除非上述效果的反制等级（counteract level）比你在杀死目标生物时的等级一半更高（向上取整），或者上述效果来源于神器或神祗。</p>"
         },
         "Angelkin": {
-            "name": "天使血脉 Angelkin"
+            "name": "天使血脉 Angelkin",
+            "description": "<p>你是涅槃域或其他天界位面的有翼信使─天使的后裔，因此有着学习文化及语言的才能。</p>\n<p>你在社群技能上受训，若你会在社群技能上自动受训(例如背景或职业的效果)，改为让由你自选的另一个技能受训。你学会天界语。你获得多语言技能专长。@Compendium[pf2e.feats-srd.P9HCz0uR6xPHuw72]{Multilingual} </p>"
         },
         "Animal Accomplice": {
-            "name": "动物友伴 Animal Accomplice"
+            "name": "动物友伴 Animal Accomplice",
+            "description": "<p>你与一只小动物亲密无间，并建立了魔法的联结。你得到一只魔宠。你可以自由选择动物类型，但大多数侏儒都会选择能掘地的动物。</p>"
         },
         "Animal Rage": {
-            "name": "动物狂暴 Animal Rage"
+            "name": "动物狂暴 Animal Rage",
+            "description": "<p>你变成你在本能中选择的动物。</p>\n<p>你获得3级动物形态@Compendium[pf2e.spells-srd.wp09USMB3GIW1qbp]{Animal Form} 法术效果，区别在于你仍使用自身的属性、临时生命值、非武装攻击。你还会保留装备的常驻能力。若你选择的动物是蛙，你的舌击触及范围提高到15英尺。</p>\n<p>消解变化效果（Dismissing the transformation）获得狂暴特征。</p>"
         },
         "Antagonize": {
-            "name": "嘲讽 Antagonize"
+            "name": "嘲讽 Antagonize",
+            "description": "<p>你的讥笑与威胁尤其有效，除非放任怒火延烧，敌人无法摆脱你的言语。当你成功向1个生物进行挫败士气@Compendium[pf2e.actionspf2e.2u915NdUyQan6uKF]{Demoralize} 时，除非它向你进行攻击性动作，或你在1轮期间内对它不可见也无法感知，该生物的惊惧@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} 状态的状态值在它的回合结束时不会减少到1以下。</p>"
         },
         "Arcane Evolution": {
-            "name": "奥术演化 Arcane Evolution"
+            "name": "奥术演化 Arcane Evolution",
+            "description": "<p>你的奥术遗赠赋予了你在知性与学术研究上非凡的才能。你在一项自选技能上受训。此外，你还将获得一本与法术的法术书相类似的奥法书。你能够将你法术库中的法术加入这本书里，也能通过支付合适的代价使用奥法技能添加额外的奥术法术，就像是法师通过学习法术（Learn Spells）将法术加入他的法术书里那样。在你的每日准备时，从你的书中选择任意一个奥术法术。如果该法术不在你的法术库中，则将其加入你的法术库直至你下一次每日准备。如果该法术已经在你的法术库中，将其额外添加至你当日的标志性法术中。</p>"
         },
         "Archaeologist's Luck": {
-            "name": "考古学家的强运 Archaeologist's Luck"
+            "name": "考古学家的强运 Archaeologist's Luck",
+            "description": "<p><strong>频率</strong>1次/小时</p>\n<p><strong>触发</strong>你在对抗陷阱（trap）的检定中失败，比如用贼活（Thievery）检定解除陷阱或者用反射豁免回避陷阱的效果。@Compendium[pf2e.actionspf2e.cYdz2grcOcRt4jk6]{Disable} </p>\n<hr />\n<p>你可不仅仅是技术过人；你那追寻过往秘密的动力表现在某种奇异的好运上。重掷失败的检定并应用新的结果。</p>"
         },
         "Archer's Aim": {
-            "name": "屏息瞄准 Archer's Aim"
+            "name": "屏息瞄准 Archer's Aim",
+            "description": "<p>你放慢呼吸、集中精神、谨慎地发射弹药。使用弓弩武器组（bow weapon group）的武器作出1次远程打击（ranged Strike）。你的攻击检定获得+2环境加值，并且忽略目标的隐蔽（concealed）状态。若目标在藏匿（hidden）状态，则由于藏匿而引起的纯骰检定DC从11降低至5。</p>"
         },
         "Archon Magic": {
-            "name": "亚空魔法 Archon Magic"
+            "name": "亚空魔法 Archon Magic",
+            "description": "<p>你启用了天生所得的神圣魔力。每日各1次，你可以2级神术内在法术的形式，施放不灭明焰和护卫他人。\n@Compendium[pf2e.spells-srd.ynm8JIU3sc3qUMpa]{Continual Flame}\n@Compendium[pf2e.spells-srd.d7Lwx6KAs47MtF0q]{Shield Other} </p>"
         },
         "Ardent Armiger": {
-            "name": "激情扈从 Ardent Armiger"
+            "name": "激情扈从 Ardent Armiger",
+            "description": "<p><strong>变体</strong> 地狱骑士扈从</p>\n<hr />\n<p>你已经接受抵抗魔鬼操控的训练，地狱骑士的训练让你很难受到影响。你将在对抗专门用于改善你的态度与意志的心理效果的豁免以及胁迫，挫败士气，给你留下印象和向你提出要求时你的意志DC上获得+1的环境加值。<br />如果心灵效果会强迫你采取违反地狱骑士团守则的行动(由游戏主持人判断是否违反)，你可以尝试用一个触发条件为接收到违背守则命令的反应动作来重新获得从触发的效果中摆脱的意志豁免。对于每个特定的效果，你只能得到一次重新豁免的机会，即便你不得不多次违背守则。\n</p>"
         },
         "Armor Assist": {
-            "name": "穿甲助手 Armor Assist"
+            "name": "穿甲助手 Armor Assist",
+            "description": "<p>在支援过披甲战士后，你开始熟悉如何帮助自己和其他人披上重甲了。</p>\n<p>你可以尝试一次运动检定或战争学识检定，DC由GM决定（常见护甲通常为15，罕见护甲为20，稀有护甲为25），成功则减半穿甲时间。</p>\n<p>你也可以协助一位盟友减半其穿甲时间，同样为进行运动检定或战争学识检定，DC亦相同。</p>"
         },
         "Arrow of Death": {
-            "name": "夺命箭矢 Arrow of Death"
+            "name": "夺命箭矢 Arrow of Death",
+            "description": "<p><strong>频率</strong>1次/日</p>\n<hr />\n<p>你对1根箭矢或弩失下咒，使其能在一次有效地射击中为你的目标带来死亡。用弓作出1次打击（Strike）。命中时，你造成额外[[/r 10d10]]精准伤害（precision damage）。大成功时，目标还必须成功通过强韧豁免检定对抗你的职业DC或法术DC，以较高者为准。失败则会立即被杀死（slain）；此次豁免具有死亡（death）和无力化（Incapacitation）特征。</p>"
         },
         "You're Next": {
-            "name": "下个轮你 You're Next"
+            "name": "下个轮你 You're Next",
+            "description": "<p><strong>Trigger</strong> You reduce an enemy to 0 Hit Points</p>\n<hr />\n<p>After downing a foe, you menacingly remind another foe that you're coming after them next.</p>\n<p>Attempt an Intimidation check with a +2 circumstance bonus to Demoralize a single creature that you can see and that can see you.</p>\n<p>If you have legendary proficiency in Intimidation, you can use this as a free action with the same trigger.</p>"
         },
         "Aldori Parry": {
-            "name": "奥多里剑格 Aldori Parry"
+            "name": "奥多里剑格 Aldori Parry",
+            "description": "<p><strong>要求</strong> 你只持握一柄奥多里决斗剑并且双手或单手处于空闲。</p>\n<hr />\n<p>你可以用奥多里决斗剑招架对你的攻击。只要你持续满足要求，你将直到下一个回合开始前在防御等级上获得+2环境加值。</p>"
         },
         "Android Lore": {
-            "name": "仿生人学识 Android Lore"
+            "name": "仿生人学识 Android Lore",
+            "description": "<p>你对你的族人的起源很感兴趣。你在手艺和贼活技能上受训。如果你已经在这些中已经受训的话（比如来自你的背景或是职业），你可以自选一项技能将之受训。你同时也会在仿生人学识上受训。</p>"
         },
         "Armiger's Mobility": {
-            "name": "扈从移动 Armiger's Mobility"
+            "name": "扈从移动 Armiger's Mobility",
+            "description": "<p>Y你学会如何穿着重甲进行移动。当你身穿重甲的时候，如果你达到力量要求，你将减少10英尺的速度减值(一般将减少至0)而非通常的5英尺速度减值。如果你是拥有铁甲不倦专长(Unburdened Iron)的矮人，你的速度提升5英尺。@Compendium[pf2e.feats-srd.C1R4wd6G46CAVIn7]{Unburdened Iron} </p>"
         },
         "Armor Proficiency": {
-            "name": "护甲擅长 Armor Proficiency"
+            "name": "护甲擅长 Armor Proficiency",
+            "description": "<p>你现在在轻甲（Light Armor）上获得受训。如果你已经在轻甲上受训，则你现在在中甲（Medium Armor）上获得受训；如果你已经在中甲上受训。你现在在重甲（Heavy Armor）上获得受训。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择本专长。每次选择本专长可以使你在重一级的护甲上获得受训。</p>"
         },
         "Aura of Courage": {
-            "name": "勇气灵光 Aura of Courage"
+            "name": "勇气灵光 Aura of Courage",
+            "description": "<p>你直面危险的强壮身姿激励着你的盟友竞相模仿。当你陷入恐惧（Frightened）时，将状态值（Condition value）减少1（最低为0）。在你的回合结束时，你将你身上的恐惧状态值减少1，你周围15尺内的所有盟友身上的恐惧状态值也会减少1。</p>"
         },
         "Aura of Faith": {
-            "name": "信念灵光 Aura of Faith"
+            "name": "信念灵光 Aura of Faith",
+            "description": "<p>你散发出纯粹的信仰灵光，以神圣之力浸透你的攻击和邻近的盟友。</p>\n<p>你的打击（Strike）对邪恶生物造成额外1点善良伤害，周围15尺内所有善良阵营的盟友都能在每轮第一次对邪恶生物进行打击（Strike）时享受这个好处。</p>\n<p>@Compendium[pf2e.feat-effects.VOOShYoB4gTopZtg]{Effect: Aura of Faith}</p>"
         },
         "Aura of Righteousness": {
+            "description": "<p>你的正义灵光将抑制邪恶力量。你和你周围15内的所有盟友获得邪恶抗力5。</p>",
             "name": "正义灵光 Aura of Righteousness"
         },
         "Aura of Vengeance": {
-            "name": "复仇灵光 Aura of Vengeance"
+            "name": "复仇灵光 Aura of Vengeance",
+            "description": "<p>当你号召周围的盟友采取报复时，你也会为他们指引攻击的方向。当你使用报应打击时，你因此而进行近战攻击（Strikes）的盟友只需要承受-2的减值，而不是-5的减值。</p>"
         },
         "Automatic Knowledge": {
-            "name": "自动回忆 Automatic Knowledge"
+            "name": "自动回忆 Automatic Knowledge",
+            "description": "<p>关于某一领域的知识会在你需要时自动浮现在你的脑海中。选择一个你已经达到专家级熟练度，且拥有驾轻就熟专长，可以进行回忆知识动作的技能。每行动轮（Round）一次，你可以用一个自由动作（Free Action）进行本技能的回忆知识动作，但你必须使用驾轻就熟专长来进行这次回忆知识。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择本专长。每次选择本专长时，你可以选择另一个技能获得本专长的好处。但是，你每轮只能自动回忆知识一次。</p>"
         },
         "Avenge Ally": {
-            "name": "为友复仇 Avenge Ally"
+            "name": "为友复仇 Avenge Ally",
+            "description": "<p><strong>频率</strong> 1次/10分钟</p>\n<p><strong>要求</strong> 你与1名具有濒死@Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying} <br />状态的盟友相邻</p>\n<hr />\n<p>尽管你知道自己会比伙伴们更长寿，但看着他们跨过死亡之门仍旧会使得你的攻击变得更加尖锐。作出1次打击（Strike）。投掷2次攻击检定并取用较高的结果。</p>"
         },
         "Avenge in Glory": {
-            "name": "光荣复仇 Avenge in Glory"
+            "name": "光荣复仇 Avenge in Glory",
+            "description": "<p><strong>频率</strong> 每天一次<br /><strong>可用</strong> 山地矮人种群<br /><strong>触发</strong>一名30尺内的盟友获得濒死状态。 @Compendium[pf2e.conditionitems.yZRUzMqrMmfLu0V1]{Dying} </p>\n<hr />\n<p>Y你为盟友的生命复仇，在1分钟内获得等同于等级的临时生命。此临时生命值存在时，你的攻击和伤害投+1环境加值。</p>\n<p>@Compendium[pf2e.feat-effects.JQUoBlZKT5N5zO5k]{Effect: Avenge in Glory}</p>"
         },
         "Azata Magic": {
-            "name": "爱塔魔法 Azata Magic"
+            "name": "爱塔魔法 Azata Magic",
+            "description": "<p>你的血脉可追溯到极乐境，借此连结你能引用其中魔力。每日各1次，你可以2级神术内在法术的形式，施放闪光尘和移除麻痹。@Compendium[pf2e.spells-srd.0qaqksrGGDj74HXE]{Glitterdust} @Compendium[pf2e.spells-srd.BCuHKrDeJ4eq53M6]{Remove Paralysis}<em></em> </p>"
         },
         "Barbarian Dedication": {
-            "name": "野蛮人入门 Barbarian Dedication"
+            "name": "野蛮人入门 Barbarian Dedication",
+            "description": "<p>你在运动Athletics中受训；如果你已经受训于运动Athletics，你在另一个你自选的技能中受训。你在野蛮人职业DC中受训。你可以使用狂暴Rage动作（见84页）。你如野蛮人一样选择一个本能。你在任何情况下都视为拥有这个本能，并受到对应禁忌的限制，但你不会得到本能给予的其他能力。</p>\n<hr />\n<p><strong>特殊</strong> 你不能选择其他入门专长，除非你从野蛮人变体中获得了其他两个专长。</p>"
         },
         "Arrow Snatching": {
-            "name": "抓取飞箭 Arrow Snatching"
+            "name": "抓取飞箭 Arrow Snatching",
+            "description": "<p>你弹开空中袭来之物并将其回敬给其来源。当你成功用拨挡飞箭偏斜攻击时，作为该反应动作的一部分，你可以立刻用偏斜掉的投射物对攻击者进行一次远程打击。这次攻击是一种投掷武器，和触发攻击有着相同的射程增量和命中效果。</p>"
         },
         "Artokus's Fire": {
-            "name": "亚托库斯之火 Artokus's Fire"
+            "name": "亚托库斯之火 Artokus's Fire",
+            "description": "<p><strong>Frequency</strong> once per round</p>\n<p><strong>Trigger</strong> You use @Compendium[pf2e.feats-srd.NlEZ0piDxg9buXCL]{Quick Alchemy} to craft an @Compendium[pf2e.equipment-srd.yd3kEK21YknZLlcT]{Alchemist's Fire}, and that bomb's level is at least 2 levels lower than your @Compendium[pf2e.classfeatures.Pe0zmIqyTBc2Td0I]{Advanced Alchemy} level.</p>\n<hr />\n<p>Artokus developed a mixture of volatile materials that burns hotter and longer than typical alchemist's fire. You include this additive mixture when crafting your alchemist's fire.</p>\n<p>The alchemist's fire deals [[/r 1d4 #persistent fire]] persistent fire damage in addition to what the alchemist fire would normally cause (for instance, a moderate alchemist's fire deals 1d4+2 persistent fire damage).</p>\n<p>A creature taking persistent fire damage from the alchemist's fire requires two successful flat checks to end the persistent damage, or one check if the creature had an assisted recovery that reduces the flat check to DC 10.</p>\n<p>The enhanced alchemist's fire burns even underwater, and any attempts to end the persistent damage by using water have no effect.</p>"
         },
         "Assassinate": {
-            "name": "暗杀 Assassinate"
+            "name": "暗杀 Assassinate",
+            "description": "<p><strong>要求</strong> 你已经使用死亡标记（Mark for Death）进行了标记，且标记目标完全没有注意到你。@Compendium[pf2e.actionspf2e.orjJjLdm4XNAcFi8]{Mark for Death}</p>\n<hr />\n<p>你以极为迅捷的动作发起攻击，试图立即取走标记目标的性命。作出1次打击（Strike）对抗你的标记目标。若命中，你的标记目标额外承受 [[/r 6d6 #precision]] 点精准伤害（precision damage），并以1次基础强韧豁免（basic Fortitude save）对抗你的职业DC或法术DC，以较高者为准。若标记目标掷出大失败便会死亡。这是个无力化（Incapacitation）效果。目标会在1日内临时免疫（temporarily immune）你的暗杀。 </p>"
         },
         "Assisting Shot": {
-            "name": "援助射击 Assisting Shot"
+            "name": "援助射击 Assisting Shot",
+            "description": "<p><strong>要求</strong>你持有远程武器</p>\n<hr />\n<p>通过一次快速的射击，你干扰了一名战斗中的敌人。</p>\n<p>你可以通过你所持有的一柄远程武器使用援助（Aid）动作。取代通常援助动作目标需要在触及范围内的限制，你的目标必须在此武器最大射程之内。援助射击需要像其他攻击一样承受减值与消耗弹药。</p>\n<p>@Compendium[pf2e.feat-effects.zcJii1XyOne9EvMr]{Effect: Assisting Shot}</p>\n<p>@Compendium[pf2e.feat-effects.AAgoUuwMvHzqNhIN]{Effect: Assisting Shot (Critical Hit)}</p>"
         },
         "Assurance": {
-            "name": "驾轻就熟 Assurance"
+            "name": "驾轻就熟 Assurance",
+            "description": "<p>即使在最麻烦的情况下，你仍然可以自然地发挥出基本水准。选择一个你已经受训的技能。在进行技能检定时，你可以放弃骰d20，而是自动获得10+你在技能上的熟练加值的检定结果（不获得任何除此之外的加值，减值和调整）。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选择本专长。每次选择本专长时，你可以选择另一个技能获得本专长的好处。</p>"
         },
         "Assured Identification": {
-            "name": "胸有成竹 Assured Identification"
+            "name": "胸有成竹 Assured Identification",
+            "description": "<p>你极少看走眼。当使用奥法、自然、神秘或宗教技能辨识魔法（Identify Magic）时，若你骰出大失败，则改为失败。若你因只是骰出普通成功而非大成功即将错认诅咒物品时（具体规则见GMG90页），改为无法辨识。</p>"
         },
         "Assured Ritualist": {
-            "name": "自信主祭 Assured Ritualist"
+            "name": "自信主祭 Assured Ritualist",
+            "description": "<p>你能掩盖1名次要施法者所犯下的错误。若你是主要施法者，在投掷了所有次要检定之后，选择次要施法者投掷出失败或大失败的1个检定，将该检定结果视为向着更加成功的方向提高1级。</p>"
         },
         "Athletic Might": {
-            "name": "运动健将 Athletic Might"
+            "name": "运动健将 Athletic Might",
+            "description": "<p>在艰苦环境中存活下来使你变得更加灵活。每当你在攀爬或游泳的运动检定中投出成功时，都使用大成功作为替代。@Compendium[pf2e.actionspf2e.pprgrYQ1QnIDGZiy]{Climb} @Compendium[pf2e.actionspf2e.c8TGiZ48ygoSPofx]{Swim}</p>"
         },
         "Athletic Strategist": {
-            "name": "运动战略家 Athletic Strategist"
+            "name": "运动战略家 Athletic Strategist",
+            "description": "<p>你知道如何主动操纵关节和体重。除了使用出谋划策调@Compendium[pf2e.actionspf2e.m0f2B7G9eaaTmhFL]{Devise a Strategem} 整打击外，你可以把这种调整用在卸武、擒抱、推撞或摔拌@Compendium[pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{Disarm} @Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{Grapple} @Compendium[pf2e.actionspf2e.7blmbDrQFNfdT731]{Shove} @Compendium[pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{Trip} 上，用出谋划策的骰子取代运动检定。你必须在首次符合条件的攻击中用上这个取代，无论这是一次打击还是一个运动动作。</p>\n<p>在你用出谋划策策的骰子取代时，你还可以用智力而非力量调整值进行运动检定，除非你在进行战技时使用了武器，并且那武器还不符合出谋划策在用智力调整取代时的限制。</p>"
         },
         "Attack of Opportunity (Fighter)": {
-            "name": "借机攻击（战士） Attack of Opportunity (Fighter)"
+            "name": "借机攻击（战士） Attack of Opportunity (Fighter)",
+            "description": "<p><strong>触发</strong> 一名在你触及范围之内的生物使用一个操纵动作或者移动动作，进行一次远程攻击或在它使用移动动作期间离开了一个方格。</p>\n<hr />\n<p>你抓住机会猛击敌人。对触发反应动作的生物进行一次近战打击（Strike），如果你的攻击造成重击且满足触发条件的是一次操纵动作，你会打断这个动作。这次打击（Strike）不会计入你的多次攻击减值中，你的多次攻击减值也不会适用于这次打击（Strike）。</p>"
         },
         "Attunement to Stone": {
-            "name": "岩石亲和 Attunement to Stone"
+            "name": "岩石亲和 Attunement to Stone",
+            "description": "<p>You become attuned to the stone around you. When in contact with a stone surface, you gain tremorsense (imprecise) 5 feet along that surface, and you can activate your <em>ka stone</em> to cast @Compendium[pf2e.spells-srd.vh1RpbWfqdNC4L3P]{Meld into Stone}.</p>"
         },
         "Aura Of Despair": {
-            "name": "绝望灵气 Aura Of Despair"
+            "name": "绝望灵气 Aura Of Despair",
+            "description": "<p>身为邪恶的化身，你光是存在就让敌人更容易陷入恐慌，只要你在附近，敌人总是战战兢兢。</p>\n<p>你15呎内所有敌人在对抗恐惧效果的豁免上承受-1环境罚值。此外，若敌人在你15呎内结束回合，便无法把惊惧(frightened)值-1。@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened} </p>\n<p>@Compendium[pf2e.feat-effects.MNkIxAishE22TqL3]{Effect: Aura of Despair}</p>"
         },
         "Aura of Life": {
-            "name": "生命灵光 Aura of Life"
+            "name": "生命灵光 Aura of Life",
+            "description": "<p>你的灵光提供对抗死灵术效果的防护。你和你周围15尺内的盟友获得针对负能量的抗力5，并在对抗死灵系效果的豁免检定上获得+1状态加值。</p>\n<p>@Compendium[pf2e.feat-effects.FPuICuxBLiDaEbDX]{Effect: Aura of Life}</p>"
         },
         "Aura Of Preservation": {
-            "name": "护佑灵光 Aura Of Preservation"
+            "name": "护佑灵光 Aura Of Preservation",
+            "description": "<p>你的灵光能抵御异怪的扭曲之力。你和15呎内的盟友在对抗来自异怪的效果时，在强韧和意志豁免上获得+1状态加值。</p>\n<p>你也在对抗化形(morph)或变形(polymorph)效果时的强韧，以及对抗心灵效果的意志上，获得+1状态加值。如果是对抗异怪的化形(morph)、变形(polymorph)或心灵效果，那加值变成+2。</p>\n<p>@Compendium[pf2e.feat-effects.18FHJoazfEmgNkfk]{Effect: Aura of Preservation}</p>"
         },
         "Auspicious Mount": {
-            "name": "吉兆坐骑 Auspicious Mount"
+            "name": "吉兆坐骑 Auspicious Mount",
+            "description": "<p>由于你持续不断地照料并给予指导，你的坐骑已经发展出了难以置信的智慧和技巧。你通过神圣盟友职业特性获得的坐骑现在是一只特化（Specialized）动物伙伴（217页）。你能够从正常的特化动物伙伴里选择一只，或者选择吉兆兽特化动物伙伴。吉兆兽坐骑获得如下这些好处：你的动物伙伴被视作你所侍奉的神祇的宗教象征，就如同神祇的神圣生物一般。它在宗教上的熟练等级提升至专家，它能够说一种和你所侍奉的神祇有所关联的语言（对于遵循善良信条的神卫来说是天界语），它的智力调整值提升2，感知调整值提升1。</p>"
         },
         "Avalanche Strike": {
-            "name": "泰山崩 Avalanche Strike"
+            "name": "泰山崩 Avalanche Strike",
+            "description": "<p><strong>需求</strong> 你双手持用一件近战武器</p>\n<hr />\n<p>你挥舞武器扫过所有身边的敌人。发动一次近战攻击，对抗所有处于你的触及范围内的敌人。这次行动的每一次攻击都会叠加计算你的多重攻击减值，但直到你完成本行动，你在进行本行动时发动的攻击不会受到多重攻击减值影响。</p>"
         },
         "Awesome Blow": {
-            "name": "可怖殴击 Awesome Blow"
+            "name": "可怖殴击 Awesome Blow",
+            "description": "<p>你的攻击强劲到能够砸扁对手。当你施展击退时，你可以尝试一次运动检定以对抗目标的强韧DC。</p>\n<hr />\n<p><strong>大成功</strong> 你先对目标造成推离的大成功效果，然后造成绊摔的大成功效果。</p>\n<p><strong>成功</strong> 你先对目标造成推离的成功效果，然后造成绊摔的成功效果。</p>\n<p><strong>失败</strong> 你造成击退的通常效果。</p>"
         },
         "Back To Back": {
-            "name": "背靠背 Back To Back"
+            "name": "背靠背 Back To Back",
+            "description": "<p>Y你擅长防御自己盟友暴露的盲点，同时你的盟友也会掩护你的背后。每当你邻接一个盟友时，除非你们都在被敌人夹击（Flanked），否则你们中的任何一人都不会因为自己被夹击而陷入措手不及@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}状态。如果你同时邻接超过1个盟友，所有符合这个能力条件的盟友都会同时获得它的好处，但只要你和至少一个盟友分别被夹击，那么所有人都会失去它的好处。</p>\n<p>如果你没有被夹击但复数个盟友被夹击，你仍然能保护他们。</p>"
         },
         "Backup Disguise": {
-            "name": "急用伪装 Backup Disguise"
+            "name": "急用伪装 Backup Disguise",
+            "description": "<p>你总是在衣物下藏着一套可随时取用的易容工具。你可以三动作使用这套工具来进行乔装@Compendium[pf2e.actionspf2e.AJstokjdG6iDjVjE]{Impersonate} ，若你在欺骗技能上有大师熟练，则为二动作；若你在欺骗技能上有传奇熟练，则为单动作。你可以乔装的正常耗时来准备新的急用伪装，但同时只能维持1套这种特殊易容工具。深藏急用伪装并不会使你能更快速地脱下盔甲或其他复杂的衣物，可一旦脱下你便能自由使用急用伪装。由于急用伪装被你贴身携带，仔细的搜身可能会发现工具的部件(见隐秘技能的隐藏物件用法)。</p>"
         },
         "Assassin Dedication": {
-            "name": "刺客入门 Assassin Dedication"
+            "name": "刺客入门 Assassin Dedication",
+            "description": "<p>你受过如何暗杀敌人的训练，而你能耐着性子准确地收割生命。你获得死亡标记（Mark for Death）行动（activity）。 @Compendium[pf2e.actionspf2e.orjJjLdm4XNAcFi8]{Mark for Death}</p>\n<p><strong>特殊</strong> 直至选取另外2个刺客变体的专长之前，你无法再选择任何其他入门专长（dedication feat）。</p>"
         },
         "Assured Knowledge": {
-            "name": "这是常识 Assured Knowledge"
+            "name": "这是常识 Assured Knowledge",
+            "description": "<p>你靠自信获取资讯。无论你用什么技能(包含逸闻知识)进行回忆知识@Compendium[pf2e.actionspf2e.KygTSeDvsFoSO6HW]{Recall Knowledge}，你可以放弃执骰，用10+你的熟练加值(不应用任何其他加值、罚值或调整)当作结果。</p>\n<p>只要你在某个技能上有专家熟练，那你就在该技能上满足自动回忆@Compendium[pf2e.feats-srd.H3I2X0f7v4EzwxuN]{Automatic Knowledge}技能专长的前置要求，就算你在该技能上没有驾轻就熟@Compendium[pf2e.feats-srd.W6Gl9ePmItfDHji0]{Assurance} 技能专长。</p>"
         },
         "Attack of Opportunity": {
-            "name": "借机攻击 Attack of Opportunity"
+            "name": "借机攻击 Attack of Opportunity",
+            "description": "<p><strong>触发</strong> 一名在你触及范围之内的生物使用一个操纵动作或者移动动作，进行一次远程攻击或在它使用移动动作期间离开了一个方格。</p>\n<hr />\n<p>你抓住机会猛击敌人。对触发反应动作的生物进行一次近战打击（Strike），如果你的攻击造成重击且满足触发条件的是一次操纵动作，你会打断这个动作。这次打击（Strike）不会计入你的多次攻击减值中，你的多次攻击减值也不会适用于这次打击（Strike）。</p>"
         },
         "Improved Familiar (Familiar Master)": {
-            "name": "精通魔宠（魔宠大师）Improved Familiar (Familiar Master)"
+            "name": "精通魔宠（魔宠大师）Improved Familiar (Familiar Master)",
+            "description": "<p>你觉得吸引1只强大且不寻常的魔宠在身边是件轻松的事情。将你的魔宠变为特殊魔宠（Specific Familiars）所需要的能力数量比正常少2个（见147页）。</p>"
         },
         "Cackle": {
-            "name": "尖笑 Cackle"
+            "name": "尖笑 Cackle",
+            "description": "<p>你可以通过简短的笑声来延长你的魔法。你获得 @Compendium[pf2e.spells-srd.YVK3JUkPVzHIeGXQ]{Cackle} 巫术。你的聚能池中的聚能点容量提升1。</p>"
         },
         "Cauldron": {
-            "name": "炼药大釜 Cauldron"
+            "name": "炼药大釜 Cauldron",
+            "description": "<p>You can use the @Compendium[pf2e.actionspf2e.rmwa3OyhTZ2i2AHl]{Craft} activity to create oils and potions.</p>\n<p>You immediately gain the formulas for four common 1st-level oils or potions. At 4th level and every 2 levels beyond that, you gain the formula for a common oil or potion of that level or lower (a 4th-level potion if you're 4th level, a 6th-level potion if you're 6th level, and so on).</p>\n<p>If you have a familiar, you can have your familiar learn these formulas rather than storing them in a formula book. Your familiar can learn new formulas in the same way it learns new spells, and these formulas are transferred from a slain familiar to a new familiar in the same way spells are.</p>\n<p>You can brew a great deal of magic within your cauldron. When you Craft a batch of oils or potions, you can make up to six in a batch instead of the usual four per batch.</p>"
         },
         "Cantrip Expansion": {
-            "name": "扩充戏法 Cantrip Expansion"
+            "name": "扩充戏法 Cantrip Expansion",
+            "description": "<p>你获得准备更多简易法术的能力。你每天可以多准备2个戏法。</p>"
         },
         "Improved Familiar (Witch)": {
-            "name": "进阶魔宠（女巫）Improved Familiar (Witch)"
+            "name": "进阶魔宠（女巫）Improved Familiar (Witch)",
+            "description": "<p>你发现自己信手便能捻来罕见的强力魔宠。你只需要比正常需求少2个魔宠能力，便能使用特殊魔宠。</p>"
         },
         "Greater Lesson": {
+            "description": "<p>庇护主传授与你更加高深的知识。</p>\n<p>选取1个高等或基础教诲 @Compendium[pf2e.classfeatures.SOan0fqyFTrkqJLV]{Witch Lessons}。你获得相应的巫术，魔宠学会相应的法术。你的聚能池中的聚能点容量提升1。</p>",
             "name": "高等教诲 Greater Lesson"
         },
         "Eldritch Nails": {
+            "description": "<p>你的指甲超自然地尖长。</p>\n<p>你获得造成 [[/r 1d6 #slashing]] 挥砍伤害的指甲非武装攻击。 这个指甲属于搏击武器组，并持有灵巧和非武装特性。你可在你的指甲上蚀刻符文，其成本和限制与将符文蚀刻在@Compendium[pf2e.equipment-srd.FNDq4NFSN0g2HKWO]{Handwraps of Mighty Blows}上一样，指甲上的符文适用于双手的指甲攻击但不适用于其他的非武装攻击。</p>\n<p>你可通过指甲传递魔法，当你成功施放一个需要2个或更多动作来施放的非戏法巫术，且这个巫术不要求法术攻击骰，而巫术的目标位在你的触及范围内，则作为施法动作的一部分，你可在巫术生效前，以指甲进行 @Compendium[pf2e.actionspf2e.VjxZFuUXrCU94MWR]{Strike} ，如果攻击未命中，巫术将没有效果。</p>",
             "name": "魔能指甲 Eldritch Nails"
         },
         "Hex Master": {
+            "description": "<p>你完全投身与庇护主之间的连结，因而可以迅速地连发巫术。</p>\n<p>你不再受到每回合只能施放1个巫术的限制。此外，当你施放 @Compendium[pf2e.spells-srd.YVK3JUkPVzHIeGXQ]{Cackle} 来维持巫术时，@Compendium[pf2e.actionspf2e.3f5DMFu8fPiqHpRg]{Sustain a Spell} 的效果将对你施放且生效中的所有巫术生效。</p>",
             "name": "巫术大师 Hex Master"
         },
         "Encouraging Words": {
@@ -926,7 +1088,8 @@
             "name": "Practiced Paddler"
         },
         "Able Ritualist": {
-            "name": "Able Ritualist"
+            "name": "Able Ritualist",
+            "description": "<p>你对仪式的研究使你成为一个熟练的仪式参与者。你在施展仪式时，你的的主要和次要鉴定获得+2环境加值</p>"
         },
         "Aboleth Transmutation": {
             "name": "Aboleth Transmutation"
@@ -7896,6 +8059,9 @@
         },
         "Zephyr Guard Dedication": {
             "name": "Zephyr Guard Dedication"
+        },
+        "Automaton Lore": {
+            "name": "灵导械知识"
         }
     }
 }
