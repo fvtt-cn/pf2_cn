@@ -27,77 +27,186 @@
         "TypeSpell": "法术",
         "TypeSpellcastingentry": "法术列表",
         "TypeTreasure": "宝物",
-        "TypeWeapon": "武器"
+        "TypeWeapon": "武器",
+        "TypeFormula": "公式",
+        "TypeBook": "书"
     },
     "PF2E": {
         "Actions": {
             "Balance": {
-                "Title": "平衡"
+                "Title": "平衡",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b> 你以你的正常速度前进。",
+                    "success": "<b>成功</b> 你以你的正常速度前进，但会将其视为困难地形（每5英尺移动算为10英尺）。",
+                    "failure": "<b>失败</b> 你必须保持静止以保持平衡（会浪费这次动作），否则你将会摔倒。如果你摔倒，你的回合会结束。",
+                    "criticalFailure": "<b>Critical Failure</b> 你将会摔倒，你的回合结束。"
+                }
             },
             "Climb": {
-                "Title": "攀爬"
+                "Title": "攀爬",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b> 你攀爬、穿越或安全下落5英尺，每20英尺的陆行速度会再加上5英尺（大多数玩家总计会是10英尺）。",
+                    "success": "<b>成功</b> 你攀爬、穿越或安全下落，每20英尺的陆行速度下落5英尺（对于大多数玩家角色一共为5英尺，如果你的速度低于20英尺，则至少为5英尺）。",
+                    "criticalFailure": "<b>大失败</b> 你摔落了。如果你在稳定地面上开始的攀爬，你就会摔倒并@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}."
+                }
             },
             "Coerce": {
-                "Title": "胁迫"
+                "Title": "胁迫",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b> 对方吐露了你希望知道的信息，或是按照你的指示去进行一些行动——底线是它们不太可能因此而去伤害其他任何生物。目标会被你胁迫而行动的时间长度由GM决定，但通常不超过1天时间。在此之后，对方对你的态度转为不友善（如果还没有已经处于不友善或是敌对态度）。不过，它们被你完全吓住了，以至于不会（在短期内，至少）想要报复你。",
+                    "success": "<b>成功</b> 同大成功结果，但当目标对你的态度转为不友善以后，它们会积极地想要报复你——比如报告官方机构你的恶质行为，或是和你的敌人结盟。",
+                    "failure": "<b>失败</b> 对方没有被你吓住，并且对你的态度转为不友善（如果还没有已经处于不友善或是敌对态度）。",
+                    "criticalFailure": "<b>大失败</b> 对方没有被你吓住，并且对你的态度转为敌对——如果还没有已经处于敌对态度，并在接下来一周时间内免疫你的胁迫。"
+                }
             },
             "Demoralize": {
-                "Title": "挫败士气"
+                "Title": "挫败士气",
+                "Notes": {
+                    "success": "<b>成功</b>目标陷入@Compendium[pf2e.conditionitems.Frightened]{Frightened 1}。",
+                    "criticalSuccess": "<b>大成功</b>目标陷入@Compendium[pf2e.conditionitems.Frightened]{Frightened 2}。"
+                }
             },
             "Disarm": {
-                "Title": "缴械"
+                "Title": "缴械",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b> 你将对手手中的物品打掉在了地上。这件物品掉落在这个对手占据的空间中。",
+                    "success": "<b>成功</b> 你震得对手虎口发麻。直到这个生物的回合开始前，你在接下来对同一个生物的同一件手持物品的卸武检定获得+2环境加值，并且这个生物在使用这件物品发动攻击，或是进行其他需要维持稳定持握这件物品才能进行的行动的检定承受-2环境减值。",
+                    "criticalFailure": "<b>大失败</b> 你自己失去平衡，直到你的下一回合开始前都陷入措手不及状态@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} 。"
+                }
             },
             "Feint": {
-                "Title": "虚招"
+                "Title": "虚招",
+                "Notes": {
+                    "success": "<b>成功</b> 对手对你露了个破绽，但及时回护了。直到你目前的这个回合结束，这个对手对你的近战攻击视为措手不及。",
+                    "criticalSuccess": "<b>大成功</b> 对手被你完全搞糊涂了，并且一时都来不及反应。直到你的下一个回合结束，这个对手对你的近战攻击都视为措手不及。",
+                    "criticalFailure": "<b>大失败</b> 哈哈哈你看看你。直到你的下一个回合结束，你自己都对这个对手的近战攻击视为措手不及状态@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}。"
+                }
             },
             "GatherInformation": {
-                "Title": "收集信息"
+                "Title": "收集信息",
+                "Notes": {
+                    "success": "<b>成功</b> 你搜集到了关于你需要的某人或某事的信息，具体内容由GM设计。",
+                    "criticalFailure": "<b>大失败</b>你收集的有关个体或话题的信息不正确。"
+                }
             },
             "Grapple": {
-                "Title": "擒抱"
+                "Title": "擒抱",
+                "Notes": {
+                    "criticalFailure": "<b>大失败</b> 如果你的对手因为你的擒拿 而陷入拘束@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}或压制@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}状态，它立刻挣脱。这个生物可以立刻使你进入被压制状态，如同成功对你发动了擒拿，或是将你击倒至俯卧@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}状态。",
+                    "criticalSuccess": "<b>大成功</b> 直到你的下一个回合，你的对手陷入拘束@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}状态，除非在此期间你进行移动或是对手成功进行逃脱动作@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes}。",
+                    "success": "<b>成功</b> 直到你的下一个回合，你的对手陷入压制状态 @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed} ，除非在此期间你进行移动或是对手成功进行逃脱动作@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes}。",
+                    "failure": "<b>失败</b> 你没有擒住你的对手。如果你的对手因为你的擒拿而已经陷入拘束@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}或压制@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}，它不再承受这些状态。"
+                }
             },
             "Hide": {
-                "Title": "Hide"
+                "Title": "Hide",
+                "Notes": {
+                    "success": "<b>成功</b> 对其他原本可以看到你的生物，现在你获得藏匿状态而非可见状态。如果你在原本就对某生物来说处于藏匿或无踪状态下再次尝试藏匿，你保持原状态不变@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} @Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}。"
+                }
             },
             "HighJump": {
-                "Title": "跳高"
+                "Title": "跳高",
+                "Notes": {
+                    "failure": "<b>失败</b> 你如常 @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} 。",
+                    "criticalSuccess": "<b>大成功</b> 你最高可以跳到8尺高，或是跳最高到5尺高，同时10尺远。",
+                    "success": "<b>成功</b>你最高可以跳到5尺高。",
+                    "criticalFailure": "<b>大失败</b> 你不但没能跳高@Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} ，还摔了个马趴，在你占据的空间中陷入俯卧@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}状态。"
+                }
             },
             "Impersonate": {
-                "Title": "模仿"
+                "Title": "模仿",
+                "Notes": {
+                    "failure": "<b>失败</b> 对方不相信你伪装的身份。",
+                    "criticalFailure": "<b>大失败</b> 对方不相信你伪装的身份。如果他认识你，他立刻知道是你在冒充他人。",
+                    "success": "<b>成功</b> 你成功蒙骗了对方，让他误以为你是你乔装的那个人。如果你的行为在之后产生显著的变化，你可能会需要进行新的欺骗检定。"
+                }
             },
             "Lie": {
-                "Title": "说谎"
+                "Title": "说谎",
+                "Notes": {
+                    "success": "<b>成功</b>目标相信你了的谎言。",
+                    "failure": "<b>失败</b> 对方不相信你的说辞，并且在接下来的整个对话中都在对抗你的说谎尝试时获得+4环境加值。在此之后，这个生物也会更怀疑你。"
+                }
             },
             "LongJump": {
-                "Title": "跳远"
+                "Title": "跳远",
+                "Notes": {
+                    "failure": "<b>失败</b> 你如常 @Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} 。",
+                    "success": "<b>成功</b> 你可以跳远@Compendium[pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} 的最远距离提升到你自己希望的距离，而非普通情况的距离。",
+                    "criticalFailure": "<b>大失败</b> 你正常的跳了普通距离，但摔了个屁股墩，在你落地时陷入俯卧状态。"
+                }
             },
             "ManeuverInFlight": {
-                "Title": "空中机动"
+                "Title": "空中机动",
+                "Notes": {
+                    "success": "<b>成功</b> 你的战技成功了。",
+                    "failure": "<b>失败</b> 你未能成功机动。GM会根据你原本希望使用的机动动作来决定失败造成的后果（比如，尝试顶着强风飞行如果失败，会让你被吹飞到别的地方）。",
+                    "criticalFailure": "<b>大失败</b>如同失败，但后果更加恐怖。"
+                }
             },
             "Request": {
-                "Title": "提出请求"
+                "Title": "提出请求",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b>目标可以无条件同意您的请求。",
+                    "success": "<b>成功</b> 目标同意您的请求，但他们可能要求添加条款或更改请求。",
+                    "criticalFailure": "<b>大失败</b> 对方不仅会拒绝你的请求，而且他们对你的态度也会因为这个请求的冒失而降低一个等级。",
+                    "failure": "<b>失败</b> 目标拒绝了这个请求，不过他们也许会提出一个不那么极端的方案。"
+                }
             },
             "Seek": {
-                "Title": "搜索"
+                "Title": "搜索",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b> 若你搜索生物，所有你对其大成功的无踪或藏匿的生物对你变为可见。若你搜索物体，你得知其位置。",
+                    "success": "<b>成功</b> 若你搜索生物，所有你对其成功的无踪生物对你变为藏匿，所有你对其成功的藏匿生物对你变为可见。若你搜索物体，你得知其位置或获得一些线索，具体由GM判断。"
+                }
             },
             "Shove": {
-                "Title": "猛推"
+                "Title": "猛推",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b>你可以将敌人打退10尺远。同时，你可以立刻跟着他跑动，但必须保持和它被击退相同的方向并移动相同的距离。",
+                    "success": "<b>成功</b> 你可以将敌人打退5尺远。同时，你可以立刻跟着他跑动，但必须保持和它被击退相同的方向并移动相同的距离。",
+                    "criticalFailure": "<b>大失败</b> 你自己失去平衡摔倒了，陷入俯卧状态 @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}。"
+                }
             },
             "Squeeze": {
-                "Title": "挤入空间"
+                "Title": "挤入空间",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b> 你可以以每分钟10尺的速度挤过去。",
+                    "success": "<b> 成功</b> 你可以以每分钟5尺的速度挤过去。",
+                    "criticalFailure": "<b> 大失败</b> 你被卡住了。如果是这样，你可以花费1分钟时间尝试另一次特技技能检定（DC不变）。只要你不继续骰出大失败，你就不再被卡在原地。"
+                }
             },
             "Swim": {
-                "Title": "游泳"
+                "Title": "游泳",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b> 你可以在水中游动10尺，再加上5尺/你每拥有20尺陆地移动速度（对大多数PC来说，15尺）。",
+                    "success": "<b>成功</b>你可以在水中游动5尺，再加上5尺/你每拥有20尺陆地移动速度（对大多数PC来说，15尺）。",
+                    "criticalFailure": "<b>大失败</b> 你是一条咸鱼，没有游动。如果你在屏息，你还会失去1轮憋气。"
+                }
             },
             "Trip": {
-                "Title": "摔拌"
+                "Title": "摔拌",
+                "Notes": {
+                    "success": "<b>成功</b> 目标被击倒至俯卧状态。@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.",
+                    "criticalSuccess": "<b>大成功</b> 你的目标立刻被击倒至俯卧状态@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}，并承受1d6点钝击伤害。",
+                    "criticalFailure": "<b>大失败</b>你自己失去平衡摔倒了，陷入俯卧状态@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}。"
+                }
             },
             "TumbleThrough": {
-                "Title": "翻滚"
+                "Title": "翻滚",
+                "Notes": {
+                    "success": "<b>成功</b> 你通过敌人占据的空间，这个空间中的方格被视为困难地形(每5英尺需要10英尺的移动)。如果你没有足够的速度在空间中移动，你会得到和失败一样的结果。",
+                    "failure": "<b>失败</b> 你的移动结束，你将触发反应动作就好像你已经离开了你的起始方格。"
+                }
             },
             "CreateADiversion": {
                 "DistractingWords": "让敌人分神 - 言语干扰",
                 "Gesture": "让敌人分神 - 姿势干扰",
-                "Trick": "让敌人分神 - 唬骗"
+                "Trick": "让敌人分神 - 唬骗",
+                "Notes": {
+                    "success": "<b>成功</b>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入隐匿 @Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}状态，并可以开始尝试潜行@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 。这个效果持续到你的回合结束或是进行任何除了躲藏@Compendium[pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} ，潜行@Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为措手不及@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}，然后你立刻对其变得可见@Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得可见@Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}，除非GM有其他的看法。",
+                    "failure": "<b>失败</b> 如果你的检定结果未能超过其他生物的察觉DC，则你不能使他们分神，并且这些生物立刻意识到你在尝试欺骗他们。"
+                }
             },
             "EncouragingWords": {
                 "Title": "激励言语",
@@ -116,13 +225,16 @@
                 "CritFailure": "大失败",
                 "Recovery": "耐力恢复",
                 "Damage": "伤害",
-                "Cancel": "取消"
+                "Cancel": "取消",
+                "ContentMain": "设定目标DC。记住，你不能尝试超过你熟练等级的医疗。尝试这样做将会使DC和治疗量降低到你的最高水平。"
             },
             "RaiseAShield": {
                 "Content": "{actor} 举起盾牌.",
                 "NoShieldEquipped": "{actor} 必须装备盾牌。",
                 "ShieldIsBroken": "{actor}的 {shield} 已损坏.",
-                "BadArgs": "此操作只能用一个玩家角色或NPC执行。"
+                "BadArgs": "此操作只能用一个玩家角色或NPC执行。",
+                "SingleActionTitle": "举起盾牌",
+                "ReactionTitle": "反射持盾"
             },
             "ShieldBlock": {
                 "SelectAShield": "选择一个盾牌"
@@ -136,10 +248,89 @@
                 "RecoverStamina": "{name} 拥有{ratio} SP并消耗一个决心点数，恢复其最大耐力的一半。"
             },
             "ForceOpen": {
-                "Title": "破拆"
+                "Title": "破拆",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b>你强行弄开了门，窗或是容器，并且可以选择不损坏它们。",
+                    "success": "<b>成功</b> 你强行弄开了门，窗或是容器，但对象狭窄处于破损@Compendium[pf2e.conditionitems.6dNUvdb1dhToNDj3]{Broken} 状态。如果GM认为对象的制作和材质异常的坚固，可能这些物品只会受到一定的伤害，而非直接陷入破损状态。",
+                    "criticalFailure": "<b>大失败</b> 你把门，窗或锁弄卡住了。在之后的破拆检定上承受-2环境减值。"
+                }
             },
             "MakeAnImpression": {
-                "Title": "建立印象"
+                "Title": "建立印象",
+                "Notes": {
+                    "success": "<b>成功</b>目标对你的态度提高了一级。",
+                    "criticalSuccess": "<b>大成功</b>目标对你的态度提高了两级。",
+                    "criticalFailure": "<b>大失败</b>目标对你的态度降低一级。"
+                }
+            },
+            "PickALock": {
+                "Title": "撬锁",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b> 你直接解打开了面前的锁，或是在尝试打开结构精良的锁时视为获得了两次成功结果。你不会留下你曾经撬过过这把锁的痕迹。",
+                    "success": "<b>成功</b> 你直接解打开了面前的锁，或是在尝试打开结构精良的锁时视为获得了一次成功结果。",
+                    "criticalFailure": "<b>大失败</b> Y你把你的工具玩坏了。你需要通过一个成功的手艺技能检定去修理它，或是替换一副备用的工具组件（价值3SP，如果是高级开锁工具的话则价值3GP）。"
+                }
+            },
+            "SenseMotive": {
+                "Title": "察言观色",
+                "Notes": {
+                    "criticalSuccess": "<b>大成功</b> 你得知目标真实的意图，能确定是否有心智魔法正影响着目标。",
+                    "success": "<b>成功</b> 你能辨明目标行为是否反常，但你无法得知其真实意图，也无法确定目标是否受魔法影响。",
+                    "failure": "<b>失败</b> 你判断到了目标想让你相信的事。若目标没有进行欺骗，你会相信目标的行为是正常的。",
+                    "criticalFailure": "<b>大失败</b>你完全错判了目标的意图。"
+                }
+            },
+            "Sneak": {
+                "Title": "潜行",
+                "Notes": {
+                    "success": "<b>成功</b> 你在移动过程中不会被生物发现，在移动结束时也不会。",
+                    "failure": "<b>失败</b> 一个警报的声音或其他迹象泄露了你的位置，不过你仍然保持隐身。在你移动的过程中，你一直都不会被生物发现",
+                    "criticalFailure": "<b>大失败</b> 你发现了!在你的整个运动过程中，你都被某个生物观察着，并且一直如此。如果你是隐形的且对于那个生物来说是藏匿状态，那么你在整个运动过程中都是藏匿状态，并且一直如此。"
+                }
+            },
+            "BonMot": {
+                "Title": "当头棒喝",
+                "Notes": {
+                    "success": "<b>成功</b> 目标受到影响，察觉和意志豁免都受到-2状态减值，持续1分钟。目标可以通过反驳你的当头棒喝来尝试提前终止该效果。反驳需要1个拥有专注特征的单动作或合适的技能动作来驳斥你的观点。GM决定什么技能动作可用，且必须消耗至少1个动作。通常反驳需要使用基于语言和魅力的技能动作。@Compendium[pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effect: Bon Mot}",
+                    "criticalFailure": "<b>大失败</b> 棒喝反而使你自取其辱。你自己会承受成功时敌人应承受的效果。你身上的效果也持续1分钟或直到你下一次当头棒喝成功。@Compendium[pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effect: Bon Mot}",
+                    "criticalSuccess": "<b>大成功</b> 目标受到影响，察觉和意志豁免都受到-3状态减值，持续1分钟。目标可以通过反驳你的当头棒喝来尝试提前终止该效果。反驳需要1个拥有专注特征的单动作或合适的技能动作来驳斥你的观点。GM决定什么技能动作可用，且必须消耗至少1个动作。通常反驳需要使用基于语言和魅力的技能动作。@Compendium[pf2e.feat-effects.CtrZFI3RV0yPNzTv]{Effect: Bon Mot (Critical Success)}"
+                }
+            },
+            "Craft": {
+                "Warning": {
+                    "InsufficientCoins": "硬币不足",
+                    "CantAddItem": "无法添加物品",
+                    "NotPhysicalItem": "指定的物品 {item} 不是实体物品。",
+                    "MissingItem": "无法创建ID为{uuid}的未知物品。"
+                },
+                "SelectItemDialog": {
+                    "DropItemZoneLabel": "将物品拖放至此...",
+                    "Title": "选择要制作的物品",
+                    "CancelButtonLabel": "取消",
+                    "CraftButtonLabel": "制造"
+                },
+                "Details": {
+                    "Discount": "每日折扣:",
+                    "LostMaterials": "损失{成本} 材料",
+                    "DaysForNoCost": "可减免额外花销的天数：",
+                    "PayMaterials": "支付 {cost} 材料成本和手艺",
+                    "PayFull": "支付{cost}全部成本和手艺"
+                },
+                "Information": {
+                    "ReceiveItem": "{actorName} 收到了 {quantity}x {itemName}.",
+                    "LoseMaterials": "{actorName} 失去 {cost} 的材料.",
+                    "PayAndReceive": "{actorName}支付{cost}的制作成本，并获得了{quantity}x{itemName}。"
+                },
+                "Error": {
+                    "ItemReferenceMismatch": "仅允许合集包或世界物品目录中的实体物品制作。"
+                },
+                "Notes": {
+                    "success": "<b>成功</b> 你成功的制作了你想要的物品，并且如果你花费额外的工作天数以节省材料，在计算你每天节约的材料价格时，使用你的角色等级和你在手艺技能上的熟练等级计算。",
+                    "failure": "<b>失败</b> 你没有做成物品，但你也没有浪费任何准备的原材料。如果你想要重试制作这件物品，你必须从头开始整个过程。",
+                    "criticalSuccess": "<b>大成功</b> 你成功的制作了你想要的物品，并且如果你花费额外的工作天数以节省材料，在计算你每天节约的材料价格时，使用你的角色等级+1和你在手艺技能上的熟练等级计算。",
+                    "criticalFailure": "<b>大失败</b> 你没有做成物品，而且你浪费了你准备的原材料总价格的10%。如果你想要重试制作这件物品，你必须从头开始整个过程。"
+                },
+                "Title": "制作"
             }
         },
         "BrowserSortyByPriceLabel": "价格",
@@ -147,11 +338,19 @@
             "Metagame": {
                 "ShowDC": {
                     "None": "无",
-                    "All": "所有"
+                    "All": "所有",
+                    "Gm": "GM",
+                    "Owner": "持有者",
+                    "Name": "显示攻击和豁免的DC",
+                    "Hint": "决定谁可以查看检定的DC。"
                 },
                 "ShowResults": {
                     "None": "无",
-                    "All": "所有"
+                    "All": "所有",
+                    "Gm": "GM",
+                    "Owner": "持有者",
+                    "Name": "显示攻击和豁免的结果",
+                    "Hint": "决定谁可以查看聊天栏中的检定掷骰的结果。"
                 },
                 "SecretDamage": {
                     "Name": "隐藏伤害信息",
@@ -160,7 +359,14 @@
                 "SecretCondition": {
                     "Name": "隐藏状态更新消息",
                     "Hint": "启用时，只有GM会看到未受控指示物的状态更新和提示消息。"
-                }
+                },
+                "Label": "限制超游信息",
+                "Name": "超游信息",
+                "PartyVision": {
+                    "Name": "共享团队视野",
+                    "Hint": "如果启用，无论权限或角色选择如何，所有玩家都将相互共享角色视野。"
+                },
+                "Hint": "限制玩家可以查看的超游信息类型。"
             },
             "Settings": "设定",
             "critFumbleCards": {
@@ -251,7 +457,22 @@
                 "LootableNPCs": {
                     "Name": "NPC是可以被搜刮的",
                     "Hint": "NPC死亡后，玩家可以拾取战利品。"
-                }
+                },
+                "Name": "自动化",
+                "Label": "管理自动化",
+                "RulesBasedVision": {
+                    "Name": "基于规则的视野",
+                    "Hint": "使用符合Pathfinder 2e规则的视觉机制。启用此设置将无法使用配置不受限全局视野以及角色视野半径的功能。"
+                },
+                "EffectExpiration": {
+                    "Name": "效果自动失效",
+                    "Hint": "当持续时间结束时，“效果”会自动禁用。"
+                },
+                "ExperimentalDamageFormatting": {
+                    "Name": "Use experimental damage chat card formatting",
+                    "Hint": "解析伤害骰数据，并用不同格式的掷骰公式、伤害种类以及飞溅伤害和持续伤害的详细说明生成至聊天栏。"
+                },
+                "Hint": "自定义你的游戏世界所引用的自动化模块。"
             },
             "Homebrew": {
                 "Name": "自制设置",
@@ -318,8 +539,8 @@
                     "Hint": "设置玩家是否可以查看世界时钟。"
                 },
                 "SyncDarkness": {
-                    "Name": "同步黑暗",
-                    "Hint": "如果全局照明也启用(当前{globalLight})，则设置成场景中的黑暗度是否反映一天中的时间。",
+                    "Name": "同步黑暗(默认)",
+                    "Hint": "设置此场景的黑暗度是否关联昼夜时间。",
                     "GlobalLightOn": "ON",
                     "GlobalLightOff": "OFF"
                 },
@@ -333,7 +554,18 @@
                         "Warning2": "这一操作不能被撤销。"
                     }
                 },
-                "DeferredToModule": "这一设置由日历/天气模块管理。"
+                "DeferredToModule": "这一设置由日历/天气模块管理。",
+                "SyncDarknessScene": {
+                    "Enabled": "启用",
+                    "Disabled": "禁用",
+                    "Name": "同步黑暗（当前场景）",
+                    "Default": "世界默认 ({worldDefault})",
+                    "Hint": "设置此场景的黑暗度是否关联昼夜时间。"
+                },
+                "ShowClockButton": {
+                    "Name": "显示时钟按钮",
+                    "Hint": "设置是否显示时钟按钮（需要刷新）。"
+                }
             },
             "RAI": {
                 "TreatWoundsAltSkills": {
@@ -361,7 +593,8 @@
                 },
                 "FreeArchetype": {
                     "Title": "自由变体职业",
-                    "Name": "自由变体职业规则"
+                    "Name": "自由变体职业规则",
+                    "Hint": "根据《Gamemastery Guide》第194页中的免费变体规则添加额外的专长槽"
                 },
                 "AutomaticBonus": {
                     "Title": "自动增长加值",
@@ -379,24 +612,41 @@
                     "Choices": {
                         "ProficiencyWithLevel": "使用默认规则",
                         "ProficiencyWithoutLevel": "使用变体规则"
-                    }
+                    },
+                    "Hint": "使用GMG第198页中的无等级熟练变体进行游戏。"
                 },
                 "UntrainedModifier": {
-                    "Name": "未受训熟练调整值"
+                    "Name": "未受训熟练调整值",
+                    "Hint": "根据你的喜好去调整熟练程度，而不使用等级变体规则，推荐使用的变体规则是-2。需要通过重新加载或修改每个角色的值来重新计算。"
                 },
                 "TrainedModifier": {
-                    "Name": "受训熟练调整值"
+                    "Name": "受训熟练调整值",
+                    "Hint": "根据你的喜好进行调整，而在不使用等级变体规则的情况下修改熟练程度。需要通过重新加载或修改每个角色的值来重新计算。"
                 },
                 "ExpertModifier": {
-                    "Name": "专家熟练调整值"
+                    "Name": "专家熟练调整值",
+                    "Hint": "根据你的喜好进行调整，而在不使用等级变体规则的情况下修改熟练程度。需要通过重新加载或修改每个角色的值来重新计算。"
                 },
                 "MasterModifier": {
-                    "Name": "大师熟练调整值"
+                    "Name": "大师熟练调整值",
+                    "Hint": "根据你的喜好进行调整，而在不使用等级变体规则的情况下修改熟练程度。需要通过重新加载或修改每个角色的值来重新计算。"
                 },
                 "LegendaryModifier": {
-                    "Name": "传奇熟练调整值"
+                    "Name": "传奇熟练调整值",
+                    "Hint": "根据你的喜好进行调整，而在不使用等级变体规则的情况下修改熟练程度。需要通过重新加载或修改每个角色的值来重新计算。"
                 },
                 "Title": "变体规则设定"
+            },
+            "Sidebar": {
+                "Guide": "指南",
+                "Changelog": "更新日志",
+                "Discord": "Discord"
+            },
+            "JournalEntryTheme": {
+                "Foundry": "Foundry（经典）",
+                "PF2E": "PF2e 系统",
+                "Hint": "设置这个世界中的日志的样式主题。",
+                "Name": "日志主题"
             }
         },
         "TraitDescriptionDeadly3D8": "重击时，此武器加上一颗武器伤害骰，骰面大小如表格所列。翻倍武器伤害后再投掷这颗骰子。若武器刻有greater striking符文，则此伤害增加为两颗骰子。若武器刻有major striking符文，则此伤害增加为三颗骰子。举例来说，刻有greater striking符文的细剑在重击时造成额外的2d8精准伤害。改变武器正常伤害骰骰面的能力不影响致命骰。",
@@ -408,7 +658,8 @@
         "ui": {
             "sell": "出售",
             "equipmentInvested": "绑定装备开关",
-            "armorEquipped": "穿戴装备开关"
+            "armorEquipped": "穿戴装备开关",
+            "weaponEquipped": "切换你持握的武器"
         },
         "AbilityBoost": "属性提升",
         "AbilityBoostLevels": "属性提升等级",
@@ -504,7 +755,16 @@
         },
         "ActionsActionsHeader": "动作",
         "Actor": {
-            "Plural": "角色"
+            "Plural": "角色",
+            "Character": {
+                "AncestryClass": "{ancestry} {class}"
+            },
+            "Hazard": {
+                "Level": "危害 {level}"
+            },
+            "NPC": {
+                "IsLootableOnDeathLabel": "使此NPC在死亡时可被搜刮"
+            }
         },
         "ActorSizeGargantuan": "巨型",
         "ActorSizeHuge": "超大型",
@@ -649,7 +909,7 @@
             "savePotency": "豁免潜力"
         },
         "BrowserFilterTraditions": "根源",
-        "ArmorStrikingRune": "打击",
+        "ArmorStrikingRune": "强击",
         "ArmorTypeUnarmored": "无护甲",
         "Background": "背景",
         "BackgroundTitle": "你的 角色 背景",
@@ -751,8 +1011,14 @@
             "TabHazard": "危害",
             "TabSpell": "法术",
             "TabSettings": "加载包",
-            "TakeLabel": "拿取",
-            "Title": "浏览合集包"
+            "TakeLabel": "拿取道具",
+            "Title": "浏览合集包",
+            "ProgressBar": {
+                "LoadingPack": "加载{pack}",
+                "LoadingComplete": "加载完毕"
+            },
+            "AddedItemToCharacter": "将 {item} 交给 {character}.",
+            "AddedItem": "将 {item} 交给所选角色。"
         },
         "BulkTypeLight": "轻量",
         "ClassFeatures": "职业特性",
@@ -911,10 +1177,10 @@
         "DeityTitle": "你的 神祇",
         "DeleteConditionQuestion": "确实要删除 {condition}吗？",
         "DeleteConditionTitle": "删除状态",
-        "DeleteItemQuestion": "\"你确定要删除吗,",
+        "DeleteItemQuestion": "你确定要删除：",
         "DeleteItemTitle": "删除物品",
-        "DeleteShortLabel": "Del",
-        "DeleteSpellcastEntryQuestion": "你确定要删除这个法术列表吗",
+        "DeleteShortLabel": "删除",
+        "DeleteSpellcastEntryQuestion": "你确定要删除这个法术列表吗？",
         "DeleteSpellcastEntryWarning": "警告：法术列表里的所有法术会一并被删除。",
         "DenominationLabel": "教派",
         "DragDropFeats": "拖拽专长以添加",
@@ -952,9 +1218,10 @@
             "ActorMustHaveToken": "不能为没有人物代币的角色添加状态。",
             "CantMoveItemSource": "你无权移除该角色的物品",
             "CantMoveItemDestination": "你无权为该角色添加物品",
-            "NotEnoughAmmo": "弹药不足",
+            "NotEnoughAmmo": "弹药不足！",
             "NoUpdatePermission": "你无权更新此角色信息。",
-            "NoTokenSelected": "需要选中一个目标"
+            "NoTokenSelected": "需要选中一个目标",
+            "MinimumProfLevelSetByFeatures": "所选熟练程度低于特征设定的熟练程度。"
         },
         "FeaturesClassHeader": "职业特性",
         "Ethnicity": "种族划分",
@@ -1011,7 +1278,9 @@
             "pointLabel": "点数",
             "pointTitle": "你的剩余聚能点",
             "poolLabel": "池",
-            "poolTitle": "你的聚能池大小"
+            "poolTitle": "你的聚能池大小",
+            "Outdated": "提示聚能池的旧值。单击删除。",
+            "Previous": "以前"
         },
         "FormulaPlaceholder": "公式",
         "GenderPronoun": "性别",
@@ -1092,11 +1361,70 @@
                 }
             },
             "Effect": {
-                "ShowTokenIcon": "显示指示物图标？"
+                "ShowTokenIcon": "显示指示物图标？",
+                "Sustained": "护命",
+                "Expiry": {
+                    "StartOfTurn": "回合开始",
+                    "EndOfTurn": "回合结束",
+                    "EndOfCombat": "战斗结束",
+                    "ExpiresOn": "失效"
+                }
             },
             "NameLabel": "名称",
             "IconLabel": "图标",
-            "Plural": "物品"
+            "Plural": "物品",
+            "Weapon": {
+                "GeneratedName": {
+                    "PotencyFourProperties": "+{potency} {property1} {property2} {property3} {property4} {base}",
+                    "Potency": "+{potency} {base}",
+                    "Material": "{material} {base}",
+                    "PotencyOneProperty": "+{potency} {property1} {base}",
+                    "PotencyMaterial": "+{potency} {material} {base}",
+                    "PotencyStriking": "+{potency} {striking} {base}",
+                    "PotencyTwoProperties": "+{potency} {property1} {property2} {base}",
+                    "PotencyThreeProperties": "+{potency} {property1} {property2} {base}",
+                    "PotencyOnePropertyMaterial": "+{potency} {property1} {material} {base}",
+                    "PotencyStrikingMaterial": "+{potency} {striking} {material} {base}",
+                    "PotencyStrikingOneProperty": "+{potency} {striking} {property1} {base}",
+                    "PotencyTwoPropertiesMaterial": "+{potency} {property1} {property2} {material} {base}",
+                    "PotencyStrikingOnePropertyMaterial": "+{potency} {striking} {property1} {material} {base}",
+                    "PotencyStrikingTwoProperties": "+{potency} {striking} {property1} {property2} {base}",
+                    "PotencyThreePropertiesMaterial": "+{potency} {property1} {property2} {property3} {material} {base}",
+                    "PotencyStrikingTwoPropertiesMaterial": "+{potency} {striking} {property1} {property2} {material} {base}",
+                    "PotencyStrikingThreeProperties": "+{potency} {striking} {property1} {property2} {property3} {base}",
+                    "PotencyFourPropertiesMaterial": "+{potency} {property1} {property2} {property3} {property4} {material} {base}",
+                    "PotencyStrikingThreePropertiesMaterial": "+{potency} {striking} {property1} {property2} {property3} {material} {base}",
+                    "PotencyStrikingFourProperties": "+{potency} {striking} {property1} {property2} {property3} {property4} {base}",
+                    "PotencyStrikingFourPropertiesMaterial": "+{potency} {striking} {property1} {property2} {property3} {property4} {material} {base}",
+                    "Hint": "这是基础武器名字。对大多数武器来说，基础名称是用来同材料成分和/或符文一起生成更完整的名称的。给这个武器一个自定义名称或将其标记为“特殊”将防止生成的名称出现。"
+                },
+                "MaterialAndRunes": {
+                    "MaterialOption": "{type} ({grade})",
+                    "Title": "材料构成与符文",
+                    "Hint": "珍贵的材料和符文允许被用来深入定制武器。除了提高它伤害敌人的能力，它们还会影响武器的等级、稀有度、价格和名称。为了抑制武器的重命名，给它任意自定义名称或标记为一个 <i>特殊魔法武器</i>。"
+                },
+                "SpecificMagicWeapon": {
+                    "Label": "特殊魔法武器",
+                    "Hint": "将此武器标记为<i>特殊魔法武器</i>，表明其性能超出了其构成材料以及镶嵌符文所允许的范围。在标记之时，其名称、等级、稀有度和价格将不再被贵重材料或符文所改写。然而，这些材料和符文仍将作为后续升级、稀有度和价格调整的基准。"
+                },
+                "FromMaterialAndRunes": "此物品上的珍贵材料和符文的{property}调整为{value}。",
+                "HandsLabel": "占用手"
+            },
+            "SidebarSummary": "{type}目录",
+            "Physical": {
+                "LevelLabel": "物品 {level}",
+                "PriceLabel": "价格: {price}"
+            },
+            "Ancestry": {
+                "Vision": {
+                    "Label": "视觉",
+                    "Normal": "正常视野"
+                }
+            },
+            "Spells": {
+                "PlaceMeasuredTemplate": "放置 {size}-{unit} {shape}"
+            },
+            "CannotAddType": "无法将{type}物品添加到此角色。"
         },
         "ItemBonus0": "0",
         "ItemBonus1": "+1 武器潜能",
@@ -1232,7 +1560,7 @@
         "MacroActionNoActorError": "动作没有了!",
         "MacroActionNoActionError": "这个动作没有了!",
         "MagicTraditionLabel": "魔法根源",
-        "MAPAbbreviationLabel": "MAP",
+        "MAPAbbreviationLabel": "MAP {penalty}",
         "MartialAdvanced": "异种武器",
         "MartialHeavy": "重甲",
         "MartialLight": "轻甲",
@@ -1310,7 +1638,7 @@
             "Treasure": "新建宝物",
             "Weapon": "新建武器"
         },
-        "NoAmmoLabel": "无武装",
+        "NoAmmoLabel": "无弹药",
         "NoStackGroup": "不可堆叠",
         "NoneOption": "无",
         "OneDegreeBetter": "好一点",
@@ -1483,7 +1811,18 @@
             "RecoveryCheckDC": "恢复检定DC",
             "Unrecognized": "未识别规则内容",
             "WeaponPotency": "武器娴熟",
-            "MultipleAttackPenalty": "多次攻击减值"
+            "MultipleAttackPenalty": "多次攻击减值",
+            "Weakness": "弱点",
+            "ActiveEffectLike": "主动效果偏好",
+            "Immunity": "免疫",
+            "BattleForm": "战斗形式",
+            "CreatureSize": "生物体型",
+            "LoseHitPoints": "失去生命点",
+            "Resistance": "抗力",
+            "RollOption": "骰子选项",
+            "NewRuleElement": "新规则元素",
+            "AdjustDegreeOfSuccess": "调整成功程度",
+            "CraftingFormula": "制作配方"
         },
         "SaveDCLabel": "豁免DC",
         "SavesFortitude": "强韧",
@@ -1600,7 +1939,7 @@
         "SpeedTypesTitle": "转换移动类型",
         "SpellAbilityLabel": "法术能力",
         "SkillStealth": "隐匿",
-        "SpellAbilityModLabel": "+ 能力 Mod",
+        "SpellAbilityModLabel": "+ Mod",
         "SpellAreaLabel": "范围",
         "SpellAttack": {
             "arcane": "奥术法术攻击",
@@ -1613,7 +1952,7 @@
         "SpellBasicSaveOption": "基础",
         "SpellBrowserSearchHint": "你可以根据名称或特征来检索，可用的特征如下列出：<br> 法术来源, 法术类型, 环级, 学派, 施法成份, 法术材料, 目标, 范围, 施法时间, 持续时间, 伤害, 伤害类型, 豁免, 专注, 仪式, 能力 和职业。 <br> 范例： '火焰, 伤害:d6' 可以显示所有名称中带有‘火焰’且伤害骰为d6的法术",
         "SpellCantripLabel": "戏法",
-        "SpellCastingFormat": "{preparationType} {tradition} 法术",
+        "SpellCastingFormat": "{preparationType} {traditionSpells}",
         "SpellComponentM": "材料",
         "SpellComponentS": "姿势",
         "SpellComponentV": "语言",
@@ -1664,14 +2003,14 @@
         "SpellScalingModeLeveltenth": "升阶 (10th)",
         "SpellScalingModeLevelthird": "升阶(3rd)",
         "SpellScalingModeNone": "无",
-        "SpellSchoolLabel": "法术学派",
+        "SpellSchoolLabel": "学派",
         "SpellTargetLabel": "目标",
         "SpellTimeLabel": "施法时间",
         "SpellTraditionArcane": "奥术",
         "SpellTraditionDivine": "神术",
         "SpellTraditionOccult": "异能",
         "SpellTraditionPrimal": "原能",
-        "SpellTraditionsLabel": "法术根源",
+        "SpellTraditionsLabel": "根源",
         "SpellTypeAttack": "法术攻击",
         "SpellTypeFocus": "聚能",
         "SpellTypeHeal": "治疗",
@@ -1818,7 +2157,7 @@
         "TraitComplex": "复杂",
         "TraitCompanion": "伙伴",
         "TraitComposition": "创作",
-        "TraitConcealable": "易于隐藏",
+        "TraitConcealable": "隐蔽",
         "TraitConcentrate": "专注",
         "TraitConjuration": "咒法系",
         "TraitConrasu": "Conrasu",
@@ -1876,8 +2215,8 @@
         "TraitDescriptionCatfolk": "拥有本特征的生物为猫族。",
         "TraitDescriptionChampion": "指神卫职业能力",
         "TraitDescriptionChangeling": "拥有本特征的生物为替换儿",
-        "TraitDescriptionChaotic": "混乱 效果 often 操纵 energy from chaos-aligned Outer Planes and are anathema to 守序 神术 servants or 神术 servants of 守序 deities. A 生物 with this 特征 is 混乱 in 阵营. An 能力 with this 特征 can be selected or used only by 混乱 生物s.",
-        "TraitDescriptionCleric": "This indicates abilities from the 牧师 职业.",
+        "TraitDescriptionChaotic": "混乱效果通常会操作来自混乱阵营位面的能量，并且对于守序神祗的神职者或守序阵营的神职者来说是禁忌。有着该特征的生物在阵营上是混乱的。只有混乱生物才能选择具有该特征的能力。",
+        "TraitDescriptionCleric": "指牧师职业能力。",
         "TraitDescriptionCompanion": "具有此特征的物品可供动物伙伴或类似生物佩戴。一个伙伴最多可以绑定两个物品。",
         "TraitDescriptionComplex": "具有这种特性的危害会在遭遇模式中轮流发生。",
         "TraitDescriptionConsumable": "具有此特征的物品只能使用一次。除非另有说明，否则激活后会被销毁。消耗品包括炼金物品和魔法消耗品，如卷轴和护身符。当一个角色创建消耗品时，他们可以一批四个地制造它们。",
@@ -2006,13 +2345,13 @@
         "TraitIllusion": "幻术系",
         "TraitImprovised": "临时",
         "TraitIncapacitation": "丧失能力",
-        "TraitIncorporeal": "无实体",
+        "TraitIncorporeal": "虚体",
         "TraitInevitable": "必然的",
         "TraitInfused": "注入",
         "TraitIngested": "摄入",
         "TraitInhaled": "吸入",
         "TraitInjury": "伤口",
-        "TraitIntelligent": "智能的",
+        "TraitIntelligent": "智能",
         "TraitInteract": "相互作用",
         "TraitInvested": "绑定",
         "TraitInvestigator": "调查员",
@@ -2038,8 +2377,8 @@
         "TraitMindless": "无心智",
         "TraitMinion": "仆从",
         "TraitMisfortune": "降祸",
-        "TraitModular": "伤害类型 B, P, 或 S",
-        "TraitMonitor": "管理者",
+        "TraitModular": "模块化 B, P, 或 S",
+        "TraitMonitor": "观察者",
         "TraitMonk": "武僧",
         "TraitMorph": "化形",
         "TraitMove": "移动",
@@ -2060,7 +2399,7 @@
         "TraitOlfactory": "味觉",
         "TraitOni": "恶鬼",
         "TraitOoze": "泥怪",
-        "TraitOpen": "开场",
+        "TraitOpen": "起手",
         "TraitOracle": "先知",
         "TraitOrc": "兽人",
         "TraitOread": "土元素裔",
@@ -2112,7 +2451,7 @@
         "TraitRangeIncrement310": "射程增量 310 ft",
         "TraitRangeIncrement320": "射程增量 320 ft",
         "TraitRangeIncrement40": "射程增量 40 ft",
-        "TraitRangeIncrement5": "距离增加5ft",
+        "TraitRangeIncrement5": "射程增量 5 ft",
         "TraitRangeIncrement50": "射程增量 50 ft",
         "TraitRangeIncrement60": "射程增量 60 ft",
         "TraitRangeIncrement70": "射程增量 70 ft",
@@ -2133,7 +2472,7 @@
         "TraitReload0": "装填 0",
         "TraitReload1": "装填 1",
         "TraitReload2": "装填 2",
-        "TraitRepeating": "连发手弩",
+        "TraitRepeating": "连发",
         "TraitResonant": "共鸣",
         "TraitRevelation": "揭示",
         "TraitRitual": "仪式",
@@ -2315,7 +2654,9 @@
             },
             "errorTargetToken": "需要选中一个目标",
             "shiftModifyDamageLabel": "调整值:",
-            "shiftModifyDamageTitle": "修改骰出的伤害/治疗"
+            "shiftModifyDamageTitle": "修改骰出的伤害/治疗",
+            "noDamageInfoForOutcome": "没有关于 {outcome}的伤害信息。",
+            "shiftModifyDamageHint": "使用正能量去伤害，负能量去治愈。"
         },
         "UnitPriceLabel": "单价",
         "UnprepareItemTitle": "不适合的物品",
@@ -2479,7 +2820,39 @@
                 "wish-blade": "许愿刀",
                 "wish-knife": "许愿小刀",
                 "wooden-taws": "木弹",
-                "flail": "链枷"
+                "flail": "链枷",
+                "poi": "Poi",
+                "tamchal-chakram": "Tamchal Chakram",
+                "karambit": "爪刀",
+                "butterfly-sword": "蝴蝶剑",
+                "fighting-stick": "战斗棍",
+                "hook-sword": "钩剑",
+                "kusarigama": "锁镰",
+                "leiomano": "鲨齿棒",
+                "wind-and-fire-wheel": "风火轮",
+                "dwarven-scattergun": "矮人霰弹枪",
+                "harmona-gun": "和声鸟枪",
+                "pepperbox": "胡椒罐手枪",
+                "slide-pistol": "排琴手枪",
+                "air-repeater": "连发气枪",
+                "arquebus": "重型火绳枪",
+                "blunderbuss": "喇叭枪",
+                "clan-pistol": "氏族手枪",
+                "coat-pistol": "袖枪",
+                "double-barreled-musket": "双管滑膛枪",
+                "double-barreled-pistol": "双管手枪",
+                "dragon-mouth-pistol": "龙口铳",
+                "dueling-pistol": "决斗手枪",
+                "fire-lance": "突火矛",
+                "flingflenser": "碎肉枪",
+                "flintlock-musket": "燧发滑膛枪",
+                "flintlock-pistol": "燧发手枪",
+                "forked-bipod": "叉型脚架",
+                "hand-cannon": "手炮",
+                "jezail": "杰撒伊火枪",
+                "knuckle-duster": "指虎",
+                "long-air-repeater": "长连发气枪",
+                "mithral-tree": "秘银之树"
             }
         },
         "WeaponAbilityLabel": "武器能力",
@@ -2600,13 +2973,14 @@
         "WeightTitle": "你的体重",
         "WorldClock": {
             "Button": {
-                "AddOneRound": "+1 轮",
-                "AddOneMinute": "+1 分钟",
-                "AddTenMinutes": "+10 分钟",
-                "AddOneHour": "+1 小时",
-                "AddOneDay": "+1 天",
-                "AddOneWeek": "+1 周",
-                "Advance": "经过"
+                "AddOneRound": "1 轮",
+                "AddOneMinute": "1 分钟",
+                "AddTenMinutes": "10 分钟",
+                "AddOneHour": "1 小时",
+                "AddOneDay": "1 天",
+                "AddOneWeek": "1 周",
+                "Advance": "经过",
+                "Retract": "撤回"
             },
             "Placeholder": "数字",
             "Title": "世界时钟",
@@ -2895,7 +3269,11 @@
             "PropertyDescriptionCrew": "工作人员需要操纵载具。",
             "PropertyDescriptionPassengers": "载具可能承载的乘客数量。",
             "PropertyDescriptionPilotingCheck": "表中列出了驾驶载具所需的驾驶技能检定。一些技能可能增加驾驶DC，在技能后的括号内列出DC调整值。",
-            "PropertyDescriptionSpeed": "载具的速度。 括号内表示载具的动力和相应的速度。需要动物拖拽的载具标注了需要的动物数量。"
+            "PropertyDescriptionSpeed": "载具的速度。 括号内表示载具的动力和相应的速度。需要动物拖拽的载具标注了需要的动物数量。",
+            "collisionDCLabel": "碰撞DC",
+            "collisionDamageLabel": "碰撞伤害",
+            "PropertyDescriptionCollisionDC": "载具的DC用于豁免骰以减轻伤害。",
+            "PropertyDescriptionCollisionDamage": "载具的碰撞伤害。除非另有说明，否则碰撞会造成钝击伤害。"
         },
         "identification": {
             "UnidentifiedType": {
@@ -2936,7 +3314,12 @@
             "TraitGMNote": "注意：这个特征对于玩家是隐藏的。",
             "UnidentifiedDescription": "{item}的性质暂不清楚。",
             "UnidentifiedHint": "未鉴定时更改此物品显示的基本详细信息。",
-            "UnidentifiedItem": "不寻常的{item}"
+            "UnidentifiedItem": "不寻常的{item}",
+            "Identified": "鉴定",
+            "Unidentified": "未鉴定",
+            "MystificationStatus": "神秘化状态",
+            "PostSkillsToChat": "将技能检定发布至聊天栏",
+            "PostSkillsToChatText": "鉴定物品:技能检定"
         },
         "loot": {
             "EditLootLabel": "设置战利品？",
@@ -2973,7 +3356,13 @@
             "Quantity": "数量",
             "SheetType": "表格形式",
             "SplitCoinsLabel": "分发货币",
-            "SplitCoinsPopupHeader": "选择角色分发货币"
+            "SplitCoinsPopupHeader": "选择角色分发货币",
+            "HiddenWhenEmpty": {
+                "CurrentlyHidden": "当前隐藏",
+                "CurrentlyVisible": "当前可见",
+                "Label": "空白时隐藏",
+                "Hint": "当此角色指示物的可搜刮列表为空时隐藏其指示物"
+            }
         },
         "NPC": {
             "Creature": "生物",
@@ -3046,6 +3435,19 @@
                 "EliteLabel": "精英",
                 "WeakNameFormat": "弱小 {name}",
                 "EliteNameFormat": "精英 {name}"
+            },
+            "AttackEffectMissing": "缺少攻击效果 {attackEffect} 的物品源。这种效果已被移除。",
+            "Abilities": {
+                "Glossary": {
+                    "AllAroundVision": "<p>这个怪物可以同时观察到所有方向，因此不能站在侧面</p>",
+                    "AtWillSpells": "<p>此怪物可以任意施法不限次数，不会耗尽法术位</p>",
+                    "ImprovedKnockdown": "<p>怪物可以将@Compendium[pf2e.bestiary-ability-glossary-srd.Knockdown]{Knockdown}作为先制攻击命中后触发的自由动作</p>",
+                    "FastHealing": "<p>具有此能力的怪物在每轮回合开始时都会恢复指定数量的生命值</p>",
+                    "LowLightVision": "<p>怪物可以在昏暗的光线下视物，就好像在明亮光线下一样，因此它会忽略因昏暗光线产生的@Compendium[pf2e.conditionitems.Concealed]{Concealed}</p>",
+                    "Knockdown": "<p data-visibility=\"gm\"><strong>需求</strong>怪物的最后的动作是一次命中的打击，在其伤害条目中列列有击倒。</p>\n<p><strong>效果</strong> 怪物将目标击倒 @Compendium[pf2e.conditionitems.Prone]{Prone}.</p>",
+                    "ImprovedPush": "<p>怪物可以将@Compendium[pf2e.bestiary-ability-glossary-srd.Push]{Push}作为先制攻击命中后触发的自由动作</p>",
+                    "ThrowRock": "<p>怪物捡起一块触手可及的岩石，或者搬起一个石碓并扔出去，进行远程打击</p>"
+                }
             }
         },
         "BackgroundSkillFeats": "技能专长",
@@ -3054,7 +3456,20 @@
             "Double": "对选定目标施加双倍伤害。",
             "Half": "对选定目标施加半数伤害。",
             "ShieldBlock": "切换所选角色的盾牌格挡状态。",
-            "Healing": "对选定目标施加完整治疗。"
+            "Healing": "对选定目标施加完整治疗。",
+            "FullShort": "Damage",
+            "DoubleShort": "Double",
+            "HalfShort": "Half",
+            "TripleShort": "Triple",
+            "ShieldBlockShort": "Block",
+            "HealingShort": "Heal",
+            "FullContext": "施加伤害",
+            "HalfContext": "半数伤害",
+            "DoubleContext": "双倍伤害",
+            "ShieldBlockContext": "盾牌格挡",
+            "HealingContext": "施加治疗",
+            "TripleContext": "施加三倍伤害",
+            "Triple": "对目标施加三倍伤害。"
         },
         "ActionBrowserSearchHint": "你可以根据名称或特征来检索，可用的特征如下列出：<br> 法术来源, 法术类型, 环级, 学派, 施法成份, 法术材料, 目标, 范围, 施法时间, 持续时间, 伤害, 伤害类型, 豁免, 专注, 仪式, 能力 和职业。 <br> 范例： '火焰, 伤害:d6' 可以显示所有名称中带有‘火焰’且伤害骰为d6的法术",
         "ArmorArmorTypeLabel": "武器熟练",
@@ -3073,10 +3488,541 @@
         "TabDescriptionLabel": "描述",
         "TraitBeastkin": "兽化裔",
         "TraitStaff": "棍",
-        "WeaknessTypeSplashDamage": "泼溅伤害"
+        "WeaknessTypeSplashDamage": "泼溅伤害",
+        "AreaSize45": "45尺",
+        "AreaSize75": "75尺",
+        "AreaSize90": "90尺",
+        "CreatureStatisticDC": {
+            "ac": "{creature} AC: {dc}",
+            "deception": "{creature} 哄骗DC: {dc}",
+            "fortitude": "{creature} 强韧DC: {dc}",
+            "perception": "{creature} 察觉DC: {dc}",
+            "reflex": "{creature} 反射DC: {dc}",
+            "stealth": "{creature} 潜行DC: {dc}",
+            "will": "{creature} 意志DC: {dc}"
+        },
+        "FlatCheck": "纯骰检定",
+        "OrdinalNumber": "{value}{suffix}",
+        "OrdinalSuffixes": {
+            "zero": "th",
+            "one": "st",
+            "two": "nd",
+            "few": "rd",
+            "other": "th",
+            "many": "th"
+        },
+        "TwoDegreesBetter": "two degrees better",
+        "TwoDegreesWorse": "two degrees worse",
+        "SensesMotionsense": "运动感",
+        "SpellLevel": "{category} {level}",
+        "SpellLevelBase": "基础: {level}",
+        "SpellLevelHeightened": "升阶: +{heightened}",
+        "SpellCategoryFocusCantrip": "聚能戏法",
+        "TraitDeadly3D8": "致命 3d8",
+        "TraitDeadly4D8": "致命 4d8",
+        "TraitDeadly4D10": "致命 4d10",
+        "TraitDeadly4D12": "致命 4d12",
+        "TraitSplash10": "溅射10尺",
+        "TraitThrown15": "投掷15尺。",
+        "TraitWornArmbands": "穿戴臂章",
+        "Counteractable": "可抵消",
+        "Migrations": {
+            "Finished": "PF2E系统已迁移到版本{version}！",
+            "OnlyGMCanUse": "只有GM才能使用这个工具。",
+            "WorldNotReady": "游戏世界未准备就绪：将在几秒后重试。",
+            "Summary": {
+                "Documents": "文档",
+                "Migrated": "迁移",
+                "Remigrate": "再迁移",
+                "Total": "合计",
+                "Title": "迁移一览",
+                "Troubleshoot": {
+                    "Title": "系统捉虫",
+                    "Hint": "在这里，你可以进行重新迁移，这会尝试自动修复角色和物品的问题。"
+                }
+            },
+            "Troubleshooting": "疑难解答",
+            "Starting": "正在将PF2E系统升级至{version}版本。请耐心等待，不要关闭游戏或关闭服务器。",
+            "OutsideSchemaRange": "指定的范围超出系统架构的版本范围（介于{minimum}和{maximum}之间）。"
+        },
+        "AreaLabel": "区域",
+        "BattleForm": {
+            "Attack": {
+                "Antler": "鹿角",
+                "Pseudopod": "伪足",
+                "Tail": "尾击",
+                "Beak": "喙",
+                "Beard": "触须",
+                "Boot": "靴子",
+                "Fangs": "毒牙",
+                "Foreleg": "前肢",
+                "Gust": "狂风",
+                "Hoof": "蹄击",
+                "Foot": "脚",
+                "Horn": "角",
+                "Mandibles": "颚齿",
+                "Pincer": "钳击",
+                "Rock": "岩石",
+                "Stinger": "钉刺",
+                "Sunbeam": "阳炎射线",
+                "Moonbeam": "月光射线",
+                "PiercingHymn": "穿心圣歌",
+                "BoneShard": "骨刺",
+                "FireMote": "焰尘",
+                "HolyMace": "神圣硬头锤",
+                "LightingLash": "闪电冲击",
+                "Talon": "爪",
+                "Tendril": "卷须",
+                "Tentacle": "触角",
+                "Tongue": "舌卷",
+                "TentacleArm": "触手臂",
+                "Wave": "波涛",
+                "Wing": "翼击",
+                "WaterSpout": "喷水",
+                "CubeFace": "面触"
+            }
+        },
+        "ConditionTypePersistentShort": "恒久",
+        "Frequency": {
+            "hour": "小时计",
+            "day": "日计"
+        },
+        "LanguageAkitonian": "阿基顿",
+        "LanguageKaava": "卡瓦语",
+        "LanguageTaldane": "塔尔多语",
+        "OK": "OK",
+        "OverridesTitle": "覆盖",
+        "Roll": {
+            "Modifier": "调整值",
+            "Fortune": "好运",
+            "UntypedPenalty": "无名（惩罚）",
+            "Type": "类型",
+            "Misfortune": "厄运",
+            "None": "无",
+            "Roll": "骰",
+            "Normal": "正常",
+            "Add": "加",
+            "FortuneTitle": "{title} 好运",
+            "MisfortuneTitle": "{title} 厄运",
+            "CriticalHit": "重击"
+        },
+        "SensesEcholocation": "回声定位",
+        "SpellComponentF": "聚能",
+        "TraitAdjustment": "调整",
+        "TraitAnugobu": "阿努人",
+        "TraitCatalyst": "催化",
+        "TraitConfusion": "困惑",
+        "TraitEidolon": "幻灵",
+        "TraitFulu": "符箓",
+        "TraitGrimoire": "秘典",
+        "TraitIncarnate": "魂能",
+        "TraitMagus": "魔战士",
+        "TraitPrecision": "精准",
+        "TraitShobhad": "绍贝德人",
+        "TraitSpellheart": "咒心",
+        "TraitWeapons": "武器",
+        "WeaponPropertyRuneImpactful": "冲击",
+        "Damage": {
+            "NoDamageFormulaLabel": "无伤"
+        },
+        "WeaponPropertyRuneGreaterExtending": "高等延展",
+        "ClickToSetInitiativeContext": "设为先攻值",
+        "TraitReach100": "触及 100 ft",
+        "TraitThrown100": "投掷 100 ft.",
+        "AreaSize80": "80 尺",
+        "DamageCategoriesLabel": "伤害类别",
+        "DamageRoll": "伤害骰",
+        "Foot": "尺",
+        "FormulaSheet": {
+            "NamePrefix": "{name}的配方",
+            "NameEmpty": "空的配方",
+            "NameUnknown": "未知配方",
+            "DescriptionUnknown": "这个配方完全充满了火柴人图画、不明液体污迹、儿童信件中毫无意义的押韵，以及其他看似随机的标记。那一定是地精做的，对你来说毫无意义。<hr><b>注:</b>该公式引用的是一个缺失或无效的项。"
+        },
+        "LanguageAnugobu": "阿努人",
+        "LanguageCalda": "卡尔达语",
+        "LanguageKitsune": "狐妖语",
+        "LanguageLirgeni": "勒根语",
+        "LanguageNagaji": "纳迦语",
+        "LanguageRasu": "空塑语",
+        "LanguageRussian": "俄语",
+        "LanguageSenzar": "神知语",
+        "LanguageShobhad": "绍贝德语",
+        "LanguageEkujae": "艾库迦形语",
+        "LanguageWyrwood": "汲魂木语",
+        "ModifierNamePlaceholder": "名称",
+        "ModifierTypeTitle": "[Type]",
+        "Repost": "发布至聊天栏",
+        "SpellFlexibleLabel": "灵活",
+        "SpellScalingInterval": {
+            "Label": "间隔",
+            "Header": "缩放(间隔)",
+            "Add": "添加间隔缩放"
+        },
+        "StaminaPointsShortLabel": "耐力",
+        "Time": {
+            "Duration": "时效",
+            "Unit": {
+                "Seconds": "秒",
+                "Rounds": "轮",
+                "Minutes": "分钟",
+                "Hours": "小时",
+                "Days": "天",
+                "Weeks": "周",
+                "Unlimited": "无时限"
+            }
+        },
+        "Token": {
+            "Appearance": "外貌",
+            "Size": {
+                "Label": "体型",
+                "Dimensions": "尺寸",
+                "LinkToActorSize": {
+                    "Label": "关联至角色体型",
+                    "Hint": "保持此指示物的尺寸与其角色的体型类别一致"
+                }
+            }
+        },
+        "TraitAll": "全部",
+        "TraitAmmunition": "弹药",
+        "TraitBleed": "流血",
+        "TraitBludgeoning": "钝击",
+        "TraitAreaDamage": "区域伤害",
+        "TraitAxeVulnerability": "斧易伤",
+        "TraitContingency": "触发",
+        "TraitCriticalHits": "重击",
+        "TraitDeathEffects": "死亡效果",
+        "TraitEnergy": "能量",
+        "TraitEvolution": "进化",
+        "TraitFearEffects": "恐惧效果",
+        "TraitHantu": "物灵",
+        "TraitKaiju": "怪兽",
+        "TraitPhysical": "物质",
+        "TraitPiercing": "穿刺",
+        "TraitNonlethalAttacks": "非致命攻击",
+        "TraitObjectImmunities": "物品免疫",
+        "TraitPervasiveMagic": "高魔",
+        "TraitProteanAnatomy": "幻蛇体质",
+        "TraitSlashing": "挥砍",
+        "TraitSaltWater": "咸水",
+        "TraitSpellDeflection": "法术偏斜",
+        "TraitReach0": "触及 0 ft",
+        "TraitReach50": "触及 50 ft",
+        "TraitSummoner": "召唤师",
+        "TraitTandem": "同步",
+        "TraitUntyped": "无名",
+        "TraitSplashDamage": "溅射伤害",
+        "TraitSwarmAttacks": "集群攻击",
+        "TraitSwarmMind": "集群意志",
+        "TraitTrueName": "真名",
+        "TraitVampireWeaknesses": "吸血鬼弱点",
+        "TraitVersatilePositive": "多用正能量",
+        "TraitVorpalFear": "恐惧斩首",
+        "TraitVolley20": "远射 20 ft.",
+        "TraitVolley50": "远射 50 ft.",
+        "UpdateLabelUniversal": "更新",
+        "UserSettings": {
+            "DarkvisionFilter": {
+                "Label": "黑暗视觉筛选",
+                "Hint": "当具有黑暗视觉的生物查看地图时，添加一个滤镜（通常为单色）"
+            }
+        },
+        "WeaponPropertyRuneBane": "破敌",
+        "WeaponPropertyRuneBrilliant": "光能",
+        "WeaponPropertyRuneGreaterBrilliant": "高等光能",
+        "WeaponPropertyRuneExtending": "延展",
+        "WeaponPropertyRuneGreaterImpactful": "高等冲击",
+        "LanguageArcadian": "阿卡狄亚",
+        "Familiar": {
+            "Master": "主人",
+            "MasterActor": "所属角色",
+            "Familiar": "仆从",
+            "Creature": "生物",
+            "Perception": "察觉",
+            "Defenses": "防御",
+            "Offenses": "进攻",
+            "Skills": "技能",
+            "MasterLevel": "所属等级",
+            "ArmorClass": "防护等级",
+            "AttackRoll": "攻击骰",
+            "SelectMaster": "选择一个主人...",
+            "MasterSpellcastingAbility": "主人施法能力",
+            "TotalNumberFamiliarAbilities": "总计 # 仆从能力"
+        },
+        "TraitMortic": "死灵裔",
+        "BrowserFilterConsumable": "消耗品类型",
+        "CreateFormulaTitle": "制作配方",
+        "Duration": {
+            "PT10M": "10分钟",
+            "PT24H": "24小时",
+            "PT1H": "小时",
+            "day": "日"
+        },
+        "InitativeIsNow": "{name}的先攻值现在为{value}!",
+        "FormulaKnownTitle": "已知配方",
+        "SpellCollectionAdd": "添加到法术合集",
+        "SpellCollectionRemove": "从法术合集中移除",
+        "SpellSlotExpendedError": "无法施放{name}，法术已被消耗",
+        "TraitAffixedToArmorOrAWeapon": "附在盔甲或武器上",
+        "TraditionSpells": {
+            "Occult": "{tradition} 法术",
+            "Primal": "{tradition} 法术",
+            "Arcane": "{tradition} 法术",
+            "Divine": "{tradition} 法术"
+        },
+        "ToggleSlotlessSpellLevelsTitle": "切换法术书中无环位之法术等级的可见性",
+        "TraitUnstable": "不稳定",
+        "TraitWornBeltPouch": "穿戴皮带袋",
+        "TraitWornCrown": "穿戴皇冠",
+        "TraitTattooedOnTheBody": "纹身",
+        "SpellComponentShortF": "F",
+        "SpellArea": "范围: {areaSize} {areaUnit} {areaType}",
+        "TraitRangeIncrement500": "射程增量 500 ft",
+        "SpellSlotNotEnoughError": "没有足够的法术位，因此无法在{level}上施放{name}",
+        "TraitSteam": "蒸汽",
+        "WeaponGroupFirearm": "火器",
+        "TraitDoubleBarrel": "双管",
+        "CraftingTab": {
+            "ToggleFreeCrafting": "切换免费制作",
+            "CraftQuantityTitle": "数量",
+            "UndeletableTooltip": "这个制作公式是另一个物品的一部分，不能单独删除。"
+        },
+        "FormulaListEmpty": "空（拖放配方/物品至此）",
+        "ItemActivate": {
+            "Cast": "施放法术",
+            "Label": "激活",
+            "Command": "指令",
+            "Envision": "意念",
+            "Interact": "交互"
+        },
+        "LicenseViewer": {
+            "Label": "合法公告",
+            "LandingPageText": "使用上面的选项卡阅读合法信息"
+        },
+        "TraitFatalAim": "致命瞄准",
+        "TraitRange10": "射程 10 ft",
+        "TraitRange15": "射程 15 ft",
+        "TraitRange20": "射程 20 ft",
+        "TraitRange25": "射程 25 ft",
+        "TraitRange30": "射程 30 ft",
+        "TraitRange50": "射程 50 ft",
+        "TraitRange60": "射程 60 ft",
+        "TraitRange70": "射程 70 ft",
+        "TraitRange80": "射程 80 ft",
+        "TraitRange90": "射程 90 ft",
+        "TraitRange100": "射程 100 ft",
+        "TraitRange120": "射程 120 ft",
+        "TraitRange5": "射程 5 ft",
+        "TraitRange40": "射程 40 ft",
+        "TraitDescriptionGunslinger": "这表示铳士职业的能力。",
+        "TraitDescriptionInventor": "这表示发明家职业的能力。",
+        "AccessoryPropertyRuneWindCatcher": "追风",
+        "ConsumableMessage": {
+            "UseMulti": "使用{name}, 还剩{current}",
+            "UseSingle": "{name}使用",
+            "UseExhausted": "{name}耗尽"
+        },
+        "CraftDCTitle": "DC",
+        "CraftItemTitle": "手艺",
+        "AccessoryPropertyRuneCalled": "称呼",
+        "AccessoryPropertyRuneDragonsBreath": "龙息",
+        "AccessoryPropertyRuneGreaterPaired": "高等成对",
+        "AccessoryPropertyRuneGreaterWindCatcher": "高等追风",
+        "AccessoryPropertyRuneMajorPaired": "上等成对",
+        "AccessoryPropertyRunePaired": "成对",
+        "AccessoryPropertyRunePresentable": "体面的",
+        "AccessoryPropertyRuneSnagging": "抓住",
+        "AccessoryPropertyRuneSoftLanding": "软着陆",
+        "AccessoryPropertyRuneSpellBastion": "法术壁垒",
+        "ArmorPropertyRuneBitter": "苦味",
+        "ArmorPropertyRuneDeathless": "不死",
+        "ArmorPropertyRuneDread": "恐惧",
+        "ArmorPropertyRuneGreaterStanching": "高等止血",
+        "ArmorPropertyRuneMajorStanching": "上等止血",
+        "ArmorPropertyRuneStanching": "止血",
+        "ArmorPropertyRuneTrueStanching": "精准止血",
+        "ConsumableCompatibleLabel": "兼容",
+        "ConsumableIncompatibleLabel": "不兼容",
+        "HardnessLabel": "硬度",
+        "TraitDescriptionLeshy": "这些是小型的植物生物，在形态上大致呈人形。",
+        "TraitDescriptionRage": "你必须处于狂暴中，才能使用有狂暴特征的能力，当你停止狂暴时，这些能力也会自动终止。",
+        "TraitDescriptionRange": "这些攻击将列出一定的射程或射程增量，这遵循射程增量的正常规则。",
+        "TabCraftingLabel": "制作",
+        "TraitDescriptionAnadi": "来自Garund的一个隐居民族，形似蜘蛛，可以模仿人形。",
+        "TraitDescriptionBeastkin": "可以部分或完全转化为动物形态的类人生物。",
+        "TraitDescriptionBrutal": "具有此特征的远程攻击在攻击骰上使用其力量调整值而不是敏捷。",
+        "TraitDescriptionCapacity": "具有弹容特征的武器通常拥有多个枪管或能容纳一圈子弹的弹仓。弹容特征后面总会跟着一个数字，代表枪管或弹仓的容量。在一个具有弹容特征的武器被发射后，你能以一个交互动作选择下一个已上膛的枪管或弹仓，不需要空闲的手。每个枪管或弹仓都能在开火后以单独的互动动作进行装填。",
+        "TraitDescriptionComposition": "要施展一个组曲戏法或组曲聚能法术，你通常需要使用一种表演技能。如果该法术包含了语言成分，你必须使用听觉表演；如果包含了肢体成分，你必须使用视觉表演。该法术获得你所使用的表演的所有特征。你每回合只能施展一个组曲法术，你在同一时间内也只能有一个激活的组曲法术。如果你施展了一个新的组曲法术，你之前的组曲法术产生的持续效果会立刻终止。",
+        "TraitDescriptionConcussive": "这些武器的冲击力和穿透力一样强。当决定某个生物对此武器的伤害适用何种抗力或免疫时，选择目标对穿刺或钝击伤害更弱的抗力或免疫。例如，如果生物对穿刺伤害免疫，并且对钝击伤害没有抗力或免疫，它将受到来自震荡武器的全部伤害。对所有物理伤害的抗力或免疫，或对全伤害的抗力或免疫都正常生效。",
+        "TraitMounted": "骑乘",
+        "TraitDescriptionConstruct": "构装体是一种人造生物，由动力而非死灵术驱动。构装体通常是无心智；他们免疫疾病、瘫痪状态、以及毒素；根据身体制作材料，他们获得相应的硬度。构装体不是活着的生物，但也并非不死生物。当生命值降为0点，构装体就被摧毁了。",
+        "TraitDescriptionCriticalFusion": "重击融合是组合武器所带的新特征，当你使用组合武器的近战版本进行近战攻击，且组合武器装有弹药时，你有两种额外的重击专精效果可以选择。如果你选择使用它们中的一个，它们将取代近战武器通常的重击专精效果。第一种，你选择以火器开火并制造巨响和冲击，使用火器的重击专精效果来代替近战武器组的重击专精效果。第二种，你选择以火器开火增加重击的力道，或你在近战攻击敌人的同时开火，造成每个武器伤害骰2点额外伤害。以上这两种选择都是以火器开火，因此一般来说你必须进行装填才能重新开火。",
+        "TraitDescriptionDivine": "该法术来自于神术根源，从神祗或类似的源头那里汲取力量。任何具有此特征的事物都是魔法的。",
+        "TraitDescriptionDoubleBarrel": "这种武器有两个枪管，可以分别装弹。你可以在一次打击中同时发射两个枪管中的子弹，这能让武器伤害骰增大一级。如果武器有夺命（fatal）特征，这也能让夺命的伤害骰增大一级。",
+        "TraitDescriptionElf": "具有此特征的生物是精灵族裔的一份子。精灵是一神秘的民族，有着深厚的魔法与学术传统，并通常拥有昏暗视觉。具有此特征的能力只能由精灵使用或选择。具有此特征的武器是精灵创造并使用的。",
+        "TraitDescriptionEvil": "邪恶效果通常操作来自邪恶阵营外层界域的能量，与善良阵营的圣仆或善良神祗的圣仆相对立。具有此特征的生物在阵营上是邪恶的。具有此特征的能力只能由邪恶生物选择或使用。",
+        "TraitDescriptionExtradimensional": "这个效果或物品会创造一个异次元空间。将一个异次元效果放入另一个异次元空间中会导致其失效，直到被从空间中取出。",
+        "TraitDescriptionFatalAim": "你可以把这种武器的枪托夹在腋下，所以只需要一只手就能开火，只要另一只手并未持有武器、盾牌或任何其他需要移动或安置的东西，来确保武器不会从腋下滑脱。但是，如果你使用双手持握武器，武器可以造成夺命攻击。当你以双手持握武器时，它将获得夺命特征，伤害骰会列在后面。保证武器夹在腋下时稳定开火远比只是把手从武器上挪开要复杂得多，因此当你在两个握姿之间切换时，必须花费一个交互动作，而不是简单的放开武器或将这个动作视为装填的一部分。",
+        "TraitDescriptionFire": "具有火焰特征的效果会造成火焰伤害、召唤或操作火焰。操作火焰的效果在没有火焰的区域不会生效。具有此特征的生物主要由火焰构成，或与火焰元素之间有着魔法连接。",
+        "TraitDescriptionFocused": "具有此特征的物品可以给你额外的聚能点。这个聚能点与你的聚能池相互独立，不会受聚能池的上限所限制。只有当你拥有聚能池时，你才能从这个物品中获益，而且物品可能会限制你使用该聚能点的方式。你每天不能从聚能物品中获得超过1点聚能点。",
+        "TraitDescriptionGeneral": "这是一类任何角色都可以选择的专长，和族裔以及职业都不相关，只要该角色满足了专长的先决条件。当你的职业提供了一个通用专长时，你就可以选择一个具有此特征的专长。",
+        "TraitDescriptionGnome": "具有此特征的生物是侏儒族裔的一员。侏儒是一些擅长魔法的小人，喜欢探求新的经历，并通常拥有昏暗视觉。具有此特征的能力只能由侏儒使用或选择。具有此特征的武器是由侏儒创造并使用的。",
+        "TraitDescriptionGoblin": "具有此特征的生物可能来自多种生物部落，包括地精，大地精，熊地精。地精通常拥有黑暗视觉。具有此特征的能力只能由地精使用或选择。具有此特征的武器是由地精创造并使用的。",
+        "TraitDescriptionGrapple": "即使你没有空手，仍然能以此武器用运动技能对敌人进行擒抱。此时使用武器的触及范围（若其与你的触及范围不同），并将武器给予攻击的物品加值（若有）加至运动检定上。若你在使用该武器时，擒抱检定大失败，你可以抛弃该武器，视之为普通失败。",
+        "TraitDescriptionHampering": "你可以使用交互动作在武器可触及范围内的方格中敲击武器。在你使用武器攻击、移动或在下一回合开始时停止对该方格的敲击之前，该方格将成为困难地形。",
+        "TraitDescriptionIncapacitation": "具有此特征的能力能令一个角色完全丧失战斗能力，甚至令其死亡，且这种能力对于更强大的角色来说更难以生效。如果一个法术拥有失能特征，任何等级大于法术等级两倍的生物能将避免陷入失能的检定结果的成功度提升一级，或者将施法者进行的令该生物陷入失能的检定结果的成功度降低一级。如果任何其他效果具有失能特征，比提供该效果的物品、生物或危害等级高的生物都能获得相同的收益。",
+        "TraitDescriptionIncorporeal": "虚体生物或物体不具有物理形态。它们能够穿过包括墙壁的实体。当虚体生物进入物体之内时，它无法感知（perceive）、攻击或和物体外界的一切进行互动，若它在自身回合开始时位于物体之内，则会陷入缓慢1（slowed）。有形生物（Corporeal creatures）能够穿过虚体生物，但是他们无法在其空间内结束移动。虚体生物无法尝试基于力量的检定对抗实体生物或物体——仅能对抗虚体——除非这些物体具有幽冥（ghost touch）性能符文。同样地，有形生物也无法对虚体生物或物体尝试基于力量的检定。虚体生物通常免疫那些需要肉身的效果或状态，比如疾病（disease）、毒素（poison）、和精准（precision）伤害。它们通常具有对抗所有伤害的抗力（除了力场伤害和幽冥性能符文的打击造成的伤害），对非魔法伤害具有双倍的抗力。",
+        "TraitDescriptionInjection": "该武器可以装填一剂伤口毒药（injury poison）。在以该武器成功进行攻击之后，你能以一个单一的交互动作将毒药注射进目标体内。用新物质重新装填武器需要花费3个交互动作，并使用双手。",
+        "TraitDescriptionRepeating": "该武器不像其他弩或者枪支那样装填单独的弩矢或子弹；相反，他们需要把专门的弹匣装入武器的一个特殊的槽内。一旦弹匣装载完毕，该武器每次开火时都能自动装填弹药，将其装填值减少为装填条目中的值（通常为0）。当弹匣打空之后，必须重新装填一个新的弹匣，这需要一只空着的手，花费3个交互动作（移除旧弹匣，拿出新弹匣，安装新弹匣）。这三个交互动作不必连续。",
+        "TraitDescriptionIntelligent": "具有这一特征的物品是有智能的，它有自己的意志和个性，还有一些其他物品没有的纸面数据。智能物品不能用普通方法制作，它们总会是稀有或独特的。",
+        "TraitDescriptionJoustingD6": "这种武器适用于骑乘战斗。当你上马时，如果你在攻击动作前移动了至少10英尺，那么该攻击的伤害增加一个等于武器的伤害骰子数量的环境加值。此外，当骑乘时，你可以单手使用武器，将伤害骰更改所列值。",
+        "TraitDescriptionLight": "光亮效果能克服区域中非魔法的黑暗，并能够反制魔法黑暗。你必须使用你的光亮魔法直接瞄准一个黑暗魔法以反制黑暗，但有些光亮魔法能自动尝试反制黑暗。",
+        "TraitDescriptionMagical": "具有魔法特征的事物被注入了不与任何魔法根源绑定的魔法能量。魔法物品会散发出其主要魔法学派的魔法灵光。有些物品或效果与某个特定的魔法根源紧密联系。这种情况下，这些物品会具有奥术、神术、异能或原能特征，而非魔法特征。以上所有特征都表明了该物品是魔法的。",
+        "TraitDescriptionMetamagic": "具有超魔特征的动作（通常来自超魔专长）能改变法术的属性。你必须在使用超魔动作后立刻施法以改造你的法术。如果你在使用超魔动作后使用了任何不为施法的动作（包括自由动作和反应），你便会浪费超魔动作带来的所有增益。超魔动作带来的所有额外效果都是法术效果的一部分，而不是超魔动作的一部分。",
+        "TraitDescriptionMinion": "仆从是直接服侍其他生物的生物。具有该特征的生物每回合只能使用2个动作，而且无法使用反应。战斗中每轮一次，你的仆从在你的回合行动，只要你花费1个动作给他下达命令。对于动物伙伴，你使用命令动物；对于来自法术或魔法物品效果的仆从（例如被召唤的仆从），你使用维持法术或维持启动；如果没有特别指定的话，你下达一个口头命令，这是一个具有听觉和专注特征的单动作。如果你不给他命令，仆从除了保护自己或逃离显著危害之外不会使用任何动作。如果无人看管仆从的时间足够长（通常为1分钟），无心智仆从不会行动，动物会听从本能行动，具有高智能的仆从则会按照自己的喜好来行动。",
+        "TraitDescriptionModular": "该武器具有多种配置，你可以通过一个交互动作进行切换。通常来说，改变一个具有模块化特征的武器的配置会允许其造成不同种类的伤害（在武器的特性描述上会写明，例如“模块化B，P或S”），但在模块化武器的描述中也可能列出更多更复杂的配置。",
+        "TraitDescriptionCurse": "诅咒是一种能对一个生物附加长期苦难的效果。诅咒总是魔法的，通常是法术或陷阱的结果。",
+        "TraitDescriptionElectricity": "具有此特征的效果造成电击伤害。具有此特征的生物与电有着魔法性的联结。",
+        "TraitDescriptionFlexible": "这种盔甲足够柔韧，不会妨碍大多数行动，你在特技和运动检定中不会承受检定减值。",
+        "TraitDescriptionMorph": "稍微改变生物形态的效果具有化形特征。由化形效果提供的任何打击都是魔法的。你可以同时受到多个化形效果的影响，但同一个身体部位不能化形多次，第二个化形效果会尝试反制第一个（与变形效果的方法一致，在变形特征的说明中有描述）。你的化形效果也可能在你被变形时终止，且变形效果废除或复盖了你的化形效果。由GM决定哪些化形效果可以同时使用，哪些不行。",
+        "TraitDescriptionPolymorph": "这类效果能将目标变成一个新的形态。同一个目标无法同时受到超过一个变形效果的影响。如果有第二个变形效果施加在目标身上，第二个效果会试图反制第一个。如果反制成功，则第二个生效；如果失败，该法术无效。由变形效果提供的所有打击都是魔法的。除非特别说明，否则变形法术无法然目标变成一个特定生物的准确外貌，只能变成只能变成这类生物或族裔的常见外貌。如果你使用变形法术变成一种战斗形态，这些特殊的数值只能被环境加值、状态加值和减值调整。除非特别指明，否则战斗形态会阻止你施法、说话、使用大多数需要手的操作动作。（如果你对你是否能使用某个动作有疑惑，问你的GM。）你的装备被吸收进身体中；装备的持续属性依然生效，但你无法启动任何物品。",
+        "TraitDescriptionPress": "具有该特征的动作让你可以接续之前的攻击。具有连携特征的动作只能在你承受了多重攻击减值时使用。有些连携动作在失败时也会提供效果。在失败时添加的效果不会在大失败时应用。如果你的连携动作成功，你可以选择使用失败的效果。（例如，你可能不想让这次攻击白白地打在抗力上。）因为连携动作需要多重攻击减值，你不能在回合外使用，即使你使用了准备行动。",
+        "TraitDescriptionOpen": "这些行动只能用于你回合内的第一次出击。你只有在本回合还未采用过有攻击或起手特征的行动时，才能采用1个起手行动。",
+        "TraitDescriptionReload": "虽然所有武器都需要一定的时间才能就位，但许多远程武器还需要装填。此列为装填此类武器需要多少交互动作。如果抽取弹药是武器射击动作的一部分，则此值可以为0。如果一件武器需要2个或更多的动作来装填，GM将决定这些动作是在一组行动中进行，还是可以在一轮中使用其中的一些动作，然后在下一轮中使用其余的动作。一件武器此列为“—”意味着必须拔取出来才能投掷，通常需要一个交互动作拔取武器。装填远程武器和拔取投掷武器都需要一只不被占用的手。改变持握武器的方法而松开一只手和重新握住武器都包括在装填武器的动作中。",
+        "TraitScatter10": "散射 10",
+        "TraitDescriptionSplash": "当你使用具有溅射特征的投掷武器，你不会将力量调整值加入伤害骰。如果溅射武器的攻击结果是失败、成功或大成功，所有距离目标5尺内的生物（包括目标）都需要承受描述中列出的溅射伤害。攻击失败时（但不是大失败），攻击的目标仍然需要承受溅射伤害。将溅射伤害与初始伤害叠加视作一次伤害以应用目标的弱点或抗力。在暴击时，你不能将溅射伤害翻倍。",
+        "TraitDescriptionSplash10": "当你使用具有溅射特征的投掷武器，你不会将力量调整值加入伤害骰。如果溅射武器的攻击结果是失败、成功或大成功，所有距离目标10尺内的生物（包括目标）都需要承受描述中列出的溅射伤害。攻击失败时（但不是大失败），攻击的目标仍然需要承受溅射伤害。将溅射伤害与初始伤害叠加视作一次伤害以应用目标的弱点或抗力。在暴击时，你不能将溅射伤害翻倍。",
+        "TraitDescriptionStance": "架势是一种通用的战斗策略，你需要使用一个具有架势特征的动作以进入架势，接着你能在一段时间内保持架势。架势会在以下任一情况发生时终止：你被击倒、架势可能存在的需求未能满足、遭遇结束、你进入了一个新的架势。当你使用了一个具有架势特征的动作，你在一轮的时间内都不能使用另一个。你只能在遭遇模式中进入架势。",
+        "TraitDescriptionSummoned": "由咒法系法术或效果召来的生物会获得召唤特征。召唤生物无法召唤其他生物，创造有价值的事物，或施展需要代价的法术。它具有仆从特征。如果它尝试施展法术等级等于或大于召唤他自身的法术的法术，它会压制召唤魔法，令它准备施展的法术失败，并令召唤法术立刻终止。除此之外，召唤生物可以使用同类的生物的标准能力。它通常会使用最强的能力攻击你的敌人。如果你可以与其交流，你可以对其下达命令，但由GM判断它是否会听从你的命令。当你完成施法后，召唤生物会立刻使用该回合的2个动作。召唤生物可能会被多种法术和效果驱逐。它们在生命值降低到0点时，或召唤法术终止时会自动被驱逐。",
+        "TraitAutomaton": "灵导械",
+        "TraitCapacity3": "弹容 3",
+        "TraitCapacity4": "弹容 4",
+        "TraitCapacity5": "弹容 5",
+        "TraitConcussive": "震荡",
+        "TraitCobbled": "拼凑",
+        "TraitCombination": "组合",
+        "TraitCriticalFusion": "重击融合",
+        "TraitDescriptionAnroid": "人工创造的类人种族。最常见于Numeria。",
+        "TraitDescriptionAutomaton": "具有这种特征的生物是灵导械种族中的一员。",
+        "TraitDescriptionClimbing": "装备着此武器可以进行攀爬。",
+        "TraitDescriptionCobbled": "这把枪是胡乱拼凑在一起的，很可能开不了火。无论你维护得多好，当掷出一次失败的攻击骰时，攻击会失手并且你必须投掷DC 5纯骰检定。如果纯骰检定失败，武器会哑火。",
+        "TraitDescriptionCommon": "没有列出其他稀有度特征（罕见、稀有、独特）的事物都会自动获得常见特征。该稀有度标志着一个能力、物品或法术为所有满足其先决条件的玩家开放。",
+        "TraitDescriptionCombination": "组合武器以独特或不同寻常的方式将近战武器和火器结合起来。组合武器既有火器形态的用法，也有近战武器形态的用法。",
+        "TraitDescriptionConcealable": "该武器设计地非常不起眼，或是能够轻易被隐藏起来。你在隐藏或伪装具有隐蔽特征的武器时所使用的贼活检定以及贼活DC上获得+2环境加值。",
+        "TraitDescriptionConcentrate": "具有该特征的动作需要精神在一定程度上保持专注和自制。",
+        "TraitDescriptionConjuration": "具有该特征的效果和魔法物品与魔法的咒法学派相关联，通常包含召唤、创造、传送或移动物品的效果。",
+        "TraitDescriptionConsecration": "祝圣法术会在一段时间内强化一个区域。一个区域同一时间内只能拥有一个祝圣效果。新的效果需要成功反制已经存在的效果才能复盖上去。",
+        "TraitDescriptionCursebound": "具有这种特征的法术表示施放这种法术时会增强先知诅咒的严重程度。通常只有启示法术拥有这个特征。若你没有先知诅咒，你就无法施放咒缚法术。",
+        "TraitDescriptionDarkness": "黑暗效果会消除区域中非魔法的光，并能够反制比该效果更弱魔法光。通常来说，你必须指定光魔法为目标，用你的黑暗魔法直接反制光，但有些黑暗法术能自动对光进行反制。",
+        "TraitDescriptionDeadly": "重击时，此武器加上一颗武器伤害骰，骰面大小如表格所列。翻倍武器伤害后再投掷这颗骰子。若武器刻有greater striking符文，则此伤害增加为两颗骰子。若武器刻有major striking符文，则此伤害增加为三颗骰子。举例来说，刻有greater striking符文的细剑在重击时造成额外的2d8穿刺伤害。改变武器正常伤害骰骰面的能力不影响致命骰。",
+        "TraitDescriptionDedication": "你必须选择一个具有此特征的专长以将对应的变体应用到你的角色上。",
+        "TraitDescriptionDisease": "具有此特征的效果会附加1个或更多的疾病。疾病通常是苦难。",
+        "TraitDescriptionDivination": "预言学派的法术通常包括收集和传递信息，或者预测事件的能力。",
+        "TraitDescriptionDowntime": "这是一种玩家未在冒险过程中的游戏模式。在这个过程中日期会快速经过，角色也能进行一些长期的活动。",
+        "TraitDescriptionDwarf": "具有该特征的生物是矮人族裔的一份子。矮人是粗壮的种族，常常住在地下并通常具有黑暗视觉。具有该特征的能力只能被矮人选择或使用。具有该特征的物品是由矮人制造并使用的。",
+        "TraitDescriptionEarth": "具有土特征的效果能够操作或召唤土岩。操作土岩的效果在没有土岩的区域中无法生效。具有此特征的生物主要有土岩组成，或与该元素有着魔法性的联结。",
+        "TraitDescriptionEmotion": "该效果会改变生物的情绪。具有该特征的效果总是同时具有心灵（mental）特征。经过特殊训练，或有着机械或人工智能的生物对生物对情绪效果免疫。",
+        "TraitDescriptionEnchantment": "具有此特征的效果和魔法物品与魔法惑控学派相关联，通常包括心灵控制、情绪改变或其他精神效果。",
+        "TraitDescriptionEvocation": "具有此特征的效果和魔法物品与魔法塑能学派相关联，通常包含能量和元素的效果。",
+        "TraitDescriptionExploration": "具有此特征的行动需要花费超过1轮的时间，并只能在探索模式之中使用。",
+        "TraitDescriptionFatal": "夺命特征包括了伤害骰的骰面大小。重击时，此武器所有的伤害骰骰面增加到该骰面大小而非原本的骰面大小，并额外加上一颗骰面大小如表中所列的伤害骰。",
+        "TraitDescriptionFear": "恐惧效果会唤起恐惧的情绪。具有此特征的效果总是同时具有心灵（mental）和情绪特征。",
+        "TraitDescriptionFinisher": " 终结技是使用派头的华丽终结招数。你必须持有派头才能使用终结技，并在使用终结技后立刻失去派头。在你使用终结技后，当回合结束前不得再进行带有攻击特征的动作。\n某些终结技动作会提供检定失败时的效果，这些失败效果在大失败时不生效。当终结技动作成功时，你仍可选择改为结算失败效果(例如攻击由于抗力无法造成伤害的情况)。",
+        "TraitDescriptionFlourish": "绝技动作是使用起来极其费劲的动作，因此无法连续频繁地使用。你每回合只能使用1个具有绝技特征的动作。",
+        "TraitDescriptionForce": "具有此特征的效果会造成力场伤害，或创造由纯粹的魔法力场所构成的物件。",
+        "TraitDescriptionForceful": "此武器累积动能之后便得更加危险。当你用此武器在你的轮中进行多于一次的攻击时，第二次的攻击在伤害上获得等同武器伤害骰数量的环境加值，而后续的每次攻击的伤害则加上等同武器伤害骰数量两倍的环境加值。",
+        "TraitDescriptionFortune": "一个幸运效果能改善你的投骰。你无法使用超过1个幸运效果来改善同一个投骰。如果有多个幸运效果可能应用，你必须选择其中一个。如果一个幸运效果和一个不幸效果可能应用在同一个投骰上，则两者互相抵消，你正常进行投骰。",
+        "TraitDescriptionGadget": "小装置是具有创新力量的消耗品科技发明。",
+        "TraitDescriptionGood": "善良效果通常会操作来自善良阵营外层界域的能量，是邪恶阵营的圣仆或邪恶神祗的圣仆相对立。具有此特征的生物在阵营上是善良的。具有此特征的能力只能由善良生物选择或使用。",
+        "TraitDescriptionHalfElf": "具有该特征的生物同时具有人类和精灵的部分。具有该特征的能力只能由半精灵使用或选择。",
+        "TraitDescriptionHalfOrc": "具有该特征的生物同时具由人类和兽人的部分。具有该特征的能力只能由半兽人使用或选择。",
+        "TraitDescriptionHalfling": "具有此特征的生物是半身人族裔的一份子。这些小型的人物是友善的漫游者，被认为十分幸运。具有此特征的能力只能由半身人使用或选择。具有此特征的武器是半身人创造并使用的。",
+        "TraitDescriptionHealing": "治疗效果能够复原生物的肉体，通常体现为恢复其生命值，但也可能为其祛除疾病或其他衰弱效果。",
+        "TraitDescriptionHuman": "具有此特征的生物是人类族裔的一份子。人类是多样化的种族，以其强大的适应性闻名。具有此特征的能力只能由人类使用或选择。",
+        "TraitDescriptionIllusion": "具有此特征的效果和魔法物品与魔法幻术学派相关联，通常包含了虚假的感官刺激。",
+        "TraitDescriptionInfused": "你可以使用灌注试剂制造一件具有灌注特征的炼金物品，它会在限定的时间结束后失效。任何来自于你的灌注炼金物品的非永久性效果，除了类似行动迟缓毒素（Slow-acting poisons）的苦难（Afflictions）之外，都会在你再次进行日常准备时终止。",
+        "TraitDescriptionInvested": "一个角色只能穿戴10件具有此特征的魔法物品。如果角色没有绑定物品，则该物品的任何魔法效果都不适用，也不能激活，尽管角色仍然可以从佩戴的实物中获得其他平常的好处（比如帽子，防止雨水落在他们头上）。",
+        "TraitDescriptionKickback": "反冲武器非常强力但难以使用。以反冲武器做出所有攻击都能造成1点额外伤害。使用反冲武器射击时会给攻击骰带来-2环境减值，但拥有14或更高力量的角色能无视该减值。在武器上附加稳定器（stabilizers）能降低或抵消此减值。",
+        "TraitDescriptionLawful": "守序效果通常能操作来自守序阵营外层界域的能量，并与混乱阵营的圣仆或混乱神祗的圣仆相对立。具有此特征的生物在阵营上是守序的。具有此特征的能力只能由守序生物使用或选择。",
+        "TraitDescriptionLinguistic": "具有该特征的效果是基于语言理解的。瞄准一个生物的言语效果只在该生物理解你所使用的语言时才能生效。",
+        "TraitDescriptionLitany": "祷言是一种特殊的奉献法术，通常由神卫使用，并需要一个单动作；祷言通常会为目标给予针对更多祷言的临时免疫。",
+        "TraitDescriptionManipulate": "你必须物理上操作一件物品或比划手势来使用具有该特征的动作。没有合适肢体的生物无法执行这类动作。操作动作通常会触发反应。",
+        "TraitDescriptionMental": "具有该特征的效果可以改变目标的心灵。这对物件和无心智生物无效。",
+        "TraitDescriptionMisfortune": "不幸效果会恶化你投骰的方式。你永远无法在单一投骰上获得超过一个不幸效果。如果多个不幸效果可能同时生效，由GM判断，让最不幸的那个生效。如果一个幸运效果和一个不幸效果同时应用在同样的投骰上，两者互相抵消，你正常投骰。",
+        "TraitDescriptionMonk": "具有该特征的能力来自武僧职业。具有该特征的武器主要由武僧来使用。",
+        "TraitDescriptionMulticlass": "具有兼职特征的变体体现了你多样化的训练方式，能够涵盖到另一个职业的专属能力。你无法选择和你职业名称相同的兼职变体。",
+        "TraitDescriptionNecromancy": "具有该特征的效果和魔法物品与魔法死灵学派相关联，通常包括影响生与死的力量。",
+        "TraitDescriptionNegative": "具有该特征的效果能够以负能量治疗不死生物，对活的生物造成伤害，或操作负能量。",
+        "TraitDescriptionNoisy": "这件盔甲叮当作响，可能会提醒其他人注意到你的存在。护甲的检定减值适用于隐秘技能检定，即使你达到所需的力量值。",
+        "TraitDescriptionNone": "这个特征没有描述。",
+        "TraitDescriptionNonlethal": "这种武器进行的所有攻击都造成非致命伤害（见第294页），用来打昏生物而不是杀死它们。你可以使用非致命武器进行致命的攻击，承受-2环境减值。",
+        "TraitDescriptionOath": "誓约会向你的准则中添加额外的信条。你通常只能选择一个带有誓约特征的专长。",
+        "TraitDescriptionOccult": "这个魔法来自异能根源，能召来神奇的、瞬息的神秘现象。具有该特征的任何事物都是魔法的。",
+        "TraitDescriptionOrc": "具有此特征的生物时兽人族裔的一份子。这些绿皮人通常有黑暗视觉。具有此特征的能力只能由兽人使用或选择。具有此特征的物品是由兽人创造和使用的。",
+        "TraitDescriptionParry": "此武器能够用来防御、格挡攻击。当你持用此武器时，你可以花费一个动作将武器摆在防守位置上，使AC获得+1环境加值，直到你下轮开始。",
+        "TraitDescriptionPoison": "具有该特征的效果能够传递毒素或造成毒素伤害。具有该特征的物品有毒，并可能造成苦难。",
+        "TraitDescriptionPositive": "具有该特征的效果可以以正能量治疗活的生物，对不死生物造成正能量伤害，或操作正能量。",
+        "TraitDescriptionPossession": "具有该特征的效果能让一个生物将自己的精神和灵魂投射到目标身上。免疫心灵效果的生物无法使用占据效果。当占据了目标，占据者原本的身体失去意识（并无法正常醒来），除非占据效果能让该生物的身体进入目标体内。只要目标承受了伤害，占据者将承受一半的心灵伤害。占据者会失去所有对原身体生效中的法术和能力所提供的增益，但能获得对目标身体生效中的所有增益。占据者可以使用目标身上纯粹的物理能力，并且不能使用自己原有的，除了法术和纯粹的心智能力（mental abilities）以外的所有能力。由GM决定哪些能力是纯粹的物理能力，哪些能力是纯粹的心智能力。占据者使用目标的攻击调整值，AC，强韧豁免，反射豁免，察觉和物理技能，并使用自己的意志豁免，心灵技能，法术攻击骰，以及法术DC；绑定物品的增益只作用在相关的数值上（当使用自己的数值时，自己绑定的物品生效；使用目标的数值时，目标绑定的物品生效）。占据者在施展通常只影响施法者的法术时不会获得任何增益，这是由于用的不是自己的身体。占据者必须使用自己的动作让被占据的生物行动。如果占据者的HP降低至0（可能由于原身体被攻击或者占据时受到的心灵伤害），他被正常击倒，且占据效果立刻结束。如果目标的HP先降至0，占据者可以选择跟着目标身体一起失去意识以维持占据，或者使用一个自由动作终止占据并回到自己的身体。如果目标死亡，占据立刻终止，占据者会被震慑1分钟。",
+        "TraitDescriptionPrecious": "有着特殊性质的高价材料具有珍贵特征。这些材料可以在你制造物品时代替基本材料。",
+        "TraitDescriptionPrediction": "具有该特征的效果能够决定在近未来可能发生的事情。大多数预测效果都是预言系的。",
+        "TraitDescriptionPrimal": "这些魔法来自原能根源，与自然世界和本能相关联。具有该特征的所有事物都是魔法的。",
+        "TraitDescriptionPropulsive": "只要你的力量调整值是正值，你便可以将一半的力量调整值加至助进远程武器的伤害掷骰上。若你的力量调整值是负的，则你为加上完整的力量加值。",
+        "TraitDescriptionRare": "这个稀有度表示该事物在游戏世界中极其难以发现。一个稀有专长、法术、物品或类似的其他事物只有在GM同意放入游戏的前提下才能让玩家获取，通常需要通过游戏中的探索来发现。",
+        "TraitDescriptionReach": "此武器相当长，可以用来用来攻击最多10尺远的生物，而非仅能攻击相邻的生物。对于那些肢体触及或使用武器的触及本来就很长的生物，本武器将使他们的触及增加5尺。",
+        "TraitDescriptionScatter": "这种武器能发射出拥有一定散布范围的弹片。散射特征后面总会列出一个范围，指示出弹片散布的半径。如果命中，被散射武器命中攻击的主要目标将受到所列出的伤害，并且目标和其他所有位于散布半径内的生物将受到每个武器伤害骰1点溅射伤害。",
+        "TraitDescriptionScrying": "探知效果能利用传感器而非自己的感官让你获得远处的视觉、听觉或其他感官的信息。",
+        "TraitDescriptionShove": "即使你并没有空着的手，仍然能以此武器用运动技能对敌人进行猛推。此时使用武器的触及范围（若其与你的触及范围不同），并将武器给予攻击的物品加值（若有）加至运动检定上。若你在使用该武器时，猛推检定大失败，你可以抛弃该武器，视之为普通失败。",
+        "TraitDescriptionSkill": "具有该特征的通用专长能够强化你的技能和技能动作，或为你的技能提供新的动作。具有该特征的专长能够在你的职业提供一个技能专长或通用专长时选取。具有技能特征的变体专长可以替换你正常选取的一个技能专长，只要你已经拥有对应的变体入门专长。",
+        "TraitDescriptionSonic": "具有音波特征的效果只在它发出声音时才会生效，这意味着在沉默区域或真空中不产生任何效果。这与听觉法术不同，后者只在目标能听见法术时才会生效。音波效果可能会造成音波伤害。",
+        "TraitDescriptionStaff": "这个魔法物品中保存了一些特定主题的法术，施法者可以准备好这根法杖以施展额外的法术。",
+        "TraitGadget": "小装置",
+        "TraitModification": "改修",
+        "TraitInjection": "注射",
+        "TraitPortable": "便携",
+        "TraitScatter5": "散射 5",
+        "TraitScatter15": "散射 15",
+        "TraitGunslinger": "枪客",
+        "TraitKickback": "反冲",
+        "TraitInventor": "发明家",
+        "TraitReckless": "鲁莽",
+        "TraitSpellshot": "魔弹射手",
+        "ResultOffset": "by {offset}",
+        "TraitTwoHandedHelp": "此物品可双手使用。要切换双手打击，请单击攻击栏中的双手特征。",
+        "TraitDescriptionUnique": "具有该特征的规则元素是独一无二的。具有此特征的生物相关的回忆知识检定DC会增加10。",
+        "TraitDescriptionFreeHand": "此武器不会占用你的手，通常这是因为它内建于你的护甲中。不占手武器不能被缴械。你可以用复盖着不占手武器的那只手持用其他物品、进行操纵类的动作，或类似的行动。但你若持用任何物品或进行其他任何动作时，你就不能用那只手的不占手武器进行攻击。若你没有持用其他物品，也没有用那只手做其他事情的话，你便可以使用那些要求你空着一只手的能力，同样也可以使用要求你在该手持用一把武器的能力。你每只手只能装备一件不占手武器。",
+        "TraitDescriptionModification": "具有此特征的能力会改变你的大发明的结构。如果你有再配置Reconfigure职业特性，你可以更简单地重训这些专长。",
+        "TraitDescriptionTeleportation": "传送效果可以让你瞬间从一个空间点移动到另一个空间点。传送通常不会触发基于移动的反应动作。",
+        "TraitDescriptionTwoHand": "此武器能够以双手持用。这样做会使武器伤害骰变成表中所列的值。这种改变适用所有武器伤害骰，比如striking符文。",
+        "TraitDescriptionSweep": "此武器能够进行横扫或旋转攻击，因此攻击多名敌人变得更加容易。当你用此武器进行攻击时，如果你在本轮已经试图对本次攻击目标以外的生物进行攻击，那么你在攻击掷骰上获得+1环境加值。",
+        "TraitDescriptionThrown": "你可以投掷这件武器作为远程攻击，当投掷这种武器时，视其为远程武器。（e）投掷武器如同近战武器一样，在伤害上加上你的力量调整值。当近战武器具备这个特征时，会附有射程增量。具备这个特征的远程武器的射程增量就在射程列。",
+        "TraitDescriptionTransmutation": "具有该特征的效果和魔法物品与魔法变化学派相关联，通常能够改变某物的形态。",
+        "TraitDescriptionUnarmed": "无武装攻击是以你的身体而非人造武器进行攻击。虽然无武装攻击在武器表格和武器组里都有相关类型，而且它可以拥有武器特征，但它并不是一种武器。因为无武装攻击是你身体的一部分，所以它不能被缴械。它也不占用你的手，但拳头或其他抓握用的附肢仍需遵循与不占手武器相同的规范。",
+        "TraitDescriptionVisual": "视觉效果只能影响能看见它的生物。这只能应用在该效果上可视的部分，由GM判断。",
+        "TraitDescriptionVolley": "此远程武器在近距离内效果较弱。你的攻击在对抗位于表中所列范围内的生物时承受-2减值。",
+        "TraitDescriptionVersatile": "多用武器在武器伤害栏位列出的伤害类型外，还可以额外造成不同类型的伤害。此特征会列出替换的伤害类型。举例来说，有着多用S特征的穿刺武器可以造成穿刺或挥砍伤害。你在每次攻击时选择伤害类型。",
+        "TraitDescriptionVirulent": "具有该特征的苦难难以被移除。你必须成功通过连续两个豁免才能将恶性苦难的阶段降低1级。大成功只能将恶性苦难的阶段降低1级而非2级。",
+        "TraitDescriptionWater": "具有水特征的效果可以操控或召唤水。那些操控水的效果无法在没有水的区域生效。具有该特征的生物主要由水组成或与水元素有着魔法联结。",
+        "TraitFatalAimD10": "夺命瞄准 d10",
+        "TraitFatalAimD12": "夺命瞄准 d12",
+        "TraitRange180": "射程 180 ft",
+        "TraitRange240": "射程 240 ft",
+        "TraitReload1Min": "装填 1分钟",
+        "TraitSewnIntoClothing": "缝在衣服上",
+        "TraitTwoHandD6": "双手 d6",
+        "TraitWornClothing": "穿戴衣服",
+        "WeaponRange150": "150 ft.",
+        "WeaponRange180": "180 ft.",
+        "WeaponRange240": "240 ft.",
+        "WeaponRange70": "70 ft.",
+        "WeaponRange90": "90 ft.",
+        "TraitDescriptionUnstable": "不稳定动作使用大发明上的一些实验性组件，即使你你自己也不一定能完美预测其结果，可能会对你的大发明（甚至是你自己）造成危害。",
+        "TraitDescriptionTrip": "你可以使用这种武器通过运动技能将敌人绊倒，即使你没有空手。使用武器的触及（如果和自己的触及不同的话），在运动技能检定的攻击投骰上加上武器的物品加值（如果有），如果你使用这种武器摔绊时，出现大失败，你可以通过扔掉武器将其视为普通失败。",
+        "TraitDescriptionTwin": "这类武器要成对使用，彼此互补不足。当你持用两件同样具备此特征的武器并用其中之一发动攻击时，若你在此轮已经用另外一件武器攻击过的话，那么你会在此次攻击的伤害掷骰上获得等同武器伤害骰数量的环境加值。举例而言，若你第一个动作是用左手的成对武器进行攻击，那么你第二个动作使用与其成对的右手武器进行攻击时便会获得此加值。你进行第三个动作时，不管使用哪一把武器都会获得此加值，因为你已经用这两把武器都攻击过了。武器必须是同一类型才能从此特征中获益，但它们无须具有相同的符文。",
+        "TraitDescriptionUncommon": "要接触到具有罕见稀有度的事物，需要特殊的训练或接触到某个特定的文化或世界的某一个特殊的地方。有些角色的选择能让角色进一步接触到罕见的选项，GM也可以视情况为任何人开放这些罕见选项。"
     },
     "COMPENDIUM": {
-        "Search": "检索概要"
+        "Search": "检索概要",
+        "ImportAllHint": "此集合包中的所有内容都将导入到此世界的一个文件夹中，您可以命名该文件夹 <p class=\"notes\"><strong>警告</strong>：强烈建议<span style=\"text-decoration: underline\">不要</span>对较大的合集进行此操作。这样做没有任何好处，也会对你和你的玩家产生负面影响</p>"
     },
     "CONTROLS": {
         "EffectPanel": "效果面板",
@@ -3084,5 +4030,24 @@
     },
     "PF2e": {
         "TraitStamina": "耐力"
+    },
+    "COMBAT": {
+        "Begin": "开始遭遇",
+        "CombatantRemove": "移除参战者",
+        "CombatantStatus": "参战者状态",
+        "CombatantUpdate": "更新参战者",
+        "End": "结束遭遇",
+        "EndTitle": "结束遭遇？",
+        "UnknownCombatant": "未知参战者",
+        "Settings": "遭遇列表设置",
+        "SkipDefeatedHint": "自动跳过标记为战败的参战者？",
+        "ResourceHint": "为每个参战者选择要追踪的属性。",
+        "NoneActive": "在当前查看的场景中没有激活的遭遇。",
+        "EndConfirmation": "结束这次遭遇并清空战斗板？",
+        "CombatantNotInScene": "参战者 {name} 不在当前查看的场景中。",
+        "NoneRemaining": "在这次遭遇战中，没有未战败的参战者剩余。"
+    },
+    "SIDEBAR": {
+        "TabCombat": "遭遇追踪"
     }
 }
