@@ -1219,6 +1219,10 @@
                     "Title": "Material Composition and Runes",
                     "Hint": "Precious material and runes allow for in-depth customization of a weapon. Besides improving its ability to harm enemies, they also affect the weapon's level, rarity, price, and name. To suppress a weapon's renaming, give it any custom name or mark it as a <i>specific magic weapon</i>."
                 },
+                "OtherTags": {
+                    "Label": "Other Tags",
+                    "Hint": "These are tags indicating classifications in 2nd Edition rules that lack explicit status/definition but are still yet heavily relied upon. Some may be automatically added when other properties are present."
+                },
                 "SpecificMagicWeapon": {
                     "Label": "Specific Magic Weapon",
                     "Hint": "Marking this weapon as a <i>specific magic weapon</i> indicates that it does more than what its material composition and runes allow. The name, level, rarity, and price will no longer be overridden from a precious material or runes at the time of marking. Those material and runes will, however, serve as a baseline for level, rarity, and price adjustments from later upgrades."
@@ -1673,6 +1677,7 @@
             "BattleForm": "Battle Form",
             "CraftingFormula": "Crafting Formula",
             "CreatureSize": "Creature Size",
+            "EffectTarget": "Effect Target",
             "DamageDice": "Damage Dice",
             "DexterityModifierCap": "Dexterity Modifier Cap",
             "FlatModifier": "Flat Modifier",
@@ -1684,16 +1689,15 @@
             "Sense": "Sense",
             "Strike": "Strike",
             "Striking": "Striking",
-            "EffectTarget": "Effect Target",
+            "RecoveryCheckDC": "Recovery Check DC",
+            "Resistance": "Resistance",
+            "RollOption": "Roll Option",
             "TempHP": "Temporary Hit Points",
             "TempHPShortLabel": "Temp",
             "ToggleProperty": "Toggle Property",
             "TokenEffectIcon": "Token Effect Icon",
             "TokenImage": "Token Image",
             "TokenSize": "Token Size",
-            "RecoveryCheckDC": "Recovery Check DC",
-            "Resistance": "Resistance",
-            "RollOption": "Roll Option",
             "Weakness": "Weakness",
             "WeaponPotency": "Weapon Potency",
             "NewRuleElement": "New Rule Element",
@@ -3205,7 +3209,14 @@
             "noDamageInfoForOutcome": "No damage information for outcome {outcome}.",
             "shiftModifyDamageLabel": "Modifier:",
             "shiftModifyDamageTitle": "Modify the rolled damage/healing",
-            "shiftModifyDamageHint": "Use positive modifier to harm, negative to heal."
+            "shiftModifyDamageHint": "Use positive modifier to harm, negative to heal.",
+            "RuleElements": {
+                "EffectTarget": {
+                    "NoSelectionMade": "No selection was made: {effect} is inactive.",
+                    "NoValidOptions": "{actor} has no valid targets for {effect}.",
+                    "Prompt": "Choose the target of this effect."
+                }
+            }
         },
         "UnitPriceLabel": "Unit price",
         "UnprepareItemTitle": "Unprepare Item",
