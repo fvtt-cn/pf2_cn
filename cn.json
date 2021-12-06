@@ -686,7 +686,7 @@
                 }
             },
             "DeathIcon": {
-                "Hint": "自定义死亡角色的图标。",
+                "Hint": "设置阵亡角色的上覆图标。",
                 "Name": "死亡图标"
             }
         },
@@ -4391,7 +4391,7 @@
             "flaming": {
                 "Name": "炽焰符文",
                 "Note": {
-                    "criticalSuccess": "<b>Flaming Rune</b> 重击时, 会再附加 [[/r {1d10}[persistent,fire} # Flaming Rune]]{1d10 persistent fire}伤害。"
+                    "criticalSuccess": "<b>Flaming Rune</b> 重击时, 会再附加 [[/r {1d10}[persistent,fire]]] # Flaming Rune]]{1d10 persistent fire}伤害。"
                 }
             },
             "frost": {
@@ -4460,7 +4460,7 @@
             },
             "greaterFlaming": {
                 "Note": {
-                    "criticalSuccess": "<b>高等炽焰符文</b> 该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。重击时，对目标造成火焰持续伤害[[/r {2d10}[persistent,fire} # Greater Flaming Rune]]{2d10 persistent fire}。",
+                    "criticalSuccess": "<b>高等炽焰符文</b> 该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。重击时，对目标造成火焰持续伤害[[/r {2d10}[persistent,fire]]] # Greater Flaming Rune]]{2d10 persistent fire}。",
                     "success": "<b>高等炽焰符文</b>该武器造成的火焰伤害忽略目标的火焰抗力。"
                 },
                 "Name": "高等炽焰符文"
