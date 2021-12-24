@@ -805,7 +805,8 @@
             },
             "NPC": {
                 "IsLootableOnDeathLabel": "使此NPC在死亡时可被搜刮"
-            }
+            },
+            "Dead": "死亡"
         },
         "ActorSizeGargantuan": "巨型",
         "ActorSizeHuge": "超大型",
@@ -1249,7 +1250,8 @@
                 "ZeroRoundsExpireTurnStart": "剩余0轮, 将在先攻 {Initiative}开始时到期"
             },
             "Sustained": "持续的？",
-            "UnlimitedDuration": "无限持续"
+            "UnlimitedDuration": "无限持续",
+            "UntilEncounterEnds": "直到遭遇结束"
         },
         "EmptySlot": "空位",
         "EquipmentEquippedLabel": "已装备",
@@ -1262,7 +1264,8 @@
             "NotEnoughAmmo": "弹药不足！",
             "NoUpdatePermission": "你无权更新此角色信息。",
             "NoTokenSelected": "需要选中一个目标。",
-            "MinimumProfLevelSetByFeatures": "所选熟练程度低于特征设定的熟练程度。"
+            "MinimumProfLevelSetByFeatures": "所选熟练程度低于特征设定的熟练程度。",
+            "CantImportTooHighVersion": "无法导入 {sourceName}: 版本({sourceSchemaVersion}) 高于当前世界版本 ({worldSchemaVersion})."
         },
         "FeaturesClassHeader": "职业特性",
         "Ethnicity": "种族划分",
@@ -4276,7 +4279,12 @@
             },
             "HasNoInitiativeScore": "{actor} 没有先攻值。",
             "HideName": "隐藏名称",
-            "RevealName": "显露名称"
+            "RevealName": "显露名称",
+            "Broadcast": {
+                "TempHP": {
+                    "PluralNew": ""
+                }
+            }
         },
         "FeatDualClassHeader": "双职业专长",
         "InlineButtons": {
