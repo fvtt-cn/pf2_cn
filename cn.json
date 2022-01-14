@@ -992,7 +992,7 @@
             "circumstance": "环境加值",
             "item": "物品 加值",
             "status": "状态加值",
-            "untyped": "无类型加值"
+            "untyped": "无名加值"
         },
         "BonusSPLabel": "加值 SP",
         "BonusSPperLevel": "每等级P加值",
@@ -1370,7 +1370,7 @@
         "HeroPointLevel2": "2 英雄点",
         "HeroPointLevel3": "3 英雄点",
         "HeroPointsLabel": "英雄点",
-        "HitPointsHeader": "生命值",
+        "HitPointsHeader": "Hit Points",
         "HitPointsShortLabel": "HP",
         "HitPointsDetailsLabel": "HP详细",
         "HitPointsDetailsTitle": "与HP有关的补充信息，例如快速治疗和恢复",
@@ -1701,13 +1701,13 @@
         "ModifierTitle": "调整值",
         "ModifiersTitle": "调整值",
         "ModifierType": {
-            "ability": "能力",
-            "proficiency": "熟练",
-            "circumstance": "环境",
-            "item": "物品",
-            "potency": "潜力",
-            "status": "状态",
-            "untyped": "未分类"
+            "ability": "Ability",
+            "proficiency": "Proficiency",
+            "circumstance": "Circumstance",
+            "item": "Item",
+            "potency": "Potency",
+            "status": "Status",
+            "untyped": "Untyped"
         },
         "MultipleAttackPenalty": "多次攻击减值",
         "MysticStrikes": "魔法攻击",
@@ -1759,7 +1759,7 @@
             "circumstance": "环境减值",
             "item": "物品减值",
             "status": "状态减值",
-            "untyped": "无类别减值"
+            "untyped": "无名减值"
         },
         "PerceptionCheck": "察觉检定",
         "PerceptionHeader": "察觉",
