@@ -819,7 +819,13 @@
             "NPC": {
                 "IsLootableOnDeathLabel": "使此NPC在死亡时可被搜刮"
             },
-            "Dead": "死亡"
+            "Dead": "死亡",
+            "ApplyDamage": {
+                "DamagedForN": "{actor}受到{hpDamage}点伤害。",
+                "ShieldAbsorbed": "{actor}没有受到伤害，盾牌抵挡了{absorbedDamage}点伤害。",
+                "DamagedForNShield": "{actor}的盾牌抵挡了{absorbedDamage}点伤害, 并且自身受到{hpDamage}点穿透伤害。",
+                "HealedForN": "{actor}受到了{hpDamage}点治疗。"
+            }
         },
         "ActorSizeGargantuan": "巨型",
         "ActorSizeHuge": "超大型",
