@@ -2,8 +2,8 @@
   "name": "pf2_cn",
   "title": "Translation: 中文 [PF2e]",
   "description": "在 PF2 系统中加入中文",
-  "minimumCoreVersion": "0.8.9",
-  "compatibleCoreVersion": "9.238",
+  "minimumCoreVersion": "9.245",
+  "compatibleCoreVersion": "9.999",
   "author": "losy&羊肉",
   "scripts": [
     "./babele.js"
