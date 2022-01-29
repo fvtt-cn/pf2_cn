@@ -161,7 +161,7 @@
                 "Title": "搜索",
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 若你搜索生物，所有你对其大成功的无踪或藏匿的生物对你变为可见。若你搜索物体，你得知其位置。",
-                    "success": "<strong>成功</strong> 若你搜索生物，所有你对其成功的无踪生物对你变为藏匿，所有你对其成功的藏匿生物对你变为可见。若你搜索物体，你得知其位置或获得一些线索，具体由GM判断。"
+                    "success": "<strong>成功</strong> 若你搜索生物，所有你对其成功的无踪@Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}生物对你变为藏匿@Compendium[pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}，所有你对其成功的藏匿生物对你变为可见。@Compendium[pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed} 若你搜索物体，你得知其位置或获得一些线索，具体由GM判断。"
                 }
             },
             "Shove": {
@@ -640,9 +640,9 @@
                     "Name": "自动增长变体规则",
                     "Hint": "需要重新加载：除技能/巅峰能力外，支持自动增长加值变量规则。",
                     "Choices": {
-                        "noABP": "使用默认规则",
-                        "ABPRulesAsWritten": "使用所写的变体规则",
-                        "ABPFundamentalPotency": "把增长加值当作基本符文"
+                        "noABP": "不使用ABP规则",
+                        "ABPRulesAsWritten": "ABP: 不适用基础符文 ",
+                        "ABPFundamentalPotency": "ABP：适用基础符文"
                     }
                 },
                 "Proficiency": {
@@ -824,7 +824,14 @@
                 "DamagedForN": "{actor}受到{hpDamage}点伤害。",
                 "ShieldAbsorbed": "{actor}没有受到伤害，盾牌抵挡了{absorbedDamage}点伤害。",
                 "DamagedForNShield": "{actor}的盾牌抵挡了{absorbedDamage}点伤害, 并且自身受到{hpDamage}点穿透伤害。",
-                "HealedForN": "{actor}受到了{hpDamage}点治疗。"
+                "HealedForN": "{actor}受到了{hpDamage}点治疗。",
+                "ShieldDamagedForN": "他们的盾牌也受到 {shieldDamage}点伤害。",
+                "TakesNoDamage": "{actor} 没有受到伤害。",
+                "ShieldDamagedForNBroken": "他们的盾牌也受到 {shieldDamage}点伤害，并破损。",
+                "ShieldDamagedForNDestroyed": "他们的盾牌也受到 {shieldDamage}点伤害，并破坏。",
+                "ShieldNotRaised": "{actor} 并未举起他们的盾牌。",
+                "ShieldAbsorbsAll": "{actor}毫发无伤，他们的盾牌完全吸收了{absorbedDamage}点伤害。",
+                "AtFullHealth": "{actor} 已经恢复至满血。"
             }
         },
         "ActorSizeGargantuan": "巨型",
@@ -997,7 +1004,7 @@
         "BonusSPLabel": "加值 SP",
         "BonusSPperLevel": "每等级P加值",
         "BonusSPperLevelTitle": "每等级应用一次 (此后计算体质调整值)",
-        "BrowserClearFilters": "清除过滤项",
+        "BrowserClearFilters": "清除所有过滤项",
         "BrowserFilterAlignments": "阵营",
         "BrowserFilterAncestries": "先祖传承",
         "BrowserFilterArmorFilters": "护甲过滤器",
@@ -1079,7 +1086,9 @@
                 "LoadingComplete": "加载完毕"
             },
             "AddedItemToCharacter": "将 {item} 交给 {character}.",
-            "AddedItem": "将 {item} 交给所选角色。"
+            "AddedItem": "将 {item} 交给所选角色。",
+            "BestiaryBrowser": "怪物检索器",
+            "Hint": "使用上面的选项卡选择一个集合包"
         },
         "BulkTypeLight": "轻量",
         "ClassFeatures": "职业特性",
@@ -1445,7 +1454,7 @@
                     "PotencyMaterial": "+{potency} {material} {base}",
                     "PotencyStriking": "+{potency} {striking} {base}",
                     "PotencyTwoProperties": "+{potency} {property1} {property2} {base}",
-                    "PotencyThreeProperties": "+{potency} {property1} {property2} {base}",
+                    "PotencyThreeProperties": "+{potency} {property1} {property2} {property3} {base}",
                     "PotencyOnePropertyMaterial": "+{potency} {property1} {material} {base}",
                     "PotencyStrikingMaterial": "+{potency} {striking} {material} {base}",
                     "PotencyStrikingOneProperty": "+{potency} {striking} {property1} {base}",
@@ -1939,7 +1948,7 @@
         "SavesReflexShort": "反射",
         "SavesWill": "意志",
         "SavesWillShort": "意志",
-        "SavingThrowWithName": "豁免骰: {saveName}",
+        "SavingThrowWithName": "{saveName} 豁免骰",
         "ScoreTitle": "数量",
         "ScrollFromSpell": "{name} 卷轴 (Level {level})",
         "ScrollWandPopup": {
@@ -3020,22 +3029,22 @@
         "WeaponCustomDamageLabel": "额外固定伤害",
         "WeaponCustomDamageTitle": "这部分是符文系统之外的固定伤害加值。攻击效果和暴击效果的加值计算暂未实装。",
         "WeaponDamageLabel": "基础伤害",
-        "WeaponDescriptionAxe": "重击专精效果: 选择一个在你的触及内与初始目标相邻的生物。如果它的AC低于你重击的攻击掷骰，那么你对该生物造成等同一颗武器伤害骰（也包括来自装备符文的额外骰，若有）的伤害。其它加值或额外骰不适用于这个伤害。",
-        "WeaponDescriptionBomb": "重击专精效果：提升炸弹的溅射伤害（若有）半径到10英尺。",
-        "WeaponDescriptionBow": "重击专精效果：若重击的目标邻接一个表面，则它会被弹头钉在表面上。目标将被固定，它必须使用互动动作尝试进行DC10的运动检定来拔出弹头，之后才能移动离开其方格。虚体、液态（例如水元素或某些泥怪）或能以某种方式毫不费力地避开此效果的生物不会被钉住。",
-        "WeaponDescriptionBrawling": "重击专精效果：目标必须成功通过你的职业DC的强韧豁免，否则陷入缓慢1，持续到你下轮结束。",
+        "WeaponDescriptionAxe": "<strong>重击专精效果</strong> 选择一个在你的触及内与初始目标相邻的生物。如果它的AC低于你重击的攻击掷骰，那么你对该生物造成等同一颗武器伤害骰（也包括来自装备符文的额外骰，若有）的伤害。其它加值或额外骰不适用于这个伤害。",
+        "WeaponDescriptionBomb": "<strong>重击专精效果</strong>提升炸弹的溅射伤害（若有）半径到10英尺。",
+        "WeaponDescriptionBow": "<strong>重击专精效果</strong>若重击的目标邻接一个表面，则它会被弹头钉在表面上。目标将被固定，它必须使用互动动作尝试进行@Check[type:athletics|dc:10|name:Pull the Missile Free|showDC:all] 的运动检定来拔出弹头，之后才能移动离开其方格。虚体、液态（例如水元素或某些泥怪）或能以某种方式毫不费力地避开此效果的生物不会被钉住。",
+        "WeaponDescriptionBrawling": "<strong>重击专精效果</strong>目标必须成功通过你的职业DC的强韧豁免，否则陷入缓慢1，持续到你下轮结束。",
         "WeaponDescriptionClub": "重击专精效果：目标被你击退至多10尺（距离由你选择）。这是被迫移动（475页）。",
-        "WeaponDescriptionDart": "重击专精效果：目标受到1d6点持续性的流血伤害。你在此流血伤害上获得等同该武器给予攻击检定的物品加值。",
-        "WeaponDescriptionFlail": "重击专精效果：目标被击倒地。",
-        "WeaponDescriptionHammer": "重击专精效果：目标被击倒地。",
-        "WeaponDescriptionKnife": "重击专精效果：目标受到1d6点持续性的流血伤害。你在此流血伤害上获得等同该武器给予攻击检定的物品加值。",
-        "WeaponDescriptionPick": "重击专精效果：武器凶狠地刺穿目标。目标受到每颗武器伤害骰（也包括重击的额外骰）2点的额外伤害。",
-        "WeaponDescriptionPolearm": "重击专精效果：目标往你选择的位置移动5尺。这是被迫移动（475页）。",
+        "WeaponDescriptionDart": "<strong>重击专精效果</strong>目标受到1d6点持续性的流血伤害。你在此流血伤害上获得等同该武器给予攻击检定的物品加值。",
+        "WeaponDescriptionFlail": "<strong>重击专精效果</strong>目标被击倒地。",
+        "WeaponDescriptionHammer": "<strong>重击专精效果</strong>目标被击倒地。",
+        "WeaponDescriptionKnife": "<strong>重击专精效果</strong>目标受到1d6点持续性的流血伤害。你在此流血伤害上获得等同该武器给予攻击检定的物品加值。",
+        "WeaponDescriptionPick": "<strong>重击专精效果</strong>武器凶狠地刺穿目标。目标受到每颗武器伤害骰（也包括重击的额外骰）2点的额外伤害。",
+        "WeaponDescriptionPolearm": "<strong>重击专精效果</strong>目标往你选择的位置移动5尺。这是被迫移动（475页）。",
         "WeaponPropertyRuneGreaterCorrosive": "高等酸蚀",
-        "WeaponDescriptionShield": "重击专精效果：目标被你击退5尺。这是被迫移动（475页）。",
-        "WeaponDescriptionSling": "重击专精效果：目标必须成功通过你的职业DC的强韧豁免，否则陷入眩晕1。",
-        "WeaponDescriptionSpear": "重击专精效果：武器刺穿目标，使其攻击变得软弱无力。目标陷入衰竭1，直到你的下一轮开始。",
-        "WeaponDescriptionSword": "重击专精效果：目标因为你的攻击而失去平衡，变得措手不及1轮，直到你的下一轮开始。",
+        "WeaponDescriptionShield": "<strong>重击专精效果</strong>目标被你击退5尺。这是被迫移动（475页）。",
+        "WeaponDescriptionSling": "<strong>重击专精效果</strong>目标必须成功通过你的职业DC的强韧豁免，否则陷入眩晕1 @Compendium[pf2e.conditionitems.Stunned]{Stunned 1}。",
+        "WeaponDescriptionSpear": "<strong>重击专精效果</strong>武器刺穿目标，使其攻击变得软弱无力。目标陷入衰竭1@Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1}，直到你的下一轮开始。",
+        "WeaponDescriptionSword": "<strong>重击专精效果</strong>目标因为你的攻击而失去平衡，变得措手不及1轮@Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed}，直到你的下一轮开始。",
         "WeaponGroups": "武器组",
         "WeaponGroupAxe": "斧",
         "WeaponGroupBomb": "炸弹",
@@ -3794,7 +3803,8 @@
                 "Body": "躯干",
                 "Leaf": "叶子",
                 "Leg": "腿",
-                "Spine": "刺"
+                "Spine": "刺",
+                "Spikes": "尖刺"
             }
         },
         "ConditionTypePersistentShort": "恒久",
@@ -4018,9 +4028,10 @@
                 "ItemMissingTraits": "物品与工艺所需的特征要求不符，必须匹配：{traits}",
                 "CharacterLevel": "物品等级超过角色等级。",
                 "MaxItemLevel": "物品级别超过最大所选物品等级。",
-                "MissingReagents": "灌注试剂不足，无法完成日常制作。"
+                "MissingReagents": "灌注试剂不足，无法完成制作。"
             },
-            "ExpendFormula": "花费公式"
+            "ExpendFormula": "花费公式",
+            "ToggleQuickAlchemy": "高速炼金术"
         },
         "FormulaListEmpty": "空（拖放配方/物品至此）",
         "ItemActivate": {
@@ -4304,7 +4315,13 @@
             "Broadcast": {
                 "TempHP": {
                     "PluralNew": "{actor} 现在通过 {item}获得了 {newQuantity} 点临时生命{wasAt} 。",
-                    "SingleNew": "{actor} 现在通过 {item}获得了 {newQuantity} 点临时生命{wasAt} 。"
+                    "SingleNew": "{actor} 现在通过 {item}获得了 {newQuantity} 点临时生命{wasAt} 。",
+                    "WasAt": " (原本为{oldQuantity}点)"
+                },
+                "FastHealing": {
+                    "FastHealingLabel": "受到快速治疗",
+                    "RegenerationLabel": "受到再生",
+                    "DeactivatedBy": "被{types}暂时无效"
                 }
             }
         },
@@ -4361,7 +4378,7 @@
             "anchoring": {
                 "Name": "锚定符文",
                 "Note": {
-                    "criticalSuccess": "<strong>锚定符文</strong> 如果你用定身武器对目标重击, 武器会使目标 <em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{dimensional anchor}</em> (<span data-pf2-check=\"will\" data-pf2-label=\"Anchoring Rune\" data-pf2-dc=\"27\">意志l</span>, 反制检定[[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
+                    "criticalSuccess": "<strong>锚定符文</strong> 如果你用定身武器对目标重击, 武器会使目标 <em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{Dimensional Anchor}</em> (<span data-pf2-check=\"will\" data-pf2-label=\"Anchoring Rune DC\" data-pf2-dc=\"27\">意志l</span>, 反制检定[[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
                 }
             },
             "bane": {
@@ -4370,24 +4387,24 @@
             "bloodthirsty": {
                 "Name": "嗜血符文",
                 "Note": {
-                    "criticalSuccess": "<strong>嗜血符文</strong> 当你重击一个正在受到持续流血伤害的目标时，目标陷入@Compendium[pf2e.conditionitems.Drained]{drained 1}。"
+                    "criticalSuccess": "<strong>嗜血符文</strong> 当你重击一个正在受到持续流血伤害@Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage}的目标时，目标陷入@Compendium[pf2e.conditionitems.Drained]{drained 1}。"
                 }
             },
             "brilliant": {
                 "Name": "光能符文",
                 "Note": {
-                    "criticalSuccess": "<strong>光能符文</strong> 重击时，目标必须通过一次成功的 <span data-pf2-check=\"fortitude\" data-pf2-label=\"Brilliant Rune\" data-pf2-dc=\"29\">强韧</span> 豁免否则陷入@Compendium[pf2e.conditionitems.Blinded]{blinded} 一轮。"
+                    "criticalSuccess": "<strong>光能符文</strong> 重击时，目标必须通过一次成功的 <span data-pf2-check=\"fortitude\" data-pf2-label=\"Brilliant Rune DC\" data-pf2-dc=\"29\">强韧</span> 豁免否则陷入@Compendium[pf2e.conditionitems.Blinded]{blinded} 一轮。"
                 }
             },
             "corrosive": {
                 "Name": "腐蚀符文",
                 "Note": {
-                    "criticalSuccess": "<strong>腐蚀符文</strong> 重击时，目标的盔甲受到 [[/r {3d6}[acid] # Corrosive Rune]]{3d6 acid} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。"
+                    "criticalSuccess": "<strong>腐蚀符文</strong> 重击时，目标的盔甲受到 [[/r {3d6}[acid] #Corrosive Rune]]{3d6 acid} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。"
                 }
             },
             "crushing": {
                 "Note": {
-                    "criticalSuccess": "<strong>粉碎符文</strong> 重击时， 目标陷入 @Compendium[pf2e.conditionitems.Clumsy]{clumsy 1} 与 @Compendium[pf2e.conditionitems.Enfeebled]{enfeebled 1} 直到你的下回合结束。"
+                    "criticalSuccess": "<strong>粉碎符文</strong> 重击时， 目标陷入 @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 1} 与 @Compendium[pf2e.conditionitems.Enfeebled]{Enfeebled 1} 直到你的下回合结束。"
                 },
                 "Name": "粉碎符文"
             },
@@ -4400,7 +4417,7 @@
             "disrupting": {
                 "Name": "瓦解符文",
                 "Note": {
-                    "criticalSuccess": "<strong>瓦解符文</strong> 若重击，目标不死生物直到你的下一回合结束为止获得@Compendium[pf2e.conditionitems.Enfeebled]{enfeebled 1}。"
+                    "criticalSuccess": "<strong>瓦解符文</strong> 若重击，目标不死生物直到你的下一回合结束为止获得@Compendium[pf2e.conditionitems.Enfeebled]{Enfeebled 1}。"
                 }
             },
             "energizing": {
@@ -4415,19 +4432,19 @@
             "fearsome": {
                 "Name": "可怖符文",
                 "Note": {
-                    "criticalSuccess": "<strong>可怖符文</strong> 重击时，目标陷入 @Compendium[pf2e.conditionitems.Frightened]{frightened 1}。"
+                    "criticalSuccess": "<strong>可怖符文</strong> 重击时，目标陷入 @Compendium[pf2e.conditionitems.Frightened]{Frightened 1}。"
                 }
             },
             "flaming": {
                 "Name": "炽焰符文",
                 "Note": {
-                    "criticalSuccess": "<strong>Flaming Rune</strong> 重击时, 会再附加 [[/r {1d10}[persistent,fire]]] # Flaming Rune]]{1d10 persistent fire}伤害。"
+                    "criticalSuccess": "<strong>Flaming Rune</strong> 重击时, 会再附加 [[/r {1d10}[persistent,fire]]] # Flaming Rune]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}。"
                 }
             },
             "frost": {
                 "Name": "冻寒符文",
                 "Note": {
-                    "criticalSuccess": "<strong>冻寒符文</strong>重击时， 目标陷入 @Compendium[pf2e.conditionitems.Slowed]{slowed 1} 直到你的下回合结束，除非通过一次成功的<span data-pf2-check=\"fortitude\" data-pf2-label=\"Frost Rune\" data-pf2-dc=\"24\">强韧</span> 豁免。"
+                    "criticalSuccess": "<strong>冻寒符文</strong>重击时， 目标陷入 @Compendium[pf2e.conditionitems.Slowed]{Slowed 1} 直到你的下回合结束，除非通过一次成功的<span data-pf2-check=\"fortitude\" data-pf2-label=\"Frost Rune DC\" data-pf2-dc=\"24\">强韧</span> 豁免。"
                 }
             },
             "ghostTouch": {
@@ -4444,32 +4461,32 @@
                 "Name": "高等光能符文",
                 "Note": {
                     "success": "<strong>高等光能符文</strong>该武器造成的伤害忽略目标的火焰、善良或正能量的抗力。",
-                    "criticalSuccess": "<strong>高等光能符文</strong>该武器造成的伤害忽略目标的火焰、善良或正能量的抗力。重击时, 目标必须通过一个成功的 <span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Brilliant Rune\" data-pf2-dc=\"41\">强韧</span>豁免否则陷入 @Compendium[pf2e.conditionitems.Blinded]{blinded} 一轮。"
+                    "criticalSuccess": "<strong>高等光能符文</strong>该武器造成的伤害忽略目标的火焰、善良或正能量的抗力。重击时, 目标必须通过一个成功的 <span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Brilliant Rune DC\" data-pf2-dc=\"41\">强韧</span>豁免否则陷入 @Compendium[pf2e.conditionitems.Blinded]{Blinded} 一轮。"
                 }
             },
             "greaterCorrosive": {
                 "Name": "高等腐蚀符文",
                 "Note": {
                     "success": "<strong>Greater Corrosive Rune</strong> 该武器造成的酸液伤害无视酸液抗力。",
-                    "criticalSuccess": "<strong>Greater Corrosive Rune</strong> 该武器造成的酸液伤害无视酸液抗力。 重击时，目标的盔甲受到 [[/r {6d6}[acid] # Corrosive Rune]]{6d6 acid} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。"
+                    "criticalSuccess": "<strong>高等酸蚀符文</strong> 该武器造成的酸液伤害无视酸液抗力。 重击时，目标的盔甲受到 [[/r {6d6}[acid]]{6d6 acid} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。"
                 }
             },
             "greaterCrushing": {
                 "Name": "高等粉碎符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等粉碎符文</strong> 你的重击使目标陷入 @Compendium[pf2e.conditionitems.Clumsy]{clumsy 2} 和 @Compendium[pf2e.conditionitems.Enfeebled]{enfeebled 2} 直到你的下回合结束。"
+                    "criticalSuccess": "<strong>高等粉碎符文</strong> 你的重击使目标陷入 @Compendium[pf2e.conditionitems.Clumsy]{Clumsy 2} 和 @Compendium[pf2e.conditionitems.Enfeebled]{Enfeebled 2} 直到你的下回合结束。"
                 }
             },
             "greaterDisrupting": {
                 "Name": "高等瓦解符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等瓦解符文</strong> 重击时，目标不死生物必须通过一个成功的 <span data-pf2-check=\"fortitude\" data-pf2-traits=\"incapacitation\" data-pf2-label=\"Greater Disrupting Rune\" data-pf2-dc=\"34\">强韧</span> 豁免来规避以下效果。 这是一个无力化效果。<br /><br /><strong>大成功</strong>陷入 @Compendium[pf2e.conditionitems.Enfeebled]{enfeebled 1} 直到你下一个回合结束<br /><strong>成功</strong> 陷入@Compendium[pf2e.conditionitems.Enfeebled]{enfeebled 2}直到你下一回合结束<br /><strong>Failure</strong>陷入@Compendium[pf2e.conditionitems.Enfeebled]{enfeebled 3} 直到你下一回合结束<br /><strong>大失败</strong> 被直接摧毁。"
+                    "criticalSuccess": "<strong>高等瓦解符文</strong> 重击时，目标不死生物必须通过一个成功的 <span data-pf2-check=\"fortitude\" data-pf2-traits=\"incapacitation\" data-pf2-label=\"Greater Disrupting Rune\" data-pf2-dc=\"34\">强韧</span> 豁免来规避以下效果。 这是一个无力化效果。<br /><br /><strong>大成功</strong>陷入 @Compendium[pf2e.conditionitems.Enfeebled]{enfeebled 1} 直到你下一个回合结束<br /><strong>成功</strong> 陷入@Compendium[pf2e.conditionitems.Enfeebled]{Enfeebled 2}直到你下一回合结束<br /><strong>失败</strong>陷入@Compendium[pf2e.conditionitems.Enfeebled]{Enfeebled 3} 直到你下一回合结束<br /><strong>大失败</strong> 被直接摧毁。"
                 }
             },
             "anarchic": {
                 "Name": "混沌符文",
                 "Note": {
-                    "criticalSuccess": "<strong>混沌符文</strong>当你用该武器对守序生物的打击成功重击时，骰 [[/r 1d6]]。若为1或2，你造成最小伤害的双倍；若为3或4，正常造成双倍伤害；若为5或6，你造成最大伤害的双倍。"
+                    "criticalSuccess": "<strong>混沌符文</strong>当你用该武器对守序生物的打击成功重击时，骰 [[/r 1d6#Anarchic Rune]]。若为1或2，你造成最小伤害的双倍；若为3或4，正常造成双倍伤害；若为5或6，你造成最大伤害的双倍。"
                 }
             },
             "axiomatic": {
@@ -4481,8 +4498,8 @@
             "greaterAnchoring": {
                 "Name": "高等锚定符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等锚定符文</strong> 重击时, 武器对目标施放8环的<em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{dimensional anchor}</em> (<span data-pf2-check=\"will\" data-pf2-label=\"Greater Anchoring Rune\" data-pf2-dc=\"38\">Will</span>, 反制检定[[/r 1d20+28 # Anchoring Rune Counteract Check]]{+28}), 除非目标的意志豁免检定大成功， <em>次元锚</em> 至少持续一轮，而不是没有效果。",
-                    "success": "<strong>高等锚定符文</strong> 当命中目标但没有重击时，目标受到四环 <em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{dimensional anchor}</em> 效果影响一轮而不需要豁免 (反制检定 [[/r 1d20+28 # Anchoring Rune Counteract Check]]{+28})."
+                    "criticalSuccess": "<strong>高等锚定符文</strong> 重击时, 武器对目标施放8环的<em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{Dimensional Anchor}</em>(<span data-pf2-check=\"will\" data-pf2-label=\"Greater Anchoring Rune DC\" data-pf2-dc=\"38\">意志</span>, 反制检定 [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28}), 除非目标的意志豁免检定大成功， <em>次元锚</em> 至少持续一轮，而不是没有效果。",
+                    "success": "<strong>高等锚定符文</strong> 当命中目标但没有重击时，目标受到四环 <em>@Compendium[pf2e.spells-srd.Dimensional Anchor]{Dimensional Anchor}</em> 效果影响一轮而不需要豁免 (反制检定[[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28})."
                 }
             },
             "majorFanged": {
@@ -4490,21 +4507,21 @@
             },
             "greaterFlaming": {
                 "Note": {
-                    "criticalSuccess": "<strong>高等炽焰符文</strong> 该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。重击时，对目标造成火焰持续伤害[[/r {2d10}[persistent,fire]]] # Greater Flaming Rune]]{2d10 persistent fire}。",
+                    "criticalSuccess": "<strong>高等炽焰符文</strong> 该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。重击时，对目标造成火焰持续伤害[[/r {2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Fire Damage}。",
                     "success": "<strong>高等炽焰符文</strong>该武器造成的火焰伤害忽略目标的火焰抗力。"
                 },
                 "Name": "高等炽焰符文"
             },
             "greaterFrost": {
                 "Note": {
-                    "criticalSuccess": "<strong>高等冻寒符文</strong> 该武器造成的寒冷伤害忽略目标的寒冷抗力。重击时，除非通过一个 <span data-pf2-check=\"fortitude\" data-pf2-label=\"Frost Rune\" data-pf2-dc=\"34\">强韧</span>豁免，否则目标陷入@Compendium[pf2e.conditionitems.Slowed]{slowed 1} 直到你下一回合结束。",
+                    "criticalSuccess": "<strong>高等冻寒符文</strong> 该武器造成的寒冷伤害忽略目标的寒冷抗力。重击时，除非通过一个<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Frost Rune DC\" data-pf2-dc=\"34\">强韧</span>豁免，否则目标陷入@Compendium[pf2e.conditionitems.Slowed]{Slowed 1} 直到你下一回合结束。",
                     "success": "<strong>高等冻寒符文</strong>该武器造成的寒冷伤害忽略目标的寒冷抗力。"
                 },
                 "Name": "高等冻寒符文"
             },
             "impactful": {
                 "Note": {
-                    "criticalSuccess": "<strong>冲击符文</strong> 重击时，你可以选择推动目标，目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Impactful Rune\" data-pf2-dc=\"27\">强韧</span>，豁免检定，否则将被推离5尺，方向为你所在位置相反的方向。"
+                    "criticalSuccess": "<strong>冲击符文</strong> 重击时，你可以选择推动目标，目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Impactful Rune DC\" data-pf2-dc=\"27\">强韧</span>，豁免检定，否则将被推离5尺，方向为你所在位置相反的方向。"
                 },
                 "Name": "冲击符文"
             },
@@ -4523,9 +4540,9 @@
                     "Bow": "<strong>深化符文</strong> 拔出弹头的运动DC为20。",
                     "Brawling": "<strong>深化符文</strong> 目标的豁免获得-4环境减值。",
                     "Club": "<strong>深化符文</strong> 你可以击退目标最多15尺远。",
-                    "Dart": "<strong>深化符文</strong> 基础持续流血伤害提升为2d6。",
+                    "Dart": "<strong>深化符文</strong> 基础持续流血伤害提升为[[/r {2d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage}。",
                     "Hammer": "<strong>深化符文</strong> 你还可以将其击退离你5尺远。",
-                    "Knife": "<strong>深化符文</strong> 只要目标还受到该持续流血伤害，其速度获得-5尺减值。",
+                    "Knife": "<strong>深化符文</strong> 只要目标还受到该@Compendium[pf2e.conditionitems.Persistent Damage]{持续流血伤害}，其速度获得-5尺减值。",
                     "Pick": "<strong>深化符文</strong>重击专精效果的额外伤害增加为每颗武器伤害骰4点。",
                     "Polearm": "<strong>深化符文</strong> 你可以移动目标最多10尺。",
                     "Shield": "<strong>深化符文</strong> 你可以击退目标最多10尺远。",
@@ -4548,7 +4565,7 @@
             },
             "thundering": {
                 "Note": {
-                    "criticalSuccess": "<strong>雷鸣符文</strong>重击时， 目标必须通过 <span data-pf2-check=\"fortitude\" data-pf2-label=\"Thundering Rune\" data-pf2-dc=\"24\">强韧</span> 豁免检定，否则陷入@Compendium[pf2e.conditionitems.Deafened]{deafened} 一分钟(大失败时变为一小时)."
+                    "criticalSuccess": "<strong>雷鸣符文</strong>重击时， 目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Thundering Rune DC\" data-pf2-dc=\"24\">强韧</span> 豁免检定，否则陷入@Compendium[pf2e.conditionitems.Deafened]{Deafened}一分钟(大失败时变为一小时)."
                 },
                 "Name": "雷鸣符文"
             },
@@ -4561,7 +4578,7 @@
             "greaterFearsome": {
                 "Name": "高等可怖符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等可怖符文</strong>重击时，目标陷入 @Compendium[pf2e.conditionitems.Frightened]{frightened 2}。"
+                    "criticalSuccess": "<strong>高等可怖符文</strong>重击时，目标陷入 @Compendium[pf2e.conditionitems.Frightened]{Frightened 2}。"
                 }
             },
             "ancestralEchoing": {
@@ -4573,13 +4590,13 @@
             "greaterImpactful": {
                 "Name": "高等冲击符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等冲击符文</strong>重击时，你可以选择推动目标，目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Impactful Rune\" data-pf2-dc=\"37\">强韧</span> 豁免检定，否则将被推离10尺，方向为你所在位置相反的方向。"
+                    "criticalSuccess": "<strong>高等冲击符文</strong>重击时，你可以选择推动目标，目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Impactful Rune DC\" data-pf2-dc=\"37\">强韧</span> 豁免检定，否则将被推离10尺，方向为你所在位置相反的方向。"
                 }
             },
             "greaterThundering": {
                 "Name": "高等雷鸣符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等雷鸣符文</strong> 该武器造成的音波伤害忽视音波抗力。 重击时，目标必须通过 <span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Thundering Rune\" data-pf2-dc=\"34\">强韧</span> 豁免检定，否则永久陷入@Compendium[pf2e.conditionitems.Deafened]{deafened} 。",
+                    "criticalSuccess": "<strong>高等雷鸣符文</strong> 该武器造成的音波伤害忽视音波抗力。 重击时，目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Thundering Rune DC\" data-pf2-dc=\"34\">强韧</span> 豁免检定，否则永久陷入@Compendium[pf2e.conditionitems.Deafened]{Deafened} 。",
                     "success": "<strong>高等雷鸣符文</strong> 该武器造成的音波伤害忽视音波抗力。"
                 }
             },
@@ -4621,8 +4638,8 @@
             "wounding": {
                 "Name": "血光符文",
                 "Note": {
-                    "criticalSuccess": "<strong>血光符文</strong> 重击时，你造成额外的[[/r {1d12}[persistent,bleed] # Wounding Rune]]{1d12 persistent bleed}伤害。",
-                    "success": "<strong>血光符文</strong> 命中目标时， 你造成额外的 [[/r {1d6}[persistent,bleed] # Wounding Rune]]{1d6 persistent bleed} 伤害。"
+                    "criticalSuccess": "<strong>血光符文</strong> 重击时，你造成额外的[[/r {1d12}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage}。",
+                    "success": "<strong>血光符文</strong> 命中目标时， 你造成额外的[[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{Persistent Bleed Damage}。"
                 }
             },
             "kinWarding": {
@@ -4637,7 +4654,7 @@
         "TraitAffixedToHeadgear": "添加到头部装备",
         "TraitVersatileFire": "多用 火焰",
         "TraitWornBracelet": "穿戴手镯",
-        "WeaponDescriptionFirearm": "重击专精效果：目标必须成功通过你的职业DC的强韧豁免，否则陷入眩晕1。",
+        "WeaponDescriptionFirearm": "<strong>重击专精效果</strong>目标必须成功通过你的职业DC的强韧豁免，否则陷入眩晕1。",
         "ArmorPropertyRuneImplacable": "不挠",
         "DCBase": "基础 DC 10",
         "HeroPointRatio": {
@@ -4762,7 +4779,11 @@
         "TraitDescriptionContingency": "具有此特征的法术在法术效果期间会给予你一个动作，通常是一个带有特定触发方式的反应动作。它们通常持续时间较长(例如24小时)。你只能同时具有一个拥有触发特征的法术或者一个触发术处于激活状态。如果你施放了另一个触发术或带有触发特征的法术，新法术会将其取代。",
         "TraitDescriptionIncarnate": "具有化身特征的法术和召唤生物的法术性质类似，但这样的法术并不会创造具有被召唤特征的仆从。当你完成施放该法术，化身生物被召唤时，这个生物会进行其降临动作。在你的下个回合的结束时，该化身生物可以选择快步、行走，或者是它拥有的移动类型对应的其他行动（例如攀爬或掘地），接下来它会进行其离去动作。之后该法术结束。降临和离去动作的名称，会在对应的“降临”和“离去”条目后用斜体列出，这里也会列出其具有的特征。化身法术召唤出的生物为你的利益行事，让它的效果尽可能远离你和你的盟友。它可能会听从你的请求，但总体上它是自主的。如果该法术要求化身做出某个决定，此时由GM判断化身会做什么。它甚至可能在不断的召唤中，越来越倾向于精确按照你的意愿行事。该化身不完全是生物。它不能进行任何其他动作，它也不能指定为目标，也不能被打击、法术或者其他效果伤害，除非此效果能够以法术效果为目标、或者能结束法术效果（例如解除魔法）。它拥有体型，用以决定效果位置，但它不会阻碍移动。如适用，其效果使用你的法术DC和法术攻击骰调整值。",
         "TraitDescriptionSaggorak": "萨戈拉克的古代矮人铁匠设计了一系列非常强大的符文。只有在手艺技能中达到传奇熟练度的人，或者来自寇夫拉城的矮人工匠，才能添加、转移或移除带有萨戈拉克特征的符文。因为力量强大，所有萨戈拉克都将占用两个性能符文槽，因此它们只适用于至少有+2潜力符文的护甲或武器。",
-        "TraitDescriptionAmphibious": "两栖生物能够在水下和空气中呼吸，即便离开自身偏好的生活环境也不会受到影响，它们通常可以无限制地进行呼吸，即便受限也至少可以维持1小时。这些生物通常会具有游泳速度。它们使用的钝击和挥砍非武装打击不会由于身处水下而承受常规的-2减值。"
+        "TraitDescriptionAmphibious": "两栖生物能够在水下和空气中呼吸，即便离开自身偏好的生活环境也不会受到影响，它们通常可以无限制地进行呼吸，即便受限也至少可以维持1小时。这些生物通常会具有游泳速度。它们使用的钝击和挥砍非武装打击不会由于身处水下而承受常规的-2减值。",
+        "DecrementEffectTitle": "降低效果等级",
+        "ClipboardNotification": "已将“{clipText}”复制到剪贴板。",
+        "ColdIronStrikes": "寒铁打击",
+        "BrowserClearFilter": "清除过滤项"
     },
     "COMPENDIUM": {
         "Search": "检索概要",
