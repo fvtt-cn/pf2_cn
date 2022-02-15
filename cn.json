@@ -348,6 +348,53 @@
                     "failure": "<strong>失败</strong> 你没能投掷生物。"
                 },
                 "Title": "回旋抛投"
+            },
+            "Interact": {
+                "Parenthetical": "交互 {purpose}",
+                "Grip": {
+                    "Title": "改变持握 (2H)",
+                    "Description": "{actor} 将 {weapon} 的持握方式变为双手。"
+                },
+                "Retrieve1H": {
+                    "Title": "取回(1H)",
+                    "Description": "{actor} 取回了他们的 {weapon}。"
+                },
+                "Retrieve2H": {
+                    "Title": "取回 (2H)",
+                    "Description": "{actor} 取回了他们的 {weapon}。"
+                },
+                "Title": "交互",
+                "Draw1H": {
+                    "Title": "拔出(1H)",
+                    "Description": "{actor} 拔出他们的 {weapon}。"
+                },
+                "Draw2H": {
+                    "Title": "拔出 (2H)",
+                    "Description": "{actor} 拔出他们的 {weapon}。"
+                },
+                "PickUp1H": {
+                    "Title": "拾起(1H)",
+                    "Description": "{actor} 从地上拾起了 {weapon} 。"
+                },
+                "PickUp2H": {
+                    "Title": "拾起(2H)",
+                    "Description": "{actor} 从地上拾起了 {weapon} 。"
+                },
+                "Sheathe": {
+                    "Title": "收起",
+                    "Description": "{actor} 收起了他们的 {weapon}。"
+                }
+            },
+            "Release": {
+                "Grip": {
+                    "Title": "改变持握(1H)",
+                    "Description": "{actor} 从他们的 {weapon} 上松开了一只手。"
+                },
+                "Title": "放开",
+                "Drop": {
+                    "Title": "放下",
+                    "Description": "{actor} 将他们的 {weapon} 放在了地上。"
+                }
             }
         },
         "BrowserSortyByPriceLabel": "价格",
@@ -503,6 +550,10 @@
                     "PCsOnly": "只有PC",
                     "Both": "PC和NPC",
                     "Name": "NPC会在HP为0时死亡"
+                },
+                "RemoveExpiredEffects": {
+                    "Name": "移除过期效果",
+                    "Hint": "过期的效果会自动从角色身上移除（需要任一GM在线）。"
                 }
             },
             "Homebrew": {
@@ -847,8 +898,8 @@
             "Title": "增加战斗熟练",
             "Message": "选择一个武器组或基本武器"
         },
-        "AddModifierTitle": "Add Modifier",
-        "RemoveModifierTitle": "Remove Modifier",
+        "AddModifierTitle": "添加调整值",
+        "RemoveModifierTitle": "移除调整值",
         "AddShortLabel": "加",
         "AddSpellTitle": "添加法术",
         "AddSpellcastingEntryTitle": "从法术列表添加",
@@ -1279,7 +1330,10 @@
             },
             "Sustained": "持续的？",
             "UnlimitedDuration": "无限持续",
-            "UntilEncounterEnds": "直到遭遇结束"
+            "UntilEncounterEnds": "直到遭遇结束",
+            "RemoveToolTip": "[右键单击]移除效果",
+            "DecrementToolTip": "[右键单击]减少数值",
+            "IncrementToolTip": "[左键单击]增加数值"
         },
         "EmptySlot": "空位",
         "EquipmentEquippedLabel": "已装备",
@@ -1293,7 +1347,8 @@
             "NoUpdatePermission": "你无权更新此角色信息。",
             "NoTokenSelected": "需要选中一个目标。",
             "MinimumProfLevelSetByFeatures": "所选熟练程度低于特征设定的熟练程度。",
-            "CantImportTooHighVersion": "无法导入 {sourceName}: 版本({sourceSchemaVersion}) 高于当前世界版本 ({worldSchemaVersion})."
+            "CantImportTooHighVersion": "无法导入 {sourceName}: 版本({sourceSchemaVersion}) 高于当前世界版本 ({worldSchemaVersion}).",
+            "WeaponQuantityZero": "你已经没有更多这种武器装备了。"
         },
         "FeaturesClassHeader": "职业特性",
         "Ethnicity": "种族划分",
@@ -1468,7 +1523,15 @@
                     "PotencyStrikingThreePropertiesMaterial": "+{potency} {striking} {property1} {property2} {property3} {material} {base}",
                     "PotencyStrikingFourProperties": "+{potency} {striking} {property1} {property2} {property3} {property4} {base}",
                     "PotencyStrikingFourPropertiesMaterial": "+{potency} {striking} {property1} {property2} {property3} {property4} {material} {base}",
-                    "Hint": "这是基础武器名字。对大多数武器来说，基础名称是用来同材料成分和/或符文一起生成更完整的名称的。给这个武器一个自定义名称或将其标记为“特殊”将防止生成的名称出现。"
+                    "Hint": "这是基础武器名字。对大多数武器来说，基础名称是用来同材料成分和/或符文一起生成更完整的名称的。给这个武器一个自定义名称或将其标记为“特殊”将防止生成的名称出现。",
+                    "FourProperties": "{property1} {property2} {property3} {property4} {base}",
+                    "FourPropertiesMaterial": "{property1} {property2} {property3} {property4} {material} {base}",
+                    "TwoProperties": "{property1} {property2} {base}",
+                    "OneProperty": "{property1} {base}",
+                    "OnePropertyMaterial": "{property1} {material} {base}",
+                    "ThreePropertiesMaterial": "{property1} {property2} {property3} {material} {base}",
+                    "TwoPropertiesMaterial": "{property1} {property2} {material} {base}",
+                    "ThreeProperties": "{property1} {property2} {property3} {base}"
                 },
                 "MaterialAndRunes": {
                     "MaterialOption": "{type} ({grade})",
@@ -1500,7 +1563,40 @@
             "SidebarSummary": "{type}目录",
             "Physical": {
                 "LevelLabel": "物品 {level}",
-                "PriceLabel": "价格: {price}"
+                "PriceLabel": "价格: {price}",
+                "Usage": {
+                    "WornSlot": {
+                        "necklace": "项链",
+                        "ring": "戒指",
+                        "saddle": "马鞍",
+                        "shoes": "鞋子",
+                        "wrist": "手腕上",
+                        "onbelt": "腰带上",
+                        "bracelet": "手镯",
+                        "bracers": "护腕",
+                        "amulet": "护符",
+                        "anklets": "脚镯",
+                        "armbands": "臂章",
+                        "armor": "护甲",
+                        "backpack": "背包",
+                        "barding": "坐骑盔甲",
+                        "belt": "腰带",
+                        "beltpouch": "腰包",
+                        "circlet": "头饰",
+                        "cloak": "披风",
+                        "clothing": "衣物",
+                        "collar": "项圈",
+                        "crown": "头冠",
+                        "epaulet": "肩章",
+                        "eyepiece": "目镜",
+                        "garment": "服装",
+                        "gloves": "手套",
+                        "headwear": "头饰",
+                        "horseshoes": "马蹄铁",
+                        "mask": "面具"
+                    },
+                    "WornParenthetical": "穿戴 ({where})"
+                }
             },
             "Ancestry": {
                 "Vision": {
@@ -1537,6 +1633,30 @@
                 "EnvisionSheetLabel": "想象",
                 "Interact": "交互",
                 "Cast": "施放法术"
+            },
+            "Feat": {
+                "OnlyLevel1": "必须在1级时选取",
+                "TakeMultiple": {
+                    "Label": "可以多次选取",
+                    "Two": "最多2次",
+                    "Three": "最多3次",
+                    "Four": "最多4次",
+                    "NoLimit": "无限制"
+                },
+                "Warning": {
+                    "TakenAfterLevel1": "{item}必须在1级时选取，但{actor}在{actorLevel}级上选取。",
+                    "TakenMoreThanOnce": "{item}只能选取一次，但{actor}已经额外选取了一次。",
+                    "TakenMoreThanMax": "{item}只能选取{maxtake}次，但{actor}已经选取了{timestake}次。"
+                }
+            },
+            "Condition": {
+                "Flanked": "措手不及(夹击)"
+            },
+            "Heritage": {
+                "DragAncestryHere": "将族裔模板拖到此处可设置此传承所需的族裔。",
+                "RemoveAncestry": "移除所需的族裔",
+                "AncestryNotFound": "找不到引用的族裔模板。",
+                "NoneVersatile": "无(多用)"
             }
         },
         "ItemBonus0": "0",
@@ -1707,16 +1827,16 @@
         "MaxStaminaTitle": "最大耐力点",
         "MaxHitPointsHeader": "最大生命值",
         "MetalStrikes": "金属攻击",
-        "ModifierTitle": "Modifier",
-        "ModifiersTitle": "Modifiers",
+        "ModifierTitle": "调整值",
+        "ModifiersTitle": "调整值",
         "ModifierType": {
-            "ability": "Ability",
-            "proficiency": "Proficiency",
-            "circumstance": "Circumstance",
-            "item": "Item",
-            "potency": "Potency",
-            "status": "Status",
-            "untyped": "Untyped"
+            "ability": "属性值",
+            "proficiency": "熟练",
+            "circumstance": "环境",
+            "item": "物品",
+            "potency": "潜力",
+            "status": "状态",
+            "untyped": "无名"
         },
         "MultipleAttackPenalty": "多次攻击减值",
         "MysticStrikes": "魔法攻击",
@@ -2068,7 +2188,7 @@
         "SpellBasicSaveOption": "基础",
         "SpellBrowserSearchHint": "你可以根据名称或特征来检索，可用的特征如下列出：<br> 法术来源, 法术类型, 环级, 学派, 施法成份, 法术材料, 目标, 范围, 施法时间, 持续时间, 伤害, 伤害类型, 豁免, 专注, 仪式, 能力 和职业。 <br> 范例： '火焰, 伤害:d6' 可以显示所有名称中带有‘火焰’且伤害骰为d6的法术",
         "SpellCantripLabel": "戏法",
-        "SpellCastingFormat": "{preparationType} {traditionSpells}",
+        "SpellCastingFormat": "{traditionSpells} {preparationType} 法术",
         "SpellComponentM": "材料",
         "SpellComponentS": "姿势",
         "SpellComponentV": "语言",
@@ -3017,7 +3137,9 @@
                 "lion-scythe": "狮子镰",
                 "probing-cane": "探测手杖",
                 "shobhad-longrifle": "绍贝德长步枪",
-                "sun-sling": "太阳投石索"
+                "sun-sling": "太阳投石索",
+                "shauth-lash": "牙鞭",
+                "switchscythe": "折叠巨镰"
             }
         },
         "WeaponAbilityLabel": "武器能力",
@@ -3640,7 +3762,7 @@
                     "Constrict": "<p>怪物对任意数量的被其擒抱@Compendium[pf2e.conditionitems.Grabbed]{Grabbed} 或拘束@Compendium[pf2e.conditionitems.Restrained]{Restrained} 的生物造成所列出的伤害。这些生物都可进行一次基础强韧豁免对抗所列出的DC。</p>",
                     "Coven": "<p>T此怪物能够与两个或是更多同样拥有巫团能力的生物组成巫团。这要求所有的准巫团成员举行一个8小时的仪式。当结成巫团之后，所有成员都将获得精英进化（第6页），并且随之调整其等级。巫团成员能够以一个带有专注特征的单动作感知其他成员的位置和状态，或是以一个同样带有专注特征的双动作感受到另一名巫团成员的感官。</p>\n<p>巫团还会赋予其成员法术和仪式，但是只有三名巫团成员彼此位于30英尺之内时才能合作施展这些法术或仪式。一名巫团成员可以通过一个拥有单一语言成分的单动作施法动作为巫团法术作出贡献。如果两名巫团成员在上一轮内以此方法作出了贡献，那么第三名成员可以在她自己的回合花费正常的施法动作施放巫团法术。一个巫团能够无限次地施放巫团法术，但是每轮只能施放一次巫团法术。所有巫团都会赋予8环 <em>@Compendium[pf2e.spells-srd.Baleful Polymorph]{Baleful Polymorph}</em> ，巫团还将获得以下法术并且可以将其升环至5环：<em>@Compendium[pf2e.spells-srd.Augury]{Augury}</em>, <em>@Compendium[pf2e.spells-srd.Charm]{Charm}</em>, <em>@Compendium[pf2e.spells-srd.Clairaudience]{Clairaudience}</em>, <em>@Compendium[pf2e.spells-srd.Clairvoyance]{Clairvoyance}</em>, <em>@Compendium[pf2e.spells-srd.Dream Message]{Dream Message}</em>, <em>@Compendium[pf2e.spells-srd.Illusory Disguise]{Illusory Disguise}</em>, <em>@Compendium[pf2e.spells-srd.Illusory Scene]{Illusory Scene}</em>, <em>@Compendium[pf2e.spells-srd.Prying Eye]{Prying Eye}</em>, 以及 <em>@Compendium[pf2e.spells-srd.Talking Corpse]{Talking Corpse}</em>. 个别拥有巫团能力的生物还会为她们所加入的巫团带来额外的法术。一个巫团还能够施展<em>@Compendium[pf2e.spells-srd.Control Weather]{Control Weather}</em> 仪式，使用DC23代替标准DC。</p>\n<p>如果一名巫团成员的脱离或是死亡使得巫团的成员数量少于三名，则其余成员保留其精英进化24小时，但是因为没有足够的成员贡献必要的动作，她们无法施放巫团法术。</p>",
                     "Disease": "<p>当一名生物暴露在怪物的疾病下时，它需要尝试一次强韧豁免用以避免感染该疾病。疾病的等级为造成疾病的怪物的等级。疾病遵从于苦难规则。</p>",
-                    "FrightfulPresence": "<hr />\n<p>首次进入灵光的生物必须进行一次意志豁免。</p>\n<div data-visibility=\"gm\">\n<p>无论结果如何，该生物都将在1分钟内免疫此怪物的气势凶猛。</p>\n<hr />\n<p><strong>大成功</strong>该生物不受气势凶猛的影响。</p>\n<p><strong>成功</strong>该生物受到@Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p>\n<p><strong>失败</strong> 该生物受到 @Compendium[pf2e.conditionitems.Frightened]{Frightened 2}.</p>\n<p><strong>大失败</strong>该生物受到 @Compendium[pf2e.conditionitems.Frightened]{Frightened 4}.</p>\n</div>",
+                    "FrightfulPresence": "<p>首次进入灵光的生物必须进行一次意志豁免。</p>\n<div data-visibility=\"gm\">\n<p>无论结果如何，该生物都将在1分钟内免疫此怪物的气势凶猛。</p>\n<hr />\n<p><strong>大成功</strong>该生物不受气势凶猛的影响。</p>\n<p><strong>成功</strong>该生物受到@Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p>\n<p><strong>失败</strong> 该生物受到 @Compendium[pf2e.conditionitems.Frightened]{Frightened 2}.</p>\n<p><strong>大失败</strong>该生物受到 @Compendium[pf2e.conditionitems.Frightened]{Frightened 4}.</p>\n</div>",
                     "GreaterConstrict": "<p>怪物对任意数量的被其擒抱@Compendium[pf2e.conditionitems.Grabbed]{Grabbed}或拘束@Compendium[pf2e.conditionitems.Restrained]{Restrained}的生物造成所列出的伤害。这些生物都可进行一次基础强韧豁免对抗所列出的DC。在豁免中失败的生物将陷入失去意识@Compendium[pf2e.conditionitems.Unconscious]{Unconscious}，豁免成功的生物在1分钟内免疫高等紧勒的昏迷效果。</p>",
                     "GreaterDarkvision": "<p>拥有高等黑暗视觉的生物可以在黑暗和昏暗光照下正常视物，可惜这种视觉只能看见黑白两色。某些形式的黑暗魔法，例如4环<em>@Compendium[pf2e.spells-srd.Darkness]{Darkness}</em>，会阻碍普通的黑暗视觉@Compendium[pf2e.bestiary-ability-glossary-srd.Darkvision]{Darkvision}。然而，拥有高等黑暗视觉的生物甚至可以看穿这类形式的魔法黑暗。</p>",
                     "ImprovedGrab": "<p>怪物可以在被触发的初始攻击命中时以自由动作使用@Compendium[pf2e.bestiary-ability-glossary-srd.Grab]{Grab}。精通攫抓依旧需要花费一个动作用来延长被擒抱@Compendium[pf2e.conditionitems.Grabbed]{Grabbed}生物的持续时间。</p>",
@@ -3665,7 +3787,8 @@
             },
             "PublicNotes": "公共笔记",
             "PrivateNotes": "个人笔记",
-            "SpeedExtraInfoLabelPlaceholder": "速度详细..."
+            "SpeedExtraInfoLabelPlaceholder": "速度详细...",
+            "EffectsTab": "效果"
         },
         "BackgroundSkillFeats": "技能专长",
         "DamageButton": {
@@ -3975,7 +4098,8 @@
             "AttackRoll": "攻击骰",
             "SelectMaster": "选择一个主人...",
             "MasterSpellcastingAbility": "主人施法能力",
-            "TotalNumberFamiliarAbilities": "总计 # 仆从能力"
+            "TotalNumberFamiliarAbilities": "总计 # 仆从能力",
+            "CreatureType": "生物种类"
         },
         "TraitMortic": "死灵裔",
         "BrowserFilterConsumable": "消耗品类型",
@@ -3995,10 +4119,10 @@
         "SpellSlotExpendedError": "无法施放{name}，法术已被消耗",
         "TraitAffixedToArmorOrAWeapon": "附在盔甲或武器上",
         "TraditionSpells": {
-            "Occult": "{tradition} 法术",
-            "Primal": "{tradition} 法术",
-            "Arcane": "{tradition} 法术",
-            "Divine": "{tradition} 法术"
+            "Occult": "{tradition}",
+            "Primal": "{tradition}",
+            "Arcane": "{tradition}",
+            "Divine": "{tradition}"
         },
         "ToggleSlotlessSpellLevelsTitle": "切换法术书中无环位之法术等级的可见性",
         "TraitUnstable": "不稳定",
@@ -4031,7 +4155,8 @@
                 "MissingReagents": "灌注试剂不足，无法完成制作。"
             },
             "ExpendFormula": "花费公式",
-            "ToggleQuickAlchemy": "高速炼金术"
+            "ToggleQuickAlchemy": "高速炼金术",
+            "QuickAddTitle": "快速添加此配方到每日工艺列表中。"
         },
         "FormulaListEmpty": "空（拖放配方/物品至此）",
         "ItemActivate": {
@@ -4604,7 +4729,10 @@
                 "Name": "拖拽符文"
             },
             "holy": {
-                "Name": "神圣符文"
+                "Name": "神圣符文",
+                "Note": {
+                    "criticalSuccess": "<strong>神圣符文</strong> (<span class='pf2-icon'>R</span> 命令; 一日一次)<br /><br /><strong>触发</strong> 你用该武器对一邪恶生物重击成功<br /><br /><strong>效果</strong>你获得该邪恶生物等级双倍的HP。这是一个善良、正能量、治疗效果。"
+                }
             },
             "keen": {
                 "Name": "锐锋符文",
@@ -4630,10 +4758,16 @@
                 "Name": "储法符文"
             },
             "unholy": {
-                "Name": "邪恶符文"
+                "Name": "邪恶符文",
+                "Note": {
+                    "criticalSuccess": "<strong>邪恶符文</strong> (<span class='pf2-icon'>R</span> 命令; 一天一次)<br /><br /><strong>触发</strong>你用该武器对一善良生物重击成功<br /><br /><strong>效果</strong> 符文蚀刻的武器每有1个武器伤害骰，目标就受到1d8点 @Compendium[pf2e.conditionitems.Persistent Damage]{持续流血伤害} 。"
+                }
             },
             "vorpal": {
-                "Name": "斩首符文"
+                "Name": "斩首符文",
+                "Note": {
+                    "criticalSuccess": "<strong>斩首符文</strong> (<span class='pf2-icon'>R</span> 想象(死亡，无力化))<br /><br /><strong>触发</strong>你用该武器的打击动作骰出天然20、重击成功且造成了挥砍伤害，目标必须有头；<br /><br /><strong>效果</strong> 目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Vorpal Rune DC\" data-pf2-traits=\"death,incapacitation\" data-pf2-dc=\"37\">强韧</span>，否则被斩首。除非目标失去这个头部也能活，否则会击杀它。对于有多个头部的生物，通常只在砍掉其最后一个头部时才会立刻击杀它。"
+                }
             },
             "wounding": {
                 "Name": "血光符文",
@@ -4783,7 +4917,75 @@
         "DecrementEffectTitle": "降低效果等级",
         "ClipboardNotification": "已将“{clipText}”复制到剪贴板。",
         "ColdIronStrikes": "寒铁打击",
-        "BrowserClearFilter": "清除过滤项"
+        "BrowserClearFilter": "清除过滤项",
+        "PreciousMaterialAdamantineDescription": "开采于从天堂堕至地面的岩石中，精金是已知的最硬的金属之一。它有着闪亮的黑色光泽，因其惊人的弹性和保持锋刃锐利度的特性而价格不菲。",
+        "TraitCharm": "魅惑",
+        "TraitDescriptionCharm": "通过魔法手段影响态度的能力。",
+        "LanguageHwan": "嬛语",
+        "ListPartsOr": {
+            "middle": "{first}, {second}",
+            "two": "{first} 或者 {second}",
+            "start": "{first}, {second}",
+            "end": "{first}, 或者 {second}"
+        },
+        "PreciousMaterialSilverDescription": "银制物品对恶魔到狼人一脉来说非常致命。银制物品不如铁制耐用，低纯度银制物品通常只是镀银。",
+        "SilverStrikes": "白银击",
+        "PreciousMaterialOrichalcumDescription": "作为最稀有和贵重的天金，山铜因其与时间相关的魔法特性而广受垂涎。这种灰暗如铜的金属不比精金结实，但它的弯曲时间特性能保护自身，使得其硬度和ＨＰ更高。若山铜物品受到了伤害但未被摧毁，它将在24小时后完全修复好自身。",
+        "InlineCheck": {
+            "BasicWithSave": "基础{save}",
+            "DCWithName": "{name} DC",
+            "Errors": {
+                "TypeMissing": "Error in @Check: 必须有类型参数"
+            }
+        },
+        "LanguageMinaten": "民那塔语",
+        "RestoreSpellTitle": "恢复法术",
+        "LanguageTekritanin": "泰克立坦语",
+        "PreciousMaterialColdIronDescription": "寒铁制的武器对恶魔和精类非常致命。寒铁看上去和普通铁没什么两样，但开采于纯度非常高的铁矿且加工过程中只是用极少热量甚至不使用热量。整个过程非常困难，高纯度寒铁物品更是如此。",
+        "TabManageTabsLabel": "管理标签",
+        "TraitRange500": "射程 500 ft",
+        "IncrementEffectTitle": "提高效果等级",
+        "LanguageMzunu": "玛祖语",
+        "Check": {
+            "AC": "AC: {dc}",
+            "DC": "DC: {dc}",
+            "TargetDC": "{target} {dcLabel}"
+        },
+        "InlineTemplateErrors": {
+            "TypeMissing": "Error in @Template: 必须有类型参数",
+            "DistanceMissing": "Error in @Template: 必须有距离参数",
+            "TypeUnsupported": "Error in @Template: 不支持 {type} 类型",
+            "DistanceNoNumber": "Error in @Template: 距离 {distance} 不是数字类型",
+            "WidthNoNumber": "Error in @Template: 宽度 {width} 不是数字类型"
+        },
+        "TraitRange200": "射程 200 ft",
+        "TraitMorlock": "摩洛克",
+        "TraitTelepathy": "传心者",
+        "LanguageShisk": "希斯克语",
+        "PreciousMaterialDarkwoodDescription": "暗木是一种非常轻的木头，发现其原生于阿维斯坦南方中心地带的原始森林中；它如同乌木一般暗色，不同点是会显露出淡紫色来。暗木物品的负载降低1（若正常负载为1，则变为L，对于正常为L的物品来说无效果）。暗木制物品的价格基于物品正常的负载，而非暗木减少过后的负载，不过暗木减少负载的计算，在其它因体型而对物品负载的进行的调整之前。",
+        "PreciousMaterialMithralDescription": "秘银因其轻巧、耐用和对恶魔与兽化人的特效而闻名。它有着和银一样的色泽但更轻。秘银武器和护甲在伤害对银有弱点的生物时可以视为银制。秘银制的金属物品比钢铁制的要轻：物品负载降低1（若正常负载为1，则变为L，对于正常为L的物品来说无效果）。秘银制物品的价格基于物品正常的负载，而非秘银减少过后的负载，不过秘银减少负载的计算，在其它因体型而对物品负载的进行的调整之前。",
+        "CarryType": {
+            "held1": "单手持握",
+            "held2": "双手持握",
+            "worn": "穿戴",
+            "stowed": "装载",
+            "dropped": "拖挂",
+            "worn-in-slot": "穿戴(槽位中)"
+        },
+        "LanguageMinkaian": "明海语",
+        "PreciousMaterialDragonhideDescription": "龙的鳞片和皮革只能用来制作任何本来就用毛皮或皮革制作的物品。龙革种类繁多从蓝色到闪金都有，取决于龙革取自哪里。鉴于龙鳞的韧性，除此之外它还能用来制作金属板甲（比如胸甲、半身甲或全身甲），让这些护甲不使用金属制作。龙革物品免疫一种伤害类型，取决于龙的类型。",
+        "TemplateLabel": "{size}-{unit} {shape}",
+        "TraitTechnological": "科技",
+        "RangePenalty": "射程减值",
+        "TraitDescriptionMagus": "这表示法师的职业能力。",
+        "TraitRange150": "射程 150 ft",
+        "TraitRange300": "射程 300 ft",
+        "TraitReach1000": "射程 1000 ft",
+        "TraitVulnerableToSunlight": "厌恶阳光",
+        "TraitShisk": "希斯克",
+        "TraitDescriptionHumanoid": "类人生物的行为逻辑与人类非常相似。它们通常直立，并有两只胳膊和两条腿。",
+        "TraitDescriptionLizardfolk": "这些爬行纲类人生物，也被称为艾鲁希，适应性极强，而且很有耐心。",
+        "TraitDescriptionPlant": "植物生物具有植物特征。它们不同于普通植物。具有这种特征的魔法效果以某种方式操纵或召唤植物或植物体。那些操纵植物的能力在没有植物的地区会失效。"
     },
     "COMPENDIUM": {
         "Search": "检索概要",
