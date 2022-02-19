@@ -1557,7 +1557,7 @@
                     "Label": "其他标签"
                 },
                 "MandatoryMelee": "该武器拥有一个只能用于近战武器的特征。",
-                "RangeIncrementN": "范围增加 {range} 尺。",
+                "RangeIncrementN": "射程增量 {range} 尺。",
                 "NoRangeMelee": "无(近战)"
             },
             "SidebarSummary": "{type}目录",
