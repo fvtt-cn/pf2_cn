@@ -74,7 +74,7 @@
                 "Title": "缴械",
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 你将对手手中的物品打掉在了地上。这件物品掉落在这个对手占据的空间中。",
-                    "success": "<strong>成功</strong> 你震得对手虎口发麻。直到这个生物的回合开始前，你在接下来对同一个生物的同一件手持物品的卸武检定获得+2环境加值，并且这个生物在使用这件物品发动攻击，或是进行其他需要维持稳定持握这件物品才能进行的行动的检定承受-2环境减值。",
+                    "success": "<strong>成功</strong> 你震得对手虎口发麻。直到这个生物的回合开始前，你在接下来对同一个生物的同一件手持物品的卸武检定获得+2环境加值，并且这个生物在使用这件物品发动攻击，或是进行其他需要维持稳定持握这件物品才能进行的行动的检定承受-2环境减值。 @Compendium[pf2e.equipment-effects.z3ATL8DcRVrT0Uzt]{Effect: Disarm (Success)}",
                     "criticalFailure": "<strong>大失败</strong> 你自己失去平衡，直到你的下一回合开始前都陷入措手不及状态@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} 。"
                 }
             },
@@ -812,23 +812,23 @@
         "ActionTypeReaction": "反应动作",
         "ActionWeaponLabel": "副手武器",
         "ActionsCheck": {
-            "acrobatics": "特技技能检定",
-            "arcana": "奥秘技能检定",
-            "athletics": "运动技能检定",
-            "crafting": "手艺技能检定",
-            "deception": "欺骗技能检定",
-            "diplomacy": "交涉技能检定",
-            "intimidation": "威吓技能检定",
-            "medicine": "医疗技能检定",
-            "nature": "自然技能检定",
-            "occultism": "神秘技能检定",
+            "acrobatics": "特技检定",
+            "arcana": "奥秘检定",
+            "athletics": "运动检定",
+            "crafting": "手艺检定",
+            "deception": "欺骗检定",
+            "diplomacy": "交涉检定",
+            "intimidation": "威吓检定",
+            "medicine": "医疗检定",
+            "nature": "自然检定",
+            "occultism": "神秘检定",
             "perception": "察觉检定",
-            "performance": "表演技能检定",
-            "religion": "宗教技能检定",
-            "society": "社群技能检定",
-            "stealth": "潜行技能检定",
-            "survival": "生存技能检定",
-            "thievery": "贼活技能检定"
+            "performance": "表演检定",
+            "religion": "宗教检定",
+            "society": "社群检定",
+            "stealth": "潜行检定",
+            "survival": "生存检定",
+            "thievery": "贼活检定"
         },
         "ActionsWarning": {
             "DeceptionUnknownVariant": "用于欺骗的未知变体 '{variant}' , 请使用言语干扰、姿势干扰、唬骗其中之一。",
@@ -862,7 +862,10 @@
         "Actor": {
             "Plural": "角色",
             "Character": {
-                "AncestryClass": "{ancestry} {class}"
+                "AncestryClass": "{ancestry} {class}",
+                "Rest": {
+                    "Label": "休息一晚"
+                }
             },
             "Hazard": {
                 "Level": "危害 {level}"
@@ -4948,7 +4951,11 @@
         "LanguageMzunu": "玛祖语",
         "Check": {
             "AC": "AC: {dc}",
-            "DC": "DC: {dc}",
+            "DC": {
+                "Specific": {
+                    "ac": "AC {dc}"
+                }
+            },
             "TargetDC": "{target} {dcLabel}"
         },
         "InlineTemplateErrors": {
