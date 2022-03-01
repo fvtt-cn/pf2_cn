@@ -4953,7 +4953,11 @@
             "AC": "AC: {dc}",
             "DC": {
                 "Specific": {
-                    "ac": "AC {dc}"
+                    "ac": "AC"
+                },
+                "Label": {
+                    "NoTarget": "{dcType} {dc}",
+                    "WithTarget": "<target>目标: {target}</target> <dc>({dcType} {dc})</dc>"
                 }
             },
             "TargetDC": "{target} {dcLabel}"
