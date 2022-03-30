@@ -76,7 +76,8 @@
                     "criticalSuccess": "<strong>大成功</strong> 你将对手手中的物品打掉在了地上。这件物品掉落在这个对手占据的空间中。",
                     "success": "<strong>成功</strong> 你震得对手虎口发麻。直到这个生物的回合开始前，你在接下来对同一个生物的同一件手持物品的卸武检定获得+2环境加值，并且这个生物在使用这件物品发动攻击，或是进行其他需要维持稳定持握这件物品才能进行的行动的检定承受-2环境减值。 @Compendium[pf2e.equipment-effects.z3ATL8DcRVrT0Uzt]{Effect: Disarm (Success)}",
                     "criticalFailure": "<strong>大失败</strong> 你自己失去平衡，直到你的下一回合开始前都陷入措手不及状态@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} 。"
-                }
+                },
+                "EffectLabel": "使用握不稳的武器"
             },
             "Feint": {
                 "Title": "虚招",
@@ -1346,12 +1347,14 @@
             "ActorMustHaveToken": "不能为没有人物代币的角色添加状态。",
             "CantMoveItemSource": "你无权移除该角色的物品。",
             "CantMoveItemDestination": "你无权为该角色添加物品。",
-            "NotEnoughAmmo": "弹药不足！",
+            "NotEnoughAmmo": "弹药不足。",
             "NoUpdatePermission": "你无权更新此角色信息。",
             "NoTokenSelected": "需要选中一个目标。",
             "MinimumProfLevelSetByFeatures": "所选熟练程度低于特征设定的熟练程度。",
             "CantImportTooHighVersion": "无法导入 {sourceName}: 版本({sourceSchemaVersion}) 高于当前世界版本 ({worldSchemaVersion}).",
-            "WeaponQuantityZero": "你已经没有更多这种武器装备了。"
+            "WeaponQuantityZero": "你已经没有更多这种武器装备了。",
+            "SubV9Module": "{module}不支持Foundry V9，可能会给游戏带来稳定性问题。",
+            "CantCreateEffectMacro": "切换宏的效果必须来自集合包或世界物品。"
         },
         "FeaturesClassHeader": "职业特性",
         "Ethnicity": "种族划分",
@@ -1613,7 +1616,10 @@
             "CannotAddType": "无法将{type}物品添加到此角色。",
             "Deity": {
                 "Alignment": "阵营",
-                "DivineAbility": "神圣能力",
+                "DivineAbility": {
+                    "Label": "神术能力",
+                    "Hint": "如果源于信仰背景，则它的属性提升选项来自神祗。"
+                },
                 "DivineFont": {
                     "Harm": "伤害术",
                     "Label": "神力源泉",
@@ -1625,7 +1631,67 @@
                 "Anathema": "禁忌",
                 "AreasOfConcern": "可选领域",
                 "FavoredWeapon": "偏爱武器",
-                "ClericSpells": "牧师法术"
+                "ClericSpells": {
+                    "Label": "牧师法术",
+                    "Hint": "要添加法术，请将法术拖放到此列表上。"
+                },
+                "Domain": {
+                    "Abomination": {
+                        "Description": "你试图向周围的人灌输憎恶和恐惧。",
+                        "Label": "憎恨"
+                    },
+                    "Air": {
+                        "Label": "气",
+                        "Description": "你可以控制风与气相。"
+                    },
+                    "Ambition": {
+                        "Label": "野心",
+                        "Description": "你尽全力追赶，甚至超越竞争者。"
+                    },
+                    "Change": {
+                        "Label": "变化",
+                        "Description": "你可在物理及超物理层面上重组事物。"
+                    },
+                    "Cities": {
+                        "Label": "城市",
+                        "Description": "你具有掌控城市环境及其居民的能力。"
+                    },
+                    "Cold": {
+                        "Label": "寒冷",
+                        "Description": "你掌握冰、雪及冻人低温。"
+                    },
+                    "Darkness": {
+                        "Label": "黑暗",
+                        "Description": "你在黑暗中行动，并驱散光明。"
+                    },
+                    "Death": {
+                        "Label": "死亡",
+                        "Description": "你拥有终结生命和摧毁不死生物的能力。"
+                    },
+                    "Confidence": {
+                        "Label": "自信",
+                        "Description": "你克服你的恐惧，并展现骄傲。"
+                    },
+                    "Creation": {
+                        "Label": "创造",
+                        "Description": "你具有与手艺与艺术相关的神术力量。"
+                    },
+                    "Decay": {
+                        "Label": "衰败",
+                        "Description": "你有使物质腐败衰退的力量。"
+                    }
+                },
+                "FavoredWeapons": {
+                    "Label": "偏好武器",
+                    "Hint": "几乎所有神祗都有一件偏好武器，但也有少数神祗同时具有偏好武器和偏好徒手攻击。"
+                },
+                "Domains": {
+                    "Alternate": {
+                        "Label": "替换领域",
+                        "Hint": "牧师可以使用扩展领域入门专长来获取来自神的一个替换领域。"
+                    },
+                    "Primary": "主要领域"
+                }
             },
             "Activation": {
                 "Label": "激活",
@@ -3975,7 +4041,8 @@
         "TraitWeapons": "武器",
         "WeaponPropertyRuneImpactful": "冲击",
         "Damage": {
-            "NoDamageFormulaLabel": "无伤"
+            "NoDamageFormulaLabel": "无伤",
+            "Base": "基础"
         },
         "WeaponPropertyRuneGreaterExtending": "高等延展",
         "ClickToSetInitiativeContext": "设为先攻值",
@@ -4145,11 +4212,11 @@
             "UndeletableTooltip": "这个制作公式是另一个物品的一部分，不能单独删除。",
             "Alchemical": {
                 "AdvancedAlchemy": "高阶炼金术",
-                "AdvancedAlchemyLevel": "高阶炼金术等级:",
-                "InfusedReagents": "灌注试剂:",
-                "ReagentCost": "试剂消耗:",
+                "AdvancedAlchemyLevel": "高阶炼金术等级",
+                "InfusedReagents": "灌注试剂",
+                "ReagentCost": "试剂消耗",
                 "ToggleSignatureItem": "切换标志物品",
-                "TotalCost": "合计消耗:"
+                "TotalCost": "合计消耗"
             },
             "Alerts": {
                 "ItemMissingTraits": "物品与工艺所需的特征要求不符，必须匹配：{traits}",
@@ -4159,7 +4226,8 @@
             },
             "ExpendFormula": "花费公式",
             "ToggleQuickAlchemy": "高速炼金术",
-            "QuickAddTitle": "快速添加此配方到每日工艺列表中。"
+            "QuickAddTitle": "添加此配方到一个或多个制造列表中。",
+            "NoEligibleEntry": "未找到符合条件的制造列表。"
         },
         "FormulaListEmpty": "空（拖放配方/物品至此）",
         "ItemActivate": {
@@ -4953,14 +5021,49 @@
             "AC": "AC: {dc}",
             "DC": {
                 "Specific": {
-                    "ac": "AC"
+                    "ac": "AC",
+                    "reflex": "反射DC",
+                    "stealth": "隐匿DC",
+                    "will": "意志DC",
+                    "athletics": "运动DC",
+                    "deception": "欺骗DC",
+                    "fortitude": "强韧DC",
+                    "perception": "察觉DC"
                 },
                 "Label": {
                     "NoTarget": "{dcType} {dc}",
-                    "WithTarget": "<target>目标: {target}</target> <dc>({dcType} {dc})</dc>"
-                }
+                    "WithTarget": "<target>目标: {target}</target> <dc>({dcType} {dc})</dc>",
+                    "AdjustedTarget": "<target>目标: {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>"
+                },
+                "Unspecific": "DC"
             },
-            "TargetDC": "{target} {dcLabel}"
+            "TargetDC": "{target} {dcLabel}",
+            "Result": {
+                "Degree": {
+                    "Attack": {
+                        "failure": "失手",
+                        "criticalFailure": "致命失误",
+                        "criticalSuccess": "重击",
+                        "success": "命中"
+                    },
+                    "Check": {
+                        "criticalSuccess": "大成功",
+                        "success": "成功",
+                        "failure": "失败",
+                        "criticalFailure": "大失败"
+                    }
+                },
+                "Label": "结果: <degree>{degree}</degree> <offset>by {offset}</offset>",
+                "AdjustedLabel": "结果: <degree>{degree}</degree> <offset>by {offset}</offset> ({adjustment})"
+            },
+            "Specific": {
+                "Perception": {
+                    "Secret": "察觉检定(暗骰)",
+                    "Label": "察觉检定"
+                },
+                "Recovery": "恢复检定"
+            },
+            "Label": "检定"
         },
         "InlineTemplateErrors": {
             "TypeMissing": "Error in @Template: 必须有类型参数",
@@ -4996,7 +5099,11 @@
         "TraitShisk": "希斯克",
         "TraitDescriptionHumanoid": "类人生物的行为逻辑与人类非常相似。它们通常直立，并有两只胳膊和两条腿。",
         "TraitDescriptionLizardfolk": "这些爬行纲类人生物，也被称为艾鲁希，适应性极强，而且很有耐心。",
-        "TraitDescriptionPlant": "植物生物具有植物特征。它们不同于普通植物。具有这种特征的魔法效果以某种方式操纵或召唤植物或植物体。那些操纵植物的能力在没有植物的地区会失效。"
+        "TraitDescriptionPlant": "植物生物具有植物特征。它们不同于普通植物。具有这种特征的魔法效果以某种方式操纵或召唤植物或植物体。那些操纵植物的能力在没有植物的地区会失效。",
+        "DCWithValueAndVisibility": "<span data-visibility=\"{role}\">DC {dc}</span> {text}",
+        "DefensesLabel": "防御",
+        "AreaSize1Mile": "1米",
+        "FeatCampaignHeader": "战役专长"
     },
     "COMPENDIUM": {
         "Search": "检索概要",
