@@ -1679,6 +1679,38 @@
                     "Decay": {
                         "Label": "衰败",
                         "Description": "你有使物质腐败衰退的力量。"
+                    },
+                    "Delirium": {
+                        "Description": "你可以召来幻觉与躁动。",
+                        "Label": "癫狂"
+                    },
+                    "Dust": {
+                        "Label": "沙尘",
+                        "Description": "你有使敌人干燥崩解的能力。"
+                    },
+                    "Fate": {
+                        "Description": "你能预见与理解潜藏的无法避免的事情。",
+                        "Label": "命运"
+                    },
+                    "Destruction": {
+                        "Label": "毁灭",
+                        "Description": "你是神祇蹂躏世间的向导。"
+                    },
+                    "Dreams": {
+                        "Label": "梦境",
+                        "Description": "你拥有进入和操控梦境的能力。"
+                    },
+                    "Family": {
+                        "Label": "家庭",
+                        "Description": "你能更有效地帮助与保护你的家庭和社群。"
+                    },
+                    "Duty": {
+                        "Label": "使命",
+                        "Description": "你守护誓言，并以全身热忱执行你的神圣任务。"
+                    },
+                    "Earth": {
+                        "Label": "地",
+                        "Description": "你可以操控土壤和岩石。"
                     }
                 },
                 "FavoredWeapons": {
@@ -5033,7 +5065,8 @@
                 "Label": {
                     "NoTarget": "{dcType} {dc}",
                     "WithTarget": "<target>目标: {target}</target> <dc>({dcType} {dc})</dc>",
-                    "AdjustedTarget": "<target>目标: {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>"
+                    "AdjustedTarget": "<target>目标: {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
+                    "NoChangeTarget": "<target>目标: {target}</target> <dc>({dcType} <adjusted>{adjusted}</adjusted>)</dc>"
                 },
                 "Unspecific": "DC"
             },
