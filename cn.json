@@ -1564,7 +1564,8 @@
                 },
                 "MandatoryMelee": "该武器拥有一个只能用于近战武器的特征。",
                 "RangeIncrementN": "射程增量 {range} 尺。",
-                "NoRangeMelee": "无(近战)"
+                "NoRangeMelee": "无(近战)",
+                "Improvised": "临时"
             },
             "SidebarSummary": "{type}目录",
             "Physical": {
@@ -1711,6 +1712,12 @@
                     "Earth": {
                         "Label": "地",
                         "Description": "你可以操控土壤和岩石。"
+                    },
+                    "Fire": {
+                        "Label": "火焰"
+                    },
+                    "Healing": {
+                        "Label": "治疗"
                     }
                 },
                 "FavoredWeapons": {
