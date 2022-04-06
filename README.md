@@ -1,4 +1,4 @@
-# PF2_cn
+# Foundry VTT PF2E 系统中文化
 
 ## 这是一个 PF2e 的汉化模组
 
