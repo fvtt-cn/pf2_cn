@@ -1,5 +1,10 @@
 # 版本说明:
 
+## Version 1.2.3
+### 新内容
+* 更新系统新增内容的汉化
+> 已删除集合包相关内容，其主体已移至AlphaStarguide的[PF2E_compendium_cn](https://github.com/AlphaStarguide/PF2E_compendium_cn)项目中
+
 ## Version 1.2.2
 ### 新内容
 * 跟进部分新增内容
