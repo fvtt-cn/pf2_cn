@@ -761,6 +761,10 @@
             "CampaignFeats": {
                 "Hint": "为所有角色卡增加专门用于放置战役专长的条目。",
                 "Name": "战役专长"
+            },
+            "NathMode": {
+                "Name": "",
+                "Hint": ""
             }
         },
         "TraitDescriptionDeadly3D8": "重击时，此武器加上一颗武器伤害骰，骰面大小如表格所列。翻倍武器伤害后再投掷这颗骰子。若武器刻有greater striking符文，则此伤害增加为两颗骰子。若武器刻有major striking符文，则此伤害增加为三颗骰子。举例来说，刻有greater striking符文的细剑在重击时造成额外的2d8精准伤害。改变武器正常伤害骰骰面的能力不影响致命骰。",
@@ -5119,7 +5123,9 @@
         "WeaponPropertyRuneMajorFanged": "上等獠牙",
         "WeaponRange300": "300 ft.",
         "UnitedPaizoWorkers": {
-            "Title": "公告: United Paizo Workers"
+            "Title": "公告: United Paizo Workers",
+            "PFSNote": "",
+            "ReleaseIntro": ""
         },
         "TraitDescriptionAzarketi": "阿扎克缇是适应了水中生活的人类分支。他们有鳃、手足生蹼、身有小鳍，可以在水中或水域之外生存。",
         "TraitDescriptionClass": "拥有职业特征的变体表现了你拓展了职业特性的多样性，但也仅限于你职业能力范畴之内。你只能选择与你本职业具有同样名称的职业变体。职业变体总是会改变或替换那些固定的职业特性，并提供一些新的专长选项。如果该变体会替换某些初始的职业特性的话，你在1级的时候就会选择这个职业变体。在这种情况下，你在2级的时候必须选择该变体的入门专长，之后就按正常的方式成长。你永远不能选择超过一个职业变体。",
@@ -5336,7 +5342,27 @@
         "PreciousMaterialNoqual": "零晶",
         "PreciousMaterialNoqualDescription": "零晶又轻又强韧，而且也被证实对魔法具有强大的抗力。这种抗力的副作用是在使用零晶制作魔法武器时需要一些复杂而昂贵的炼金对策。科沃斯·库，纽梅利亚的黑君（Kevoth-Kull, the Black Sovereign of Numeria），使用零晶和寒铁开发出了一种被称为霸钢的合金，能够缓和这种性质。这种金属的水晶外观可能会被认为性质脆弱，但这种惨绿色的材料和铁具有类似的性质。使用零晶制成的物品在该物品尝试对抗魔法的豁免检定中具有+4环境加值，该加值也适用于持有者在从魔法中保护物品的这种特定豁免（例如对抗锈蚀爪Rusting Grasp法术）。",
         "PreciousMaterialAbysiumDescription": "渊铀是一种蓝绿色的金属，发着非常怪异的绿色辉光，而且能够辐射出对生命有害的能量。不慎暴露在这种材料前可能导致免疫系统的长期损伤；因此，渊铀的开采是一项充满危险的工作，矿区内数量巨大的这种金属会令附近的所有生物陷入病痛之中。携带着渊铀物品的生物会陷入恶心——标准纯度下的轻负载物品会导致恶心1；纯度高于标准，或负载在1及以上的物品会导致恶心2；负载在1及以上的高纯度物品会导致恶心3。渊铀导致的这种以及其他所有的恶心效果均为毒素效果。制造者可以使用1单位渊铀块制造最多6剂量的有毒渊铀粉末。不道德的铁匠可能会利用渊铀的毒性制造剧毒武器和致命物质。由渊铀制造的所有物品都会散发出半径10尺的昏暗光照。",
-        "PreciousMaterialInubrixDescription": "这种苍白，易锻的金属有着不同寻常的分子结构，能在不接触钢铁的情况下部分穿透过去。虽然这种性质在制作可穿透金属护甲的武器时十分有用，但虚铅仅仅比铅要结实那么一点。即使处于合金态中，这种天金也过于脆弱，以至于难以用来制作可靠的盾牌，也不适合用来制作护甲。"
+        "PreciousMaterialInubrixDescription": "这种苍白，易锻的金属有着不同寻常的分子结构，能在不接触钢铁的情况下部分穿透过去。虽然这种性质在制作可穿透金属护甲的武器时十分有用，但虚铅仅仅比铅要结实那么一点。即使处于合金态中，这种天金也过于脆弱，以至于难以用来制作可靠的盾牌，也不适合用来制作护甲。",
+        "LanguageKovintal": "",
+        "TraitSkelm": "",
+        "PreciousMaterialWarpglassDescription": "",
+        "TraitDescriptionGoloma": "",
+        "TraitDescriptionTelepathy": "",
+        "TraitKovintus": "",
+        "TraitGoloma": "",
+        "TraitStheno": "",
+        "LanguageKibwani": "",
+        "LanguageGoloma": "",
+        "TraitDescriptionShisk": "",
+        "LanguageRazatlani": "",
+        "PreciousMaterialSovereignSteelDescription": "",
+        "LanguageOkaiyan": "",
+        "PreciousMaterialGrisantianPeltDescription": "",
+        "TraitPaaridar": "",
+        "LanguageMahwek": "",
+        "LanguageOcotan": "",
+        "LanguageXanmba": "",
+        "TraitSiktempora": ""
     },
     "COMPENDIUM": {
         "Search": "检索概要",
