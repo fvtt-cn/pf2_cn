@@ -555,6 +555,10 @@
                 "RemoveExpiredEffects": {
                     "Name": "移除过期效果",
                     "Hint": "过期的效果会自动从角色身上移除（需要任一GM在线）。"
+                },
+                "FlankingDetection": {
+                    "Name": "夹击判定",
+                    "Hint": "夹击的判定和基于此的能力将会交由系统管理。"
                 }
             },
             "Homebrew": {
@@ -753,6 +757,10 @@
             "DeathIcon": {
                 "Hint": "设置阵亡角色的上覆图标。",
                 "Name": "死亡图标"
+            },
+            "CampaignFeats": {
+                "Hint": "为所有角色卡增加专门用于放置战役专长的条目。",
+                "Name": "战役专长"
             }
         },
         "TraitDescriptionDeadly3D8": "重击时，此武器加上一颗武器伤害骰，骰面大小如表格所列。翻倍武器伤害后再投掷这颗骰子。若武器刻有greater striking符文，则此伤害增加为两颗骰子。若武器刻有major striking符文，则此伤害增加为三颗骰子。举例来说，刻有greater striking符文的细剑在重击时造成额外的2d8精准伤害。改变武器正常伤害骰骰面的能力不影响致命骰。",
@@ -1714,10 +1722,160 @@
                         "Description": "你可以操控土壤和岩石。"
                     },
                     "Fire": {
-                        "Label": "火焰"
+                        "Label": "火焰",
+                        "Description": "你可以控制火焰。"
                     },
                     "Healing": {
-                        "Label": "治疗"
+                        "Label": "治疗",
+                        "Description": "你的治愈魔法尤其强力。"
+                    },
+                    "Magic": {
+                        "Label": "魔法",
+                        "Description": "你制造毫无预兆或无法解释的现象。"
+                    },
+                    "Soul": {
+                        "Description": "你拥有影响灵界的力量。",
+                        "Label": "灵魂"
+                    },
+                    "Swarm": {
+                        "Label": "集群",
+                        "Description": "你可以控制大量聚集的小生物。"
+                    },
+                    "Trickery": {
+                        "Label": "诡术",
+                        "Description": "你热衷欺骗他人以及带来误解。"
+                    },
+                    "Vigil": {
+                        "Label": "追思",
+                        "Description": "你看顾古昔死者并保护其秘密。"
+                    },
+                    "Nightmares": {
+                        "Label": "梦魇",
+                        "Description": "你将恐怖与畏惧填入无数意识中。"
+                    },
+                    "Indulgence": {
+                        "Label": "暴食",
+                        "Description": "你山吃海喝，并且可以消除过度放纵的危害。"
+                    },
+                    "Might": {
+                        "Label": "威力",
+                        "Description": "神术力量强化了你的身体能力。"
+                    },
+                    "Nature": {
+                        "Description": "你拥有掌控动物与植物的力量。",
+                        "Label": "自然"
+                    },
+                    "Passion": {
+                        "Label": "热情",
+                        "Description": "你创造热情，不管是通过热爱还是欲望。"
+                    },
+                    "Wealth": {
+                        "Description": "你拥有操控财富，贸易和宝藏的力量。",
+                        "Label": "财富"
+                    },
+                    "Luck": {
+                        "Description": "你不寻常地走运，并且远离不好的选择。",
+                        "Label": "机运"
+                    },
+                    "Protection": {
+                        "Description": "你保护自身和他人。",
+                        "Label": "防护"
+                    },
+                    "Repose": {
+                        "Label": "心疗",
+                        "Description": "你抚平心灵的伤痛。"
+                    },
+                    "Pain": {
+                        "Label": "痛苦",
+                        "Description": "你用可怕的痛苦来折磨令你不快的人。"
+                    },
+                    "Star": {
+                        "Description": "你可驱使星辰之力。",
+                        "Label": "星辰"
+                    },
+                    "Sun": {
+                        "Label": "太阳",
+                        "Description": "你操控太阳和其他光源的力量，为亡灵带来惩戒。"
+                    },
+                    "Truth": {
+                        "Label": "真相",
+                        "Description": "你识破谎言并发现真相。"
+                    },
+                    "Glyph": {
+                        "Label": "字图",
+                        "Description": "你拥有影响文书与记号的能力。"
+                    },
+                    "Freedom": {
+                        "Description": "你从镣铐或制约中解放你自己或其他人。",
+                        "Label": "自由"
+                    },
+                    "Knowledge": {
+                        "Label": "知识",
+                        "Description": "你通过神术看透世界本貌。"
+                    },
+                    "Lightning": {
+                        "Label": "雷电",
+                        "Description": "你掌握雷电与风暴。"
+                    },
+                    "Naga": {
+                        "Description": "就像蜿蜒盘踞的娜迦，你拥有比肩拉维塔女神所掌握的宇宙力量。",
+                        "Label": "娜迦"
+                    },
+                    "Moon": {
+                        "Label": "月亮",
+                        "Description": "你可以驱使与月亮相关的力量。"
+                    },
+                    "Plague": {
+                        "Description": "你以疾患疫病为武器。",
+                        "Label": "瘟疫"
+                    },
+                    "Perfection": {
+                        "Label": "完美",
+                        "Description": "你尽你所能，来完美你的意志，身体与精神。"
+                    },
+                    "Sorrow": {
+                        "Label": "悲伤",
+                        "Description": "你与悲苦哀愁间有着痛苦的连结。"
+                    },
+                    "Secrecy": {
+                        "Label": "秘密",
+                        "Description": "你保护秘密，并保证它们不为人知。"
+                    },
+                    "Time": {
+                        "Label": "时间",
+                        "Description": "你可以控制时间的流动。"
+                    },
+                    "Toil": {
+                        "Label": "劳役",
+                        "Description": "你不辍劳作，且心无旁骛。"
+                    },
+                    "Travel": {
+                        "Label": "旅行",
+                        "Description": "你拥有掌控移动和旅行的能力。"
+                    },
+                    "Undeath": {
+                        "Description": "你的魔法与不死生物紧密相连。",
+                        "Label": "亡灵"
+                    },
+                    "Tyranny": {
+                        "Label": "暴政",
+                        "Description": "你拥有支配和奴役他人的力量。"
+                    },
+                    "Void": {
+                        "Description": "你从无中汲取力量。",
+                        "Label": "虚空"
+                    },
+                    "Water": {
+                        "Label": "水",
+                        "Description": "你可以控制水和水的各种形态。"
+                    },
+                    "Zeal": {
+                        "Description": "你内心的烈火会增强你的战斗力量。",
+                        "Label": "狂热"
+                    },
+                    "Wyrmkin": {
+                        "Label": "龙族",
+                        "Description": "你汲取真龙、蛇龙和其他强大蜥蜴的力量。"
                     }
                 },
                 "FavoredWeapons": {
@@ -1749,7 +1907,8 @@
                     "Two": "最多2次",
                     "Three": "最多3次",
                     "Four": "最多4次",
-                    "NoLimit": "无限制"
+                    "NoLimit": "无限制",
+                    "Five": "最多5次"
                 },
                 "Warning": {
                     "TakenAfterLevel1": "{item}必须在1级时选取，但{actor}在{actorLevel}级上选取。",
@@ -1786,7 +1945,9 @@
         "ItemTitle": "物品",
         "ItemsLabel": "物品",
         "JournalEntry": {
-            "Plural": "日记簿"
+            "Plural": "记录簿",
+            "FoundryTheme": "Foundry (经典) 记录簿",
+            "PF2ETheme": "PF2e系统记录簿"
         },
         "KeyAbility": "关键属性提升",
         "KeyAbilityLabel": "关键能力",
@@ -2003,7 +2164,7 @@
         "PerceptionLabel": "察觉",
         "PFS": {
             "CharacterNumber": "角色 #",
-            "CurrentFaction": "当前类别",
+            "CurrentFaction": "当前派系",
             "Fame": "声誉",
             "LevelBump": "等级增强",
             "OrganizedPlayNumber": "管理游戏 #",
@@ -2402,7 +2563,8 @@
             },
             "Ranged": {
                 "Description": "你使用远程武器攻击时 you&apos;re wielding, 选择一个在你射程内的生物. 为你的这次攻击骰掷骰并用结果和该生物&apos;s 的AC比较来决定效果.",
-                "Success": "你造成的伤害依据武器攻击的骰数，并加上全部伤害加值、调整值和罚值."
+                "Success": "你造成的伤害依据武器攻击的骰数，并加上全部伤害加值、调整值和罚值.",
+                "NoAmmo": "没有足够的弹药去供给{weapon}. 请检查{actor}人物卡中的行动栏。"
             },
             "Combined": {
                 "Description": "你使用武器攻击或无武装攻击时 you&apos;re wielding, 选择一个在你触及范围 (近战攻击) 或在射程内 (远程攻击)的生物. 为你的这次攻击骰掷骰并用结果和该生物&apos;s 的AC比较来决定效果.",
@@ -3375,7 +3537,21 @@
                 "AddOneDay": "1 天",
                 "AddOneWeek": "1 周",
                 "Advance": "经过",
-                "Retract": "撤回"
+                "Retract": "撤回",
+                "TimeOfDay": {
+                    "Advance": {
+                        "Dawn": "推进到黎明",
+                        "Dusk": "推进到黄昏",
+                        "Noon": "推进到正午",
+                        "Midnight": "推进到午夜"
+                    },
+                    "Retract": {
+                        "Dawn": "回退到黎明",
+                        "Dusk": "回退到黄昏",
+                        "Noon": "回退到正午",
+                        "Midnight": "回退到午夜"
+                    }
+                }
             },
             "Placeholder": "数字",
             "Title": "世界时钟",
@@ -3767,7 +3943,8 @@
                 "CurrentlyVisible": "当前可见",
                 "Label": "空白时隐藏",
                 "Hint": "当此角色指示物的可搜刮列表为空时隐藏其指示物"
-            }
+            },
+            "Stack": "创建新的战利品堆？"
         },
         "NPC": {
             "Creature": "生物",
@@ -4061,7 +4238,9 @@
             "Add": "加",
             "FortuneTitle": "{title} 好运",
             "MisfortuneTitle": "{title} 厄运",
-            "CriticalHit": "重击"
+            "CriticalHit": "重击",
+            "KeepHigher": "取高",
+            "KeepLower": "取低"
         },
         "SensesEcholocation": "回声定位",
         "SpellComponentF": "聚能",
@@ -5143,7 +5322,21 @@
         "DCWithValueAndVisibility": "<span data-visibility=\"{role}\">DC {dc}</span> {text}",
         "DefensesLabel": "防御",
         "AreaSize1Mile": "1米",
-        "FeatCampaignHeader": "战役专长"
+        "FeatCampaignHeader": "战役专长",
+        "LanguageIkeshti": "异客蜥语",
+        "PreciousMaterialSiccatite": "漠石",
+        "PreciousMaterialSiccatiteDescription": "在原始状态下，这种银质矿石可能极端炎热或异常寒冷。这种矿石究竟是两种相关的物质，还是一种通过某种未知的过程决定其输出温度的物质，冶金学家们有不同的看法。无论何种原因，这种材料极端的温度意味着它必须被慎重处理。热漠石能够轻易点燃纸张和干草这样的可燃物，而寒漠石在放入潮湿区域时会迅速在表面上生成厚厚的冰层。与大量漠石直接接触的生物，在保持接触的每轮都会受到1点能量伤害（热漠石造成火焰伤害，寒漠石造成寒冷伤害）。",
+        "SpellUsesLabel": "使用",
+        "TraitIkeshti": "异客蜥人",
+        "PreciousMaterialGrisantianPelt": "格里桑特毛皮",
+        "PreciousMaterialAbysium": "渊铀",
+        "PreciousMaterialDjezet": "血汞",
+        "PreciousMaterialDjezetDescription": "这种锈红色金属在室温下是液体，因此即便对于最熟练的冶金学家来说，利用血汞材料来制作也是一件非常有挑战的工作，这在某些地方为其赢得了“快铁”的称号。血汞对魔法的反应也非常剧烈，即使处于固态可操作的合金状态中。它在受到魔法作用时会发光，以血汞合金制成物品也会闪烁着猩红色的条纹，这让某些铁匠给它起了个“虎纹铁”的绰号。当被法术瞄准时，由血汞合金制成的物品会展现出这些发光的红色记号，持续1轮或法术的持续时间中更长的时间。1单位的血汞块内的血汞含量足够提炼出2单位的血汞剂。",
+        "PreciousMaterialInubrix": "虚铅",
+        "PreciousMaterialNoqual": "零晶",
+        "PreciousMaterialNoqualDescription": "零晶又轻又强韧，而且也被证实对魔法具有强大的抗力。这种抗力的副作用是在使用零晶制作魔法武器时需要一些复杂而昂贵的炼金对策。科沃斯·库，纽梅利亚的黑君（Kevoth-Kull, the Black Sovereign of Numeria），使用零晶和寒铁开发出了一种被称为霸钢的合金，能够缓和这种性质。这种金属的水晶外观可能会被认为性质脆弱，但这种惨绿色的材料和铁具有类似的性质。使用零晶制成的物品在该物品尝试对抗魔法的豁免检定中具有+4环境加值，该加值也适用于持有者在从魔法中保护物品的这种特定豁免（例如对抗锈蚀爪Rusting Grasp法术）。",
+        "PreciousMaterialAbysiumDescription": "渊铀是一种蓝绿色的金属，发着非常怪异的绿色辉光，而且能够辐射出对生命有害的能量。不慎暴露在这种材料前可能导致免疫系统的长期损伤；因此，渊铀的开采是一项充满危险的工作，矿区内数量巨大的这种金属会令附近的所有生物陷入病痛之中。携带着渊铀物品的生物会陷入恶心——标准纯度下的轻负载物品会导致恶心1；纯度高于标准，或负载在1及以上的物品会导致恶心2；负载在1及以上的高纯度物品会导致恶心3。渊铀导致的这种以及其他所有的恶心效果均为毒素效果。制造者可以使用1单位渊铀块制造最多6剂量的有毒渊铀粉末。不道德的铁匠可能会利用渊铀的毒性制造剧毒武器和致命物质。由渊铀制造的所有物品都会散发出半径10尺的昏暗光照。",
+        "PreciousMaterialInubrixDescription": "这种苍白，易锻的金属有着不同寻常的分子结构，能在不接触钢铁的情况下部分穿透过去。虽然这种性质在制作可穿透金属护甲的武器时十分有用，但虚铅仅仅比铅要结实那么一点。即使处于合金态中，这种天金也过于脆弱，以至于难以用来制作可靠的盾牌，也不适合用来制作护甲。"
     },
     "COMPENDIUM": {
         "Search": "检索概要",
