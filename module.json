@@ -5,9 +5,7 @@
   "minimumCoreVersion": "9.245",
   "compatibleCoreVersion": "9.999",
   "author": "losy&羊肉",
-  "scripts": [
-    "./babele.js"
-  ],
+  "scripts": [],
   "styles": [],
   "packs": [],
   "languages": [
