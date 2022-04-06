@@ -8,8 +8,7 @@
 
 译文大部分参考“纯美苹果园”论坛中PF2e译文区的内容，同时也感谢中文社区提供的帮助
 
-集合包汉化内容会逐步转至AlphaStarguide的[PF2E_compendium_cn](https://github.com/AlphaStarguide/PF2E_compendium_cn)项目中。
-目前现有内容会暂留，待该项目逐渐完善后，集合包相关汉化文件将会移除。
+集合包汉化内容已转至AlphaStarguide的[PF2E_compendium_cn](https://github.com/AlphaStarguide/PF2E_compendium_cn)项目中。
 
 **清单文件地址：** https://github.com/fvtt-cn/pf2_cn/releases/latest/download/module.json
 
