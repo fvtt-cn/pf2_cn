@@ -1,23 +1,19 @@
 {
   "name": "pf2_cn",
   "title": "Translation: 中文 [PF2e]",
-  "description": "在 PF2 系统中加入中文",
+  "description": "本模组为 FVTT 的 PF2e 系统提供了中文翻译。",
   "minimumCoreVersion": "9.245",
   "compatibleCoreVersion": "9.999",
-  "author": "losy&羊肉",
-  "scripts": [],
-  "styles": [],
-  "packs": [],
-  "languages": [
-    {
+  "author": "FVTT-CN",
+  "languages": [{
       "lang": "cn",
       "name": "中文",
       "path": "cn.json"
-    }
-  ],
+  }],
   "dependencies": [{
     "name": "pf2e",
-    "type": "system"
+    "type": "system",
+    "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release-v9/raw/system.json?job=build"
   }],
   "version": "Auto replaced",
   "url": "Auto replaced",
