@@ -5,6 +5,7 @@
   "minimumCoreVersion": "9.245",
   "compatibleCoreVersion": "9.999",
   "author": "FVTT-CN",
+  "systems": [ "pf2e" ],
   "languages": [{
       "lang": "cn",
       "name": "中文",
