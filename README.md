@@ -1,4 +1,4 @@
-# Foundry VTT PF2E 系统中文化
+# Foundry VTT PF2e 系统中文化
 ![downloads](https://img.shields.io/github/downloads/fvtt-cn/pf2_cn/total)
 
 本模组为 FVTT 的 [PF2e 系统](https://gitlab.com/hooking/foundry-vtt---pathfinder-2e)提供了中文翻译。
