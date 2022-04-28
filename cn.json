@@ -410,6 +410,19 @@
                     "success": "<strong>成功</strong> 对于这些生物，你在移动过程中保持@Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未发现 undetected} 状态，且移动结束后仍不会被发现。<br/><br/>有关详细信息参见 @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 动作。"
                 },
                 "Title": "避人耳目"
+            },
+            "ArcaneSlam": {
+                "Modifier": {
+                    "SizeDifference": "体型差异"
+                },
+                "Notes": {
+                    "NoTarget": "<strong>体型差异</strong>如果目标体型比你大一级，你将在检定中受到-2环境减值，如果体型更大，将受到-4环境减值。如果目标体型比你小一级，你将在检定中受到+2环境加值，如果体型更小，将受到+4环境加值。",
+                    "criticalFailure": "<strong>大失败</strong> 敌人逃脱，不再被你@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱} 或@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}。",
+                    "criticalSuccess": "<strong>大成功</strong> 你摔倒敌人并且魔法能量压制住它。生物被@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{击倒}，@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩}一轮，并且受到数值等于[[/r 2d6 + @abilities.str.mod # Damage: Arcane Slam]]{2d6 加上你力量调整值} 的伤害。敌人不再被你@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱} 或 @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}。",
+                    "success": "<strong>成功</strong> 你摔到敌人。生物被 @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{击倒}并且受到数值等于你 [[/r @abilities.str.mod # Damage: Arcane Slam]]{力量调整值}的伤害。敌人不再被你@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱}或@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}.",
+                    "failure": "<strong>失败</strong> 你无法摔倒敌人，但是你依然抓住它。"
+                },
+                "Title": "奥术摔砸"
             }
         },
         "BrowserSortyByPriceLabel": "价格",
@@ -1173,7 +1186,9 @@
             "FailedToBuyItemWithCharacter": "无法为{character}购买{item}。",
             "BoughtItem": "尝试用选定的角色购买 {item} 。",
             "BoughtItemWithCharacter": "为{character}购买了{item}。",
-            "BuyLabel": "购买物品"
+            "BuyLabel": "购买物品",
+            "BoughtItemWithAllCharacters": "已为所有已选角色购买{item}。",
+            "FailedToBuyItemWithSomeCharacters": "无法为某些选定角色购买{item}。"
         },
         "BulkTypeLight": "轻量",
         "ClassFeatures": "职业特性",
@@ -4499,7 +4514,7 @@
         "TraitRange40": "射程 40 ft",
         "TraitDescriptionGunslinger": "这表示铳士职业的能力。",
         "TraitDescriptionInventor": "这表示发明家职业的能力。",
-        "AccessoryPropertyRuneWindCatcher": "追风",
+        "AccessoryPropertyRuneWindCatcher": "捕风",
         "ConsumableMessage": {
             "UseMulti": "使用{name}, 还剩{current}",
             "UseSingle": "{name}使用",
@@ -4510,13 +4525,13 @@
         "AccessoryPropertyRuneCalled": "称呼",
         "AccessoryPropertyRuneDragonsBreath": "龙息",
         "AccessoryPropertyRuneGreaterPaired": "高等成对",
-        "AccessoryPropertyRuneGreaterWindCatcher": "高等追风",
+        "AccessoryPropertyRuneGreaterWindCatcher": "高等捕风",
         "AccessoryPropertyRuneMajorPaired": "上等成对",
         "AccessoryPropertyRunePaired": "成对",
-        "AccessoryPropertyRunePresentable": "体面的",
-        "AccessoryPropertyRuneSnagging": "抓住",
-        "AccessoryPropertyRuneSoftLanding": "软着陆",
-        "AccessoryPropertyRuneSpellBastion": "法术壁垒",
+        "AccessoryPropertyRunePresentable": "体面",
+        "AccessoryPropertyRuneSnagging": "攀援",
+        "AccessoryPropertyRuneSoftLanding": "缓降",
+        "AccessoryPropertyRuneSpellBastion": "法垒",
         "ArmorPropertyRuneBitter": "苦味",
         "ArmorPropertyRuneDeathless": "不死",
         "ArmorPropertyRuneDread": "恐惧",
@@ -5097,7 +5112,7 @@
         "WeaponPropertyRuneCrushing": "粉碎",
         "WeaponPropertyRuneGreaterCrushing": "高等粉碎",
         "TraitAffixedToHeadgear": "添加到头部装备",
-        "TraitVersatileFire": "多用 火焰",
+        "TraitVersatileFire": "多用火焰",
         "TraitWornBracelet": "穿戴手镯",
         "WeaponDescriptionFirearm": "<strong>重击专精效果</strong>目标必须成功通过你的职业DC的强韧豁免，否则陷入眩晕1。",
         "ArmorPropertyRuneImplacable": "不挠",
@@ -5381,7 +5396,18 @@
         "LanguageOcotan": "",
         "LanguageXanmba": "桑巴语",
         "TraitSiktempora": "",
-        "SpellUnlimitedLabel": "无限制"
+        "SpellUnlimitedLabel": "无限制",
+        "TraitVersatileAcid": "多用酸蚀",
+        "TraitVersatileChaotic": "多用混乱",
+        "TraitVersatileCold": "多用寒冷",
+        "TraitVersatileEvil": "多用邪恶",
+        "TraitVersatileForce": "多用力场",
+        "TraitVersatileGood": "多用善良",
+        "TraitVersatileLawful": "多用秩序",
+        "TraitVersatileNegative": "多用负能量",
+        "TraitVersatileSonic": "多用音波",
+        "TraitVersatileElectricity": "多用电击",
+        "ActionDeathNoteLabel": "死亡记录"
     },
     "COMPENDIUM": {
         "Search": "检索概要",
