@@ -2313,7 +2313,7 @@
             "MessageHeroPoint": "重骰后消耗英雄点",
             "WarnNoHeroPoint": "{name} 无可用英雄点"
         },
-        "ResiliencyRuneLabel": "弹性符文",
+        "ResiliencyRuneLabel": "抗力符文",
         "ResistanceTypeAll": "所有",
         "ResistanceTypePhysical": "物理",
         "ResistanceTypeWeapon": "武器",
