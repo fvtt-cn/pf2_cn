@@ -2530,7 +2530,7 @@
         "SpellRitualLabel": "仪式",
         "SpellRangeLabel": "射程",
         "SpellSaveLabel": "法术DC",
-        "SpellScalingLabel": "升阶",
+        "SpellScalingLabel": "成长",
         "SpellScalingModeLevel1": "升阶 (+1)",
         "SpellScalingModeLevel2": "升阶 (+2)",
         "SpellScalingModeLevel3": "升阶 (+3)",
@@ -4151,9 +4151,9 @@
         "TraitBeastkin": "兽化裔",
         "TraitStaff": "棍",
         "WeaknessTypeSplashDamage": "泼溅伤害",
-        "AreaSize45": "45尺",
-        "AreaSize75": "75尺",
-        "AreaSize90": "90尺",
+        "AreaSize45": "45 尺",
+        "AreaSize75": "75 尺",
+        "AreaSize90": "90 尺",
         "CreatureStatisticDC": {
             "ac": "{creature} AC: {dc}",
             "deception": "{creature} 哄骗DC: {dc}",
@@ -4329,9 +4329,9 @@
         "Repost": "发布至聊天栏",
         "SpellFlexibleLabel": "灵活",
         "SpellScalingInterval": {
-            "Label": "间隔",
-            "Header": "缩放(间隔)",
-            "Add": "添加间隔缩放",
+            "Label": "梯度",
+            "Header": "成长(梯度)",
+            "Add": "添加升阶(梯度)",
             "Selection": "升阶 (+{interval})"
         },
         "StaminaPointsShortLabel": "耐力",
@@ -5288,7 +5288,7 @@
                     "perception": "察觉DC"
                 },
                 "Label": {
-                    "NoTarget": "{dcType} {dc}",
+                    "NoTarget": "<dc>{dcType} {dc}</dc>",
                     "WithTarget": "<target>目标: {target}</target> <dc>({dcType} {dc})</dc>",
                     "AdjustedTarget": "<target>目标: {target}</target> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
                     "NoChangeTarget": "<target>目标: {target}</target> <dc>({dcType} <adjusted>{adjusted}</adjusted>)</dc>"
@@ -5360,7 +5360,7 @@
         "TraitDescriptionPlant": "植物生物具有植物特征。它们不同于普通植物。具有这种特征的魔法效果以某种方式操纵或召唤植物或植物体。那些操纵植物的能力在没有植物的地区会失效。",
         "DCWithValueAndVisibility": "<span data-visibility=\"{role}\">DC {dc}</span> {text}",
         "DefensesLabel": "防御",
-        "AreaSize1Mile": "1米",
+        "AreaSize1Mile": "1里",
         "FeatCampaignHeader": "战役专长",
         "LanguageIkeshti": "异客蜥语",
         "PreciousMaterialSiccatite": "漠石",
@@ -5407,7 +5407,17 @@
         "TraitVersatileNegative": "多用负能量",
         "TraitVersatileSonic": "多用音波",
         "TraitVersatileElectricity": "多用电击",
-        "ActionDeathNoteLabel": "死亡记录"
+        "ActionDeathNoteLabel": "死亡记录",
+        "SpellScalingOverlay": {
+            "Add": "添加升阶(定值)",
+            "Label": "升阶环级",
+            "Selection": "升阶 ({level})"
+        },
+        "AreaSize500": "500 尺",
+        "AreaSizeQuarterMile": "四分之一里",
+        "ItemSourceIDLabel": "源ID:",
+        "ItemUUIDLabel": "UUID:",
+        "AreaSize1000": "1000 尺"
     },
     "COMPENDIUM": {
         "Search": "检索概要",
