@@ -1399,7 +1399,8 @@
             "CantImportTooHighVersion": "无法导入 {sourceName}: 版本({sourceSchemaVersion}) 高于当前世界版本 ({worldSchemaVersion}).",
             "WeaponQuantityZero": "你已经没有更多这种武器装备了。",
             "SubV9Module": "{module}不支持Foundry V9，可能会给游戏带来稳定性问题。",
-            "CantCreateEffectMacro": "切换宏的效果必须来自集合包或世界物品。"
+            "CantCreateEffectMacro": "切换宏的效果必须来自集合包或世界物品。",
+            "NoPCTokenSelected": "至少选择一个与PC相关联的指示物。"
         },
         "FeaturesClassHeader": "职业特性",
         "Ethnicity": "种族划分",
@@ -3218,7 +3219,7 @@
         },
         "UnitPriceLabel": "单价",
         "UnprepareItemTitle": "不适合的物品",
-        "UnpreparedSpellsLabel": "备选名单",
+        "UnpreparedSpellsLabel": "{label}: 准备法术可用",
         "UnpreparedSpellsLabelArcanePrepared": "奥术 法术书",
         "UpdateActorLabel": "更新角色",
         "ValueLabel": "价值",
@@ -5417,7 +5418,28 @@
         "AreaSizeQuarterMile": "四分之一里",
         "ItemSourceIDLabel": "源ID:",
         "ItemUUIDLabel": "UUID:",
-        "AreaSize1000": "1000 尺"
+        "AreaSize1000": "1000 尺",
+        "TraitCircus": "马戏",
+        "SpellFlexibleAvailable": "灵活: {value} / {max}",
+        "Action": {
+            "RestForTheNight": {
+                "Label": "休息一晚",
+                "Prompt": "休息一晚？",
+                "Message": {
+                    "Awakens": "{actor}做了个好梦。",
+                    "ConditionReduced": "{condition} 下降一级。",
+                    "ConditionRemoved": "不再{condition}。",
+                    "FocusPoints": "聚能点已恢复。",
+                    "HitPoints": "{hitPoints}生命值已恢复。",
+                    "InfusedReagents": "灌注试剂已恢复。",
+                    "Resolve": "决心已恢复。",
+                    "SpellSlots": "所有法术位已恢复。",
+                    "StaminaPoints": "耐力点数已恢复。",
+                    "TemporaryItems": "临时物品已移除。",
+                    "WandsCharges": "魔杖已充能。"
+                }
+            }
+        }
     },
     "COMPENDIUM": {
         "Search": "检索概要",
