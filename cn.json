@@ -1962,6 +1962,10 @@
                 "RemoveAncestry": "移除所需的族裔",
                 "AncestryNotFound": "找不到引用的族裔模板。",
                 "NoneVersatile": "无(多用)"
+            },
+            "Rules": {
+                "Apply": "应用",
+                "Close": "关闭"
             }
         },
         "ItemBonus0": "0",
