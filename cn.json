@@ -423,6 +423,16 @@
                     "failure": "<strong>失败</strong> 你无法摔倒敌人，但是你依然抓住它。"
                 },
                 "Title": "奥术摔砸"
+            },
+            "SenseDirection": {
+                "Modifier": {
+                    "NoCompass": "没有指南针"
+                },
+                "Notes": {
+                    "criticalSuccess": "<strong>大成功</strong> 你清楚无疑地了解自己身处的位置。如果你所处的地理区域拥有东南西北四极，你很清楚东南西北的具体方向。",
+                    "success": "<strong>成功</strong> 你还算清楚自己的位置，至少不会迷失方向。如果你所处的地理区域拥有东南西北四极，你大致知道东南西北的方向。"
+                },
+                "Title": "辨别方向 Sense Direction"
             }
         },
         "BrowserSortyByPriceLabel": "价格",
@@ -1400,7 +1410,8 @@
             "WeaponQuantityZero": "你已经没有更多这种武器装备了。",
             "SubV9Module": "{module}不支持Foundry V9，可能会给游戏带来稳定性问题。",
             "CantCreateEffectMacro": "切换宏的效果必须来自集合包或世界物品。",
-            "NoPCTokenSelected": "至少选择一个与PC相关联的指示物。"
+            "NoPCTokenSelected": "至少选择一个与PC相关联的指示物。",
+            "RuleElementSyntax": "规则要素定义中存在语法错误：{message}"
         },
         "FeaturesClassHeader": "职业特性",
         "Ethnicity": "种族划分",
