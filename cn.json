@@ -433,6 +433,22 @@
                     "success": "<strong>成功</strong> 你还算清楚自己的位置，至少不会迷失方向。如果你所处的地理区域拥有东南西北四极，你大致知道东南西北的方向。"
                 },
                 "Title": "辨别方向 Sense Direction"
+            },
+            "Track": {
+                "Title": "追踪",
+                "Notes": {
+                    "success": "<strong>成功</strong> 你找到了某些踪迹，或是能够继续稳定地追踪手头上的踪迹。",
+                    "failure": "<strong>失败</strong> 你搞丢了目标留下的行踪，必须等1小时后才能再次尝试追踪。",
+                    "criticalFailure": "<strong>大失败</strong>你完全搞丢了目标，必须等24小时后才能再次尝试追踪。"
+                }
+            },
+            "CommandAnAnimal": {
+                "Notes": {
+                    "success": "<strong>成功</strong> 动物会按照你指令的内容在它的下回合行动。",
+                    "failure": "<strong>失败</strong> 动物对你没有兴趣或是抵抗，什么都不做。",
+                    "criticalFailure": "<strong>大失败</strong>动物误解了你的指令。GM决定它会做什么怪事。."
+                },
+                "Title": "指挥动物"
             }
         },
         "BrowserSortyByPriceLabel": "价格",
@@ -921,7 +937,22 @@
                 "Level": "危害 {level}"
             },
             "NPC": {
-                "IsLootableOnDeathLabel": "使此NPC在死亡时可被搜刮"
+                "IsLootableOnDeathLabel": "使此NPC在死亡时可被搜刮",
+                "Configure": {
+                    "Title": "配置NPC",
+                    "Alliance": {
+                        "Label": "关系",
+                        "Hint": "一个NPC可以与玩家队伍敌对、结盟或中立。这会在遭遇中影响某些自动化判定，例如夹击。"
+                    },
+                    "Lootable": {
+                        "Label": "可搜刮？",
+                        "DefaultLootable": "全局默认(可搜刮)",
+                        "NotLootable": "不可搜刮",
+                        "Hint": "设置此NPC在死亡后是否可被玩家搜刮。可以在<a>自动化配置</a>中设定全局默认值。",
+                        "DefaultNotLootable": "全局默认(不可搜刮)",
+                        "Lootable": "可搜刮"
+                    }
+                }
             },
             "Dead": "死亡",
             "ApplyDamage": {
@@ -936,6 +967,17 @@
                 "ShieldNotRaised": "{actor} 并未举起他们的盾牌。",
                 "ShieldAbsorbsAll": "{actor}毫发无伤，他们的盾牌完全吸收了{absorbedDamage}点伤害。",
                 "AtFullHealth": "{actor} 已经恢复至满血。"
+            },
+            "Creature": {
+                "Alliance": {
+                    "Opposition": "敌人",
+                    "Party": "盟友",
+                    "Neutral": "中立"
+                },
+                "SpellPreparation": {
+                    "Title": "{actor}: 法术准备",
+                    "Hint": "想要准备一个法术，请将其从列表中拖至角色卡的一个法术空位上。"
+                }
             }
         },
         "ActorSizeGargantuan": "巨型",
@@ -1411,7 +1453,8 @@
             "SubV9Module": "{module}不支持Foundry V9，可能会给游戏带来稳定性问题。",
             "CantCreateEffectMacro": "切换宏的效果必须来自集合包或世界物品。",
             "NoPCTokenSelected": "至少选择一个与PC相关联的指示物。",
-            "RuleElementSyntax": "规则要素定义中存在语法错误：{message}"
+            "RuleElementSyntax": "规则要素定义中存在语法错误：{message}",
+            "NotEnoughCoins": "硬币不足"
         },
         "FeaturesClassHeader": "职业特性",
         "Ethnicity": "种族划分",
@@ -2645,7 +2688,7 @@
         "TogglesLabel": "切换",
         "ToggleSignatureSpellTitle": "切换招牌法术",
         "ToggleSpellVisibilityLevelTitle": "法术书章节切换",
-        "ToggleSpellVisibilityTitle": "法术书切换",
+        "ToggleSpellVisibilityTitle": "法术准备",
         "ToggleUnreadyStrikes": "切换未装备武器",
         "ToggleWithName": "切换: {property}",
         "TotalTreasure": "全部宝物",
@@ -3476,9 +3519,9 @@
         "WeaponDamageLabel": "基础伤害",
         "WeaponDescriptionAxe": "<strong>重击专精效果</strong> 选择一个在你的触及内与初始目标相邻的生物。如果它的AC低于你重击的攻击掷骰，那么你对该生物造成等同一颗武器伤害骰（也包括来自装备符文的额外骰，若有）的伤害。其它加值或额外骰不适用于这个伤害。",
         "WeaponDescriptionBomb": "<strong>重击专精效果</strong>提升炸弹的溅射伤害（若有）半径到10英尺。",
-        "WeaponDescriptionBow": "<strong>重击专精效果</strong>若重击的目标邻接一个表面，则它会被弹头钉在表面上。目标将被固定，它必须使用交互动作尝试进行@Check[type:athletics|dc:10|name:Pull the Missile Free|showDC:all] 的运动检定来拔出弹头，之后才能移动离开其方格。虚体、液态（例如水元素或某些泥怪）或能以某种方式毫不费力地避开此效果的生物不会被钉住。",
+        "WeaponDescriptionBow": "<strong>重击专精效果</strong>若重击的目标邻接一个表面，则它会被弹头钉在表面上。目标将@Compendium[pf2e.conditionitems.Immobilized]{禁足}，它必须使用交互动作尝试进行@Check[type:athletics|dc:10|name:Pull the Missile Free|showDC:all] 的运动检定来拔出弹头，之后才能移动离开其方格。虚体、液态（例如水元素或某些泥怪）或能以某种方式毫不费力地避开此效果的生物不会被钉住。",
         "WeaponDescriptionBrawling": "<strong>重击专精效果</strong>目标必须成功通过你的职业DC的强韧豁免，否则陷入缓慢1，持续到你下轮结束。",
-        "WeaponDescriptionClub": "重击专精效果：目标被你击退至多10尺（距离由你选择）。这是被迫移动（475页）。",
+        "WeaponDescriptionClub": "<strong>重击专精效果</strong>目标被你击退至多10尺（距离由你选择）。这是被迫移动（475页）。",
         "WeaponDescriptionDart": "<strong>重击专精效果</strong>目标受到1d6点持续性的流血伤害。你在此流血伤害上获得等同该武器给予攻击检定的物品加值。",
         "WeaponDescriptionFlail": "<strong>重击专精效果</strong>目标被击倒地。",
         "WeaponDescriptionHammer": "<strong>重击专精效果</strong>目标被击倒地。",
@@ -4079,19 +4122,19 @@
                     "ImprovedKnockdown": "<p>怪物可以将@Compendium[pf2e.bestiary-ability-glossary-srd.Knockdown]{Knockdown}作为先制攻击命中后触发的自由动作</p>",
                     "FastHealing": "<p>具有此能力的怪物在每轮回合开始时都会恢复指定数量的生命值</p>",
                     "LowLightVision": "<p>怪物可以在昏暗的光线下视物，就好像在明亮光线下一样，因此它会忽略因昏暗光线产生的@Compendium[pf2e.conditionitems.Concealed]{Concealed}</p>",
-                    "Knockdown": "<p data-visibility=\"gm\"><strong>需求</strong>怪物的最后的动作是一次命中的打击，在其伤害条目中列列有击倒。</p>\n<p><strong>效果</strong> 怪物将目标击倒 @Compendium[pf2e.conditionitems.Prone]{Prone}.</p>",
+                    "Knockdown": "<p><strong>需求</strong>怪物的最后的动作是一次命中的打击，在其伤害条目中列列有击倒。</p>\n<hr />\n<p><strong>效果</strong> 怪物将目标击倒 @Compendium[pf2e.conditionitems.Prone]{Prone}.</p>",
                     "ImprovedPush": "<p>怪物可以将@Compendium[pf2e.bestiary-ability-glossary-srd.Push]{Push}作为先制攻击命中后触发的自由动作</p>",
                     "ThrowRock": "<p>怪物捡起一块触手可及的岩石，或者搬起一个石碓并扔出去，进行远程打击</p>",
-                    "AquaticAmbush": "<p data-visibility=\"gm\"><strong>需求</strong>怪物藏匿在水中，并且一个位于标注距离范围内的生物未能察觉到此怪物。</p>\n<p><strong>效果</strong> 怪物以最大游泳速度+10尺的速度在水中和陆地上向目标移动。一旦目标进入怪物的触及范围，则怪物对其进行一次打击。目标生物在对抗这次打击时视为@Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} 。</p>",
-                    "AttackOfOpportunity": "<p data-visibility=\"gm\"><strong>触发</strong> 位于怪物触及范围内的一个生物使用操作动作、移动动作、远程攻击，或是在一次移动动作中离开了该方格。</p>\n<p><strong>Effect</strong>怪物尝试对触发的生物发动一次近战打击。如果这次攻击是一次重击，并且是由操作动作触发，则怪物打断了该动作。这次打击不会计算多重攻击减值，并且多重攻击减值也不适用于这次打击。</p>",
-                    "CatchRock": "<div data-visibility=\"gm\">\n<p><strong>要求</strong> 怪物必须有一只空闲手，但是能够松开 @Compendium[pf2e.actionspf2e.Release]{Release}手上握持的物品作为此反应动作的一部分。</p>\n<p><strong>触发</strong> 怪物成为一次投石打击的目标，或是石块将要掉落到怪物上。</p>\n</div>\n<p><strong>效果</strong> 怪物在对抗此次攻击的AC或是任何对抗落石的防御上获得+4环境加值。如果攻击未命中或是怪物成功避免了落石，怪物接住了石头，避免了伤害。现在，是这只怪物握住了石头。</p>",
-                    "Buck": "<hr />\n<p>大多数充当坐骑的怪物都会尝试甩脱那些讨厌恼人的骑手，不过除非是收到了惊吓或是虐待，否则大多数坐骑不会对被信任的生物使用这种反应动作。</p>\n<p data-visibility=\"gm\"><strong>触发</strong> 一个生物在骑在@Compendium[pf2e.actionspf2e.Mount]{Mounts}怪物上时使用骑乘或是指挥怪物@Compendium[pf2e.actionspf2e.Command an Animal]{Command an Animal}动作。</p>\n<p><strong>效果</strong>触发的生物必须成功通过一次所列DC的反射豁免检定，否则被摔落且倒地prone。如果豁免结果是大失败，触发的生物还会在正常的坠落伤害外额外承受 [[/roll {1d6}[bludgeoning]]]{1d6 bludgeoning damage} 伤害。</p>",
+                    "AquaticAmbush": "<p><strong>需求</strong>怪物藏匿在水中，并且一个位于标注距离范围内的生物未能察觉到此怪物。</p>\n<hr />\n<p><strong>效果</strong> 怪物以最大游泳速度+10尺的速度在水中和陆地上向目标移动。一旦目标进入怪物的触及范围，则怪物对其进行一次打击。目标生物在对抗这次打击时视为@Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} 。</p>",
+                    "AttackOfOpportunity": "<p><strong>触发</strong> 位于怪物触及范围内的一个生物使用操作动作、移动动作、远程攻击，或是在一次移动动作中离开了该方格。</p>\n<hr />\n<p><strong>Effect</strong>怪物尝试对触发的生物发动一次近战打击。如果这次攻击是一次重击，并且是由操作动作触发，则怪物打断了该动作。这次打击不会计算多重攻击减值，并且多重攻击减值也不适用于这次打击。</p>",
+                    "CatchRock": "<p><strong>要求</strong> 怪物必须有一只空闲手，但是能够 @Compendium[pf2e.actionspf2e.Release]{松开}手上握持的物品作为此反应动作的一部分。</p>\n<p><strong>触发</strong> 怪物成为一次投石打击的目标，或是石块将要掉落到怪物上。</p>\n<hr />\n<p><strong>效果</strong> 怪物在对抗此次攻击的AC或是任何对抗落石的防御上获得+4环境加值。如果攻击未命中或是怪物成功避免了落石，怪物接住了石头，避免了伤害。现在，是这只怪物握住了石头。</p>",
+                    "Buck": "<hr />\n<p>大多数充当坐骑的怪物都会尝试甩脱那些讨厌恼人的骑手，不过除非是收到了惊吓或是虐待，否则大多数坐骑不会对被信任的生物使用这种反应动作。</p>\n<p><strong>触发</strong> 一个生物在骑在@Compendium[pf2e.actionspf2e.Mount]{Mounts}怪物上时使用骑乘或是指挥怪物@Compendium[pf2e.actionspf2e.Command an Animal]{Command an Animal}动作。</p>\n<hr />\n<p><strong>效果</strong>触发的生物必须成功通过一次所列DC的反射豁免检定，否则被摔落且倒地prone。如果豁免结果是大失败，触发的生物还会在正常的坠落伤害外额外承受 [[/roll {1d6}[bludgeoning]]]{1d6 bludgeoning damage} 伤害。</p>",
                     "ChangeShape": "<p>怪物无限期地改变了其形态。它能够使用此动作恢复原形或是改为一个新的形态。除非另有说明，否则怪物无法使用变身能力呈现出某个特定个体。使用变身也被视为使用欺骗技能的乔装来伪装自身。在判别所变化形态的生物族裔或是生物类型时，怪物的变形将自动成功对抗察觉DC，并且在防止从其他方面识破其伪装@Compendium[pf2e.actionspf2e.Impersonate]{Impersonate}的欺骗DC上获得+4状态加值。变身能力指定了怪物能够变化的形态。怪物仅能变化其生理形态，并不会获得新形态的特殊能力。例如，在每个形态下，它都会替换其正常速度与打击，并且可能改变其感官或体型。所有变更都会在数据栏中列出。</p>",
                     "Engulf": "<p>怪物以两倍速度行走（Strides），并且可以移动穿越路径上任何生物所占据的空间。所以体型等同于怪物或更小的生物在其所在空间被怪物穿越时可尝试进行一次反射豁免对抗所列DC以避免被包卷。无法行动的生物在豁免中自动大失败。如果生物在豁免中成功，它能选择被推到一旁（怪物的路径以外）或是被怪物推在前面直到怪物移动结束。怪物在单次的包卷行动中只能尝试包卷同一个生物一次。怪物能够容纳尽可能多的生物直至填满其占据空间。</p>\n<p>豁免失败的生物被拖入怪物体内。它被擒抱@Compendium[pf2e.conditionitems.Grabbed]{Grabbed},，获得迟缓@Compendium[pf2e.conditionitems.Slowed]{Slowed 1}，并且必须屏住呼吸，否则便会开始窒息。生物在被首次包卷时以及被包卷的每一个回合结束时受到所列出的伤害。被包卷的生物可以尝试一次对抗所列逃脱DC的逃脱动作来@Compendium[pf2e.actionspf2e.Escape]{Escaping}重获自由。被包卷的生物可以攻击包卷它的怪物，但是仅能以无武装攻击或是轻负载及更小的武器进行攻击。包卷中的生物在对抗此攻击时措手不及@Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed} 。如果怪物于单次攻击或法术中受到的穿刺或挥砍伤害等于或超过所列的破裂值，那个被包卷的生物重获自由。通过这些法脱困的生物可以立即开始呼吸，并且离开吞噬他们的怪物的占据空间。 </p>\n<p>如果怪物死亡，它便无法维持其形态，所有被其包卷的生物将被自动释放。</p>",
-                    "Grab": "<p data-visibility=\"gm\"><strong>要求</strong> 怪物的上一个动作是一次成功的打击Strike并且在伤害条目中列出了“攫抓”，或是已经使用此动作擒抱了一个生物。</p>\n<p><strong>效果</strong>直到怪物的下一回合结束前它都将自动攫抓目标。该生物被怪物用于攻击的肢体所擒抱@Compendium[pf2e.conditionitems.Grabbed]{Grabbed} ，并且该肢体在攫抓结束前无法被用于打击生物。使用攫抓可以延长其攫抓能力持续时间直至下一轮结束前都，这对于由此擒抱的所有生物都有效。被擒抱的生物可以使用逃脱动作 @Compendium[pf2e.actionspf2e.Escape]{Escape}脱离攫抓。如果怪物远离了被擒抱的生物，攫抓也会被终止。</p>",
+                    "Grab": "<p><strong>要求</strong> 怪物的上一个动作是一次成功的打击Strike并且在伤害条目中列出了“攫抓”，或是已经使用此动作擒抱了一个生物。</p>\n<hr />\n<p><strong>效果</strong>直到怪物的下一回合结束前它都将自动攫抓目标。该生物被怪物用于攻击的肢体所擒抱@Compendium[pf2e.conditionitems.Grabbed]{Grabbed} ，并且该肢体在攫抓结束前无法被用于打击生物。使用攫抓可以延长其攫抓能力持续时间直至下一轮结束前都，这对于由此擒抱的所有生物都有效。被擒抱的生物可以使用逃脱动作 @Compendium[pf2e.actionspf2e.Escape]{Escape}脱离攫抓。如果怪物远离了被擒抱的生物，攫抓也会被终止。</p>",
                     "Poison": "<p>当一名生物暴露在怪物的毒素下时，它需要尝试一次强韧豁免用以避免中毒。毒素的等级为造成疾病的怪物的等级。毒素遵从于苦难规则。</p>",
-                    "Push": "<p data-visibility=\"gm\"><strong>要求</strong> 怪物的上一个动作是一次成功的打击并且在伤害条目中列出了“推离”。</p>\n<p><strong>效果</strong>怪物自动将目标从怪物身边击退。除非在能力描述中另有说明，否则生物将被推离5尺。如果攻击为重击，则此距离加倍。</p>",
-                    "RetributiveStrike": "<p data-visibility=\"gm\"><strong>触发</strong> 一个敌人对怪物的盟友造成了伤害，且两者都距离怪物15尺以内。</p>\n<p><strong>效果</strong> 盟友对被触发的伤害获得2+怪物等级的全伤害抗力。如果敌人在触及范围内，怪物对其发动一次近战打击。</p>",
+                    "Push": "<p><strong>要求</strong> 怪物的上一个动作是一次成功的打击并且在伤害条目中列出了“推离”。</p>\n<hr />\n<p><strong>效果</strong>怪物自动将目标从怪物身边击退。除非在能力描述中另有说明，否则生物将被推离5尺。如果攻击为重击，则此距离加倍。</p>",
+                    "RetributiveStrike": "<p><strong>触发</strong> 一个敌人对怪物的盟友造成了伤害，且两者都距离怪物15尺以内。</p>\n<hr />\n<p><strong>效果</strong> 盟友对被触发的伤害获得2+怪物等级的全伤害抗力。如果敌人在触及范围内，怪物对其发动一次近战打击。</p>",
                     "Scent": "<p>灵敏嗅觉通过气味感应生物或物品，并且这是一种朦胧感官。其作用范围已在能力中列出，并且仅能在侦测散发出气味的生物或物品时起效（例如，无生命的生物通常都不会发出气味）。</p>\n<p>如果一个生物散发出浓郁的气味或是出于上风处，GM可将灵敏嗅觉用于侦测此生物的范围加倍或加至三倍，而当生物出于下风处时GM则可减小作用范围。</p>",
                     "Trample": "<p>怪物以其两倍的速度行走，并且可以在移动中穿越所列体型的生物所占据的空间，并且对这些被其进入占据空间的生物发动践踏。在每次使用践踏时，怪物只能对同一名生物尝试一次践踏。怪物造成所列的打击伤害，并且被践踏的生物可以尝试一次基础反射豁免对抗所列DC（大成功不受伤，成功伤害减半，大失败两倍伤害）。</p>",
                     "TroopDefenses": "<p>部队是由多个单独个体组成的，在经过多次攻击和战损之后，部队的规模就会缩减。大部分部队在初始状态下的规模有16个方格（4*4），并且它们的生命值后面会列出两个阈值，第一个阈值大约是最大生命值的2/3，第二个阈值大约是最大生命值的1/3。一旦部队的生命值减少到第一个阈值以下，它的规模缩减4个方格，还剩下12个方格，并且第一个阈值会成为新的最大生命值。当部队的生命值减少到第二个阈值以下时，它的规模再缩减4个方格，只剩下8个方格，第二个阈值会成为新的最大生命值。为了恢复它的规模和最大生命值，部队需要花费很长时间来治疗伤员并补充新兵。当生命值为0时，部队规模会减为4个方格，这不足以维持部队，所以部队会溃散，剩下的少数幸存者会投降、逃跑或解散，这取决于它们自身的天性。</p>\n<p>伤害性效果，若针对单一目标，例如打击，则无法让部队的生命值一次跨过多个阈值。举例来说，如果一个部队拥有60点生命值，阈值分别为40和20，那么一次造成50点伤害的打击将使部队生命减少至21，刚好在第二个阈值之上。区域性的伤害效果或瞄准多个目标的伤害性效果可以一次跨过多个阈值，甚至可能一击毁灭整个部队。</p>\n<p>非伤害性效果，若拥有区域范围或能针对一定范围内的所有生物，并且能复盖部队占据的整个空间，则能正常对部队生效；如果效果的范围比部队占据的方格少，或可瞄准的目标数量小于部队人数，那么一般而言对部队就没有影响。但例外是：如果一个效果至少能瞄准四个目标，或者至少能复盖4个方格，并且该效果能够阻止目标行动、导致目标逃跑、或让他们在1轮或更长时间内无法作为部队的一部分发生作用，则部队自动失去下一档阈值之上的全部生命值，并缩减4个方格。如果一个效果既能对部队造成伤害，又会导致部分成员失能从而自动损失生命值，则应先结算伤害；如果伤害没有跨过阈值，那就再结算失能效果：扣除剩余生命值来跨过阈值。</p>",
@@ -4100,17 +4143,17 @@
                     "Constrict": "<p>怪物对任意数量的被其擒抱@Compendium[pf2e.conditionitems.Grabbed]{Grabbed} 或拘束@Compendium[pf2e.conditionitems.Restrained]{Restrained} 的生物造成所列出的伤害。这些生物都可进行一次基础强韧豁免对抗所列出的DC。</p>",
                     "Coven": "<p>T此怪物能够与两个或是更多同样拥有巫团能力的生物组成巫团。这要求所有的准巫团成员举行一个8小时的仪式。当结成巫团之后，所有成员都将获得精英进化（第6页），并且随之调整其等级。巫团成员能够以一个带有专注特征的单动作感知其他成员的位置和状态，或是以一个同样带有专注特征的双动作感受到另一名巫团成员的感官。</p>\n<p>巫团还会赋予其成员法术和仪式，但是只有三名巫团成员彼此位于30英尺之内时才能合作施展这些法术或仪式。一名巫团成员可以通过一个拥有单一语言成分的单动作施法动作为巫团法术作出贡献。如果两名巫团成员在上一轮内以此方法作出了贡献，那么第三名成员可以在她自己的回合花费正常的施法动作施放巫团法术。一个巫团能够无限次地施放巫团法术，但是每轮只能施放一次巫团法术。所有巫团都会赋予8环 <em>@Compendium[pf2e.spells-srd.Baleful Polymorph]{Baleful Polymorph}</em> ，巫团还将获得以下法术并且可以将其升环至5环：<em>@Compendium[pf2e.spells-srd.Augury]{Augury}</em>, <em>@Compendium[pf2e.spells-srd.Charm]{Charm}</em>, <em>@Compendium[pf2e.spells-srd.Clairaudience]{Clairaudience}</em>, <em>@Compendium[pf2e.spells-srd.Clairvoyance]{Clairvoyance}</em>, <em>@Compendium[pf2e.spells-srd.Dream Message]{Dream Message}</em>, <em>@Compendium[pf2e.spells-srd.Illusory Disguise]{Illusory Disguise}</em>, <em>@Compendium[pf2e.spells-srd.Illusory Scene]{Illusory Scene}</em>, <em>@Compendium[pf2e.spells-srd.Prying Eye]{Prying Eye}</em>, 以及 <em>@Compendium[pf2e.spells-srd.Talking Corpse]{Talking Corpse}</em>. 个别拥有巫团能力的生物还会为她们所加入的巫团带来额外的法术。一个巫团还能够施展<em>@Compendium[pf2e.spells-srd.Control Weather]{Control Weather}</em> 仪式，使用DC23代替标准DC。</p>\n<p>如果一名巫团成员的脱离或是死亡使得巫团的成员数量少于三名，则其余成员保留其精英进化24小时，但是因为没有足够的成员贡献必要的动作，她们无法施放巫团法术。</p>",
                     "Disease": "<p>当一名生物暴露在怪物的疾病下时，它需要尝试一次强韧豁免用以避免感染该疾病。疾病的等级为造成疾病的怪物的等级。疾病遵从于苦难规则。</p>",
-                    "FrightfulPresence": "<p>首次进入灵光的生物必须进行一次意志豁免。</p>\n<div data-visibility=\"gm\">\n<p>无论结果如何，该生物都将在1分钟内免疫此怪物的气势凶猛。</p>\n<hr />\n<p><strong>大成功</strong>该生物不受气势凶猛的影响。</p>\n<p><strong>成功</strong>该生物受到@Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p>\n<p><strong>失败</strong> 该生物受到 @Compendium[pf2e.conditionitems.Frightened]{Frightened 2}.</p>\n<p><strong>大失败</strong>该生物受到 @Compendium[pf2e.conditionitems.Frightened]{Frightened 4}.</p>\n</div>",
+                    "FrightfulPresence": "<p>首次进入灵光的生物必须进行一次意志豁免。</p>\n<p>无论结果如何，该生物都将在1分钟内免疫此怪物的气势凶猛。</p>\n<hr />\n<p><strong>大成功</strong>该生物不受气势凶猛的影响。</p>\n<p><strong>成功</strong>该生物受到@Compendium[pf2e.conditionitems.Frightened]{Frightened 1}.</p>\n<p><strong>失败</strong> 该生物受到 @Compendium[pf2e.conditionitems.Frightened]{Frightened 2}.</p>\n<p><strong>大失败</strong>该生物受到 @Compendium[pf2e.conditionitems.Frightened]{Frightened 4}.</p>",
                     "GreaterConstrict": "<p>怪物对任意数量的被其擒抱@Compendium[pf2e.conditionitems.Grabbed]{Grabbed}或拘束@Compendium[pf2e.conditionitems.Restrained]{Restrained}的生物造成所列出的伤害。这些生物都可进行一次基础强韧豁免对抗所列出的DC。在豁免中失败的生物将陷入失去意识@Compendium[pf2e.conditionitems.Unconscious]{Unconscious}，豁免成功的生物在1分钟内免疫高等紧勒的昏迷效果。</p>",
                     "GreaterDarkvision": "<p>拥有高等黑暗视觉的生物可以在黑暗和昏暗光照下正常视物，可惜这种视觉只能看见黑白两色。某些形式的黑暗魔法，例如4环<em>@Compendium[pf2e.spells-srd.Darkness]{Darkness}</em>，会阻碍普通的黑暗视觉@Compendium[pf2e.bestiary-ability-glossary-srd.Darkvision]{Darkvision}。然而，拥有高等黑暗视觉的生物甚至可以看穿这类形式的魔法黑暗。</p>",
                     "ImprovedGrab": "<p>怪物可以在被触发的初始攻击命中时以自由动作使用@Compendium[pf2e.bestiary-ability-glossary-srd.Grab]{Grab}。精通攫抓依旧需要花费一个动作用来延长被擒抱@Compendium[pf2e.conditionitems.Grabbed]{Grabbed}生物的持续时间。</p>",
                     "Lifesense": "<p>生命感知使得怪物能够感知所列范围内所有活物与不死生物的生命力。就如同视觉可以分辨不同的颜色那般，这种感觉可以区分驱使活物的正能量和驱使不死生物的负能量。</p>",
                     "LightBlindness": "<p>当初次暴露在明亮光照下时，该怪物将会失明@Compendium[pf2e.conditionitems.Blinded]{Blinded} 直至其下一回合。在初次暴露后，亮光不再使怪物失明，除非其又在黑暗中呆了1小时。然而，只要怪物还处于明亮光照下，它就会保持目眩@Compendium[pf2e.conditionitems.Dazzled]{Dazzled}。</p>",
                     "NegativeHealing": "<p>具有负能量治疗效果的生物从负能量而不是正能量中获取生命。它被正能量伤害所伤，而不是正能量治疗所治愈。它不会受到负能量伤害，并且会被治疗不死的负能量效果治愈。</p>",
-                    "PowerAttack": "<p data-visibility=\"gm\"><strong>频率</strong>一回合一次</p>\n<p><strong>效果</strong> 怪物进行近战攻击。当计算怪物的多次攻击惩罚时，这会算作两次攻击。如果这次攻击命中，怪物造成的武器伤害会额外增加一个伤害骰。</p>",
+                    "PowerAttack": "<p><strong>频率</strong>一回合一次</p>\n<hr />\n<p><strong>效果</strong> 怪物进行近战攻击。当计算怪物的多次攻击惩罚时，这会算作两次攻击。如果这次攻击命中，怪物造成的武器伤害会额外增加一个伤害骰。</p>",
                     "Regeneration": "<p>怪物在每回合开始时恢复所列出的生命值。再生起效期间怪物的濒死 @Compendium[pf2e.conditionitems.Dying]{Dying} 状态永远不会超过3。然而，一旦其受到了再生条目中所罗列的伤害类型，再生将在其下一轮结束前失效。再生在收到所罗列的伤害前就已失效，因此这些伤害可能会导致濒死4从而杀死怪物。</p>",
-                    "Rend": "<p>撕裂条目中会列出一项怪物所拥有的打击。</p>\n<p data-visibility=\"gm\"><strong>要求</strong>怪物在同一轮中连续两次使用在条目中列的打击类型命中同一名生物。</p>\n<p><strong>效果</strong> 怪物自动对此敌人造成打击伤害。</p>",
-                    "ShieldBlock": "<p data-visibility=\"gm\"><strong>触发</strong> 怪物已经举起了盾牌，并且受到一次物理攻击的伤害。</p>\n<p><strong>效果</strong>怪物挺起盾牌格挡了攻击。盾牌使得怪物所受的伤害减少最多等同于盾牌硬度的数值。怪物和盾牌同时承受剩余的伤害，并且这也可能损坏或摧毁盾牌。</p>",
+                    "Rend": "<p>撕裂条目中会列出一项怪物所拥有的打击。</p>\n<p><strong>要求</strong>怪物在同一轮中连续两次使用在条目中列的打击类型命中同一名生物。</p>\n<hr />\n<p><strong>效果</strong> 怪物自动对此敌人造成打击伤害。</p>",
+                    "ShieldBlock": "<p><strong>触发</strong> 怪物已经举起了盾牌，并且受到一次物理攻击的伤害。</p>\n<hr />\n<p><strong>效果</strong>怪物挺起盾牌格挡了攻击。盾牌使得怪物所受的伤害减少最多等同于盾牌硬度的数值。怪物和盾牌同时承受剩余的伤害，并且这也可能损坏或摧毁盾牌。</p>",
                     "SwallowWhole": "<p>怪物尝试吞下一只已被其口嘴所擒抱的且体型等于或小于所列体型的生物。如果被吞下的生物的体型已经达到了所列体型的最大值，怪物便无法再次使用活吞。如果生物的体型比最大值要小，则怪物通常而言便还能吞下更多的生物；其具体的极限由GM判断。怪物尝试一次运动检定对抗被擒抱生物的反射DC。如果检定成功，则能吞下该生物。怪物的口嘴不再擒抱被其吞下的生物，所以怪物能够用其再次进行打击Strike或擒抱Grab。怪物无法攻击被其吞下的生物。</p>\n<p>被活吞的生物视为被擒抱 @Compendium[pf2e.conditionitems.Grabbed]{Grabbed}，且获得迟缓@Compendium[pf2e.conditionitems.Slowed]{Slowed 1}，同时必须屏住呼吸，否则便会开始窒息。被吞下的生物在初次被吞以及被吞后的每一轮结束时受到所列出的伤害。如果受害者从这一能力的擒抱状态中逃脱@Compendium[pf2e.actionspf2e.Escape]{Escapes} ，则他会从怪物的嘴里钻出来。这会同时解放怪物口嘴中所擒抱的其他任何生物。被吞下的生物可以攻击那只吞食它的怪物，但是仅能以无武装攻击或是轻负载及更小的武器进行攻击。吞食中的生物在对抗此攻击时措手不及@Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed}。如果怪物于单次攻击或法术中受到的穿刺或挥砍伤害等于或超过所列的破裂Rupture值，那个被吞的生物便重获自由。通过这些法脱困的生物可以立即开始呼吸，并且离开吞食他们的怪物的占据空间。</p>\n<p>如果怪物死亡，邻近尸体的生物们可以花费总计3个动作使用武器或者非武装攻击对怪物造成穿刺或挥砍伤害，以此切开怪物并且解放被活吞的生物。</p>",
                     "SwarmMind": "<p>该怪物并没有一个单一的心智（通常是因为它是一个小型生物的集群），并且免疫以特定数量生物为目标的心灵效果。它仍然会受到那些对范围内所有生物起效的心灵效果。</p>",
                     "Telepathy": "<p>具有心灵感应能力的怪物可以与所列半径内任意生物进行心灵交流，然而它们必须能够使用同种语言。这并没有给他们的思维提供特殊的渠道，也无法比正常的开口交流传递更多的信息。</p>",
@@ -4118,7 +4161,7 @@
                     "FormUp": "<p>部队选择它当前占据的一格空间，重新分配其所占据的方格，新的方格可以是任何形状，但是所有方格必须连续，并且位于被选择的方格的15尺之内。部队不能和其他生物共享空间。</p>",
                     "Darkvision": "<p>拥有黑暗视觉的怪物可以在黑暗和昏暗光照下正常视物，可惜这种视觉只能看见黑白两色。某些形式的黑暗魔法，例如4环<em>@Compendium[pf2e.spells-srd.Darkness]{Darkness}</em>，会阻碍普通的黑暗视觉。然而，拥有高等黑暗视觉@Compendium[pf2e.bestiary-ability-glossary-srd.Greater Darkvision]{Greater Darkvision}的怪物甚至可以看穿这类形式的魔法黑暗。 </p>",
                     "Thoughtsense": "<p>思维感知允许怪物感知所列范围内的所有心智生物。</p>",
-                    "Ferocity": "<p data-visibility=\"gm\"><strong>触发</strong> 怪物的生命值降低至0点。</p>\n<p><strong>效果</strong> 怪物免于被打倒，并且余留1点HP，其负伤值增加1。当其负伤3的时候，它无法再使用此能力。</p>",
+                    "Ferocity": "<p><strong>触发</strong> 怪物的生命值降低至0点。</p>\n<hr />\n<p><strong>效果</strong> 怪物免于被打倒，并且余留1点HP，其负伤值增加1。当其负伤3的时候，它无法再使用此能力。</p>",
                     "SneakAttack": "<p>当怪物用灵巧或娴熟近战武器、灵巧或娴熟的徒手攻击、或是远距攻击来对措手不及@Compendium[pf2e.conditionitems.Flat-Footed]{Flat-Footed}的生物进行打击，它还会造成所列出的精准伤害。用投掷武器来远距攻击的场合，该武器必须为灵巧或娴熟。 </p>",
                     "Tremorsense": "<p>颤动感知允许怪物感受到那些因为移动而引起的固体表面的振动。这是一种在（能力所列出的）有限范围内的模糊感官。只有当怪物位于同一物体的表面、且仅在对象沿着表面移动（或是钻入）时，颤动感知才会生效。</p>"
                 }
@@ -4465,7 +4508,7 @@
             "Arcane": "{tradition}",
             "Divine": "{tradition}"
         },
-        "ToggleSlotlessSpellLevelsTitle": "切换法术书中无环位之法术等级的可见性",
+        "ToggleSlotlessSpellLevelsTitle": "切换空置法术环级的可见性",
         "TraitUnstable": "不稳定",
         "TraitWornBeltPouch": "穿戴皮带袋",
         "TraitWornCrown": "穿戴皇冠",
@@ -5398,7 +5441,7 @@
         "TraitDescriptionGoloma": "",
         "TraitDescriptionTelepathy": "具有心灵感应能力的怪物可以与所列半径内任意生物进行心灵交流，然而它们必须能够使用同种语言。这并没有给他们的思维提供特殊的渠道，也无法比正常的开口交流传递更多的信息。",
         "TraitKovintus": "",
-        "TraitGoloma": "",
+        "TraitGoloma": "果洛玛语",
         "TraitStheno": "",
         "LanguageKibwani": "",
         "LanguageGoloma": "果洛玛语",
@@ -5453,6 +5496,12 @@
                     "TemporaryItems": "临时物品已移除。",
                     "WandsCharges": "魔杖已充能。"
                 }
+            }
+        },
+        "Keybinding": {
+            "CycleTokenStack": {
+                "Label": "循环指示物堆叠",
+                "Hint": "按照Z轴参数从上到下依次循环鼠标悬停中的指示物堆叠。"
             }
         }
     },
