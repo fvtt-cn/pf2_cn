@@ -449,6 +449,22 @@
                     "criticalFailure": "<strong>大失败</strong>动物误解了你的指令。GM决定它会做什么怪事。."
                 },
                 "Title": "指挥动物"
+            },
+            "Tamper": {
+                "Notes": {
+                    "criticalSuccess": "<strong>Critical Success</strong> 你的篡改非常有效。如果你篡改了武器，敌人在使用该武器进行的攻击骰和伤害骰上承受-2环境罚值。如果你篡改了护甲，护甲会妨碍敌人的移动，令敌人陷入措手不及且在速度上承受-10罚值。该效果持续到敌人交互Interact以移除，无论你选择进行何种篡改。 @Compendium[pf2e.feat-effects.rzcpTJU9MvW1x1gz]{Effect: Armor Tampered With (Critical Success)} @Compendium[pf2e.feat-effects.o7qm13OmaYOMwgib]{Effect: Weapon Tampered With (Critical Success)}",
+                    "criticalFailure": "<strong>Critical Failure</strong> 你的篡改引起了华丽的麻烦，你的工具或器械发生了小规模的爆炸。你承受等于 [[/r {@details.level.value}[fire] # Tamper Backfire]]{你等级的火焰伤害}。",
+                    "success": "<strong>Success</strong> 你的篡改暂时有效。如大成功，但效果持续到你的下回合开始，即使敌人没有进行交互Interact以移除。 @Compendium[pf2e.feat-effects.IfRkgjyh0JzGalIy]{Effect: Armor Tampered With (Success)} @Compendium[pf2e.feat-effects.4QWayYR3JSL9bk2T]{Effect: Weapon Tampered With (Success)}"
+                },
+                "Title": "篡改"
+            },
+            "TreatDisease": {
+                "Notes": {
+                    "criticalFailure": "<strong>大失败</strong> 在该生物下一次对抗该疾病的豁免检定上你为他造成-2环境减值。<br/>@Compendium[pf2e.equipment-effects.5oYKYXAexr0vhx84]{Effect: Treat Disease (Critical Failure)}",
+                    "success": "<strong>成功</strong> 在该生物下一次对抗该疾病的豁免检定上你为他提供+2环境加值。<br/>@Compendium[pf2e.equipment-effects.Ee2xfKX1yyqGIDZj]{Effect: Treat Disease (Success)}",
+                    "criticalSuccess": "<strong>大成功</strong> 在该生物下一次对抗该疾病的豁免检定上你为他提供+4环境加值。<br/>@Compendium[pf2e.equipment-effects.id20P4pj7zDKeLmy]{Effect: Treat Disease (Critical Success)}"
+                },
+                "Title": "治疗疾病"
             }
         },
         "BrowserSortyByPriceLabel": "价格",
@@ -976,7 +992,8 @@
                 },
                 "SpellPreparation": {
                     "Title": "{actor}: 法术准备",
-                    "Hint": "想要准备一个法术，请将其从列表中拖至角色卡的一个法术空位上。"
+                    "Hint": "想要准备一个法术，请将其从列表中拖至角色卡的一个法术空位上。",
+                    "HintFlexible": "要准备咒语，请在此处启用。要准备戏法，请从该列表中将一个戏法拖动到角色卡上的空位中。 "
                 }
             }
         },
@@ -1734,7 +1751,8 @@
                 "FavoredWeapon": "偏爱武器",
                 "ClericSpells": {
                     "Label": "牧师法术",
-                    "Hint": "要添加法术，请将法术拖放到此列表上。"
+                    "Hint": "要添加法术，请将法术拖放到此列表上。",
+                    "DropError": "神祇赐予的牧师法术不会包括戏法、聚能法术或仪式。"
                 },
                 "Domain": {
                     "Abomination": {
@@ -5496,6 +5514,10 @@
                     "TemporaryItems": "临时物品已移除。",
                     "WandsCharges": "魔杖已充能。"
                 }
+            },
+            "Strike": {
+                "MeleeLabel": "近战攻击:{weapon}",
+                "RangedLabel": "远程攻击: {weapon}"
             }
         },
         "Keybinding": {
@@ -5503,7 +5525,8 @@
                 "Label": "循环指示物堆叠",
                 "Hint": "按照Z轴参数从上到下依次循环鼠标悬停中的指示物堆叠。"
             }
-        }
+        },
+        "AreaSize360": "360 尺"
     },
     "COMPENDIUM": {
         "Search": "检索概要",
