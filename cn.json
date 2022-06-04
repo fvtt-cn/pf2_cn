@@ -1654,7 +1654,9 @@
                     "OnePropertyMaterial": "{property1} {material} {base}",
                     "ThreePropertiesMaterial": "{property1} {property2} {property3} {material} {base}",
                     "TwoPropertiesMaterial": "{property1} {property2} {material} {base}",
-                    "ThreeProperties": "{property1} {property2} {property3} {base}"
+                    "ThreeProperties": "{property1} {property2} {property3} {base}",
+                    "Striking": "{striking} {base}",
+                    "StrikingMaterial": "{striking} {material} {base}"
                 },
                 "MaterialAndRunes": {
                     "MaterialOption": "{type} ({grade})",
@@ -1680,9 +1682,13 @@
                     "Label": "其他标签"
                 },
                 "MandatoryMelee": "该武器拥有一个只能用于近战武器的特征。",
-                "RangeIncrementN": "射程增量 {range} 尺。",
+                "RangeIncrementN": {
+                    "Label": "射程增量{range}尺",
+                    "Hint": "远程和投掷武器的射程增量。使用这些武器进行的攻击一般情况下可以达到该距离。超过武器射程增量的攻击掷骰，在你和目标间每有一个射程增量，就要承受-2罚值。超过六个射程增量不能攻击。"
+                },
                 "NoRangeMelee": "无(近战)",
-                "Improvised": "临时"
+                "Improvised": "临时",
+                "ReloadOneMinute": "1分钟"
             },
             "SidebarSummary": "{type}目录",
             "Physical": {
