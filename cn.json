@@ -1688,7 +1688,10 @@
                 },
                 "NoRangeMelee": "无(近战)",
                 "Improvised": "临时",
-                "ReloadOneMinute": "1分钟"
+                "ReloadOneMinute": "1分钟",
+                "ThrownUsage": {
+                    "Label": "用作投掷"
+                }
             },
             "SidebarSummary": "{type}目录",
             "Physical": {
@@ -4122,7 +4125,8 @@
             "Inventory": {
                 "Header": {
                     "NameLabel": "名称",
-                    "QuantityLabel": "数量"
+                    "QuantityLabel": "数量",
+                    "ValueLabel": "值"
                 }
             },
             "Spells": {
@@ -4409,7 +4413,7 @@
         "LanguageWyrwood": "汲魂木语",
         "ModifierNamePlaceholder": "名称",
         "ModifierTypeTitle": "[Type]",
-        "Repost": "发布至聊天栏",
+        "Repost": "发布提示至聊天栏",
         "SpellFlexibleLabel": "灵活",
         "SpellScalingInterval": {
             "Label": "梯度",
@@ -5532,7 +5536,9 @@
                 "Hint": "按照Z轴参数从上到下依次循环鼠标悬停中的指示物堆叠。"
             }
         },
-        "AreaSize360": "360 尺"
+        "AreaSize360": "360 尺",
+        "TraitAppliedToBucklerShield": "附在小圆盾或护盾上",
+        "TraitAffixedToMediumHeavyArmor": "附在中型或重型护甲上"
     },
     "COMPENDIUM": {
         "Search": "检索概要",
