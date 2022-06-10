@@ -1655,8 +1655,8 @@
                     "ThreePropertiesMaterial": "{property1} {property2} {property3} {material} {base}",
                     "TwoPropertiesMaterial": "{property1} {property2} {material} {base}",
                     "ThreeProperties": "{property1} {property2} {property3} {base}",
-                    "Striking": "{striking} {base}",
-                    "StrikingMaterial": "{striking} {material} {base}"
+                    "Striking": "",
+                    "StrikingMaterial": ""
                 },
                 "MaterialAndRunes": {
                     "MaterialOption": "{type} ({grade})",
