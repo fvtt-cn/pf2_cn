@@ -32,7 +32,7 @@
         "TypeWeapon": "武器",
         "TypeFormula": "公式",
         "TypeBook": "书",
-        "TypeDeity": "神祗",
+        "TypeDeity": "神祇",
         "TypeHeritage": "传承"
     },
     "PF2E": {
@@ -1412,8 +1412,8 @@
         "DCAdjustmentVeryHard": "非常困难",
         "DCAdjustmentIncrediblyHard": "极端困难",
         "DefencesLabel": "防御",
-        "Deity": "神祗",
-        "DeityTitle": "你的 神祗",
+        "Deity": "神祇",
+        "DeityTitle": "你的神祇",
         "DeleteConditionQuestion": "确实要删除 {condition}吗？",
         "DeleteConditionTitle": "删除状态",
         "DeleteItemQuestion": "你确定要删除：",
@@ -1761,7 +1761,7 @@
                 "ClericSpells": {
                     "Label": "牧师法术",
                     "Hint": "要添加法术，请将法术拖放到此列表上。",
-                    "DropError": "神祗赐予的牧师法术不会包括戏法、聚能法术或仪式。"
+                    "DropError": "神祇赐予的牧师法术不会包括戏法、聚能法术或仪式。"
                 },
                 "Domain": {
                     "Abomination": {
@@ -1822,7 +1822,7 @@
                     },
                     "Destruction": {
                         "Label": "毁灭",
-                        "Description": "你是神祗蹂躏世间的向导。"
+                        "Description": "你是神祇蹂躏世间的向导。"
                     },
                     "Dreams": {
                         "Label": "梦境",
