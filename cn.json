@@ -465,6 +465,38 @@
                     "criticalSuccess": "<strong>大成功</strong> 在该生物下一次对抗该疾病的豁免检定上你为他提供+4环境加值。<br/>@Compendium[pf2e.equipment-effects.id20P4pj7zDKeLmy]{Effect: Treat Disease (Critical Success)}"
                 },
                 "Title": "治疗疾病"
+            },
+            "Repair": {
+                "Chat": {
+                    "ItemRepaired": "{itemName}被修复了 {repairedDamage} 点伤害，目前生命值为{afterRepairHitPoints}/ {maximumHitPoints} 。",
+                    "ItemDamaged": "{itemName}被给予了 {damageDealt} 点伤害，目前生命值为{afterRepairHitPoints}/ {maximumHitPoints} 。"
+                },
+                "Notes": {
+                    "criticalSuccess": "<strong>大成功</strong>你为一件物品恢复了10+（10x你的每个手艺技能的熟练等级）的生命值（如果你是受训等级，总值为20；如果你是专家等级，总值为30；如果你是大师等级，总值为40；如果你是传奇等级，总值为50）。",
+                    "success": "<strong>成功</strong> 你为一件物品恢复了5+（5x你的每个手艺技能的熟练等级）的生命值（如果你是受训等级，总值为10；如果你是专家等级，总值为15；如果你是大师等级，总值为20；如果你是传奇等级，总值为25）。",
+                    "criticalFailure": "<strong>大成功</strong> 你对物品造成了2d6点伤害，但物品的硬度仍然可以用于抵抗这个伤害。"
+                },
+                "Error": {
+                    "ItemReferenceMismatch": "只允许角色对实体物品进行修复。"
+                },
+                "Labels": {
+                    "DamageMitigatedByHardness": "大失败的修理检定因硬度而没有对物品造成伤害。",
+                    "DealItemDamage": "对物品造成{value}点伤害",
+                    "Hardness": "硬度",
+                    "ItemLevelRepairDC": "物品等级{level}修理DC",
+                    "RestoreItemHitPoints": "恢复物品{value}点生命值",
+                    "RollItemDamage": "掷骰{value}伤害"
+                },
+                "SelectItemDialog": {
+                    "CancelButtonLabel": "取消",
+                    "RepairButtonLabel": "修理",
+                    "DropItemZoneLabel": "将物品拖到此处...",
+                    "Title": "选择要修复的物品"
+                },
+                "Title": "修理",
+                "Warning": {
+                    "NotPhysicalItem": "选定的物品{item}不是实体物品。"
+                }
             }
         },
         "BrowserSortyByPriceLabel": "价格",
@@ -809,7 +841,8 @@
             "Sidebar": {
                 "Guide": "指南",
                 "Changelog": "更新日志",
-                "Discord": "Discord"
+                "Discord": "Discord",
+                "Wiki": "Wiki"
             },
             "JournalEntryTheme": {
                 "Foundry": "Foundry（经典）",
@@ -947,10 +980,34 @@
                 "AncestryClass": "{ancestry} {class}",
                 "Rest": {
                     "Label": "休息一晚"
+                },
+                "AbilityBuilder": {
+                    "Title": "分配你的提升",
+                    "Boost": "提升",
+                    "Boosts": "提升",
+                    "Flaw": "缺陷",
+                    "Flaws": "缺陷",
+                    "KeyIcon": "关键属性",
+                    "VoluntaryFlaw": {
+                        "Title": "自选缺陷",
+                        "Description": "选择两个自选缺陷以获得额外提升。"
+                    },
+                    "BackgroundBoostDescription": "两个提升：一个必须是{a}或{b}。",
+                    "AbilityScoreMethod": {
+                        "Title": "属性值构建方式",
+                        "Description": "切换方式将重置你的属性值分配。",
+                        "UseCustomLabel": "使用自定义"
+                    },
+                    "AncestryMissingHelp": "选择传承以选择提升。",
+                    "BackgroundMissingHelp": "选择背景以选择提升。",
+                    "ClassMissingHelp": "选择职业以选择提升。",
+                    "NotSelected": "未选定",
+                    "Complete": "完成"
                 }
             },
             "Hazard": {
-                "Level": "危害 {level}"
+                "Level": "危害 {level}",
+                "TitleEdit": "{name} (编辑模式)"
             },
             "NPC": {
                 "IsLootableOnDeathLabel": "使此NPC在死亡时可被搜刮",
@@ -994,7 +1051,8 @@
                     "Title": "{actor}: 法术准备",
                     "Hint": "想要准备一个法术，请将其从列表中拖至角色卡的一个法术空位上。",
                     "HintFlexible": "要准备咒语，请在此处启用。要准备戏法，请从该列表中将一个戏法拖动到角色卡上的空位中。 "
-                }
+                },
+                "CriticalSpecialization": "重击专精"
             }
         },
         "ActorSizeGargantuan": "巨型",
@@ -1467,7 +1525,7 @@
             "MinimumProfLevelSetByFeatures": "所选熟练程度低于特征设定的熟练程度。",
             "CantImportTooHighVersion": "无法导入 {sourceName}: 版本({sourceSchemaVersion}) 高于当前世界版本 ({worldSchemaVersion}).",
             "WeaponQuantityZero": "你已经没有更多这种武器装备了。",
-            "SubV9Module": "{module}不支持Foundry V9，可能会给游戏带来稳定性问题。",
+            "SubV9Module": "{module}处于未维护状态，可能会给游戏带来稳定性问题。",
             "CantCreateEffectMacro": "切换宏的效果必须来自集合包或世界物品。",
             "NoPCTokenSelected": "至少选择一个与PC相关联的指示物。",
             "RuleElementSyntax": "规则要素定义中存在语法错误：{message}",
@@ -1655,8 +1713,8 @@
                     "ThreePropertiesMaterial": "{property1} {property2} {property3} {material} {base}",
                     "TwoPropertiesMaterial": "{property1} {property2} {material} {base}",
                     "ThreeProperties": "{property1} {property2} {property3} {base}",
-                    "Striking": "",
-                    "StrikingMaterial": ""
+                    "Striking": "{striking} {base}",
+                    "StrikingMaterial": "{striking} {material} {base}"
                 },
                 "MaterialAndRunes": {
                     "MaterialOption": "{type} ({grade})",
@@ -1691,6 +1749,24 @@
                 "ReloadOneMinute": "1分钟",
                 "ThrownUsage": {
                     "Label": "用作投掷"
+                },
+                "CriticalSpecialization": {
+                    "axe": "选择一个在你的触及内与初始目标相邻的生物。如果它的AC低于你重击的攻击掷骰，那么你对该生物造成等同一颗武器伤害骰（也包括来自装备符文的额外骰，若有）的伤害。其它加值或额外骰不适用于这个伤害。",
+                    "bow": "若重击的目标邻接一个表面，则它会被弹头钉在表面上。目标将@Compendium[pf2e.conditionitems.Immobilized]{被固定} ，它必须使用互动动作尝试进行 @Check[type:athletics|dc:10|name:Pull the Missile Free|showDC:all] 检定来拔出弹头，之后才能移动离开其方格。虚体、液态（例如水元素或某些泥怪）或能以某种方式毫不费力地避开此效果的生物不会被钉住。",
+                    "bomb": "提升炸弹的溅射伤害（若有）半径到10英尺。",
+                    "brawling": "目标必须成功通过你的职业DC的强韧豁免，否则陷入@Compendium[pf2e.conditionitems.Slowed]{缓慢1}，持续到你下轮结束。",
+                    "club": "目标被你击退至多10尺（距离由你选择）。这是被迫移动。",
+                    "dart": "目标受到[[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}。你在此流血伤害上获得等同该武器给予攻击检定的物品加值。",
+                    "firearm": "目标必须通过一个强韧检定来对抗你的职业DC，否则会受到@Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{震慑1}。",
+                    "flail": "目标被击@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}。",
+                    "hammer": "目标被击@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}。",
+                    "knife": "目标受到[[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}。你在此流血伤害上获得等同该武器给予攻击检定的物品加值。",
+                    "pick": "武器凶狠地刺穿目标。目标受到每颗武器伤害骰2点的额外伤害。",
+                    "polearm": "目标往你选择的位置移动5尺。这是被迫移动。",
+                    "shield": "目标被你击退5尺。这是被迫移动。",
+                    "sling": "目标必须成功通过你的职业DC的强韧豁免，否则陷入@Compendium[pf2e.conditionitems.dfCMdR4wnpbYNTix]{震慑1}。",
+                    "spear": "武器刺穿目标，使其攻击变得软弱无力。目标陷入@Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{衰竭1}，直到你的下一轮开始。",
+                    "sword": "目标因为你的攻击而失去平衡，变得@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}1轮，直到你的下一轮开始。"
                 }
             },
             "SidebarSummary": "{type}目录",
@@ -4289,7 +4365,7 @@
                     "Title": "系统捉虫",
                     "Hint": "在这里，你可以进行重新迁移，这会尝试自动修复角色和物品的问题。"
                 },
-                "HelpResources": "迁移某些参与者或项目时遇到意外错误。如果您需要进一步的帮助，请随时在 <a href=\"https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/issues\">系统数据库上反映问题</a> 或者在 <a href=\"https://discord.gg/SajryVzCyf\">Discord</a> 上和我们交流。"
+                "HelpResources": "迁移某些参与者或项目时遇到意外错误。如果您需要进一步的帮助，请随时在<a href=\"https://github.com/foundryvtt/pf2e/issues\">系统数据库上反映问题</a> 或者在 <a href=\"https://discord.gg/SajryVzCyf\">Discord</a> 上和我们交流。"
             },
             "Troubleshooting": "疑难解答",
             "Starting": "正在将PF2E系统升级至{version}版本。请耐心等待，不要关闭游戏或关闭服务器。",
@@ -5538,11 +5614,25 @@
         },
         "AreaSize360": "360 尺",
         "TraitAppliedToBucklerShield": "附在小圆盾或护盾上",
-        "TraitAffixedToMediumHeavyArmor": "附在中型或重型护甲上"
+        "TraitAffixedToMediumHeavyArmor": "附在中型或重型护甲上",
+        "ChatRollDetails": {
+            "Select": "检查掷骰",
+            "Title": "掷骰检查器",
+            "RollOptions": "掷骰设定",
+            "ModifiersEmpty": "无调整值"
+        },
+        "Edit": "编辑",
+        "RepairItemTitle": "尝试修理物品",
+        "SpellAttackWithTradition": "{tradition} 法术攻击"
     },
     "COMPENDIUM": {
         "Search": "检索概要",
-        "ImportAllHint": "此集合包中的所有内容都将导入到此世界的一个文件夹中，您可以命名该文件夹 <p class=\"notes\"><strong>警告</strong>：强烈建议<span style=\"text-decoration: underline\">不要</span>对较大的合集进行此操作。这样做没有任何好处，也会对你和你的玩家产生负面影响</p>"
+        "ImportAllHint": "此集合包中的所有内容都将导入到此世界的一个文件夹中，您可以命名该文件夹 <p class=\"notes\"><strong>警告</strong>：强烈建议<span style=\"text-decoration: underline\">不要</span>对较大的合集进行此操作。这样做没有任何好处，也会对你和你的玩家产生负面影响</p>",
+        "SearchContents": {
+            "Placeholder": "内容检索",
+            "Hint": "检索集合包内容，而不是按名称去筛选"
+        },
+        "Filter": "筛选集合包"
     },
     "CONTROLS": {
         "EffectPanel": "效果面板",
@@ -5566,7 +5656,8 @@
         "NoneActive": "在当前查看的场景中没有激活的遭遇。",
         "EndConfirmation": "结束这次遭遇并清空战斗板？",
         "CombatantNotInScene": "参战者 {name} 不在当前查看的场景中。",
-        "NoneRemaining": "在这次遭遇战中，没有未战败的参战者剩余。"
+        "NoneRemaining": "在这次遭遇战中，没有未战败的参战者剩余。",
+        "SidebarTitle": "遭遇列表"
     },
     "SIDEBAR": {
         "TabCombat": "遭遇追踪"
