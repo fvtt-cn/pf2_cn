@@ -2445,7 +2445,7 @@
         "Recovery": {
             "critFailure": "增加2层濒死状态。",
             "critSuccess": "减少2层濒死状态。",
-            "failure": "增加1层濒死状态",
+            "failure": "增加1层濒死状态。",
             "roll": "点击骰复苏检定",
             "rollingDescription": "复苏检定对抗一个DC {dc} (dying {dying})",
             "success": "减少1层濒死状态。"
@@ -2839,7 +2839,7 @@
         "TraitBackstabber": "背刺",
         "TraitBackswing": "后摆",
         "TraitBarbarian": "野蛮人",
-        "TraitBeast": "野兽",
+        "TraitBeast": "魔兽",
         "TraitBoggard": "沼蜍人",
         "TraitBomb": "炸弹",
         "TraitBrutal": "凶残",
@@ -4644,7 +4644,7 @@
             },
             "ExpendFormula": "花费公式",
             "ToggleQuickAlchemy": "高速炼金术",
-            "QuickAddTitle": "添加此配方到一个或多个制造列表中。",
+            "QuickAddTitle": "添加此配方到一个或多个制造列表中",
             "NoEligibleEntry": "未找到符合条件的制造列表。"
         },
         "FormulaListEmpty": "空（拖放配方/物品至此）",
