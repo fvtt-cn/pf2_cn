@@ -7,6 +7,7 @@
 - [x] 模组管理器中，粘贴清单文件地址： [https://raw.githubusercontent.com/fvtt-cn/pf2_cn/main/module.json](https://raw.githubusercontent.com/fvtt-cn/pf2_cn/main/module.json)
 - [x] 模组管理器中，搜索 `Translation: 中文 [PF2e]`
 - [x] 下载 https://github.com/fvtt-cn/pf2_cn/releases/latest/download/pf2_cn.zip 并解压至 `modules/pf2_cn` 文件夹下
+- [x] 同时建议下载[Foundry VTT PF2e 合集包中文化](https://github.com/fvtt-cn/pf2e_compendium_chn)
 
 ## 加入我们
 - QQ 频道： https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=3cheK&appChannel=share&businessType=9&from=246610&biz=ka
