@@ -6,7 +6,7 @@ on:
 
 env:
   ZIP_FILENAME: "pf2_cn"
-  PACKAGE_CONTENT: "module.json cn.json"
+  PACKAGE_CONTENT: "module.json cn.json re-cn.json"
   PACKAGE_ID: 827
 
 jobs:
