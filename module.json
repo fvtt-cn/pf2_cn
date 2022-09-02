@@ -6,15 +6,22 @@
   "compatibleCoreVersion": "9.999",
   "author": "FVTT-CN",
   "systems": [ "pf2e" ],
-  "languages": [{
+  "languages": [
+    {
       "lang": "cn",
-      "name": "中文",
+      "name": "系统主体（中文）",
       "path": "cn.json"
-  }],
+    },
+    {
+      "lang": "cn",
+      "name": "规则元素（中文）",
+      "path": "re-cn.json"
+    },
+  ],
   "dependencies": [{
     "name": "pf2e",
     "type": "system",
-    "manifest": "https://gitlab.com/hooking/foundry-vtt---pathfinder-2e/-/jobs/artifacts/release-v9/raw/system.json?job=build"
+    "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json"
   }],
   "changelog": "Auto replaced",
   "version": "Auto replaced",
