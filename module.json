@@ -23,7 +23,7 @@
       "lang": "cn",
       "name": "规则元素（中文）",
       "path": "re-cn.json"
-    },
+    }
   ],
   "dependencies": [{
     "name": "pf2e",
