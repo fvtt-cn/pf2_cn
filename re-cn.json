@@ -1,1 +1,13 @@
-{}
+{
+    "PF2E": {
+        "AttackEffects": {
+            "KnockProne": "命中时，目标会被击至@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}。",
+            "DropWeapon": "该生物放下了持用的武器。",
+            "IgnoreConcealed": "该攻击无视@Compendium[pf2e.conditionitems.DmAIPqOBomZ7H95W]{隐蔽}状态。",
+            "IgnoreCover": "目标不会从较低的掩蔽中受益，并且在对抗攻击时标准掩蔽的AC加成会减少2点。",
+            "IncreasedCriticalChance": "如果攻击命中，并且该生物在d20掷骰中掷出19，则该攻击视为一次暴击。但如果19的结果是失手，就不会产生任何效果。",
+            "IncreasedReach5": "射程增加5尺",
+            "InterruptAction": "命中时，目标的动作会被打断。"
+        }
+    }
+}
