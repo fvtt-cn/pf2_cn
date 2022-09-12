@@ -8,6 +8,16 @@
             "IncreasedCriticalChance": "如果攻击命中，并且该生物在d20掷骰中掷出19，则该攻击视为一次暴击。但如果19的结果是失手，就不会产生任何效果。",
             "IncreasedReach5": "射程增加5尺",
             "InterruptAction": "命中时，目标的动作会被打断。"
+        },
+        "BattleForm": {
+            "Attack": {
+                "Antler": "鹿角",
+                "Beak": "喙",
+                "Beard": "须",
+                "Body": "躯体",
+                "BoneShard": "骨刺",
+                "Boot": "靴子"
+            }
         }
     }
 }
