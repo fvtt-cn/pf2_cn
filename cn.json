@@ -22,7 +22,7 @@
         "TypeDeity": "神祇",
         "TypeEffect": "效果",
         "TypeEquipment": "装备",
-        "TypeFeat": "专长",
+        "TypeFeat": "专长/特征",
         "TypeHeritage": "传承",
         "TypeKit": "工具包",
         "TypeLore": "NPC技能",
@@ -55,7 +55,8 @@
         "SearchContents": {
             "Placeholder": "内容检索",
             "Hint": "检索集合包内容，而不是按名称去筛选"
-        }
+        },
+        "Search": "搜索集合包"
     },
     "CONTROLS": {
         "AdjustSceneDarkness": "调整场景黑暗度",
@@ -236,7 +237,8 @@
                     "DaysForNoCost": "可减免额外花销的天数：",
                     "PayMaterials": "支付 {cost} 材料成本和手艺",
                     "PayFull": "支付{cost}全部成本和手艺",
-                    "LostMaterials": "损失{成本} 材料"
+                    "LostMaterials": "损失{成本} 材料",
+                    "ReceiveItem": "获得物品"
                 },
                 "Information": {
                     "PayAndReceive": "{actorName}支付{cost}的制作成本，并获得了{quantity}x{itemName}。",
@@ -314,7 +316,8 @@
                     "success": "<strong>成功</strong> 你强行弄开了门，窗或是容器，但对象狭窄处于破损@Compendium[pf2e.conditionitems.6dNUvdb1dhToNDj3]{Broken} 状态。如果GM认为对象的制作和材质异常的坚固，可能这些物品只会受到一定的伤害，而非直接陷入破损状态。",
                     "criticalFailure": "<strong>大失败</strong> 你把门，窗或锁弄卡住了。在之后的破拆检定上承受-2环境减值。"
                 },
-                "Title": "破拆"
+                "Title": "破拆",
+                "NoCrowbarPenalty": "没有撬棍"
             },
             "GatherInformation": {
                 "Notes": {
@@ -1269,6 +1272,32 @@
                 },
                 "Spellcasting": {
                     "Cantrips": "戏法"
+                },
+                "Sense": {
+                    "Acuity": {
+                        "Label": "敏锐",
+                        "Precise": "精准",
+                        "Imprecise": "模糊",
+                        "Vague": "朦胧"
+                    },
+                    "NoRangeLimit": "无限制",
+                    "Type": {
+                        "Darkvision": "黑暗视觉",
+                        "Echolocation": "回声定位",
+                        "GreaterDarkvision": "高等黑暗视觉",
+                        "SeeInvisibility": "识破隐形",
+                        "Tremorsense": "震颤感知",
+                        "Wavesense": "水波感知",
+                        "Hearing": "听觉",
+                        "Lifesense": "生命感知",
+                        "LowLightVision": "昏暗视觉",
+                        "Scent": "灵敏嗅觉",
+                        "Motionsense": "运动感知"
+                    },
+                    "Label": "感官",
+                    "RangeLabel": "距离",
+                    "WithAcuity": "{sense} ({acuity})",
+                    "WithAcuityAndRange": "{sense} ({acuity} {range} 尺)"
                 }
             },
             "Dead": "死亡",
@@ -1748,9 +1777,10 @@
             },
             "Alerts": {
                 "CharacterLevel": "物品等级超过角色等级。",
-                "ItemMissingTraits": "物品与工艺所需的特征要求不符，必须匹配：{traits}",
+                "ItemMissingTraits": "物品与制造所需的物品要求不符。",
                 "MaxItemLevel": "物品级别超过最大所选物品等级。",
-                "MissingReagents": "灌注试剂不足，无法完成制作。"
+                "MissingReagents": "灌注试剂不足，无法完成制作。",
+                "MaxSlots": "制造栏位已满。"
             },
             "CraftQuantityTitle": "数量",
             "ExpendFormula": "花费公式",
