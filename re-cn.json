@@ -83,12 +83,38 @@
             },
             "AlchemistsFire": {
                 "Greater": {
-                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[persistent,fire]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及 [[/r {3}[splash,fire]]]{3点火焰溅射伤害}"
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[persistent,fire]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及 [[/r {3}[splash,fire]]]{3点火焰溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {2*3}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及 [[/r {3}[splash,fire]]]{3点火焰溅射伤害}"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {1}[persistent,fire]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及[[/r {1}[splash,fire]]]{1点火焰溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {2*1}[persistent,fire]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及[[/r {1}[splash,fire]]]{1点火焰溅射伤害}"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {4}[persistent,fire]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及[[/r {4}[splash,fire]]]{4点火焰溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {{2*4}[persistent,fire]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及[[/r {4}[splash,fire]]]{4点火焰溅射伤害}"
+                },
+                "Moderate": {
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {2*2}[persistent,fire]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及[[/r {2}[splash,fire]]]{2点火焰溅射伤害}",
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {2}[persistent,fire]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及[[/r {2}[splash,fire]]]{2点火焰溅射伤害}"
                 }
             },
             "FrostVial": {
                 "Major": {
                     "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {4}[splash,cold]]]{4 寒冷溅射伤害}，并且目标会受到15尺速度减值直至下回合结束(@Compendium[pf2e.equipment-effects.4G9qnI0oRyL6eKFQ]{效果: 上等霜冻瓶 })"
+                }
+            },
+            "BlightBomb": {
+                "Greater": {
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {2*3d4}[persistent,fire]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及[[/r {3}[splash,fire]]]{3点火焰溅射伤害}",
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3d4}[persistent,fire]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及[[/r {3}[splash,fire]]]{3点火焰溅射伤害}"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {1d4}[persistent,poison]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续毒素伤害}以及[[/r {1}[splash,poison]]]{1点毒素溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2*1d4}[persistent,poison]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续毒素伤害}以及[[/r {1}[splash,poison]]]{1点毒素溅射伤害}"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {4d4}[persistent,poison]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续毒素伤害}以及[[/r {4}[splash,poison]]]{4点毒素溅射伤害}"
                 }
             }
         }
