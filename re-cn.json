@@ -16,7 +16,80 @@
                 "Beard": "须",
                 "Body": "躯体",
                 "BoneShard": "骨刺",
-                "Boot": "靴子"
+                "Boot": "靴子",
+                "Branch": "枝杈",
+                "Claw": "爪击",
+                "CubeFace": "面触",
+                "Fangs": "尖牙",
+                "FireMote": "焰尘",
+                "Foot": "脚",
+                "Foreleg": "前肢",
+                "Gust": "狂风",
+                "HolyMace": "神圣硬头锤",
+                "Hoof": "蹄击",
+                "Horn": "角",
+                "Jaws": "噬咬",
+                "Leaf": "叶子",
+                "Leg": "腿",
+                "LightingLash": "闪电冲击",
+                "Mandibles": "颚齿",
+                "Moonbeam": "月光射线",
+                "PiercingHymn": "穿心圣歌",
+                "Pincer": "钳击",
+                "Pseudopod": "伪足",
+                "Rock": "岩石",
+                "Spikes": "尖刺",
+                "Spine": "刺",
+                "Stinger": "钉刺",
+                "Sunbeam": "阳炎射线",
+                "Tail": "尾巴",
+                "Talon": "爪",
+                "Tendril": "卷须",
+                "Tentacle": "触角",
+                "TentacleArm": "触手臂",
+                "Tongue": "吐舌",
+                "Trunk": "长鼻",
+                "Tusk": "獠牙",
+                "Vine": "藤蔓",
+                "WaterSpout": "喷水",
+                "Wave": "波涛",
+                "Wing": "翼击"
+            },
+            "Note": {
+                "GrabbingTrunk": {
+                    "Text": "你的长鼻攻击命中中型或更小体型的生物后可以将其@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{攫抓 Grabbed}。如果你成功通过@Compendium[pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒抱 Grapple}检定对抗你长鼻所攫抓的生物，则可以带着该生物一起移动。",
+                    "Title": "鼻卷"
+                }
+            }
+        },
+        "BombNotes": {
+            "AcidFlask": {
+                "Greater": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续酸液伤害}以及[[/r {3}[splash,acid]]]{3点酸液溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {2*3d6}[persistent,acid]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续酸液伤害}以及[[/r {3}[splash,acid]]]{3点酸液溅射伤害}"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {1d6}[persistent,acid]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续酸液伤害}以及[[/r {1}[splash,acid]]]{1点酸液溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {2*1d6}[persistent,acid]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续酸液伤害}以及[[/r {1}[splash,acid]]]{1点酸液溅射伤害}"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {4d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续酸液伤害}以及 [[/r {4}[splash,acid]]]{4点酸液溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2*4d6}[persistent,acid]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续酸液伤害}以及 [[/r {4}[splash,acid]]]{4点酸液溅射伤害}"
+                },
+                "Moderate": {
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {2*2d6}[persistent,acid]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续酸液伤害}以及[[/r {2}[splash,acid]]]{2点酸液溅射伤害}",
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {2d6}[persistent,acid]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续酸液伤害}以及 [[/r {2}[splash,acid]]]{2点酸液溅射伤害}"
+                }
+            },
+            "AlchemistsFire": {
+                "Greater": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[persistent,fire]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}以及 [[/r {3}[splash,fire]]]{3点火焰溅射伤害}"
+                }
+            },
+            "FrostVial": {
+                "Major": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {4}[splash,cold]]]{4 寒冷溅射伤害}，并且目标会受到15尺速度减值直至下回合结束(@Compendium[pf2e.equipment-effects.4G9qnI0oRyL6eKFQ]{效果: 上等霜冻瓶 })"
+                }
             }
         }
     }
