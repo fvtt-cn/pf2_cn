@@ -666,7 +666,8 @@
                     "splint-mail": "板条甲",
                     "half-plate": "半身甲",
                     "full-plate": "全身甲",
-                    "hellknight-plate": "地狱骑士板甲"
+                    "hellknight-plate": "地狱骑士板甲",
+                    "armored-coat": "衬甲外套"
                 }
             },
             "CannotAddType": "无法将{type}物品添加到此角色。",
@@ -1002,7 +1003,11 @@
                     "StartOfTurn": "回合开始",
                     "EndOfTurn": "回合结束"
                 },
-                "ShowTokenIcon": "显示指示物图标？"
+                "ShowTokenIcon": "显示指示物图标？",
+                "AddBadge": "增加记数",
+                "BadgeType": {
+                    "Counter": "记数"
+                }
             },
             "Feat": {
                 "OnlyLevel1": "必须在1级时选取",
@@ -1084,7 +1089,7 @@
                 "CriticalSpecialization": {
                     "axe": "选择一个在你的触及内与初始目标相邻的生物。如果它的AC低于你重击的攻击掷骰，那么你对该生物造成等同一颗武器伤害骰（也包括来自装备符文的额外骰，若有）的伤害。其它加值或额外骰不适用于这个伤害。",
                     "bomb": "提升炸弹的溅射伤害（若有）半径到10英尺。",
-                    "bow": "若重击的目标邻接一个表面，则它会被弹头钉在表面上。目标将@Compendium[pf2e.conditionitems.Immobilized]{被固定} ，它必须使用互动动作尝试进行 @Check[type:athletics|dc:10|name:Pull the Missile Free|showDC:all] 检定来拔出弹头，之后才能移动离开其方格。虚体、液态（例如水元素或某些泥怪）或能以某种方式毫不费力地避开此效果的生物不会被钉住。",
+                    "bow": "若重击的目标邻接一个表面，则它会被弹头钉在表面上。目标将@Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{被固定} ，它必须使用互动动作尝试进行 @Check[type:athletics|dc:10|name:Pull the Missile Free|showDC:all] 检定来拔出弹头，之后才能移动离开其方格。虚体、液态（例如水元素或某些泥怪）或能以某种方式毫不费力地避开此效果的生物不会被钉住。",
                     "brawling": "目标必须成功通过@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Brawling Critical Specialization|showDC:all]，否则陷入@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢1}，持续到你下轮结束。",
                     "club": "目标被你击退至多10尺（距离由你选择）。这是被迫移动。",
                     "dart": "目标受到@Localize[PF2E.PersistentDamage.Bleed1d6.success]。你在此流血伤害上获得等同该武器给予攻击检定的物品加值。",
@@ -1173,7 +1178,20 @@
                     "SelectVariantLabel": "选择变体",
                     "SelectOtherVariantLabel": "选择其他变体",
                     "SheetTitle": "{originalName} (变体)"
+                },
+                "Warning": {
+                    "InvalidLevel": "尝试添加法术{name}至 {targetLevel}，但法术基础环级为{baseLevel}。"
                 }
+            },
+            "CreationDialog": {
+                "Categories": {
+                    "Character": "车卡",
+                    "Physical": "实体物品",
+                    "Other": "其他"
+                }
+            },
+            "Backpack": {
+                "StowingLabel": "要装进容器里吗？"
             }
         },
         "ActionsCheck": {
@@ -1417,7 +1435,7 @@
         "ArmorPropertyRuneBitter": "苦味",
         "ArmorPropertyRuneColdResistant": "抵抗能量-寒冷",
         "ArmorPropertyRuneDeathless": "不死",
-        "ArmorPropertyRuneDread": "恐惧",
+        "ArmorPropertyRuneDread": "次等恐惧",
         "ArmorPropertyRuneElectricityResistant": "抵抗能量-电击",
         "ArmorPropertyRuneEthereal": "灵体",
         "ArmorPropertyRuneFireResistant": "抵抗能量-火焰",
@@ -1780,7 +1798,8 @@
                 "ItemMissingTraits": "物品与制造所需的物品要求不符。",
                 "MaxItemLevel": "物品级别超过最大所选物品等级。",
                 "MissingReagents": "灌注试剂不足，无法完成制作。",
-                "MaxSlots": "制造栏位已满。"
+                "MaxSlots": "制造栏位已满。",
+                "FormulaExpended": "已准备的配方已经被制作。"
             },
             "CraftQuantityTitle": "数量",
             "ExpendFormula": "花费公式",
@@ -1964,7 +1983,8 @@
             "SubV9Module": "{module}处于未维护状态，可能会给游戏带来稳定性问题。",
             "WeaponQuantityZero": "你已经没有更多这种武器装备了。",
             "RuleElementSyntax": "规则要素定义中存在语法错误：{message}",
-            "NoCreatureTokenSelected": "至少选择一个与生物相关联的指示物。"
+            "NoCreatureTokenSelected": "至少选择一个与生物相关联的指示物。",
+            "WeaponNoDamage": "武器未造成伤害。"
         },
         "Ethnicity": "种族划分",
         "ExpendSpellTitle": "消耗法术",
@@ -2128,7 +2148,7 @@
         },
         "KitItems": "物品",
         "KitWorldItem": "物品在合集包中不存在，或许不会产生作用",
-        "LackCastConsumableCapability": "你缺乏使用 {name} 的熟练且没有巧取魔法物品专长",
+        "LackCastConsumableCapability": "{actor}缺乏使用{spell}的熟练且没有巧取魔法物品专长",
         "LanguageAbyssal": "深渊语",
         "LanguageAdlet": "狼妖",
         "LanguageAkitonian": "阿基顿",
@@ -2597,7 +2617,7 @@
             "statusEffectType": {
                 "blackWhite": "黑白",
                 "default": "彩色",
-                "hint": "决定哪个图标用于效果显示。 Thanks to errational#2007 for inspiration and Ediwir#7664 for the B&W tokens by Lorc@OpeningGameArt.",
+                "hint": "决定哪个图标用于效果显示。",
                 "legacy": "经典",
                 "name": "状态图标设置"
             },
@@ -2654,7 +2674,7 @@
                 "RulesBasedVision": {
                     "Name": "基于规则的视野",
                     "Hint": "使用符合Pathfinder 2e规则的视觉机制。启用此设置将无法使用配置不受限全局视野以及角色视野半径的功能。",
-                    "ManagedBy": "受控于<a>基础规则视野</a>."
+                    "ManagedBy": "受控于<rbv>基础规则视野</rbv>."
                 },
                 "EffectExpiration": {
                     "Name": "效果自动失效",
@@ -2809,7 +2829,8 @@
                     "Hint": "设置此场景的黑暗度是否关联昼夜时间。",
                     "Enabled": "启用",
                     "Disabled": "禁用",
-                    "Default": "世界默认 ({worldDefault})"
+                    "Default": "世界默认 ({worldDefault})",
+                    "ManagedBy": "与<wt>世界时间</wt>同步。"
                 },
                 "ResetWorldTime": {
                     "Name": "重置世界日期/时间",
@@ -2958,8 +2979,8 @@
         "SettingsColorOriginal": "原始",
         "SettingsColorRed": "黑红",
         "SettingsColorFoundry-UI": "在做了",
-        "SettingsQuickRollsLabel": "显示骰子提示框",
-        "SettingsQuickRollsNotes": "如果禁用，定义D20检定临时调整值的窗体将仅在按住shift键点击时出现。",
+        "SettingsQuickRollsLabel": "显示D20掷骰",
+        "SettingsQuickRollsNotes": "如果禁用，D20掷骰编辑窗体将仅在按住shift键点击时出现。",
         "SettingsDataUriHighlightLabel": "高亮显示URI链接的图片",
         "SettingsDataUriHighlightNotes": "使用URI链接的图片作为角色头像会让棋盘显示变得不够清晰。激活后，图片会有红色边框高亮显示，以便更好地识别和移动它们。<br>这一设置仅对本次剧本生效。",
         "SheetLabel": "{type} 表",
@@ -3392,7 +3413,7 @@
         "TraitDescriptionAphorite": "Aphorite是起源于守序位面都市轴心城的位面族裔。",
         "TraitDescriptionArcane": "这个魔法源于奥术法术根源，是建立在逻辑和合理性上的特征，拥有此特征的法术称作魔法。",
         "TraitDescriptionArchetype": "这个专长属于一个变体.",
-        "TraitDescriptionAttached": "附着武器必须和另一件装备结合才能使用。此特性会列出它必须与哪种类型的物品附着。你必须持用或穿戴这个武器附着的物品才能用它进行攻击。举例来说，附着盾牌的盾刺允许你用盾刺而非盾击进行攻击，不过只有在你持用盾牌时才能如此做。附着武器往往被固定或内建在它所附着的物品上，而且通常来说，一个物品只能安装一件附着武器。一件附着武器可以花费10分钟，通过DC10的工艺技能检定来安装，如果需要这还包括从上一件物品上拆卸的时间。若物品被破坏，仍有机会救回它上头附着的武器。",
+        "TraitDescriptionAttached": "附着武器必须和另一件装备结合才能使用。此特性会列出它必须与哪种类型的物品附着。你必须持用或穿戴这个武器附着的物品才能用它进行攻击。举例来说，附着盾牌的盾刺允许你用盾刺而非盾击进行攻击，不过只有在你持用盾牌时才能如此做。附着武器往往被固定或内建在它所附着的物品上，而且通常来说，一个物品只能安装一件附着武器。一件附着武器可以花费10分钟，通过@Check[type:crafting|dc:10]技能检定来安装，如果需要这还包括从上一件物品上拆卸的时间。若物品被破坏，仍有机会救回它上头附着的武器。",
         "TraitDescriptionAttack": "如果你在同一轮中使用攻击特性的动作超过一次，第一次之后的攻击都要承受多次攻击罚值。",
         "TraitDescriptionAuditory": "听觉动作和效果依赖于声音。具有听觉特征的动作只有在使用动作的生物能说话或发声时才可以成功生效。听觉法术依赖于声音。具有听觉特征的法术只有当目标能够听到它时才会生效。这与音波效果不同，目标即使无法听见音波效果（例如耳聋的目标），音波效果也会生效，只要该效果能发出音波。",
         "TraitDescriptionAura": "灵光由你周身持续散发，影响一定辐射范围内的生物。灵光同时也出现在一些强大的魔法物品或较强的阵营倾向上.",
@@ -3417,7 +3438,7 @@
         "TraitDescriptionCleric": "指牧师职业能力。",
         "TraitDescriptionClockwork": "发条生物是复杂的复合型构装体，可以通过编译程序来执行特定的功能。发条生物必须定期上发条才能够运作起来。",
         "TraitDescriptionClimbing": "装备着此武器可以进行攀爬。",
-        "TraitDescriptionCobbled": "这把枪是胡乱拼凑在一起的，很可能开不了火。无论你维护得多好，当掷出一次失败的攻击骰时，攻击会失手并且你必须投掷DC 5纯骰检定。如果纯骰检定失败，武器会哑火。",
+        "TraitDescriptionCobbled": "这把枪是胡乱拼凑在一起的，很可能开不了火。无论你维护得多好，当掷出一次失败的攻击骰时，攻击会失手并且你必须投掷@Check[type:flat|dc:5]。如果纯骰检定失败，武器会哑火。",
         "TraitDescriptionCold": "效果 with this 特征 deal 寒冷 伤害. 生物s with this 特征 have a connection to 魔法 寒冷.",
         "TraitDescriptionCombination": "组合武器以独特或不同寻常的方式将近战武器和火器结合起来。组合武器既有火器形态的用法，也有近战武器形态的用法。",
         "TraitDescriptionComfort": "这种盔甲是如此舒适，以至于你可以在休息时穿戴。",
@@ -3602,7 +3623,7 @@
         "TraitDescriptionStaff": "这个魔法物品中保存了一些特定主题的法术，施法者可以准备好这根法杖以施展额外的法术。",
         "TraitDescriptionSteam": "具有这种特性的物品由发动机提供动力，发动机用沸水产生蒸汽并驱动部件。",
         "TraitDescriptionStrix": "有翅膀的人形生物，大多数生活在切利亚斯及其周围。",
-        "TraitDescriptionStructure": "拥有构造物特征的物品在启动时可以变成魔法建筑或其它构造物。该物品必须在一片没有其他构造物的地面上启动。该构造物会自动适应自然地形，并适用当地建筑的建筑需求。构造物细节部分可根据诸如人工池或石尖顶之类自动调整，但它不能在水面或其它非固体表明生成。若在雪地、沙丘或其它有着固体底部的软性地面上启动，该构造物的地基（若有）会深入直达固体底部。若拥有该特征的物品在不稳固的固体地面上启动——比如沼泽或地震区域——每天需要骰1个DC为3的纯骰检定；若失败，构造物会开始下沉或塌陷。构造物在出现时不会伤害区域内的生物，也不能在人群或人员拥挤的区域生成。当物品被启动时，任何无意中被困其中的生物最终都会无伤地留在了构造物内，并且总是有一条清晰的离开路径。位于构造物内的生物在启动终止后不会受伤，若人员在构造物的高层，他们会无伤地降落在地面上。",
+        "TraitDescriptionStructure": "拥有构造物特征的物品在启动时可以变成魔法建筑或其它构造物。该物品必须在一片没有其他构造物的地面上启动。该构造物会自动适应自然地形，并适用当地建筑的建筑需求。构造物细节部分可根据诸如人工池或石尖顶之类自动调整，但它不能在水面或其它非固体表明生成。若在雪地、沙丘或其它有着固体底部的软性地面上启动，该构造物的地基（若有）会深入直达固体底部。若拥有该特征的物品在不稳固的固体地面上启动——比如沼泽或地震区域——每天需要骰1个@Check[type:flat|dc:3]；若失败，构造物会开始下沉或塌陷。构造物在出现时不会伤害区域内的生物，也不能在人群或人员拥挤的区域生成。当物品被启动时，任何无意中被困其中的生物最终都会无伤地留在了构造物内，并且总是有一条清晰的离开路径。位于构造物内的生物在启动终止后不会受伤，若人员在构造物的高层，他们会无伤地降落在地面上。",
         "TraitDescriptionSummoned": "由法术或效果召来的生物会获得召唤特征。召唤生物无法召唤其他生物，创造有价值的事物，或施展需要代价的法术。它具有仆从特征。如果它尝试施展法术等级等于或大于召唤他自身的法术的法术，它会压制召唤魔法，令它准备施展的法术失败，并令召唤法术立刻终止。除此之外，召唤生物可以使用同类的生物的标准能力。它通常会使用最强的能力攻击你的敌人。如果你可以与其交流，你可以对其下达命令，但由GM判断它是否会听从你的命令。召唤生物产生的卵或其他生物在召唤生物离开时会立刻回到未变动时的状态（在卵的情况下会变成尸骸）。如果不确定会变成什么状态，由GM决定。如果不清楚这种状态会是什么，则由GM做出决定。召唤生物可能会被多种法术和效果驱逐。它们在生命值降低到0点时，或召唤法术终止时会自动被驱逐。",
         "TraitDescriptionSummoner": "这表示召唤师职业的能力。",
         "TraitDescriptionSuli": "巨灵裔是小巨灵群体后裔的族裔。",
@@ -4388,7 +4409,9 @@
                 "wind-and-fire-wheel": "风火轮",
                 "wish-blade": "许愿刀",
                 "wish-knife": "许愿小刀",
-                "wooden-taws": "木弹"
+                "wooden-taws": "木弹",
+                "bladed-gauntlet": "带刃铁手套",
+                "war-lance": "战枪"
             }
         },
         "WeaponAbilityLabel": "武器能力",
@@ -4971,7 +4994,7 @@
             },
             "grabbed": {
                 "name": "擒抱",
-                "rules": "<p>你被其它生物固定在原处，使你获得措手不及状态（flat-footed）和禁足（immobilized）状态。被擒抱时若你尝试使用拥有操作特征（manipulate）的动作，你必须通过DC5的纯骰检定，失败则失去该动作；该检定在消耗动作后，效果生效前进行。</p>",
+                "rules": "<p>你被其它生物固定在原处，使你获得措手不及状态和禁足状态。被擒抱时若你尝试使用拥有操作特征的动作，你必须通过DC5的纯骰检定，失败则失去该动作；该检定在消耗动作后，效果生效前进行。</p>",
                 "summary": "生物、物体或魔法让你被定在原地。"
             },
             "helpful": {
@@ -5414,7 +5437,19 @@
         "PreciousMaterialPeachwood": "桃木",
         "TraitGhul": "鬼巨灵",
         "TraitDescriptionPeachwood": "桃木武器在阳光直射下会呈现出一种特别的赤褐色。当打击具有和暗木有关的抗力或弱点的不死生物时，桃木将被视为暗木（这能让桃木武器忽视僵尸jiang-shi的抗力）。此外，桃木武器还能忽视一部分任意类型的不死生物的抗力。使用桃木武器打击不死生物时，标准纯度忽视不死生物2点抗力，高纯度忽视4点抗力。",
-        "TraitThaumaturge": "奇术师"
+        "TraitThaumaturge": "奇术师",
+        "ArmorPropertyRuneGreaterDread": "高等恐惧",
+        "ArmorPropertyRuneModerateDread": "上等恐惧",
+        "PreciousMaterialSisterstoneDusk": "姊妹石（黄昏）",
+        "PreciousMaterialSisterstoneScarlet": "姊妹石（猩红）",
+        "TraitDescriptionReflection": "具有此特征的生物拥有镜像多用传承。镜像是通过克隆、镜面复制或用其他机制复制活人的存在。具有此特性的能力只能由镜像使用或选择。",
+        "TraitDescriptionSkeleton": "这个不死生物是通过负能量驱动已亡生物骨架而制作的。具有此特性的能力只能由骷髅使用或选择。",
+        "TraitSiktempora": "癔时妖",
+        "TraitDescriptionFinite": "具有此特征的位面由有限的空间组成。",
+        "TraitDescriptionSocial": "具有社交特征的行动或能力，只能在侠客的社交身份下才能使用。",
+        "TraitDescriptionThaumaturge": "这表示奇术师职业的能力。",
+        "TraitFinite": "有限",
+        "TraitReflection": "镜像"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
