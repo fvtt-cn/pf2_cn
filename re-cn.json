@@ -114,7 +114,20 @@
                     "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2*1d4}[persistent,poison]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续毒素伤害}以及[[/r {1}[splash,poison]]]{1点毒素溅射伤害}"
                 },
                 "Major": {
-                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {4d4}[persistent,poison]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续毒素伤害}以及[[/r {4}[splash,poison]]]{4点毒素溅射伤害}"
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {4d4}[persistent,poison]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续毒素伤害}以及[[/r {4}[splash,poison]]]{4点毒素溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {2*4d4}[persistent,poison]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续毒素伤害}以及[[/r {4}[splash,poison]]]{4点毒素溅射伤害}"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {2d4}[persistent,poison]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续毒素伤害}以及[[/r {2}[splash,poison]]]{2点毒素溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {2*2d4}[persistent,poison]]]@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续毒素伤害}以及[[/r {2}[splash,poison]]]{2点毒素溅射伤害}"
+                }
+            },
+            "BottledLightning": {
+                "Greater": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[persistent,poison]]]{3点电击溅射伤害}以及目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {1}[persistent,poison]]]{1点电击溅射伤害}以及目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}"
                 }
             }
         }
