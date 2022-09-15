@@ -130,6 +130,27 @@
                     "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {1}[persistent,poison]]]{1点电击溅射伤害}以及目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}"
                 }
             }
+        },
+        "SpecificRule": {
+            "Thaumaturge": {
+                "Implement": {
+                    "Weapon": "兵",
+                    "Chalice": "杯",
+                    "Lantern": "灯",
+                    "Mirror": "镜",
+                    "Regalia": "帜",
+                    "Tome": "典",
+                    "Wand": "杖",
+                    "Bell": "铃",
+                    "Amulet": "符"
+                },
+                "TalismanEsoterica": "护符秘藏"
+            },
+            "Psychic": {
+                "UnleashPsyche": {
+                    "DamageLabel": "通过心能者施法能力施法"
+                }
+            }
         }
     }
 }
