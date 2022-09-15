@@ -5449,7 +5449,8 @@
         "TraitDescriptionSocial": "具有社交特征的行动或能力，只能在侠客的社交身份下才能使用。",
         "TraitDescriptionThaumaturge": "这表示奇术师职业的能力。",
         "TraitFinite": "有限",
-        "TraitReflection": "镜像"
+        "TraitReflection": "镜像",
+        "LanguageIblydan": "艾布利丹语"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
