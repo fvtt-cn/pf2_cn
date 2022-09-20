@@ -4456,7 +4456,7 @@
             "anarchic": {
                 "Name": "混沌符文",
                 "Note": {
-                    "criticalSuccess": "<strong>混沌符文</strong>当你用该武器对守序生物的打击成功重击时，骰 [[/r 1d6#Anarchic Rune]]。若为1或2，你造成最小伤害的双倍；若为3或4，正常造成双倍伤害；若为5或6，你造成最大伤害的双倍。"
+                    "criticalSuccess": "当你用该武器对守序生物的打击成功重击时，骰 [[/r 1d6#Anarchic Rune]]。若为1或2，你造成最小伤害的双倍；若为3或4，正常造成双倍伤害；若为5或6，你造成最大伤害的双倍。"
                 }
             },
             "ancestralEchoing": {
@@ -4465,13 +4465,13 @@
             "anchoring": {
                 "Name": "锚定符文",
                 "Note": {
-                    "criticalSuccess": "<strong>锚定符文</strong> 如果你用定身武器对目标重击, 武器会使目标 <em>@Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{Dimensional Anchor}</em> (<span data-pf2-check=\"will\" data-pf2-label=\"Anchoring Rune DC\" data-pf2-dc=\"27\">意志</span>, 反制检定[[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
+                    "criticalSuccess": "如果你用定身武器对目标重击, 武器会使目标 <em>@Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{Dimensional Anchor}</em> (@Check[type:will|dc:27|name:Anchoring Rune], 反制检定[[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
                 }
             },
             "axiomatic": {
                 "Name": "公理符文",
                 "Note": {
-                    "criticalSuccess": "<strong>公理符文</strong> 当你用该武器对混乱生物的攻击骰成功重击时。取代骰伤害，你直接将每个武器伤害骰取平均值取高（d4取3，d6取4，d8取5，d10取6，d12取7）。"
+                    "criticalSuccess": "当你用该武器对混乱生物的攻击骰成功重击时。取代骰伤害，你直接将每个武器伤害骰取平均值取高（d4取3，d6取4，d8取5，d10取6，d12取7）。"
                 }
             },
             "bane": {
@@ -4483,13 +4483,13 @@
             "bloodthirsty": {
                 "Name": "嗜血符文",
                 "Note": {
-                    "criticalSuccess": "<strong>嗜血符文</strong> 当你重击一个正在受到持续流血伤害@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}的目标时，目标陷入@Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{流失 1}。"
+                    "criticalSuccess": "当你重击一个正在受到持续流血伤害@Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}的目标时，目标陷入@Compendium[pf2e.conditionitems.4D2KBtexWXa6oUMR]{流失 1}。"
                 }
             },
             "brilliant": {
                 "Name": "光能符文",
                 "Note": {
-                    "criticalSuccess": "<strong>光能符文</strong> 重击时，目标必须通过一次成功的 <span data-pf2-check=\"fortitude\" data-pf2-label=\"Brilliant Rune DC\" data-pf2-dc=\"29\">强韧</span> 豁免否则陷入@Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲 Blinded} 一轮。"
+                    "criticalSuccess": "重击时，目标必须通过一次成功的@Check[type:fortitude|dc:29|name:Brilliant Rune]豁免否则陷入@Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲 Blinded} 一轮。"
                 }
             },
             "conducting": {
@@ -4498,13 +4498,13 @@
             "corrosive": {
                 "Name": "腐蚀符文",
                 "Note": {
-                    "criticalSuccess": "<strong>腐蚀符文</strong> 重击时，目标的盔甲受到 [[/r {3d6}[acid] #Corrosive Rune]]{3d6 acid} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。"
+                    "criticalSuccess": "重击时，目标的盔甲受到 [[/r {3d6}[acid] #Corrosive Rune]]{3d6 acid} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。"
                 }
             },
             "crushing": {
                 "Name": "粉碎符文",
                 "Note": {
-                    "criticalSuccess": "<strong>粉碎符文</strong> 重击时， 目标陷入 @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1} 与 @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1} 直到你的下回合结束。"
+                    "criticalSuccess": "重击时， 目标陷入 @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1} 与 @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1} 直到你的下回合结束。"
                 }
             },
             "cunning": {
@@ -4516,7 +4516,7 @@
             "disrupting": {
                 "Name": "瓦解符文",
                 "Note": {
-                    "criticalSuccess": "<strong>瓦解符文</strong> 若重击，目标不死生物直到你的下一回合结束为止获得@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}。"
+                    "criticalSuccess": "若重击，目标不死生物直到你的下一回合结束为止获得@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}。"
                 }
             },
             "energizing": {
@@ -4531,13 +4531,13 @@
             "fearsome": {
                 "Name": "可怖符文",
                 "Note": {
-                    "criticalSuccess": "<strong>可怖符文</strong> 重击时，目标陷入 @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{力竭 Frightened 1}。"
+                    "criticalSuccess": "重击时，目标陷入 @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{力竭 Frightened 1}。"
                 }
             },
             "flaming": {
                 "Name": "炽焰符文",
                 "Note": {
-                    "criticalSuccess": "<strong>炽焰符文</strong> 重击时, 会再附加 [[/r {1d10}[persistent,fire]]] # Flaming Rune]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}。"
+                    "criticalSuccess": "重击时, 会再附加 [[/r {1d10}[persistent,fire]]] # Flaming Rune]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}。"
                 }
             },
             "frost": {
