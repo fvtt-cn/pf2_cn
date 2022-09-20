@@ -124,10 +124,49 @@
             },
             "BottledLightning": {
                 "Greater": {
-                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[persistent,poison]]]{3点电击溅射伤害}以及目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}"
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[splash,electricity]]]{3点电击溅射伤害}以及目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}"
                 },
                 "Lesser": {
-                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {1}[persistent,poison]]]{1点电击溅射伤害}以及目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}"
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {1}[splash,electricity]]]{1点电击溅射伤害}以及目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {2}[splash,electricity]]]{2点电击溅射伤害}以及目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {4}[splash,electricity]]]{4点电击溅射伤害}以及目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}"
+                }
+            },
+            "CrystalShards": {
+                "Major": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {6}[splash,piercing]]]{6穿刺溅射伤害}，并且飞溅物会在水平面上形成@Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{铁蒺藜}一样的晶体，并在垂直面上创造立足点，为下一次用于攀爬的运动检定提供+3的物品加值"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {4}[splash,piercing]]]{4穿刺溅射伤害}，并且飞溅物会在水平面上形成@Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{铁蒺藜}一样的晶体，并在垂直面上创造立足点，为下一次用于攀爬的运动检定提供+1的物品加值"
+                },
+                "Greater": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {5}[splash,piercing]]]{5穿刺溅射伤害}，并且飞溅物会在水平面上形成@Compendium[pf2e.equipment-srd.7fSnvJ2xoSfa6JXD]{铁蒺藜}一样的晶体，并在垂直面上创造立足点，为下一次用于攀爬的运动检定提供+2的物品加值"
+                }
+            },
+            "DreadAmpoule": {
+                "Greater": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {3}[splash,mental]]]{3点心灵溅射伤害}以及目标陷入@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧1} (重击时为@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧2} )"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {1}[splash,mental]]]{1点心灵溅射伤害}以及目标陷入@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧1} (重击时为@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧2} )"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {4}[splash,mental]]]{4点心灵溅射伤害}以及目标陷入@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧1} (重击时为@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧2} )"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2}[splash,mental]]]{2点心灵溅射伤害}以及目标陷入@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧1} (重击时为@Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧2} )"
+                }
+            },
+            "DwarvenDaisy": {
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹造成[[/r {1}[splash,fire]]]{1点火焰溅射伤害} ，并且目标必须通过成功的@Check[type:fortitude|dc:16|name:Lesser Dwarven Daisy|traits:damaging-effect|showDC:all]豁免否则陷入@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩}一轮。"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong>这颗炸弹造成[[/r {2}[splash,fire]]]{2点火焰溅射伤害} ，并且目标必须通过成功的@Check[type:fortitude|dc:18|name:Moderate Dwarven Daisy|traits:damaging-effect|showDC:all]豁免否则陷入@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩}一轮。"
                 }
             }
         },
