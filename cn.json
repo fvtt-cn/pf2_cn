@@ -4543,17 +4543,17 @@
             "frost": {
                 "Name": "冻寒符文",
                 "Note": {
-                    "criticalSuccess": "<strong>冻寒符文</strong>重击时， 目标陷入 @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1} 直到你的下回合结束，除非通过一次成功的<span data-pf2-check=\"fortitude\" data-pf2-label=\"Frost Rune DC\" data-pf2-dc=\"24\">强韧</span> 豁免。"
+                    "criticalSuccess": "重击时， 目标陷入 @Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1} 直到你的下回合结束，除非通过一次成功的@Check[type:fortitude|dc:24|name:Frost Rune]豁免。"
                 }
             },
             "ghostTouch": {
                 "Name": "幽冥符文",
-                "Note": "<strong>幽冥符文</strong> 该武器可以伤害到没有实体的生物。幽冥武器对虚体生物特别有效，那些东西大多数都对幽冥武器有着弱点。虚体生物可以接触、手持和持握幽冥武器（这和大多数物质物体不同）。"
+                "Note": "该武器可以伤害到没有实体的生物。幽冥武器对虚体生物特别有效，那些东西大多数都对幽冥武器有着弱点。虚体生物可以接触、手持和持握幽冥武器（这和大多数物质物体不同）。"
             },
             "greaterAnchoring": {
                 "Name": "高等锚定符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等锚定符文</strong> 重击时, 武器对目标施放8环的<em>@Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{Dimensional Anchor}</em>(<span data-pf2-check=\"will\" data-pf2-label=\"Greater Anchoring Rune DC\" data-pf2-dc=\"38\">意志</span>, 反制检定 [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28}), 除非目标的意志豁免检定大成功， <em>次元锚</em> 至少持续一轮，而不是没有效果。",
+                    "criticalSuccess": "重击时, 武器对目标施放8环的<em>@Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{Dimensional Anchor}</em>(@Check[type:will|dc:38|name:Greater Anchoring Rune], 反制检定 [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28}), 除非目标的意志豁免检定大成功， <em>次元锚</em> 至少持续一轮，而不是没有效果。",
                     "success": "<strong>高等锚定符文</strong> 当命中目标但没有重击时，目标受到四环 <em>@Compendium[pf2e.spells-srd.ksLCg62cLOojw3gN]{Dimensional Anchor}</em> 效果影响一轮而不需要豁免 (反制检定[[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28})."
                 }
             },
@@ -4563,27 +4563,27 @@
             "greaterBrilliant": {
                 "Name": "高等光能符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等光能符文</strong>该武器造成的伤害忽略目标的火焰、善良或正能量的抗力。重击时, 目标必须通过一个成功的 <span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Brilliant Rune DC\" data-pf2-dc=\"41\">强韧</span>豁免否则陷入 @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{Blinded} 一轮。",
+                    "criticalSuccess": "该武器造成的伤害忽略目标的火焰、善良或正能量的抗力。重击时, 目标必须通过一个成功的 @Check[type:fortitude|dc:41|name:Greater Brilliant Rune]豁免否则陷入 @Compendium[pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲 Blinded} 一轮。",
                     "success": "<strong>高等光能符文</strong>该武器造成的伤害忽略目标的火焰、善良或正能量的抗力。"
                 }
             },
             "greaterCorrosive": {
                 "Name": "高等腐蚀符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等酸蚀符文</strong> 该武器造成的酸液伤害无视酸液抗力。 重击时，目标的盔甲受到 [[/r {6d6}[acid]]{6d6 acid} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。",
+                    "criticalSuccess": "该武器造成的酸液伤害无视酸液抗力。 重击时，目标的盔甲受到 [[/r {6d6}[acid]]{6d6 酸液} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。",
                     "success": "<strong>Greater Corrosive Rune</strong> 该武器造成的酸液伤害无视酸液抗力。"
                 }
             },
             "greaterCrushing": {
                 "Name": "高等粉碎符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等粉碎符文</strong> 你的重击使目标陷入 @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2} 和 @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2} 直到你的下回合结束。"
+                    "criticalSuccess": "你的重击使目标陷入 @Compendium[pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2} 和 @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2} 直到你的下回合结束。"
                 }
             },
             "greaterDisrupting": {
                 "Name": "高等瓦解符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等瓦解符文</strong> 重击时，目标不死生物必须通过一个成功的<span data-pf2-check=\"fortitude\" data-pf2-traits=\"incapacitation\" data-pf2-label=\"Greater Disrupting Rune DC\" data-pf2-dc=\"34\">强韧</span> 豁免来规避以下效果。 这是一个无力化效果。<br /><br /><strong>大成功</strong>陷入 @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1} 直到你下一个回合结束<br /><strong>成功</strong> 陷入@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}直到你下一回合结束<br /><strong>失败</strong>陷入@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 3} 直到你下一回合结束<br /><strong>大失败</strong> 被直接摧毁。"
+                    "criticalSuccess": "重击时，目标不死生物必须通过一个成功的@Check[type:fortitude|dc:34|traits:incapacitation|name:Greater Disrupting Rune]豁免来规避以下效果。 这是一个失能效果。<br /><br /><strong>大成功</strong>陷入 @Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1} 直到你下一个回合结束<br /><strong>成功</strong> 陷入@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}直到你下一回合结束<br /><strong>失败</strong>陷入@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 3} 直到你下一回合结束<br /><strong>大失败</strong> 被直接摧毁。"
                 }
             },
             "greaterExtending": {
@@ -4595,20 +4595,20 @@
             "greaterFearsome": {
                 "Name": "高等可怖符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等可怖符文</strong>重击时，目标陷入 @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}。"
+                    "criticalSuccess": "重击时，目标陷入 @Compendium[pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}。"
                 }
             },
             "greaterFlaming": {
                 "Name": "高等炽焰符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等炽焰符文</strong> 该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。重击时，对目标造成火焰持续伤害[[/r {2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Fire Damage}。",
-                    "success": "<strong>高等炽焰符文</strong>该武器造成的火焰伤害忽略目标的火焰抗力。"
+                    "criticalSuccess": "该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。重击时，对目标造成火焰持续伤害[[/r {2d10}[persistent,fire]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}。",
+                    "success": "该武器造成的火焰伤害忽略目标的火焰抗力。"
                 }
             },
             "greaterFrost": {
                 "Name": "高等冻寒符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等冻寒符文</strong> 该武器造成的寒冷伤害忽略目标的寒冷抗力。重击时，除非通过一个<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Frost Rune DC\" data-pf2-dc=\"34\">强韧</span>豁免，否则目标陷入@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1} 直到你下一回合结束。",
+                    "criticalSuccess": "该武器造成的寒冷伤害忽略目标的寒冷抗力。重击时，除非通过一个@Check[type:fortitude|dc:34|name:Greater Thundering Rune]豁免，否则目标陷入@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1} 直到你下一回合结束。",
                     "success": "<strong>高等冻寒符文</strong>该武器造成的寒冷伤害忽略目标的寒冷抗力。"
                 }
             },
@@ -4618,21 +4618,21 @@
             "greaterImpactful": {
                 "Name": "高等冲击符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等冲击符文</strong>重击时，你可以选择推动目标，目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Impactful Rune DC\" data-pf2-dc=\"37\">强韧</span> 豁免检定，否则将被推离10尺，方向为你所在位置相反的方向。"
+                    "criticalSuccess": "重击时，你可以选择推动目标，目标必须通过@Check[type:fortitude|dc:37|name:Greater Impactful Rune]豁免检定，否则将被推离10尺，方向为你所在位置相反的方向。"
                 }
             },
             "greaterShock": {
                 "Name": "高等电击符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等电击符文</strong> 该武器造成的电击伤害忽略目标的电击抗力（包括重击时对另外生物造成的电击伤害）。重击时，电弧对目标10尺内另外最多2个你所选的目标造成等量的电击伤害。",
-                    "success": "<strong>高等电击符文</strong>该武器造成的电击伤害忽略目标的电击抗力。"
+                    "criticalSuccess": "该武器造成的电击伤害忽略目标的电击抗力（包括重击时对另外生物造成的电击伤害）。重击时，电弧对目标10尺内另外最多2个你所选的目标造成等量的电击伤害。",
+                    "success": "该武器造成的电击伤害忽略目标的电击抗力。"
                 }
             },
             "greaterThundering": {
                 "Name": "高等雷鸣符文",
                 "Note": {
-                    "criticalSuccess": "<strong>高等雷鸣符文</strong> 该武器造成的音波伤害忽视音波抗力。 重击时，目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Greater Thundering Rune DC\" data-pf2-dc=\"34\">强韧</span> 豁免检定，否则永久陷入@Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened} 。",
-                    "success": "<strong>高等雷鸣符文</strong> 该武器造成的音波伤害忽视音波抗力。"
+                    "criticalSuccess": "该武器造成的音波伤害忽视音波抗力。 重击时，目标必须通过@Check[type:fortitude|dc:34|name:Greater Thundering Rune]豁免检定，否则永久陷入@Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened} 。",
+                    "success": "该武器造成的音波伤害忽视音波抗力。"
                 }
             },
             "grievous": {
@@ -4660,24 +4660,24 @@
             "holy": {
                 "Name": "神圣符文",
                 "Note": {
-                    "criticalSuccess": "<strong>神圣符文</strong> (<span class='pf2-icon'>R</span> 命令; 一日一次)<br /><br /><strong>触发</strong> 你用该武器对一邪恶生物重击成功<br /><br /><strong>效果</strong>你获得该邪恶生物等级双倍的HP。这是一个善良、正能量、治疗效果。"
+                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每日一次)<br /><br /><strong>触发</strong> 你用该武器对一邪恶生物重击成功<br /><br /><strong>效果</strong>你获得该邪恶生物等级双倍的HP。这是一个善良、正能量、治疗效果。"
                 }
             },
             "hopeful": {
                 "Name": "希望符文",
                 "Note": {
-                    "criticalSuccess": "<strong>希望符文</strong> 重击时，你激励你的队友，使他们更加努力地战斗，支持你们共同的信念。在30尺范围内，与你共有至少一个阵营的盟友在你下一回合结束前，在攻击骰上获得+1状态加值。"
+                    "criticalSuccess": "重击时，你激励你的队友，使他们更加努力地战斗，支持你们共同的信念。在30尺范围内，与你共有至少一个阵营的盟友在你下一回合结束前，在攻击骰上获得+1状态加值。"
                 }
             },
             "impactful": {
                 "Name": "冲击符文",
                 "Note": {
-                    "criticalSuccess": "<strong>冲击符文</strong> 重击时，你可以选择推动目标，目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Impactful Rune DC\" data-pf2-dc=\"27\">强韧</span>，豁免检定，否则将被推离5尺，方向为你所在位置相反的方向。"
+                    "criticalSuccess": "重击时，你可以选择推动目标，目标必须通过@Check[type:fortitude|dc:27|name:Impactful Rune]豁免检定，否则将被推离5尺，方向为你所在位置相反的方向。"
                 }
             },
             "keen": {
                 "Name": "锐锋符文",
-                "Note": "<strong>锐锋符文</strong> 用该武器的攻击若骰出19且攻击结果为成功，则可为重击。若骰出19但结果为失败，则该性能符文没有效果。"
+                "Note": "用该武器的攻击若骰出19且攻击结果为成功，则可为重击。若骰出19但结果为失败，则该性能符文没有效果。"
             },
             "kinWarding": {
                 "Name": "亲卫符文"
@@ -4701,7 +4701,7 @@
             "shock": {
                 "Name": "电击符文",
                 "Note": {
-                    "criticalSuccess": "<strong>电击符文</strong> 重击时，电弧对目标10尺内另外最多2个你所选的目标造成等量的电击伤害。"
+                    "criticalSuccess": "重击时，电弧对目标10尺内另外最多2个你所选的目标造成等量的电击伤害。"
                 }
             },
             "speed": {
@@ -4713,26 +4713,26 @@
             "thundering": {
                 "Name": "雷鸣符文",
                 "Note": {
-                    "criticalSuccess": "<strong>雷鸣符文</strong>重击时， 目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Thundering Rune DC\" data-pf2-dc=\"24\">强韧</span> 豁免检定，否则陷入@Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened}一分钟(大失败时变为一小时)."
+                    "criticalSuccess": "重击时， 目标必须通过@Check[type:fortitude|dc:24|name:Thundering Rune]豁免检定，否则陷入@Compendium[pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened}一分钟(大失败时变为一小时)."
                 }
             },
             "unholy": {
                 "Name": "邪恶符文",
                 "Note": {
-                    "criticalSuccess": "<strong>邪恶符文</strong> (<span class='pf2-icon'>R</span> 命令; 一天一次)<br /><br /><strong>触发</strong>你用该武器对一善良生物重击成功<br /><br /><strong>效果</strong> 符文蚀刻的武器每有1个武器伤害骰，目标就受到1d8点 @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害} 。"
+                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每天一次)<br /><br /><strong>触发</strong>你用该武器对一善良生物重击成功<br /><br /><strong>效果</strong> 符文蚀刻的武器每有1个武器伤害骰，目标就受到1d8点 @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害} 。"
                 }
             },
             "vorpal": {
                 "Name": "斩首符文",
                 "Note": {
-                    "criticalSuccess": "<strong>斩首符文</strong> (<span class='pf2-icon'>R</span> 想象(死亡，无力化))<br /><br /><strong>触发</strong>你用该武器的打击动作骰出天然20、重击成功且造成了挥砍伤害，目标必须有头；<br /><br /><strong>效果</strong> 目标必须通过<span data-pf2-check=\"fortitude\" data-pf2-label=\"Vorpal Rune DC\" data-pf2-traits=\"death,incapacitation\" data-pf2-dc=\"37\">强韧</span>，否则被斩首。除非目标失去这个头部也能活，否则会击杀它。对于有多个头部的生物，通常只在砍掉其最后一个头部时才会立刻击杀它。"
+                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 想象(死亡，失能))<br /><br /><strong>触发</strong>你用该武器的打击动作骰出天然20、重击成功且造成了挥砍伤害，目标必须有头；<br /><br /><strong>效果</strong> 目标必须成功通过@Check[type:fortitude|dc:37|traits:death,incapacitation]|name:Vorpal Rune]检定，否则被斩首。除非目标失去这个头部也能活，否则会击杀它。对于有多个头部的生物，通常只在砍掉其最后一个头部时才会立刻击杀它。"
                 }
             },
             "wounding": {
                 "Name": "血光符文",
                 "Note": {
-                    "criticalSuccess": "<strong>血光符文</strong> 重击时，你造成额外的[[/r {1d6*2}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{持续流血伤害}。",
-                    "success": "<strong>血光符文</strong> 命中目标时， 你造成额外的[[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}。"
+                    "criticalSuccess": "重击时，你造成额外的[[/r {1d6*2}[persistent,bleed]]] @Compendium[pf2e.conditionitems.Persistent Damage]{持续流血伤害}。",
+                    "success": "命中目标时， 你造成额外的[[/r {1d6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}。"
                 }
             }
         },
