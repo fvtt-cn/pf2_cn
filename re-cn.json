@@ -101,7 +101,16 @@
             },
             "FrostVial": {
                 "Major": {
-                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {4}[splash,cold]]]{4 寒冷溅射伤害}，并且目标会受到15尺速度减值直至下回合结束(@Compendium[pf2e.equipment-effects.4G9qnI0oRyL6eKFQ]{效果: 上等霜冻瓶 })"
+                    "success": "<strong>效果</strong>这颗炸弹造成[[/r {4}[splash,cold]]]{4 寒冷溅射伤害}，并且目标会受到15尺速度减值直至下回合结束(@Compendium[pf2e.equipment-effects.4G9qnI0oRyL6eKFQ]{效果: 上等霜冻瓶 })"
+                },
+                "Greater": {
+                    "success": "<strong>效果</strong>这颗炸弹造成[[/r {3}[splash,cold]]]{3 寒冷溅射伤害}，并且目标会受到10尺速度减值直至下回合结束(@Compendium[pf2e.equipment-effects.nJRoiSyd67eQ1dYj]{效果: 高等霜冻瓶 })"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong>这颗炸弹造成[[/r {2}[splash,cold]]]{2寒冷溅射伤害}，并且目标会受到10尺速度减值直至下回合结束(@Compendium[pf2e.equipment-effects.dv0IKm5syOdP759w]{效果: 中等霜冻瓶 })"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹造成[[/r {1}[splash,cold]]]{1 寒冷溅射伤害}，并且目标会受到5尺速度减值直至下回合结束(@Compendium[pf2e.equipment-effects.RLsdvhmTh64Mmty9]{效果: 次等霜冻瓶 })"
                 }
             },
             "BlightBomb": {
@@ -167,6 +176,47 @@
                 },
                 "Moderate": {
                     "success": "<strong>效果</strong>这颗炸弹造成[[/r {2}[splash,fire]]]{2点火焰溅射伤害} ，并且目标必须通过成功的@Check[type:fortitude|dc:18|name:Moderate Dwarven Daisy|traits:damaging-effect|showDC:all]豁免否则陷入@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩}一轮。"
+                }
+            },
+            "GhostCharge": {
+                "Greater": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[splash,positive]]]{3点毒素溅射伤害}，并且目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 2}。"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {1}[splash,positive]]]{1点毒素溅射伤害}，并且目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 1}。"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {2}[splash,positive]]]{2点毒素溅射伤害}，并且目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 1}。"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {4}[splash,positive]]]{4点毒素溅射伤害}，并且目标直至你下回合开始陷入@Compendium[pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 1}。"
+                }
+            },
+            "JunkBomb": {
+                "Greater": {
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {6}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害} 以及[[/r {3}[splash,slashing]]]{3点挥砍溅射伤害}",
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害} 以及[[/r {3}[splash,slashing]]]{3点挥砍溅射伤害}"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {1}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害} 以及[[/r {1}[splash,slashing]]]{1点挥砍溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {2}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害} 以及[[/r {1}[splash,slashing]]]{1点挥砍溅射伤害}"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害} 以及[[/r {4}[splash,slashing]]]{4点挥砍溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {8}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害} 以及[[/r {4}[splash,slashing]]]{4点挥砍溅射伤害}"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {2}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害} 以及[[/r {2}[splash,slashing]]]{2点挥砍溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {4}[persistent,bleed]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害} 以及[[/r {2}[splash,slashing]]]{2点挥砍溅射伤害}"
+                }
+            },
+            "MudBomb": {
+                "Greater": {
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[splash,bludgeoning]]]{3钝击溅射伤害}。目标直到你的下回合开始陷入@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩}",
+                    "success": "<strong>效果</strong>这颗炸弹造成[[/r {3}[splash,bludgeoning]]]{3钝击溅射伤害}。"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹造成[[/r {1}[splash,bludgeoning]]]{1钝击溅射伤害}。"
                 }
             }
         },
