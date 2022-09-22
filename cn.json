@@ -1027,7 +1027,8 @@
                 },
                 "Info": {
                     "Added": "{item}已添加到{category}。"
-                }
+                },
+                "LevelLabel": ""
             },
             "Heritage": {
                 "AncestryNotFound": "找不到引用的族裔模板。",
@@ -1267,6 +1268,10 @@
                         "Label": "显示基础无武装攻击"
                     },
                     "Title": "配置角色"
+                },
+                "ClassDC": {
+                    "Label": "",
+                    "Plural": ""
                 }
             },
             "Creature": {
@@ -1310,7 +1315,8 @@
                         "Lifesense": "生命感知",
                         "LowLightVision": "昏暗视觉",
                         "Scent": "灵敏嗅觉",
-                        "Motionsense": "运动感知"
+                        "Motionsense": "运动感知",
+                        "Spiritsense": ""
                     },
                     "Label": "感官",
                     "RangeLabel": "距离",
@@ -5115,7 +5121,9 @@
             "weaponEquipped": "切换你持握的武器"
         },
         "UnitedPaizoWorkers": {
-            "Title": "公告: United Paizo Workers"
+            "Title": "公告: United Paizo Workers",
+            "PFSNote": "",
+            "ReleaseIntro": ""
         },
         "identification": {
             "Identify": "鉴定物品",
@@ -5450,7 +5458,25 @@
         "TraitDescriptionThaumaturge": "这表示奇术师职业的能力。",
         "TraitFinite": "有限",
         "TraitReflection": "镜像",
-        "LanguageIblydan": "艾布利丹语"
+        "LanguageIblydan": "艾布利丹语",
+        "LanguageKovintal": "",
+        "LanguageMahwek": "",
+        "TraitPaaridar": "",
+        "TraitSkelm": "",
+        "PreciousMaterialSisterstoneDescription": "",
+        "LanguageOcotan": "",
+        "LanguageRazatlani": "",
+        "LanguageKibwani": "",
+        "TraitDescriptionGoloma": "",
+        "LanguageOkaiyan": "",
+        "LanguageDrooni": "",
+        "TraitDescriptionGhul": "",
+        "TraitDescriptionShisk": "",
+        "TraitStheno": "",
+        "TraitKovintus": "",
+        "TraitDescriptionSubjectiveGravity": "",
+        "PreciousMaterialWarpglassDescription": "",
+        "PreciousMaterialGrisantianPeltDescription": ""
     },
     "DOCUMENT": {
         "Combat": "遭遇",
