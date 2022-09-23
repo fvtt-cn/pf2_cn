@@ -230,7 +230,20 @@
             },
             "NecroticBomb": {
                 "Greater": {
-                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[splash,negative]]]{3点负能量溅射伤害}"
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[splash,negative]]]{3点负能量溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[splash,negative]]]{3点负能量溅射伤害}，并目标陷入@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 3}"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {1}[splash,negative]]]{1点负能量溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {1}[splash,negative]]]{1点负能量溅射伤害}，并目标陷入@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 1}"
+                },
+                "Major": {
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {4}[splash,negative]]]{4点负能量溅射伤害}，并目标陷入@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 4}",
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {4}[splash,negative]]]{4点负能量溅射伤害}"
+                },
+                "Moderate": {
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2}[splash,negative]]]{2点负能量溅射伤害}，并目标陷入@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 2}",
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2}[splash,negative]]]{2点负能量溅射伤害}"
                 }
             }
         },
