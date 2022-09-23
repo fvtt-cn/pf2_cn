@@ -227,6 +227,11 @@
                     "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成[[/r {2}[splash,bludgeoning]]]{2点钝击溅射伤害}。目标直到你的下回合开始陷入@Compendium[pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩}",
                     "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {2}[splash,bludgeoning]]]{2点钝击溅射伤害}。"
                 }
+            },
+            "NecroticBomb": {
+                "Greater": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成[[/r {3}[splash,negative]]]{3点负能量溅射伤害}"
+                }
             }
         },
         "SpecificRule": {
