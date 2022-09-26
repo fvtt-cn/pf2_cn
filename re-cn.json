@@ -245,6 +245,16 @@
                     "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2}[splash,negative]]]{2点负能量溅射伤害}，并目标陷入@Compendium[pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 2}",
                     "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2}[splash,negative]]]{2点负能量溅射伤害}"
                 }
+            },
+            "PerniciousSporeBomb": {
+                "Greater": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {3d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {3}[splash,poison]]]{3点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成1轮的困难地形。",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {6d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {3}[splash,poison]]]{3点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成1轮的困难地形。"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {1d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {1}[splash,poison]]]{1点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成1轮的困难地形。",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {1}[splash,poison]]]{1点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成1轮的困难地形。"
+                }
             }
         },
         "SpecificRule": {
