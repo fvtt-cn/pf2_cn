@@ -1028,7 +1028,7 @@
                 "Info": {
                     "Added": "{item}已添加到{category}。"
                 },
-                "LevelLabel": ""
+                "LevelLabel": "专长"
             },
             "Heritage": {
                 "AncestryNotFound": "找不到引用的族裔模板。",
@@ -1270,8 +1270,8 @@
                     "Title": "配置角色"
                 },
                 "ClassDC": {
-                    "Label": "",
-                    "Plural": ""
+                    "Label": "职业DC",
+                    "Plural": "职业DC"
                 }
             },
             "Creature": {
@@ -1294,7 +1294,13 @@
                     }
                 },
                 "Spellcasting": {
-                    "Cantrips": "戏法"
+                    "Cantrips": "戏法",
+                    "InvalidProficiency": "无效",
+                    "MagicItemTypesLabel": "魔法物品类型",
+                    "ValidItemTypes": {
+                        "All": "所有魔法物品",
+                        "Scroll": "仅卷轴"
+                    }
                 },
                 "Sense": {
                     "Acuity": {
@@ -1316,7 +1322,7 @@
                         "LowLightVision": "昏暗视觉",
                         "Scent": "灵敏嗅觉",
                         "Motionsense": "运动感知",
-                        "Spiritsense": ""
+                        "Spiritsense": "灵魂感知"
                     },
                     "Label": "感官",
                     "RangeLabel": "距离",
@@ -1327,7 +1333,14 @@
             "Dead": "死亡",
             "Hazard": {
                 "TitleEdit": "{name} (编辑模式)",
-                "Level": "危害 {level}"
+                "Level": "危害 {level}",
+                "EmitsSound": {
+                    "Hint": "这个灾害是否发出能被听到的声音",
+                    "True": "总是",
+                    "Title": "是否发出声音？",
+                    "False": "从不",
+                    "Encounter": "在遭遇中"
+                }
             },
             "NPC": {
                 "Configure": {
@@ -5476,7 +5489,9 @@
         "TraitKovintus": "",
         "TraitDescriptionSubjectiveGravity": "",
         "PreciousMaterialWarpglassDescription": "",
-        "PreciousMaterialGrisantianPeltDescription": ""
+        "PreciousMaterialGrisantianPeltDescription": "",
+        "BrowserWarnPackNotLoaded": "合集包 \"{pack}\" 无法加载。",
+        "PreparationTypeItems": "仅物品"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
