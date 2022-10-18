@@ -254,6 +254,14 @@
                 "Lesser": {
                     "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {1d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {1}[splash,poison]]]{1点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成1轮的困难地形。",
                     "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {1}[splash,poison]]]{1点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成1轮的困难地形。"
+                },
+                "Major": {
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {8d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {4}[splash,poison]]]{4点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成一分钟的困难地形。",
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {4d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {4}[splash,poison]]]{4点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成一分钟的困难地形。"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {2}[splash,poison]]]{2点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成1轮的困难地形。",
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {4d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {2}[splash,poison]]]{2点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成1轮的困难地形。"
                 }
             }
         },
