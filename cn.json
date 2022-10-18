@@ -629,6 +629,28 @@
                     "criticalFailure": "<strong>大失败</strong> 你没能投掷生物， 并且对方不再被你 @Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱 Grabbed} 或 @Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚 Restrained}。"
                 },
                 "Title": "回旋抛投"
+            },
+            "TreatWounds": {
+                "Rolls": {
+                    "RiskySurgery": "伤害骰: 激进手术",
+                    "TreatWounds": "治疗骰: 治疗伤口",
+                    "TreatWoundsCriticalFailure": "伤害骰: 治疗伤口"
+                },
+                "Content": "选择目标DC。记得确认，你不能尝试超过你熟练程度的治疗行动。这样的尝试会将DC和治疗量降级到你能达到的最高水准。",
+                "DC": {
+                    "Mod": "DC 调整值:",
+                    "Trained": "受训 DC 15",
+                    "Expert": "专家 DC 20, +10 治疗",
+                    "Master": "大师 DC 30, +30 治疗",
+                    "Legendary": "传奇 DC 40, +50 治疗"
+                },
+                "Error": "角色 {name} 不具有医疗技能",
+                "Feats": {
+                    "RiskySurgery": "激进手术",
+                    "MortalHealing": "致命治疗"
+                },
+                "Label": "治疗伤害",
+                "SkillSelect": "治疗伤口技能:"
             }
         },
         "Item": {
@@ -1032,9 +1054,9 @@
             },
             "Heritage": {
                 "AncestryNotFound": "找不到引用的族裔模板。",
-                "DragAncestryHere": "将族裔模板拖到此处可设置此传承所需的族裔。",
+                "DragAncestryHere": "将族裔模板拖到此处可设置此传承所需的先决族裔。",
                 "NoneVersatile": "无(多用)",
-                "RemoveAncestry": "移除所需的族裔"
+                "RemoveAncestry": "移除所需的先决族裔"
             },
             "IconLabel": "图标",
             "NameLabel": "名称",
@@ -1193,7 +1215,9 @@
             },
             "Backpack": {
                 "StowingLabel": "要装进容器里吗？"
-            }
+            },
+            "WorldItemWarning": "这是一个世界项目，如果存入集合包中则不会起效",
+            "RemovalPrevented": "{preventer}阻止了{item}的移除。"
         },
         "ActionsCheck": {
             "acrobatics": "特技检定",
@@ -1340,7 +1364,8 @@
                     "Title": "是否发出声音？",
                     "False": "从不",
                     "Encounter": "在遭遇中"
-                }
+                },
+                "Simple": "简单"
             },
             "NPC": {
                 "Configure": {
@@ -2163,6 +2188,10 @@
             "CycleTokenStack": {
                 "Label": "循环指示物堆叠",
                 "Hint": "按照Z轴参数从上到下依次循环鼠标悬停中的指示物堆叠。"
+            },
+            "GMVision": {
+                "Label": "GM视角",
+                "Hint": "点亮黑暗的场景，以便于查看。"
             }
         },
         "KitItems": "物品",
@@ -2649,6 +2678,10 @@
                 "EffectPanel": {
                     "Name": "显示效果面板",
                     "Hint": "指示物被选中时显示效果面板。"
+                },
+                "MonochromeDarkvision": {
+                    "Name": "单色黑暗视觉",
+                    "Hint": "如果启用了基于规则的视觉，将会以单色为具有黑暗视觉的角色显示黑暗区域。要注意的是，一些生物，比如窃影鬼，具有彩色黑暗视觉，则不会受到影响。"
                 }
             },
             "WorldSchemaVersion": {
@@ -4430,7 +4463,10 @@
                 "wish-knife": "许愿小刀",
                 "wooden-taws": "木弹",
                 "bladed-gauntlet": "带刃铁手套",
-                "war-lance": "战枪"
+                "war-lance": "战枪",
+                "reinforced-wheels": "加固车轮",
+                "wheel-blades": "轮刃",
+                "wheel-spikes": "轮刺"
             }
         },
         "WeaponAbilityLabel": "武器能力",
@@ -5491,7 +5527,14 @@
         "PreciousMaterialWarpglassDescription": "",
         "PreciousMaterialGrisantianPeltDescription": "",
         "BrowserWarnPackNotLoaded": "合集包 \"{pack}\" 无法加载。",
-        "PreparationTypeItems": "仅物品"
+        "PreparationTypeItems": "仅物品",
+        "TraitWildHunt": "狂猎",
+        "LanguageAncientOsiriani": "古奥斯利昂语",
+        "TraitMetal": "金属",
+        "TraitAttached": "附着",
+        "TraitDescriptionTech": "具有此特性的物品与纽梅利亚的技术相关。",
+        "MagicTraditionUseSpellLabel": "使用魔法根源",
+        "TraitTech": "科学"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
