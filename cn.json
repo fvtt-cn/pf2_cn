@@ -166,8 +166,8 @@
             },
             "AvoidNotice": {
                 "Notes": {
-                    "success": "<strong>成功</strong> 对于这些生物，你在移动过程中保持@Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未发现 undetected} 状态，且移动结束后仍不会被发现。<br/><br/>有关详细信息参见 @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 动作。",
-                    "criticalSuccess": "<strong>大成功</strong> 对于这些生物，你在移动过程中保持@Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{未发现 undetected} 状态，且移动结束后仍不会被发现。<br/><br/>有关详细信息参见 @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 动作。"
+                    "success": "<strong>成功</strong> 对于这些生物，你在移动过程中保持@Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪 Undetected} 状态，且移动结束后仍不会被发现。<br/><br/>有关详细信息参见 @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 动作。",
+                    "criticalSuccess": "<strong>大成功</strong> 对于这些生物，你在移动过程中保持@Compendium[pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪 Undetected} 状态，且移动结束后仍不会被发现。<br/><br/>有关详细信息参见 @Compendium[pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 动作。"
                 },
                 "Title": "避人耳目"
             },
@@ -607,8 +607,8 @@
             "Trip": {
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 你的目标立刻被击倒至俯卧状态@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}，并承受1d6点钝击伤害。",
-                    "success": "<strong>成功</strong> 目标被击倒至俯卧状态。@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}.",
-                    "criticalFailure": "<strong>大失败</strong>你自己失去平衡摔倒了，陷入俯卧状态@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}。"
+                    "success": "<strong>成功</strong> 目标被击倒至@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}状态。",
+                    "criticalFailure": "<strong>大失败</strong>你自己失去平衡摔倒了，陷入@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}状态。"
                 },
                 "Title": "摔拌"
             },
@@ -633,10 +633,10 @@
             "TreatWounds": {
                 "Rolls": {
                     "RiskySurgery": "伤害骰: 激进手术",
-                    "TreatWounds": "治疗骰: 治疗伤口",
-                    "TreatWoundsCriticalFailure": "伤害骰: 治疗伤口"
+                    "TreatWounds": "治疗骰: 治疗伤害",
+                    "TreatWoundsCriticalFailure": "伤害骰: 治疗伤害"
                 },
-                "Content": "选择目标DC。记得确认，你不能尝试超过你熟练程度的治疗行动。这样的尝试会将DC和治疗量降级到你能达到的最高水准。",
+                "Content": "选择目标DC。注意你不能尝试超过你熟练度等级的治疗行动。若你这样做，DC和治疗量会降级到你的最高熟练度等级。",
                 "DC": {
                     "Mod": "DC 调整值:",
                     "Trained": "受训 DC 15",
@@ -650,7 +650,7 @@
                     "MortalHealing": "致命治疗"
                 },
                 "Label": "治疗伤害",
-                "SkillSelect": "治疗伤口技能:"
+                "SkillSelect": "治疗伤害技能:"
             }
         },
         "Item": {
