@@ -284,6 +284,22 @@
                 "UnleashPsyche": {
                     "DamageLabel": "通过心能者施法能力施法"
                 }
+            },
+            "Inventor": {
+                "Innovation": {
+                    "Prompt": "选择一项大发明。",
+                    "Armor": {
+                        "Prompt": "选择一项护甲大发明。",
+                        "AllowedDrops": "0级独特护甲"
+                    },
+                    "Construct": {
+                        "Prompt": "选择一项构装体大发明。"
+                    },
+                    "Weapon": {
+                        "AllowedDrops": "0级或1级的简易或军用武器",
+                        "Prompt": "选择一项武器大发明。"
+                    }
+                }
             }
         }
     }
