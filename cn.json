@@ -280,7 +280,7 @@
                     "success": "<strong>成功</strong> 你震得对手虎口发麻。直到这个生物的回合开始前，你在接下来对同一个生物的同一件手持物品的卸武检定获得+2环境加值，并且这个生物在使用这件物品发动攻击，或是进行其他需要维持稳定持握这件物品才能进行的行动的检定承受-2环境减值。 @Compendium[pf2e.equipment-effects.z3ATL8DcRVrT0Uzt]{Effect: Disarm (Success)}",
                     "criticalFailure": "<strong>大失败</strong> 你自己失去平衡，直到你的下一回合开始前都陷入措手不及状态@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} 。"
                 },
-                "Title": "缴械"
+                "Title": "卸武"
             },
             "EncouragingWords": {
                 "Title": "激励言语",
@@ -1221,7 +1221,7 @@
         },
         "ActionsCheck": {
             "acrobatics": "特技检定",
-            "arcana": "奥秘检定",
+            "arcana": "奥法检定",
             "athletics": "运动检定",
             "crafting": "手艺检定",
             "deception": "欺骗检定",
@@ -3056,8 +3056,8 @@
         "SizeLabel": "尺寸",
         "SkillAcr": "特技",
         "SkillAcrobatics": "特技",
-        "SkillArc": "奥秘",
-        "SkillArcana": "奥秘",
+        "SkillArc": "奥法",
+        "SkillArcana": "奥法",
         "SkillAth": "运动",
         "SkillAthletics": "运动",
         "SkillCheckWithName": "技能检定: {skillName}",
@@ -3826,7 +3826,7 @@
         "TraitIncarnate": "化身",
         "TraitIncorporeal": "虚体",
         "TraitInevitable": "必然的",
-        "TraitInfused": "注入",
+        "TraitInfused": "灌注",
         "TraitIngested": "摄入",
         "TraitInhaled": "吸入",
         "TraitInjection": "注射",
