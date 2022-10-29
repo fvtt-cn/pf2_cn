@@ -263,6 +263,30 @@
                     "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {2}[splash,poison]]]{2点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成1轮的困难地形。",
                     "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {4d4}[persistent,piercing]]] @Compendium[pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续穿刺伤害} 以及[[/r {2}[splash,poison]]]{2点毒素溅射伤害}。同时炸弹溅射的区域会被植被覆盖，造成1轮的困难地形。"
                 }
+            },
+            "PressureBomb": {
+                "Greater": {
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {3}[splash,bludgeoning]]]{3钝击溅射伤害}，中体型或小体型的目标会被推离5尺，并被击至 @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{俯卧}",
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {3}[splash,bludgeoning]]]{3钝击溅射伤害}，中体型或小体型的目标会被推离5尺"
+                },
+                "Lesser": {
+                    "criticalSuccess": "<strong>效果</strong>这颗炸弹同时造成 [[/r {1}[splash,bludgeoning]]]{1钝击溅射伤害}，超小体型或小体型的目标会被推离5尺，并被击至 @Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{俯卧}",
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {1}[splash,bludgeoning]]]{1钝击溅射伤害}，超小体型或小体型的目标会被推离5尺"
+                }
+            },
+            "PeshspineGrenade": {
+                "Greater": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {3}[splash,piercing]]]{3 穿刺溅射伤害} ，目标陷入@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞 2} 直到其回合结束"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {1}[splash,piercing]]]{1 穿刺溅射伤害} ，目标陷入@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞 1} 直到其回合结束"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {4}[splash,piercing]]]{4 穿刺溅射伤害} ，目标陷入@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞 3} 直到其回合结束"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2}[splash,piercing]]]{2 穿刺溅射伤害} ，目标陷入@Compendium[pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞 1} 直到其回合结束"
+                }
             }
         },
         "SpecificRule": {
@@ -300,6 +324,54 @@
                         "Prompt": "选择一项武器大发明。"
                     }
                 }
+            },
+            "DedicationCraftingEntry": {
+                "Poisoner": "囚犯",
+                "Herbalist": "草药师",
+                "Snarecrafter": "圈套师"
+            },
+            "Cover": {
+                "Lesser": "次等",
+                "Standard": "标准",
+                "Greater": "高等"
+            }
+        },
+        "RuleElement": {
+            "Aura": "灵光",
+            "Sense": "感官",
+            "Strike": "打击",
+            "Resistance": "抗力",
+            "Immunity": "免疫",
+            "Note": "笔记",
+            "TempHPShortLabel": "临时",
+            "ActiveEffectLike": "类主动效果",
+            "Striking": "强击",
+            "Weakness": "弱点"
+        },
+        "SkillVariant": {
+            "Buried": "活埋",
+            "Traps": "陷阱",
+            "Woodworking": "木工",
+            "Singing": "歌唱",
+            "Underground": "黑市"
+        },
+        "OracleCurses": {
+            "Label": {
+                "Minor": "次要",
+                "Moderate": "中等",
+                "Extreme": "极端",
+                "Major": "主要"
+            }
+        },
+        "RuleEditor": {
+            "General": {
+                "Selector": "已选中",
+                "Predicate": "谓语"
+            },
+            "Note": {
+                "Outcome": "成果",
+                "Title": "标题",
+                "Hidden": "藏匿"
             }
         }
     }
