@@ -334,6 +334,66 @@
                 "Lesser": "次等",
                 "Standard": "标准",
                 "Greater": "高等"
+            },
+            "PreciseStrike": {
+                "Finisher": "终结技"
+            },
+            "SpecialtyCrafting": {
+                "Stonemasonry": "石工技术",
+                "Weaving": "纺织布匹",
+                "Leatherworking": "鞣制皮革",
+                "Pottery": "烧制陶器",
+                "Shipbuilding": "修建船只",
+                "Woodworking": "木工技艺",
+                "Tailoring": "裁缝衣物",
+                "Alchemy": "炼金术",
+                "Artistry": "技艺",
+                "Blacksmithing": "铁匠",
+                "Bookmaking": "书籍装订",
+                "Glassmaking": "吹制玻璃"
+            },
+            "Elf": {
+                "BrightnessSeeker": {
+                    "Weal": "幸福",
+                    "WealAndWoe": "祸福甘苦",
+                    "Woe": "灾祸"
+                }
+            },
+            "Kobold": {
+                "DragonbloodParagon": {
+                    "Dracomancer": "龙学家"
+                }
+            },
+            "Mummy": {
+                "Terrain": {
+                    "Arctic": "极地",
+                    "Desert": "沙漠",
+                    "Mountain": "山脉",
+                    "Swamp": "沼泽"
+                }
+            },
+            "Zombie": {
+                "Deteriorated": "劣化"
+            },
+            "WildMorph": {
+                "Wings": "翅膀"
+            },
+            "HarrowDeck": {
+                "HarrowSuits": {
+                    "Shields": "盾牌",
+                    "Stars": "星星",
+                    "Keys": "钥匙",
+                    "Hammers": "铁锤",
+                    "Crowns": "皇冠",
+                    "Books": "书籍"
+                }
+            },
+            "SubstituteRoll": {
+                "Assurance": "驾轻就熟"
+            },
+            "Ghoul": {
+                "Satiated": "满足",
+                "FullySatiated": "充分满足"
             }
         },
         "RuleElement": {
@@ -366,12 +426,31 @@
         "RuleEditor": {
             "General": {
                 "Selector": "已选中",
-                "Predicate": "谓语"
+                "Predicate": "谓语",
+                "Primitive": "初始",
+                "Range": "范围",
+                "Label": "标签",
+                "Brackets": "括号",
+                "Value": "值"
             },
             "Note": {
                 "Outcome": "成果",
                 "Title": "标题",
                 "Hidden": "藏匿"
+            }
+        },
+        "NPCAbility": {
+            "Dramofir": {
+                "BittersweetDreamsCriticalFailure": "大失败"
+            },
+            "ClockworkWindUp": "待机模式"
+        },
+        "UI": {
+            "RuleElements": {
+                "ChoiceSet": {
+                    "Decline": "拒绝",
+                    "SaveLabel": "豁免"
+                }
             }
         }
     }
