@@ -443,7 +443,25 @@
             "Dramofir": {
                 "BittersweetDreamsCriticalFailure": "大失败"
             },
-            "ClockworkWindUp": "待机模式"
+            "ClockworkWindUp": "待机模式",
+            "ConstructArmor": {
+                "CriticalHit": "构装护甲被重击所破损",
+                "BrokenArmor": "破损的构装护甲"
+            },
+            "CustomArmor": {
+                "BrokenArmor": "破损的定制护甲",
+                "CriticalHit": "定制护甲被重击所破损"
+            },
+            "ClockworkLostPlates": "丢失了多少碟片？",
+            "BarghestFeed": "犬魔被喂食了多少次？",
+            "Calikang": {
+                "SixfoldFlurry": "未进行打击？",
+                "SuspendedAnimationEnter": "进入假死状态",
+                "SuspendedAnimationExit": "退出假死状态"
+            },
+            "Charge": {
+                "AtLeastTen": "至少移动了10尺"
+            }
         },
         "UI": {
             "RuleElements": {
@@ -451,6 +469,11 @@
                     "Decline": "拒绝",
                     "SaveLabel": "豁免"
                 }
+            }
+        },
+        "Mutagens": {
+            "BestialMutagen": {
+                "FeralPrompt": "是否通过添加AC减值来增大伤害骰？"
             }
         }
     }
