@@ -174,7 +174,7 @@
             "Balance": {
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 你以你的正常速度前进。",
-                    "success": "<strong>成功</strong> 你以你的正常速度前进，但会将其视为困难地形（每5英尺移动算为10英尺）。",
+                    "success": "<strong>成功</strong> 你以你的正常速度前进，但会将其视为困难地形（每5尺移动算为10尺）。",
                     "failure": "<strong>失败</strong> 你必须保持静止以保持平衡（会浪费这次动作），否则你将会摔倒。如果你摔倒，你的回合会结束。",
                     "criticalFailure": "<strong>大失败</strong> 你将会摔倒，你的回合结束。"
                 },
@@ -190,8 +190,8 @@
             },
             "Climb": {
                 "Notes": {
-                    "criticalSuccess": "<strong>大成功</strong> 你攀爬、穿越或安全下落5英尺，每20英尺的陆行速度会再加上5英尺（大多数玩家总计会是10英尺）。",
-                    "success": "<strong>成功</strong> 你攀爬、穿越或安全下落，每20英尺的陆行速度下落5英尺（对于大多数玩家角色一共为5英尺，如果你的速度低于20英尺，则至少为5英尺）。",
+                    "criticalSuccess": "<strong>大成功</strong> 你攀爬、穿越或安全下落5尺，每20尺的陆行速度会再加上5尺（大多数玩家总计会是10尺）。",
+                    "success": "<strong>成功</strong> 你攀爬、穿越或安全下落，每20尺的陆行速度下落5尺（对于大多数玩家角色一共为5尺，如果你的速度低于20尺，则至少为5尺）。",
                     "criticalFailure": "<strong>大失败</strong> 你摔落了。如果你在稳定地面上开始的攀爬，你就会摔倒并@Compendium[pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}."
                 },
                 "Title": "攀爬"
@@ -614,9 +614,9 @@
             },
             "TumbleThrough": {
                 "Notes": {
-                    "success": "<strong>成功</strong> 你通过敌人占据的空间，这个空间中的方格被视为困难地形(每5英尺需要10英尺的移动)。如果你没有足够的速度在空间中移动，你会得到和失败一样的结果。",
+                    "success": "<strong>成功</strong> 你通过敌人占据的空间，这个空间中的方格被视为困难地形(每5尺需要10尺的移动)。如果你没有足够的速度在空间中移动，你会得到和失败一样的结果。",
                     "failure": "<strong>失败</strong> 你的移动结束，你将触发反应动作就好像你已经离开了你的起始方格。",
-                    "criticalSuccess": "<strong>大成功</strong> 你通过敌人占据的空间，这个空间中的方格被视为困难地形(每5英尺需要10英尺的移动)。如果你没有足够的速度在空间中移动，你会得到和失败一样的结果。",
+                    "criticalSuccess": "<strong>大成功</strong> 你通过敌人占据的空间，这个空间中的方格被视为困难地形(每5尺需要10尺的移动)。如果你没有足够的速度在空间中移动，你会得到和失败一样的结果。",
                     "criticalFailure": "<strong>大失败</strong> 你的移动结束，你将触发反应动作就好像你已经离开了你的起始方格。"
                 },
                 "Title": "翻滚"
@@ -1111,7 +1111,7 @@
             "Weapon": {
                 "CriticalSpecialization": {
                     "axe": "选择一个在你的触及内与初始目标相邻的生物。如果它的AC低于你重击的攻击掷骰，那么你对该生物造成等同一颗武器伤害骰（也包括来自装备符文的额外骰，若有）的伤害。其它加值或额外骰不适用于这个伤害。",
-                    "bomb": "提升炸弹的溅射伤害（若有）半径到10英尺。",
+                    "bomb": "提升炸弹的溅射伤害（若有）半径到10尺。",
                     "bow": "若重击的目标邻接一个表面，则它会被弹头钉在表面上。目标将@Compendium[pf2e.conditionitems.eIcWbB5o3pP6OIMe]{被固定} ，它必须使用互动动作尝试进行 @Check[type:athletics|dc:10|name:Pull the Missile Free|showDC:all] 检定来拔出弹头，之后才能移动离开其方格。虚体、液态（例如水元素或某些泥怪）或能以某种方式毫不费力地避开此效果的生物不会被钉住。",
                     "brawling": "目标必须成功通过@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Brawling Critical Specialization|showDC:all]，否则陷入@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢1}，持续到你下轮结束。",
                     "club": "目标被你击退至多10尺（距离由你选择）。这是被迫移动。",
@@ -3592,7 +3592,7 @@
         "TraitDescriptionInventor": "这表示发明家职业的能力。",
         "TraitDescriptionInvested": "一个角色只能穿戴10件具有此特征的魔法物品。如果角色没有绑定物品，则该物品的任何魔法效果都不适用，也不能激活，尽管角色仍然可以从佩戴的实物中获得其他平常的好处（比如帽子，防止雨水落在他们头上）。",
         "TraitDescriptionInvestigator": "指调查员职业能力。",
-        "TraitDescriptionJoustingD6": "这种武器适用于骑乘战斗。当你上马时，如果你在攻击动作前移动了至少10英尺，那么该攻击的伤害增加一个等于武器的伤害骰子数量的环境加值。此外，当骑乘时，你可以单手使用武器，将伤害骰更改所列值。",
+        "TraitDescriptionJoustingD6": "这种武器适用于骑乘战斗。当你上马时，如果你在攻击动作前移动了至少10尺，那么该攻击的伤害增加一个等于武器的伤害骰子数量的环境加值。此外，当骑乘时，你可以单手使用武器，将伤害骰更改所列值。",
         "TraitDescriptionKobold": "具有这种特征的生物是狗头人族裔的成员。",
         "TraitDescriptionKickback": "反冲武器非常强力但难以使用。以反冲武器做出所有攻击都能造成1点额外伤害。使用反冲武器射击时会给攻击骰带来-2环境减值，但拥有14或更高力量的角色能无视该减值。在武器上附加稳定器（stabilizers）能降低或抵消此减值。",
         "TraitDescriptionKitsune": "可以变形的类人生物，其真实形态类似于狐狸。",
@@ -3650,7 +3650,7 @@
         "TraitDescriptionRanger": "指游侠职业能力。",
         "TraitDescriptionRare": "这个稀有度表示该事物在游戏世界中极其难以发现。一个稀有专长、法术、物品或类似的其他事物只有在GM同意放入游戏的前提下才能让玩家获取，通常需要通过游戏中的探索来发现。",
         "TraitDescriptionRatfolk": "具有这种特征的生物是鼠族族裔的成员。",
-        "TraitDescriptionReach": "具有这种特性的天生武器可以用来攻击至多所列出距离数字远的生物而不仅仅是相邻的生物。具有这种特性的武器很长，可以用来攻击至多10尺以内的生物，而不仅仅是相邻的生物。对于那些挥舞武器的肢体已经有长触及能力的生物来说，该武器使他们的触及距离再增加5英尺。",
+        "TraitDescriptionReach": "具有这种特性的天生武器可以用来攻击至多所列出距离数字远的生物而不仅仅是相邻的生物。具有这种特性的武器很长，可以用来攻击至多10尺以内的生物，而不仅仅是相邻的生物。对于那些挥舞武器的肢体已经有长触及能力的生物来说，该武器使他们的触及距离再增加5尺。",
         "TraitDescriptionReckless": "具有鲁莽特征的行动可能导致驾驶员失去对载具的控制。执行鲁莽动作时，驾驶员必须首先尝试进行适当的驾驶检定，以保持对车辆的控制。",
         "TraitDescriptionReload": "虽然所有武器都需要一定的时间才能就位，但许多远程武器还需要装填。此列为装填此类武器需要多少交互动作。如果抽取弹药是武器射击动作的一部分，则此值可以为0。如果一件武器需要2个或更多的动作来装填，GM将决定这些动作是在一组行动中进行，还是可以在一轮中使用其中的一些动作，然后在下一轮中使用其余的动作。一件武器此列为“—”意味着必须拔取出来才能投掷，通常需要一个交互动作拔取武器。装填远程武器和拔取投掷武器都需要一只不被占用的手。改变持握武器的方法而松开一只手和重新握住武器都包括在装填武器的动作中。",
         "TraitDescriptionRepeating": "该武器不像其他弩或者枪支那样装填单独的弩矢或子弹；相反，他们需要把专门的弹匣装入武器的一个特殊的槽内。一旦弹匣装载完毕，该武器每次开火时都能自动装填弹药，将其装填值减少为装填条目中的值（通常为0）。当弹匣打空之后，必须重新装填一个新的弹匣，这需要一只空着的手，花费3个交互动作（移除旧弹匣，拿出新弹匣，安装新弹匣）。这三个交互动作不必连续。",
@@ -5319,7 +5319,7 @@
                     "ChangeShape": "<p>怪物无限期地改变了其形态。它能够使用此动作恢复原形或是改为一个新的形态。除非另有说明，否则怪物无法使用变身能力呈现出某个特定个体。使用变身也被视为使用欺骗技能的@Compendium[pf2e.actionspf2e.AJstokjdG6iDjVjE]{乔装 Impersonate}来伪装自身。在判别所变化形态的生物族裔或是生物类型时，怪物的变形将自动成功对抗察觉DC，并且在防止从其他方面识破其伪装的欺骗DC上获得+4状态加值。变身能力指定了怪物能够变化的形态。怪物仅能变化其生理形态，并不会获得新形态的特殊能力。例如，在每个形态下，它都会替换其正常速度与打击，并且可能改变其感官或体型。所有变更都会在数据栏中列出。</p>",
                     "ConstantSpells": "<p>一个恒定法术将持续对怪物生效而无需怪物施放之，并且法术的持续时间为永久。如果一个恒定法术被反制，则怪物可以花费此法术正常情况下所要求的施法动作来将其重新激活。</p>",
                     "Constrict": "<p>怪物对任意数量的被其@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱 Grabbed} 或@Compendium[pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚 Restrained} 的生物造成所列出的伤害。这些生物都可进行一次基础强韧豁免对抗所列出的DC。</p>",
-                    "Coven": "<p>此怪物能够与两个或是更多同样拥有巫团能力的生物组成巫团。这要求所有的准巫团成员举行一个8小时的仪式。当结成巫团之后，所有成员都将获得精英进化，并且随之调整其等级。巫团成员能够以一个带有专注特征的单动作感知其他成员的位置和状态，或是以一个同样带有专注特征的双动作感受到另一名巫团成员的感官。</p>\n<p>巫团还会赋予其成员法术和仪式，但是只有三名巫团成员彼此位于30英尺之内时才能合作施展这些法术或仪式。一名巫团成员可以通过一个拥有单一语言成分的单动作施法动作为巫团法术作出贡献。如果两名巫团成员在上一轮内以此方法作出了贡献，那么第三名成员可以在她自己的回合花费正常的施法动作施放巫团法术。一个巫团能够无限次地施放巫团法术，但是每轮只能施放一次巫团法术。所有巫团都会赋予8环 <em>@Compendium[pf2e.spells-srd.dN8QBNuTiaBHCKUe]{恶意变形术 Baleful Polymorph}</em> ，巫团还将获得以下法术并且可以将其升环至5环：<em>@Compendium[pf2e.spells-srd.41TZEjhO6D1nWw2X]{占卜术 Augury}</em>, <em>@Compendium[pf2e.spells-srd.vLA0q0WOK2YPuJs6]{魅惑术 Charm}</em>, <em>@Compendium[pf2e.spells-srd.HXhWYJviWalN5tQ2]{锐耳术 Clairaudience}</em>, <em>@Compendium[pf2e.spells-srd.zvKWclOZ7A53DObE]{鹰眼术 Clairvoyance}</em>, <em>@Compendium[pf2e.spells-srd.yM3KTTSAIHhyuP14]{梦中传讯术 Dream Message}</em>, <em>@Compendium[pf2e.spells-srd.i35dpZFI7jZcRoBo]{幻象伪装 Illusory Disguise}</em>, <em>@Compendium[pf2e.spells-srd.Ucf8eynbZMfUucjE]{幻象术 Illusory Scene}</em>, <em>@Compendium[pf2e.spells-srd.Ek5XI0aEdZhBgm21]{窥视魔眼 Prying Eye}</em>, 以及 <em>@Compendium[pf2e.spells-srd.FM3SmEW8N1FCRjqt]{尸体交谈 Talking Corpse}</em>。个别拥有巫团能力的生物还会为她们所加入的巫团带来额外的法术。一个巫团还能够施展<em>@Compendium[pf2e.spells-srd.XkDCzMIyc0YOjw05]{控制天气 Control Weather}</em>仪式，使用DC23代替标准DC。</p>\n<p>如果一名巫团成员的脱离或是死亡使得巫团的成员数量少于三名，则其余成员保留其精英进化24小时，但是因为没有足够的成员贡献必要的动作，她们无法施放巫团法术。</p>",
+                    "Coven": "<p>此怪物能够与两个或是更多同样拥有巫团能力的生物组成巫团。这要求所有的准巫团成员举行一个8小时的仪式。当结成巫团之后，所有成员都将获得精英进化，并且随之调整其等级。巫团成员能够以一个带有专注特征的单动作感知其他成员的位置和状态，或是以一个同样带有专注特征的双动作感受到另一名巫团成员的感官。</p>\n<p>巫团还会赋予其成员法术和仪式，但是只有三名巫团成员彼此位于30尺之内时才能合作施展这些法术或仪式。一名巫团成员可以通过一个拥有单一语言成分的单动作施法动作为巫团法术作出贡献。如果两名巫团成员在上一轮内以此方法作出了贡献，那么第三名成员可以在她自己的回合花费正常的施法动作施放巫团法术。一个巫团能够无限次地施放巫团法术，但是每轮只能施放一次巫团法术。所有巫团都会赋予8环 <em>@Compendium[pf2e.spells-srd.dN8QBNuTiaBHCKUe]{恶意变形术 Baleful Polymorph}</em> ，巫团还将获得以下法术并且可以将其升环至5环：<em>@Compendium[pf2e.spells-srd.41TZEjhO6D1nWw2X]{占卜术 Augury}</em>, <em>@Compendium[pf2e.spells-srd.vLA0q0WOK2YPuJs6]{魅惑术 Charm}</em>, <em>@Compendium[pf2e.spells-srd.HXhWYJviWalN5tQ2]{锐耳术 Clairaudience}</em>, <em>@Compendium[pf2e.spells-srd.zvKWclOZ7A53DObE]{鹰眼术 Clairvoyance}</em>, <em>@Compendium[pf2e.spells-srd.yM3KTTSAIHhyuP14]{梦中传讯术 Dream Message}</em>, <em>@Compendium[pf2e.spells-srd.i35dpZFI7jZcRoBo]{幻象伪装 Illusory Disguise}</em>, <em>@Compendium[pf2e.spells-srd.Ucf8eynbZMfUucjE]{幻象术 Illusory Scene}</em>, <em>@Compendium[pf2e.spells-srd.Ek5XI0aEdZhBgm21]{窥视魔眼 Prying Eye}</em>, 以及 <em>@Compendium[pf2e.spells-srd.FM3SmEW8N1FCRjqt]{尸体交谈 Talking Corpse}</em>。个别拥有巫团能力的生物还会为她们所加入的巫团带来额外的法术。一个巫团还能够施展<em>@Compendium[pf2e.spells-srd.XkDCzMIyc0YOjw05]{控制天气 Control Weather}</em>仪式，使用DC23代替标准DC。</p>\n<p>如果一名巫团成员的脱离或是死亡使得巫团的成员数量少于三名，则其余成员保留其精英进化24小时，但是因为没有足够的成员贡献必要的动作，她们无法施放巫团法术。</p>",
                     "Darkvision": "<p>拥有黑暗视觉的怪物可以在黑暗和昏暗光照下正常视物，可惜这种视觉只能看见黑白两色。某些形式的黑暗魔法，例如4环<em>@Compendium[pf2e.spells-srd.4GE2ZdODgIQtg51c]{黑暗术 Darkness}</em>，会阻碍普通的黑暗视觉。然而，拥有@Compendium[pf2e.bestiary-ability-glossary-srd.4Ho2xMPEC05aSxzr]{高等黑暗视觉 Greater Darkvision}的怪物甚至可以看穿这类形式的魔法黑暗。 </p>",
                     "Disease": "<p>当一名生物暴露在怪物的疾病下时，它需要尝试一次强韧豁免用以避免感染该疾病。疾病的等级为造成疾病的怪物的等级。疾病遵从于苦难规则。</p>",
                     "Engulf": "<p>怪物以两倍速度行走（Strides），并且可以移动穿越路径上任何生物所占据的空间。所以体型等同于怪物或更小的生物在其所在空间被怪物穿越时可尝试进行一次反射豁免对抗所列DC以避免被包卷。无法行动的生物在豁免中自动大失败。如果生物在豁免中成功，它能选择被推到一旁（怪物的路径以外）或是被怪物推在前面直到怪物移动结束。怪物在单次的包卷行动中只能尝试包卷同一个生物一次。怪物能够容纳尽可能多的生物直至填满其占据空间。</p>\n<p>豁免失败的生物被拖入怪物体内。它被@Compendium[pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱 Grabbed}，获得@Compendium[pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}，并且必须屏住呼吸，否则便会开始窒息。生物在被首次包卷时以及被包卷的每一个回合结束时受到所列出的伤害。被包卷的生物可以尝试一次对抗所列逃脱DC的@Compendium[pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{逃脱 Escaping}动作来重获自由。被包卷的生物可以攻击包卷它的怪物，但是仅能以无武装攻击或是轻负载及更小的武器进行攻击。包卷中的生物在对抗此攻击时@Compendium[pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed} 。如果怪物于单次攻击或法术中受到的穿刺或挥砍伤害等于或超过所列的破裂值，那个被包卷的生物重获自由。通过这些法脱困的生物可以立即开始呼吸，并且离开吞噬他们的怪物的占据空间。 </p>\n<p>如果怪物死亡，它便无法维持其形态，所有被其包卷的生物将被自动释放。</p>",
