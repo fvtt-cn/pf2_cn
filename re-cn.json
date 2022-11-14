@@ -421,6 +421,14 @@
                 "Moderate": "中等",
                 "Extreme": "极端",
                 "Major": "主要"
+            },
+            "Ancestor": {
+                "Label": {
+                    "MinorBattle": "次等战斗",
+                    "ExtremeBattle": "极端战斗",
+                    "ModerateBattle": "中等战斗",
+                    "MajorBattle": "高等战斗"
+                }
             }
         },
         "RuleEditor": {
@@ -441,7 +449,8 @@
         },
         "NPCAbility": {
             "Dramofir": {
-                "BittersweetDreamsCriticalFailure": "大失败"
+                "BittersweetDreamsCriticalFailure": "大失败",
+                "BittersweetDreamsSuccessFailure": "成功或失败"
             },
             "ClockworkWindUp": "待机模式",
             "ConstructArmor": {
@@ -461,7 +470,52 @@
             },
             "Charge": {
                 "AtLeastTen": "至少移动了10尺"
-            }
+            },
+            "DemonInfuseWeapons": "造成混乱伤害而非邪恶伤害",
+            "DuskwalkerHuntPrey": {
+                "AC": "指定猎杀目标攻击黄昏行者",
+                "Checks": "黄昏行者对指定猎杀目标进行对抗检定"
+            },
+            "Falrok": {
+                "LazuriteTerrainSwitch": "在含青金石的地形中"
+            },
+            "GiantAnimatedStatueBrazier": "火盆正熊熊燃烧",
+            "HobgoblinFormationArea": "阵法 对抗 区域效果",
+            "MarilithDefensiveAssault": "武器用来防御？",
+            "MinotaurHuntedFear": {
+                "Survival": "避免迷失",
+                "Demoralize": "目标位于迷宫术中或类似难以导向的构造中"
+            },
+            "PoltergeistTelekineticStorm": {
+                "SingleAttackLabel": "心灵风暴-单个目标",
+                "MultiAttackLabel": "心灵风暴-多个目标",
+                "SingleAttackEffect": "攻击失手时造成[[/r {1d12}]]{1d12点伤害}。"
+            },
+            "SovereignDragon": {
+                "InspireEnvoyDragonChoice": "龙赐予的效果",
+                "InspireEnvoyEffectAttack": "攻击加值",
+                "InspireEnvoyDragonAdult": "成年龙王",
+                "InspireEnvoyDragonAncient": "古龙王",
+                "InspireEnvoyEffectAC": "AC加值",
+                "InspireEnvoyEffectChoice": "赐予效果",
+                "InspireEnvoyEffectPercWillCha": "意志、察觉以及基于魅力的技能检定加值"
+            },
+            "SkyDragon": {
+                "DivineLightningGood": "神圣雷霆-善良伤害",
+                "DivineLightningPositive": "神圣雷霆-正能量伤害"
+            },
+            "LemureSubservience": {
+                "Defend": "侍奉-防守",
+                "Fetch": "侍奉-拿取",
+                "Kill": "侍奉-杀戮"
+            },
+            "LegionArchonFlameOfJustice": "正义明焰-重击",
+            "MarilithFocusedAssault": "六臂蛇魔挥舞着多少把长剑？",
+            "YetiNightmareGuardianRage": "噩梦守护者狂暴",
+            "PunishingStrike": {
+                "Note": "鲁莽的攻击让使用者陷入@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}直到下一回合开始。如果命中，可以在打击中添加@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{推离Push}效果"
+            },
+            "TreerazerPlantAttack": "攻击一个植物"
         },
         "UI": {
             "RuleElements": {
