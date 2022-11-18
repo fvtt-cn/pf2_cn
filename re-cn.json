@@ -53,7 +53,8 @@
                 "Vine": "藤蔓",
                 "WaterSpout": "喷水",
                 "Wave": "波涛",
-                "Wing": "翼击"
+                "Wing": "翼击",
+                "Thorn": "棘刺"
             },
             "Note": {
                 "GrabbingTrunk": {
@@ -406,14 +407,65 @@
             "TempHPShortLabel": "临时",
             "ActiveEffectLike": "类主动效果",
             "Striking": "强击",
-            "Weakness": "弱点"
+            "Weakness": "弱点",
+            "TokenName": "指示物名称",
+            "TokenLight": "指示物光照",
+            "BaseSpeed": "基础速度",
+            "AdjustModifier": "配置调整值",
+            "AdjustStrike": "调整打击",
+            "ChoiceSet": "选择集",
+            "ActorTraits": "角色特征",
+            "CraftingEntry": "制作条目",
+            "CreatureSize": "生物体型",
+            "CriticalSpecialization": "重击专精",
+            "DamageDice": "伤害骰",
+            "DexterityModifierCap": "最大敏捷调整值",
+            "FastHealing": "快速治疗/再生",
+            "FixedProficiency": "熟练调整",
+            "GrantItem": "授予物品",
+            "LoseHitPoints": "失去生命",
+            "MartialProficiency": "军用熟练",
+            "MultipleAttackPenalty": "多次攻击减值",
+            "RollOption": "掷骰选项",
+            "RollTwice": "双骰",
+            "SubstituteRoll": "替代掷骰",
+            "TokenEffectIcon": "指示物效果图标",
+            "Unrecognized": "无法识别的规则元素",
+            "TokenImage": "指示物图像",
+            "WeaponPotency": "武器熟练",
+            "BattleForm": "战斗形态",
+            "TempHP": "临时生命",
+            "AdjustDegreeOfSuccess": "调整成功程度",
+            "CraftingFormula": "制作配方",
+            "FlatModifier": "固定调整值",
+            "MarkToken": "标记指示物"
         },
         "SkillVariant": {
             "Buried": "活埋",
             "Traps": "陷阱",
             "Woodworking": "木工",
             "Singing": "歌唱",
-            "Underground": "黑市"
+            "Underground": "黑市",
+            "CommandAnAnimal": "命令动物",
+            "AboutCaves": "关于洞穴",
+            "Aid": "协助",
+            "AttemptToFascinateOutdoorsInBrightSun": "在明亮日光的户外使用迷魂表演",
+            "Blacksmithing": "用于铁匠",
+            "CanClearlyIdentifyTheStars": "能够清晰地辨别星星",
+            "Climb": "攀爬",
+            "ClimbOrSwim": "攀爬或游泳",
+            "CraftTrap": "制作陷阱",
+            "CraftTrapSnare": "制作陷阱与圈套",
+            "CreateForgery": "伪造文书",
+            "Darkness": "在黑暗中",
+            "Disarm": "卸武",
+            "Deserts": "在沙漠中",
+            "CraftBone": "使用骨头",
+            "CraftJewelry": "制作珠宝首饰",
+            "DemoralizeThreateningLunge": "通过威吓进逼来挫败士气",
+            "CommandReptile": "命令虫类",
+            "BloodOrWater": "于血泊之中",
+            "Demoralize": "挫败士气"
         },
         "OracleCurses": {
             "Label": {
@@ -427,8 +479,33 @@
                     "MinorBattle": "次等战斗",
                     "ExtremeBattle": "极端战斗",
                     "ModerateBattle": "中等战斗",
-                    "MajorBattle": "高等战斗"
-                }
+                    "MajorBattle": "高等战斗",
+                    "MinorSkillful": "低阶巧技",
+                    "ModerateSkillful": "中阶巧技",
+                    "ExtremeSkillful": "极端巧技",
+                    "MinorSpellcasting": "低阶法艺",
+                    "ModerateSpellcasting": "中阶法艺",
+                    "MajorSpellcasting": "高阶法艺",
+                    "ExtremeSpellcasting": "极端法艺",
+                    "MajorSkillful": "高阶巧技"
+                },
+                "ModerateFailure": "你的诅咒干扰了此动作，你必须通过@Check[type:flat|dc:6|showDC:owner] 检定。",
+                "MajorFailure": "你的诅咒干扰了此动作，你必须通过@Check[type:flat|dc:8|showDC:owner] 检定。",
+                "MinorFailure": "你的诅咒干扰了此动作，你必须通过@Check[type:flat|dc:4|showDC:owner] 检定。"
+            },
+            "Bones": {
+                "ModerateUpgrade": "当你对疾病、毒药或死亡效果豁免成功时，变为大成功。",
+                "MajorUpgrade": " 当你对疾病、毒药或死亡效果豁免大失败时，变为普通失败。"
+            },
+            "Battle": {
+                "MadeAStrike": "这一轮你已经攻击过了",
+                "NonTrivialEncounter": "正身处一次不平凡的遭遇中"
+            },
+            "Life": {
+                "ToggleLabel": "治疗的所有目标都是活物"
+            },
+            "Time": {
+                "ACLabel": "移动时不会触发反应或自由动作"
             }
         },
         "RuleEditor": {
@@ -439,12 +516,27 @@
                 "Range": "范围",
                 "Label": "标签",
                 "Brackets": "括号",
-                "Value": "值"
+                "Value": "值",
+                "CriticalBehavior": {
+                    "false": "重击一倍伤害",
+                    "null": "重击两倍伤害",
+                    "true": "只有重击伤害"
+                },
+                "DamageType": "伤害类型"
             },
             "Note": {
                 "Outcome": "成果",
                 "Title": "标题",
-                "Hidden": "藏匿"
+                "Hidden": "藏匿",
+                "Text": "文本内容"
+            },
+            "FlatModifier": {
+                "HideIfDisabled": "隐藏(若禁用)"
+            },
+            "GrantItem": {
+                "ReevaluateOnUpdate": "更新时重新估价",
+                "AllowDuplicate": "允许重复项",
+                "ReplaceSelf": "更新自身"
             }
         },
         "NPCAbility": {
@@ -515,7 +607,16 @@
             "PunishingStrike": {
                 "Note": "鲁莽的攻击让使用者陷入@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}直到下一回合开始。如果命中，可以在打击中添加@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{推离Push}效果"
             },
-            "TreerazerPlantAttack": "攻击一个植物"
+            "TreerazerPlantAttack": "攻击一个植物",
+            "Vampire": {
+                "JiangShi": {
+                    "StanceOfDeath": {
+                        "SunderedVeins": {
+                            "Note": "目标陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 1}"
+                        }
+                    }
+                }
+            }
         },
         "UI": {
             "RuleElements": {
@@ -529,6 +630,12 @@
             "BestialMutagen": {
                 "FeralPrompt": "是否通过添加AC减值来增大伤害骰？"
             }
+        },
+        "ResistanceException": {
+            "Bludgeoning": "除了钝击",
+            "ForceGhostTouchDoubleNonMagical": "除了力场、或幽冥;双倍抗力 对 非魔法",
+            "ForceGhostTouchNegativeDoubleNonMagical": "除了力场、幽冥、或负能量;双倍抗力 对 非魔法",
+            "ForceGhostTouchPositiveDoubleNonMagical": "除了力场、幽冥、或正能量;双倍抗力 对 非魔法"
         }
     }
 }
