@@ -465,7 +465,25 @@
             "DemoralizeThreateningLunge": "通过威吓进逼来挫败士气",
             "CommandReptile": "命令虫类",
             "BloodOrWater": "于血泊之中",
-            "Demoralize": "挫败士气"
+            "Demoralize": "挫败士气",
+            "DisarmMetal": "卸武一件金属物品",
+            "GrappleShove": "擒抱或推撞",
+            "Hide": "躲藏",
+            "DisarmGrappleAvoidDisarm": "卸武，擒抱或防止被卸武",
+            "DisarmStoneMetal": "卸武石质或金属物品",
+            "DiscernAndPredictWeather": "识别天气形式并预测未来天气状况",
+            "Escape": "逃脱",
+            "ForestsOrSwamps": "在森林或沼泽中",
+            "GatherInformation": "搜集信息",
+            "Grapple": "擒抱",
+            "DisarmGrapple": "卸武或擒抱",
+            "HideSneakInscriptions": "在铭文中躲藏或潜行",
+            "HighJumpOrLongJump": "跳高或跳远",
+            "IceAndSnow": "在冰或雪中",
+            "Feint": "虚招",
+            "Forests": "在森林中",
+            "HideInDimOrDark": "在昏暗或黑暗中躲藏",
+            "HideSneakTree": "在树木中躲藏或潜行"
         },
         "OracleCurses": {
             "Label": {
