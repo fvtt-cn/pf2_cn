@@ -395,6 +395,10 @@
             "Ghoul": {
                 "Satiated": "满足",
                 "FullySatiated": "充分满足"
+            },
+            "MartialProficiency": {
+                "AdvancedGhoranWeapons": "进阶蒿兰武器",
+                "MartialGhoranWeapons": "军用蒿兰武器"
             }
         },
         "RuleElement": {
