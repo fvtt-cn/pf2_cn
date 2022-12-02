@@ -655,9 +655,9 @@
         },
         "ResistanceException": {
             "Bludgeoning": "除了钝击",
-            "ForceGhostTouchDoubleNonMagical": "除了力场、或幽冥;双倍抗力 对 非魔法",
-            "ForceGhostTouchNegativeDoubleNonMagical": "除了力场、幽冥、或负能量;双倍抗力 对 非魔法",
-            "ForceGhostTouchPositiveDoubleNonMagical": "除了力场、幽冥、或正能量;双倍抗力 对 非魔法"
+            "ForceGhostTouchDoubleNonMagical": "除力场或幽冥；此抗力对抗非魔法时翻倍",
+            "ForceGhostTouchNegativeDoubleNonMagical": "除力场、幽冥或负能量；此抗力对抗非魔法时翻倍",
+            "ForceGhostTouchPositiveDoubleNonMagical": "除力场、幽冥或正能量；此抗力对抗非魔法时翻倍"
         }
     }
 }
