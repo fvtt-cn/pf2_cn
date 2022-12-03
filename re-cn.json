@@ -487,7 +487,13 @@
             "Feint": "虚招",
             "Forests": "在森林中",
             "HideInDimOrDark": "在昏暗或黑暗中躲藏",
-            "HideSneakTree": "在树木中躲藏或潜行"
+            "HideSneakTree": "在树木中躲藏或潜行",
+            "DimLightOrDarkness": "在昏暗或黑暗中",
+            "Impersonate": "乔装",
+            "JunglesOrFlowerFields": "在丛林或花田中",
+            "ImitateStone": "模仿石头",
+            "ImpersonateCloakSheetRay": "乔装一个斗篷、被单或射线",
+            "Jungles": "在丛林中"
         },
         "OracleCurses": {
             "Label": {
