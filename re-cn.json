@@ -399,6 +399,14 @@
             "MartialProficiency": {
                 "AdvancedGhoranWeapons": "进阶蒿兰武器",
                 "MartialGhoranWeapons": "军用蒿兰武器"
+            },
+            "GeneralTraining": {
+                "AllowedDrops": "1级通用专长",
+                "Prompt": "选择一个1级通用专长。"
+            },
+            "AdvancedGeneralTraining": {
+                "AllowedDrops": "7级或更低的通用专长",
+                "Prompt": "选择一个7级或更低的通用专长。"
             }
         },
         "RuleElement": {
