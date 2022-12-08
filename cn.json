@@ -259,9 +259,9 @@
                 "DistractingWords": "让敌人分神 - 言语干扰",
                 "Gesture": "让敌人分神 - 姿势干扰",
                 "Notes": {
-                    "success": "<strong>成功</strong>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入隐匿 @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}状态，并可以开始尝试潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 。这个效果持续到你的回合结束或是进行任何除了躲藏@UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} ，潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为措手不及@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}，然后你立刻对其变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}，除非GM有其他的看法。",
+                    "success": "<strong>成功</strong>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}状态，并可以开始尝试潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 。这个效果持续到你的回合结束或是进行任何除了躲藏@UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} ，潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为措手不及@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}，然后你立刻对其变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}，除非GM有其他的看法。",
                     "failure": "<strong>失败</strong> 如果你的检定结果未能超过其他生物的察觉DC，则你不能使他们分神，并且这些生物立刻意识到你在尝试欺骗他们。",
-                    "criticalSuccess": "<strong>大成功</strong>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入隐匿 @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}状态，并可以开始尝试潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 。这个效果持续到你的回合结束或是进行任何除了躲藏@UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} ，潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为措手不及@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}，然后你立刻对其变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}，除非GM有其他的看法。",
+                    "criticalSuccess": "<strong>大成功</strong>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}状态，并可以开始尝试潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 。这个效果持续到你的回合结束或是进行任何除了躲藏@UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} ，潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为措手不及@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}，然后你立刻对其变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}，除非GM有其他的看法。",
                     "criticalFailure": "<strong>大失败</strong> 如果你的检定结果未能超过其他生物的察觉DC，则你不能使他们分神，并且这些生物立刻意识到你在尝试欺骗他们。"
                 },
                 "Trick": "让敌人分神 - 唬骗"
@@ -338,8 +338,8 @@
             },
             "Hide": {
                 "Notes": {
-                    "success": "<strong>成功</strong> 对其他原本可以看到你的生物，现在你获得藏匿状态而非可见状态。如果你在原本就对某生物来说处于藏匿或无踪状态下再次尝试藏匿，你保持原状态不变@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}。",
-                    "criticalSuccess": "<strong>大成功</strong> 对其他原本可以看到你的生物，现在你获得藏匿状态而非可见状态。如果你在原本就对某生物来说处于藏匿或无踪状态下再次尝试藏匿，你保持原状态不变@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden} @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}。"
+                    "success": "<strong>成功</strong> 对其他原本可以看到你的生物，现在你获得藏匿状态而非可见状态。如果你在原本就对某生物来说处于藏匿或无踪状态下再次尝试藏匿，你保持原状态不变@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden} @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}。",
+                    "criticalSuccess": "<strong>大成功</strong> 对其他原本可以看到你的生物，现在你获得藏匿状态而非可见状态。如果你在原本就对某生物来说处于藏匿或无踪状态下再次尝试藏匿，你保持原状态不变@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden} @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}。"
                 },
                 "Title": "躲藏"
             },
@@ -504,7 +504,7 @@
             "Seek": {
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 若你搜索生物，所有你对其大成功的@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪 Undetected}或@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}的生物对你变为@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}。若你搜索物体，你得知其位置。",
-                    "success": "<strong>成功</strong> 若你搜索生物，所有你对其成功的无踪@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}生物对你变为藏匿@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{Hidden}，所有你对其成功的藏匿生物对你变为可见。@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed} 若你搜索物体，你得知其位置或获得一些线索，具体由GM判断。"
+                    "success": "<strong>成功</strong> 若你搜索生物，所有你对其成功的无踪@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}生物对你变为藏匿@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}，所有你对其成功的藏匿生物对你变为可见。@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed} 若你搜索物体，你得知其位置或获得一些线索，具体由GM判断。"
                 },
                 "Title": "搜索"
             },
