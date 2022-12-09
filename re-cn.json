@@ -54,7 +54,8 @@
                 "WaterSpout": "喷水",
                 "Wave": "波涛",
                 "Wing": "翼击",
-                "Thorn": "棘刺"
+                "Thorn": "棘刺",
+                "LavaFist": "熔岩拳"
             },
             "Note": {
                 "GrabbingTrunk": {
@@ -501,7 +502,17 @@
             "JunglesOrFlowerFields": "在丛林或花田中",
             "ImitateStone": "模仿石头",
             "ImpersonateCloakSheetRay": "乔装一个斗篷、被单或射线",
-            "Jungles": "在丛林中"
+            "Jungles": "在丛林中",
+            "LongJump": "跳远",
+            "JunkOrDebris": "在垃圾或残骸中",
+            "Lair": "在兽穴中",
+            "Lie": "欺骗",
+            "MakeAnImpression": "建立印象",
+            "ManeuverInFlight": "空中机动",
+            "Mountains": "在山脉中",
+            "Lava": "在熔岩中",
+            "Navigate": "导航",
+            "NearTheOcean": "临近海洋"
         },
         "OracleCurses": {
             "Label": {
