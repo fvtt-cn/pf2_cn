@@ -289,6 +289,20 @@
                 "Moderate": {
                     "success": "<strong>效果</strong>这颗炸弹同时造成 [[/r {2}[splash,piercing]]]{2 穿刺溅射伤害} ，目标陷入@UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞 1} 直到其回合结束"
                 }
+            },
+            "Thunderstone": {
+                "Greater": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r {3}[splash,sonic]]]{3音波溅射伤害}，并且10尺内所有生物必须进行一个@Check[type:fortitude|dc:28|name:Greater Thunderstone|showDC:all]豁免，失败则直到他下一个回合结束陷入@UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened}。"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r {1}[splash,sonic]]]{1音波溅射伤害}，并且10尺内所有生物必须进行一个@Check[type:fortitude|dc:17|name:Lesser Thunderstone|showDC:all]豁免，失败则直到他下一个回合结束陷入@UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened}。"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r {2}[splash,sonic]]]{2音波溅射伤害}，并且10尺内所有生物必须进行一个@Check[type:fortitude|dc:20|name:Moderate Thunderstone|showDC:all]豁免，失败则直到他下一个回合结束陷入@UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened}。"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r {4}[splash,sonic]]]{4音波溅射伤害}，并且10尺内所有生物必须进行一个@Check[type:fortitude|dc:36|name:Major Thunderstone|showDC:all]豁免，失败则直到他下一个回合结束陷入@UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened}。"
+                }
             }
         },
         "SpecificRule": {
