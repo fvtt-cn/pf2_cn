@@ -1480,12 +1480,12 @@
         "ArmorPotencyRune4": "护甲潜力 (+4)",
         "ArmorPropertyRuneAcidResistant": "抵抗能量-酸",
         "ArmorPropertyRuneAntimagic": "抗魔",
-        "ArmorPropertyRuneBitter": "苦味",
+        "ArmorPropertyRuneBitter": "苦味 Bitter",
         "ArmorPropertyRuneColdResistant": "抵抗能量-寒冷",
-        "ArmorPropertyRuneDeathless": "不死",
-        "ArmorPropertyRuneDread": "次等恐惧",
+        "ArmorPropertyRuneDeathless": "拒亡",
+        "ArmorPropertyRuneDread": "次等恐惧 Dread",
         "ArmorPropertyRuneElectricityResistant": "抵抗能量-电击",
-        "ArmorPropertyRuneEthereal": "灵体",
+        "ArmorPropertyRuneEthereal": "灵化",
         "ArmorPropertyRuneFireResistant": "抵抗能量-火焰",
         "ArmorPropertyRuneFortification": "护命",
         "ArmorPropertyRuneGlamered": "无相",
@@ -1500,19 +1500,19 @@
         "ArmorPropertyRuneGreaterShadow": "高等暗影",
         "ArmorPropertyRuneGreaterSlick": "高等滑溜",
         "ArmorPropertyRuneGreaterStanching": "高等止血",
-        "ArmorPropertyRuneImplacable": "不挠",
+        "ArmorPropertyRuneImplacable": "无拘",
         "ArmorPropertyRuneInvisibility": "隐形",
         "ArmorPropertyRuneMajorShadow": "上等暗影",
         "ArmorPropertyRuneMajorSlick": "上等滑溜",
         "ArmorPropertyRuneMajorStanching": "上等止血",
         "ArmorPropertyRuneReady": "准备",
-        "ArmorPropertyRuneRockBraced": "岩石之拥",
+        "ArmorPropertyRuneRockBraced": "岩石加固",
         "ArmorPropertyRuneShadow": "暗影",
-        "ArmorPropertyRuneSinisterKnight": "天启骑士",
+        "ArmorPropertyRuneSinisterKnight": "外道骑士",
         "ArmorPropertyRuneSlick": "滑溜",
-        "ArmorPropertyRuneSoaring": "飞升",
+        "ArmorPropertyRuneSoaring": "翱翔",
         "ArmorPropertyRuneStanching": "止血",
-        "ArmorPropertyRuneTrueStanching": "精准止血",
+        "ArmorPropertyRuneTrueStanching": "真实止血",
         "ArmorPropertyRuneWinged": "飞翼",
         "ArmorResilientRune": "抗力",
         "ArmorSpeedLabel": "速度 减值",
@@ -4538,7 +4538,7 @@
                 "Name": "破敌符文"
             },
             "bloodbane": {
-                "Name": "血仇符文"
+                "Name": "血煞符文"
             },
             "bloodthirsty": {
                 "Name": "嗜血符文",
@@ -4547,7 +4547,7 @@
                 }
             },
             "brilliant": {
-                "Name": "光能符文",
+                "Name": "光辉符文",
                 "Note": {
                     "criticalSuccess": "重击时，目标必须通过一次成功的@Check[type:fortitude|dc:29|name:Brilliant Rune]豁免否则陷入@UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲 Blinded} 一轮。"
                 }
@@ -4580,7 +4580,7 @@
                 }
             },
             "energizing": {
-                "Name": "鼓舞符文"
+                "Name": "充能符文"
             },
             "extending": {
                 "Name": "延展符文"
@@ -4618,10 +4618,10 @@
                 }
             },
             "greaterBloodbane": {
-                "Name": "高等血仇符文"
+                "Name": "高等血煞符文"
             },
             "greaterBrilliant": {
-                "Name": "高等光能符文",
+                "Name": "高等光辉符文",
                 "Note": {
                     "criticalSuccess": "该武器造成的伤害忽略目标的火焰、善良或正能量的抗力。重击时, 目标必须通过一个成功的 @Check[type:fortitude|dc:41|name:Greater Brilliant Rune]豁免否则陷入 @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲 Blinded} 一轮。",
                     "success": "<strong>高等光能符文</strong>该武器造成的伤害忽略目标的火焰、善良或正能量的抗力。"
@@ -4740,20 +4740,20 @@
                 "Note": "用该武器的攻击若骰出19且攻击结果为成功，则可为重击。若骰出19但结果为失败，则该性能符文没有效果。"
             },
             "kinWarding": {
-                "Name": "亲卫符文"
+                "Name": "护亲符文"
             },
             "majorFanged": {
                 "Name": "上等獠牙符文"
             },
             "pacifying": {
-                "Name": "和平符文"
+                "Name": "安抚符文"
             },
             "returning": {
                 "Name": "回力符文",
                 "Note": "<strong>回力符文</strong>当你用该武器进行投掷打击时，打击动作完成后它即会飞回你的手中。若武器飞回时你的手全被占满，该武器会在你所在的位置掉落于地。"
             },
             "serrating": {
-                "Name": "锯齿符文"
+                "Name": "旋锯符文"
             },
             "shifting": {
                 "Name": "变型符文"
@@ -4801,16 +4801,16 @@
         "WeaponPropertyRuneAncestralEchoing": "先祖回响",
         "WeaponPropertyRuneAxiomatic": "公理",
         "WeaponPropertyRuneBane": "破敌",
-        "WeaponPropertyRuneBloodbane": "血仇",
+        "WeaponPropertyRuneBloodbane": "血煞",
         "WeaponPropertyRuneBloodthirsty": "嗜血",
-        "WeaponPropertyRuneBrilliant": "光能",
+        "WeaponPropertyRuneBrilliant": "光辉",
         "WeaponPropertyRuneConducting": "传导",
         "WeaponPropertyRuneCorrosive": "酸蚀",
         "WeaponPropertyRuneCrushing": "粉碎",
         "WeaponPropertyRuneCunning": "狡诈",
         "WeaponPropertyRuneDancing": "舞空",
         "WeaponPropertyRuneDisrupting": "瓦解",
-        "WeaponPropertyRuneEnergizing": "鼓舞",
+        "WeaponPropertyRuneEnergizing": "充能",
         "WeaponPropertyRuneExtending": "延展",
         "WeaponPropertyRuneFanged": "獠牙",
         "WeaponPropertyRuneFearsome": "可怖",
@@ -4818,8 +4818,8 @@
         "WeaponPropertyRuneFrost": "冻寒",
         "WeaponPropertyRuneGhostTouch": "幽冥",
         "WeaponPropertyRuneGreaterAnchoring": "高等锚定",
-        "WeaponPropertyRuneGreaterBloodbane": "高等血仇",
-        "WeaponPropertyRuneGreaterBrilliant": "高等光能",
+        "WeaponPropertyRuneGreaterBloodbane": "高等血煞",
+        "WeaponPropertyRuneGreaterBrilliant": "高等光辉",
         "WeaponPropertyRuneGreaterCorrosive": "高等酸蚀",
         "WeaponPropertyRuneGreaterCrushing": "高等粉碎",
         "WeaponPropertyRuneGreaterDisrupting": "高等瓦解",
@@ -4838,12 +4838,12 @@
         "WeaponPropertyRuneHopeful": "希望",
         "WeaponPropertyRuneImpactful": "冲击",
         "WeaponPropertyRuneKeen": "锐锋",
-        "WeaponPropertyRuneKinWarding": "亲卫",
+        "WeaponPropertyRuneKinWarding": "护亲",
         "WeaponPropertyRuneLabel": "性能符文",
         "WeaponPropertyRuneMajorFanged": "上等獠牙",
-        "WeaponPropertyRunePacifying": "抚慰",
+        "WeaponPropertyRunePacifying": "安抚",
         "WeaponPropertyRuneReturning": "回力",
-        "WeaponPropertyRuneSerrating": "锋齿",
+        "WeaponPropertyRuneSerrating": "旋锯",
         "WeaponPropertyRuneShifting": "变型",
         "WeaponPropertyRuneShock": "电击",
         "WeaponPropertyRuneSpeed": "加速",
