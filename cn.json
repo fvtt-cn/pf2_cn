@@ -158,7 +158,7 @@
                 "Notes": {
                     "NoTarget": "<strong>体型差异</strong>如果目标体型比你大一级，你将在检定中受到-2环境减值，如果体型更大，将受到-4环境减值。如果目标体型比你小一级，你将在检定中受到+2环境加值，如果体型更小，将受到+4环境加值。",
                     "criticalSuccess": "<strong>大成功</strong> 你摔倒敌人并且魔法能量压制住它。生物被@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{击倒}，@UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩}一轮，并且受到数值等于[[/r 2d6 + @abilities.str.mod # Damage: Arcane Slam]]{2d6 加上你力量调整值} 的伤害。敌人不再被你@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱} 或 @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}。",
-                    "success": "<strong>成功</strong> 你摔到敌人。生物被 @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{击倒}并且受到数值等于你 [[/r @abilities.str.mod # Damage: Arcane Slam]]{力量调整值}的伤害。敌人不再被你@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱}或@UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}.",
+                    "success": "<strong>成功</strong> 你摔倒敌人。生物被 @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{击倒}并且受到数值等于你 [[/r @abilities.str.mod # Damage: Arcane Slam]]{力量调整值}的伤害。敌人不再被你@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱}或@UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}.",
                     "failure": "<strong>失败</strong> 你无法摔倒敌人，但是你依然抓住它。",
                     "criticalFailure": "<strong>大失败</strong> 敌人逃脱，不再被你@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱} 或@UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚}。"
                 },
@@ -182,9 +182,9 @@
             },
             "BonMot": {
                 "Notes": {
-                    "criticalSuccess": "<strong>大成功</strong> 目标受到影响，察觉和意志豁免都受到-3状态减值，持续1分钟。目标可以通过反驳你的当头棒喝来尝试提前终止该效果。反驳需要1个拥有专注特征的单动作或合适的技能动作来驳斥你的观点。GM决定什么技能动作可用，且必须消耗至少1个动作。通常反驳需要使用基于语言和魅力的技能动作。@UUID[Compendium.pf2e.feat-effects.CtrZFI3RV0yPNzTv]{Effect: Bon Mot (Critical Success)}",
-                    "success": "<strong>成功</strong> 目标受到影响，察觉和意志豁免都受到-2状态减值，持续1分钟。目标可以通过反驳你的当头棒喝来尝试提前终止该效果。反驳需要1个拥有专注特征的单动作或合适的技能动作来驳斥你的观点。GM决定什么技能动作可用，且必须消耗至少1个动作。通常反驳需要使用基于语言和魅力的技能动作。@UUID[Compendium.pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effect: Bon Mot}",
-                    "criticalFailure": "<strong>大失败</strong> 棒喝反而使你自取其辱。你自己会承受成功时敌人应承受的效果。你身上的效果也持续1分钟或直到你下一次当头棒喝成功。@UUID[Compendium.pf2e.feat-effects.GoSls6SKCFmSoDxT]{Effect: Bon Mot}"
+                    "criticalSuccess": "<strong>大成功</strong> 目标受到影响，察觉和意志豁免都受到-3状态减值，持续1分钟。目标可以通过反驳你的当头棒喝来尝试提前终止该效果。反驳需要1个拥有专注特征的单动作或合适的技能动作来驳斥你的观点。GM决定什么技能动作可用，且必须消耗至少1个动作。通常反驳需要使用基于语言和魅力的技能动作。@UUID[Compendium.pf2e.feat-effects.CtrZFI3RV0yPNzTv]{效果：当头棒喝 Bon Mot（大成功）}",
+                    "success": "<strong>成功</strong> 目标受到影响，察觉和意志豁免都受到-2状态减值，持续1分钟。目标可以通过反驳你的当头棒喝来尝试提前终止该效果。反驳需要1个拥有专注特征的单动作或合适的技能动作来驳斥你的观点。GM决定什么技能动作可用，且必须消耗至少1个动作。通常反驳需要使用基于语言和魅力的技能动作。@UUID[Compendium.pf2e.feat-effects.GoSls6SKCFmSoDxT]{效果：当头棒喝 Bon Mot}",
+                    "criticalFailure": "<strong>大失败</strong> 棒喝反而使你自取其辱。你自己会承受成功时敌人应承受的效果。你身上的效果也持续1分钟或直到你下一次当头棒喝成功。@UUID[Compendium.pf2e.feat-effects.GoSls6SKCFmSoDxT]{效果：当头棒喝 Bon Mot}"
                 },
                 "Title": "当头棒喝"
             },
@@ -192,7 +192,7 @@
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 你攀爬、穿越或安全下落5尺，每20尺的陆行速度会再加上5尺（大多数玩家总计会是10尺）。",
                     "success": "<strong>成功</strong> 你攀爬、穿越或安全下落，每20尺的陆行速度下落5尺（对于大多数玩家角色一共为5尺，如果你的速度低于20尺，则至少为5尺）。",
-                    "criticalFailure": "<strong>大失败</strong> 你摔落了。如果你在稳定地面上开始的攀爬，你就会摔倒并@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}."
+                    "criticalFailure": "<strong>大失败</strong> 你摔落了。如果你是在稳定地面上攀爬，你就会摔倒并@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}."
                 },
                 "Title": "攀爬"
             },
@@ -259,17 +259,17 @@
                 "DistractingWords": "让敌人分神 - 言语干扰",
                 "Gesture": "让敌人分神 - 姿势干扰",
                 "Notes": {
-                    "success": "<strong>成功</strong>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}状态，并可以开始尝试潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 。这个效果持续到你的回合结束或是进行任何除了躲藏@UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} ，潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为措手不及@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}，然后你立刻对其变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}，除非GM有其他的看法。",
+                    "success": "<strong>成功</strong>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}状态，并可以开始尝试@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 。这个效果持续到你的回合结束或是进行任何除了@UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{躲藏 Hide} ，@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed}，然后你立刻对其变得@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}，除非GM有其他的看法。",
                     "failure": "<strong>失败</strong> 如果你的检定结果未能超过其他生物的察觉DC，则你不能使他们分神，并且这些生物立刻意识到你在尝试欺骗他们。",
-                    "criticalSuccess": "<strong>大成功</strong>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}状态，并可以开始尝试潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 。这个效果持续到你的回合结束或是进行任何除了躲藏@UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{Hide} ，潜行@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为措手不及@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}，然后你立刻对其变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得可见@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed}，除非GM有其他的看法。",
+                    "criticalSuccess": "<strong>大成功</strong>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}状态，并可以开始尝试@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 。这个效果持续到你的回合结束或是进行任何除了@UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{躲藏 Hide} ，@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed}，然后你立刻对其变得@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}，除非GM有其他的看法。",
                     "criticalFailure": "<strong>大失败</strong> 如果你的检定结果未能超过其他生物的察觉DC，则你不能使他们分神，并且这些生物立刻意识到你在尝试欺骗他们。"
                 },
                 "Trick": "让敌人分神 - 唬骗"
             },
             "Demoralize": {
                 "Notes": {
-                    "criticalSuccess": "<strong>大成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 2}。",
-                    "success": "<strong>成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{Frightened 1}。"
+                    "criticalSuccess": "<strong>大成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}。",
+                    "success": "<strong>成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧 Frightened 1}。"
                 },
                 "Title": "挫败士气"
             },
@@ -277,8 +277,8 @@
                 "EffectLabel": "使用握不稳的武器",
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 你将对手手中的物品打掉在了地上。这件物品掉落在这个对手占据的空间中。",
-                    "success": "<strong>成功</strong> 你震得对手虎口发麻。直到这个生物的回合开始前，你在接下来对同一个生物的同一件手持物品的卸武检定获得+2环境加值，并且这个生物在使用这件物品发动攻击，或是进行其他需要维持稳定持握这件物品才能进行的行动的检定承受-2环境减值。 @UUID[Compendium.pf2e.equipment-effects.z3ATL8DcRVrT0Uzt]{Effect: Disarm (Success)}",
-                    "criticalFailure": "<strong>大失败</strong> 你自己失去平衡，直到你的下一回合开始前都陷入措手不及状态@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed} 。"
+                    "success": "<strong>成功</strong> 你震得对手虎口发麻。直到这个生物的回合开始前，你在接下来对同一个生物的同一件手持物品的卸武检定获得+2环境加值，并且这个生物在使用这件物品发动攻击，或是进行其他需要维持稳定持握这件物品才能进行的行动的检定时承受-2环境减值。 @UUID[Compendium.pf2e.equipment-effects.z3ATL8DcRVrT0Uzt]{效果：卸武（成功）}",
+                    "criticalFailure": "<strong>大失败</strong> 你自己失去平衡，直到你的下一回合开始前都陷入@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed}状态 。"
                 },
                 "Title": "卸武"
             },
@@ -304,16 +304,16 @@
             },
             "Feint": {
                 "Notes": {
-                    "criticalSuccess": "<strong>大成功</strong> 对手被你完全搞糊涂了，并且一时都来不及反应。直到你的下一个回合结束，这个对手对你的近战攻击都视为措手不及。",
-                    "success": "<strong>成功</strong> 对手对你露了个破绽，但及时回护了。直到你目前的这个回合结束，这个对手对你的近战攻击视为措手不及。",
-                    "criticalFailure": "<strong>大失败</strong> 哈哈哈你看看你。直到你的下一个回合结束，你自己都对这个对手的近战攻击视为措手不及状态@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{Flat-Footed}。"
+                    "criticalSuccess": "<strong>大成功</strong> 对手被你完全搞糊涂了，并且一时都来不及反应。直到你的下一个回合结束，这个对手对你的近战攻击都视为@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed}。",
+                    "success": "<strong>成功</strong> 对手对你露了个破绽，但及时回护了。直到你目前的这个回合结束，这个对手对你的近战攻击视为@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed}。",
+                    "criticalFailure": "<strong>大失败</strong> 哈哈哈你看看你。直到你的下一个回合结束，你自己都对这个对手的近战攻击视为@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed}。"
                 },
                 "Title": "虚招"
             },
             "ForceOpen": {
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong>你强行弄开了门，窗或是容器，并且可以选择不损坏它们。",
-                    "success": "<strong>成功</strong> 你强行弄开了门，窗或是容器，但对象狭窄处于破损@UUID[Compendium.pf2e.conditionitems.6dNUvdb1dhToNDj3]{Broken} 状态。如果GM认为对象的制作和材质异常的坚固，可能这些物品只会受到一定的伤害，而非直接陷入破损状态。",
+                    "success": "<strong>成功</strong> 你强行弄开了门，窗或是容器，但对象狭窄处于@UUID[Compendium.pf2e.conditionitems.6dNUvdb1dhToNDj3]{破损 Broken} 状态。如果GM认为对象的制作和材质异常的坚固，可能这些物品只会受到一定的伤害，而非直接陷入破损状态。",
                     "criticalFailure": "<strong>大失败</strong> 你把门，窗或锁弄卡住了。在之后的破拆检定上承受-2环境减值。"
                 },
                 "Title": "破拆",
@@ -329,17 +329,17 @@
             },
             "Grapple": {
                 "Notes": {
-                    "criticalSuccess": "<strong>大成功</strong> 直到你的下一个回合，你的对手陷入拘束@UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}状态，除非在此期间你进行移动或是对手成功进行逃脱动作@UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{Escapes}。",
+                    "criticalSuccess": "<strong>大成功</strong> 直到你的下一个回合，你的对手陷入@UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚 Restrained}状态，除非在此期间你进行移动或是对手成功进行@UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{逃脱 Escapes}动作。",
                     "success": "<strong>成功</strong> 直到你的下一个回合，你的对手@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{被擒抱 Grabbed} ，除非在此期间你进行移动或是对手成功进行@UUID[Compendium.pf2e.actionspf2e.SkZAQRkLLkmBQNB9]{逃脱 Escapes}动作。",
-                    "failure": "<strong>失败</strong> 你没有擒住你的对手。如果你的对手因为你的擒拿而已经陷入拘束@UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}或压制@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}，它不再承受这些状态。",
-                    "criticalFailure": "<strong>大失败</strong> 如果你的对手因为你的擒拿 而陷入拘束@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{Grabbed}或压制@UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{Restrained}状态，它立刻挣脱。这个生物可以立刻使你进入被压制状态，如同成功对你发动了擒拿，或是将你击倒至俯卧@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}状态。"
+                    "failure": "<strong>失败</strong> 你没有擒住你的对手。如果你的对手因为你的擒拿而已经陷入@UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚 Restrained}或@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱 Grabbed}，它不再承受这些状态。",
+                    "criticalFailure": "<strong>大失败</strong> 如果你的对手因为你的擒拿而陷入@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱 Grabbed}或@UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚 Restrained}状态，它立刻挣脱。这个生物可以立刻擒抱你，如同成功对你发动了@UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒拿 Grapple}，或是将你击倒至@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}状态。"
                 },
                 "Title": "擒抱"
             },
             "Hide": {
                 "Notes": {
-                    "success": "<strong>成功</strong> 对其他原本可以看到你的生物，现在你获得藏匿状态而非可见状态。如果你在原本就对某生物来说处于藏匿或无踪状态下再次尝试藏匿，你保持原状态不变@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden} @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}。",
-                    "criticalSuccess": "<strong>大成功</strong> 对其他原本可以看到你的生物，现在你获得藏匿状态而非可见状态。如果你在原本就对某生物来说处于藏匿或无踪状态下再次尝试藏匿，你保持原状态不变@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden} @UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}。"
+                    "success": "<strong>成功</strong> 对其他原本可以看到你的生物，现在你获得@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}状态而非可见状态。如果你在原本就对某生物来说处于@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}或@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪 Undetected}状态下再次尝试藏匿，你保持原状态不变。",
+                    "criticalSuccess": "<strong>大成功</strong> 对其他原本可以看到你的生物，现在你获得@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}而非可见状态。如果你在原本就对某生物来说处于@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}或@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪 Undetected}状态下再次尝试藏匿，你保持原状态不变。"
                 },
                 "Title": "躲藏"
             },
@@ -347,8 +347,8 @@
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 你最高可以跳到8尺高，或是跳最高到5尺高，同时10尺远。",
                     "success": "<strong>成功</strong>你最高可以跳到5尺高。",
-                    "failure": "<strong>失败</strong> 你如常 @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} 。",
-                    "criticalFailure": "<strong>大失败</strong> 你不但没能跳高@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} ，还摔了个马趴，在你占据的空间中陷入俯卧@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}状态。"
+                    "failure": "<strong>失败</strong> 你如常@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳跃 Leap} 。",
+                    "criticalFailure": "<strong>大失败</strong> 你不但没能@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳跃 Leap} ，还摔了个大马趴，在你占据的空间中陷入@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}状态。"
                 },
                 "Title": "跳高"
             },
@@ -408,10 +408,10 @@
             },
             "LongJump": {
                 "Notes": {
-                    "success": "<strong>成功</strong> 你可以跳远@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} 的最远距离提升到你自己希望的距离，而非普通情况的距离。",
-                    "failure": "<strong>失败</strong> 你如常 @UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{Leap} 。",
-                    "criticalFailure": "<strong>大失败</strong> 你正常的@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳 Leap}了普通距离，但摔了个屁股墩，在你落地时陷入@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}状态。",
-                    "criticalSuccess": "<strong>大成功</strong> 你可以@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳远 Leap} 的最远距离提升到你自己希望的距离，而非普通情况的距离。"
+                    "success": "<strong>成功</strong> 你可以@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳跃 Leap}的最远距离提升到你自己希望的距离，而非普通情况的距离。",
+                    "failure": "<strong>失败</strong> 你如常@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳跃 Leap}。",
+                    "criticalFailure": "<strong>大失败</strong> 你正常地@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳跃 Leap}了普通距离，但摔了个屁股墩，在你落地时陷入@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}状态。",
+                    "criticalSuccess": "<strong>大成功</strong> 你可以@UUID[Compendium.pf2e.actionspf2e.d5I6018Mci2SWokk]{跳跃 Leap} 的最远距离提升到你自己希望的距离，而非普通情况的距离。"
                 },
                 "Title": "跳远"
             },
@@ -436,7 +436,7 @@
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 你直接解打开了面前的锁，或是在尝试打开结构精良的锁时视为获得了两次成功结果。你不会留下你曾经撬过过这把锁的痕迹。",
                     "success": "<strong>成功</strong> 你直接解打开了面前的锁，或是在尝试打开结构精良的锁时视为获得了一次成功结果。",
-                    "criticalFailure": "<strong>大失败</strong> 你把你的工具玩坏了。你需要通过一个成功的手艺技能检定去@UUID[Compendium.pf2e.actionspf2e.bT3skovyLUtP22ME]{修理 Repair}它，或是替换一副备用的工具组件（价值3SP，如果是高级开锁工具的话则价值3GP）。"
+                    "criticalFailure": "<strong>大失败</strong> 你把你的工具玩坏了。你需要通过一个成功的手艺技能检定来@UUID[Compendium.pf2e.actionspf2e.bT3skovyLUtP22ME]{修理 Repair}它，或是替换一副备用的工具组件（价值3SP，如果是高级开锁工具的话则价值3GP）。"
                 },
                 "Title": "撬锁"
             },
@@ -504,7 +504,7 @@
             "Seek": {
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 若你搜索生物，所有你对其大成功的@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪 Undetected}或@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}的生物对你变为@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}。若你搜索物体，你得知其位置。",
-                    "success": "<strong>成功</strong> 若你搜索生物，所有你对其成功的无踪@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{Undetected}生物对你变为藏匿@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}，所有你对其成功的藏匿生物对你变为可见。@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{Observed} 若你搜索物体，你得知其位置或获得一些线索，具体由GM判断。"
+                    "success": "<strong>成功</strong> 若你搜索生物，所有对你@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪Undetected}的生物变为对你@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}而非@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪Undetected}，所有对你@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}的生物变为对你@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}。若你搜索物体，你得知其位置或获得一些线索，具体由GM判断。"
                 },
                 "Title": "搜索"
             },
@@ -534,7 +534,7 @@
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong>你可以将敌人打退10尺远。同时，你可以立刻跟着他跑动，但必须保持和它被击退相同的方向并移动相同的距离。",
                     "success": "<strong>成功</strong> 你可以将敌人打退5尺远。同时，你可以立刻跟着他跑动，但必须保持和它被击退相同的方向并移动相同的距离。",
-                    "criticalFailure": "<strong>大失败</strong> 你自己失去平衡摔倒了，陷入俯卧状态 @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}。"
+                    "criticalFailure": "<strong>大失败</strong> 你自己失去平衡摔倒了，陷入@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}状态 。"
                 },
                 "Title": "猛推"
             },
@@ -573,8 +573,8 @@
             },
             "Tamper": {
                 "Notes": {
-                    "criticalSuccess": "<strong>Critical Success</strong> 你的篡改非常有效。如果你篡改了武器，敌人在使用该武器进行的攻击骰和伤害骰上承受-2环境罚值。如果你篡改了护甲，护甲会妨碍敌人的移动，令敌人陷入措手不及且在速度上承受-10罚值。该效果持续到敌人交互Interact以移除，无论你选择进行何种篡改。 @UUID[Compendium.pf2e.feat-effects.rzcpTJU9MvW1x1gz]{Effect: Armor Tampered With (Critical Success)} @UUID[Compendium.pf2e.feat-effects.o7qm13OmaYOMwgib]{Effect: Weapon Tampered With (Critical Success)}",
-                    "success": "<strong>Success</strong> 你的篡改暂时有效。如大成功，但效果持续到你的下回合开始，即使敌人没有进行交互Interact以移除。 @UUID[Compendium.pf2e.feat-effects.IfRkgjyh0JzGalIy]{Effect: Armor Tampered With (Success)} @UUID[Compendium.pf2e.feat-effects.4QWayYR3JSL9bk2T]{Effect: Weapon Tampered With (Success)}",
+                    "criticalSuccess": "<strong>大成功</strong> 你的篡改非常有效。如果你篡改了武器，敌人在使用该武器进行的攻击骰和伤害骰上承受-2环境罚值。如果你篡改了护甲，护甲会妨碍敌人的移动，令敌人陷入措手不及且在速度上承受-10罚值。该效果持续到敌人交互Interact以移除，无论你选择进行何种篡改。 @UUID[Compendium.pf2e.feat-effects.rzcpTJU9MvW1x1gz]{Effect: Armor Tampered With (Critical Success)} @UUID[Compendium.pf2e.feat-effects.o7qm13OmaYOMwgib]{Effect: Weapon Tampered With (Critical Success)}",
+                    "success": "<strong>成功</strong> 你的篡改暂时有效。如大成功，但效果持续到你的下回合开始，即使敌人没有进行交互Interact以移除。 @UUID[Compendium.pf2e.feat-effects.IfRkgjyh0JzGalIy]{效果：篡改护甲（成功）} @UUID[Compendium.pf2e.feat-effects.4QWayYR3JSL9bk2T]{效果：篡改武器（成功）}",
                     "criticalFailure": "<strong>Critical Failure</strong> 你的篡改引起了华丽的麻烦，你的工具或器械发生了小规模的爆炸。你承受等于 [[/r {@details.level.value}[fire] # Tamper Backfire]]{你等级的火焰伤害}。"
                 },
                 "Title": "篡改"
@@ -590,23 +590,23 @@
             },
             "TreatDisease": {
                 "Notes": {
-                    "criticalSuccess": "<strong>大成功</strong> 在该生物下一次对抗该疾病的豁免检定上你为他提供+4环境加值。<br/>@UUID[Compendium.pf2e.equipment-effects.id20P4pj7zDKeLmy]{Effect: Treat Disease (Critical Success)}",
-                    "success": "<strong>成功</strong> 在该生物下一次对抗该疾病的豁免检定上你为他提供+2环境加值。<br/>@UUID[Compendium.pf2e.equipment-effects.Ee2xfKX1yyqGIDZj]{Effect: Treat Disease (Success)}",
-                    "criticalFailure": "<strong>大失败</strong> 在该生物下一次对抗该疾病的豁免检定上你为他造成-2环境减值。<br/>@UUID[Compendium.pf2e.equipment-effects.5oYKYXAexr0vhx84]{Effect: Treat Disease (Critical Failure)}"
+                    "criticalSuccess": "<strong>大成功</strong> 在该生物下一次对抗该疾病的豁免检定上你为他提供+4环境加值。<br/>@UUID[Compendium.pf2e.equipment-effects.id20P4pj7zDKeLmy]{效果：治疗疾病（大成功）}",
+                    "success": "<strong>成功</strong> 在该生物下一次对抗该疾病的豁免检定上你为他提供+2环境加值。<br/>@UUID[Compendium.pf2e.equipment-effects.Ee2xfKX1yyqGIDZj]{效果：治疗疾病（成功）}",
+                    "criticalFailure": "<strong>大失败</strong> 在该生物下一次对抗该疾病的豁免检定上你为他造成-2环境减值。<br/>@UUID[Compendium.pf2e.equipment-effects.5oYKYXAexr0vhx84]{效果：治疗疾病（大失败）}"
                 },
                 "Title": "治疗疾病"
             },
             "TreatPoison": {
                 "Notes": {
-                    "criticalSuccess": "<strong>大成功</strong> 在该生物下一次对抗该毒素的豁免检定上你为他提供+4环境加值。<br/>@UUID[Compendium.pf2e.equipment-effects.XwCBalKJf3CiEiFa]{Effect: Treat Poison (Critical Success)}",
-                    "success": "<strong>成功</strong> 在该生物下一次对抗该毒素的豁免检定上你为他提供+2环境加值。<br/>@UUID[Compendium.pf2e.equipment-effects.XWenziR7J3mwKV4W]{Effect: Treat Poison (Success)}",
-                    "criticalFailure": "<strong> 大失败</strong> 在该生物下一次对抗该毒素的豁免检定上你为他造成-2环境减值。<br/>@UUID[Compendium.pf2e.equipment-effects.ESuBosh3t1pXEcBj]{Effect: Treat Poison (Critical Failure)}"
+                    "criticalSuccess": "<strong>大成功</strong> 在该生物下一次对抗该毒素的豁免检定上你为他提供+4环境加值。<br/>@UUID[Compendium.pf2e.equipment-effects.XwCBalKJf3CiEiFa]{效果：治疗中毒（大成功）}",
+                    "success": "<strong>成功</strong> 在该生物下一次对抗该毒素的豁免检定上你为他提供+2环境加值。<br/>@UUID[Compendium.pf2e.equipment-effects.XWenziR7J3mwKV4W]{效果：治疗中毒（成功）}",
+                    "criticalFailure": "<strong>大失败</strong> 在该生物下一次对抗该毒素的豁免检定上你为他造成-2环境减值。<br/>@UUID[Compendium.pf2e.equipment-effects.ESuBosh3t1pXEcBj]{效果：治疗中毒（大失败）}"
                 },
                 "Title": "治疗中毒"
             },
             "Trip": {
                 "Notes": {
-                    "criticalSuccess": "<strong>大成功</strong> 你的目标立刻被击倒至俯卧状态@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}，并承受1d6点钝击伤害。",
+                    "criticalSuccess": "<strong>大成功</strong> 你的目标立刻被击倒至@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}状态，并承受[[/r 1d6[bludgeoning] # Bludgeoning damage]]{1d6}点钝击伤害。",
                     "success": "<strong>成功</strong> 目标被击倒至@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}状态。",
                     "criticalFailure": "<strong>大失败</strong>你自己失去平衡摔倒了，陷入@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}状态。"
                 },
@@ -623,10 +623,10 @@
             },
             "WhirlingThrow": {
                 "Notes": {
-                    "criticalSuccess": "<strong>大成功</strong> 你将生物扔至所需距离并使其@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{Prone}。",
+                    "criticalSuccess": "<strong>大成功</strong> 你将生物扔至所需距离并使其@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}。",
                     "success": "<strong>成功</strong>你将生物扔至所需距离。",
                     "failure": "<strong>失败</strong> 你没能投掷生物。",
-                    "criticalFailure": "<strong>大失败</strong> 你没能投掷生物， 并且对方不再被你 @UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱 Grabbed} 或 @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚 Restrained}。"
+                    "criticalFailure": "<strong>大失败</strong> 你没能投掷生物， 并且对方不再被你@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱 Grabbed} 或 @UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚 Restrained}。"
                 },
                 "Title": "回旋抛投"
             },
@@ -1116,20 +1116,20 @@
                 "CriticalSpecialization": {
                     "axe": "选择一个在你的触及内与初始目标相邻的生物。如果它的AC低于你重击的攻击掷骰，那么你对该生物造成等同一颗武器伤害骰（也包括来自装备符文的额外骰，若有）的伤害。其它加值或额外骰不适用于这个伤害。",
                     "bomb": "提升炸弹的溅射伤害（若有）半径到10尺。",
-                    "bow": "若重击的目标邻接一个表面，则它会被弹头钉在表面上。目标将@UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{被固定} ，它必须使用互动动作尝试进行 @Check[type:athletics|dc:10|name:Pull the Missile Free|showDC:all] 检定来拔出弹头，之后才能移动离开其方格。虚体、液态（例如水元素或某些泥怪）或能以某种方式毫不费力地避开此效果的生物不会被钉住。",
-                    "brawling": "目标必须成功通过@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Brawling Critical Specialization|showDC:all]，否则陷入@UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢1}，持续到你下轮结束。",
+                    "bow": "若重击的目标邻接一个表面，则它会被弹头钉在表面上。目标陷入@UUID[Compendium.pf2e.conditionitems.eIcWbB5o3pP6OIMe]{禁足 Immobilized} ，它必须使用互动动作尝试进行 @Check[type:athletics|dc:10|name:Pull the Missile Free|showDC:all] 检定来拔出弹头，之后才能移动离开其方格。虚体、液态（例如水元素或某些泥怪）或能以某种方式毫不费力地避开此效果的生物不会被钉住。",
+                    "brawling": "目标必须成功通过@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Brawling Critical Specialization|showDC:all]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}，持续到你的下回合结束。",
                     "club": "目标被你击退至多10尺（距离由你选择）。这是被迫移动。",
                     "dart": "目标受到@Localize[PF2E.PersistentDamage.Bleed1d6.success]。你在此流血伤害上获得等同该武器给予攻击检定的物品加值。",
-                    "firearm": "目标必须通过一个@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Firearm Critical Specialization|showDC:all]检定，否则会受到@UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{震慑1}。",
-                    "flail": "目标被击@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}。",
-                    "hammer": "目标被击@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地}。",
+                    "firearm": "目标必须通过一个@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Firearm Critical Specialization|showDC:all]豁免，否则会受到@UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。",
+                    "flail": "目标被击倒，陷入@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}。",
+                    "hammer": "目标被击倒，陷入@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}。",
                     "knife": "目标受到@Localize[PF2E.PersistentDamage.Bleed1d6.success]。你在此流血伤害上获得等同该武器给予攻击检定的物品加值。",
                     "pick": "武器凶狠地刺穿目标。目标受到每颗武器伤害骰2点的额外伤害。",
                     "polearm": "目标往你选择的位置移动5尺。这是被迫移动。",
                     "shield": "目标被你击退5尺。这是被迫移动。",
-                    "sling": "目标必须成功通过@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Sling Critical Specialization|showDC:all]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{震慑1}。",
-                    "spear": "武器刺穿目标，使其攻击变得软弱无力。目标陷入@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙1}，直到你的下一轮开始。",
-                    "sword": "目标因为你的攻击而失去平衡，变得@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}1轮，直到你的下一轮开始。"
+                    "sling": "目标必须成功通过@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true|name:Sling Critical Specialization|showDC:all]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。",
+                    "spear": "武器刺穿目标，使其攻击变得软弱无力。目标陷入@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}，直到你的下一回合开始。",
+                    "sword": "目标因为你的攻击而失去平衡，变得@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed}直到你的下一回合开始。"
                 },
                 "FromMaterialAndRunes": "此物品上的珍贵材料和符文的{property}调整为{value}。",
                 "GeneratedName": {
@@ -1691,8 +1691,8 @@
                         "criticalFailure": "大失败"
                     }
                 },
-                "Label": "结果: <degree>{degree}</degree> <offset>by {offset}</offset>",
-                "AdjustedLabel": "结果: <degree>{degree}</degree> <offset>by {offset}</offset> ({adjustment})"
+                "Label": "结果: <unadjusted>{unadjusted}</unadjusted> <offset>by {offset}</offset>",
+                "AdjustedLabel": "结果: <unadjusted>{unadjusted}</unadjusted> <adjusted>{adjusted}</adjusted> <offset>by {offset}</offset>"
             },
             "Specific": {
                 "Perception": {
@@ -2830,7 +2830,7 @@
                 },
                 "ShowDC": {
                     "Name": "显示攻击和豁免的DC",
-                    "Hint": "决定谁可以查看检定的DC。",
+                    "Hint": "若开启本选项，玩家将可以查看对抗NPC对抗其他非玩家来源检定时的DC。",
                     "None": "无",
                     "Gm": "GM",
                     "Owner": "持有者",
@@ -2838,7 +2838,7 @@
                 },
                 "ShowResults": {
                     "Name": "显示攻击和豁免的结果",
-                    "Hint": "决定谁可以查看聊天栏中的检定掷骰的结果。",
+                    "Hint": "若启用，玩家将可以查看对抗NPC对抗其他非玩家来源检定时的成功度。",
                     "None": "无",
                     "Gm": "GM",
                     "Owner": "持有者",
@@ -4525,7 +4525,7 @@
             "anchoring": {
                 "Name": "锚定符文",
                 "Note": {
-                    "criticalSuccess": "如果你用定身武器对目标重击, 武器会使目标 <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Dimensional Anchor}</em> (@Check[type:will|dc:27|name:Anchoring Rune], 反制检定[[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
+                    "criticalSuccess": "如果你用锚定武器对目标重击, 武器会在目标上施放<em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{次元锚 Dimensional Anchor}</em> (@Check[type:will|dc:27|name:Anchoring Rune], 反制调整值[[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})。"
                 }
             },
             "axiomatic": {
@@ -4543,7 +4543,7 @@
             "bloodthirsty": {
                 "Name": "嗜血符文",
                 "Note": {
-                    "criticalSuccess": "当你重击一个正在受到持续流血伤害@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}的目标时，目标陷入@UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{流失 1}。"
+                    "criticalSuccess": "当你重击一个正在受到@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害 Persistent Bleed Damage}的目标时，目标陷入@UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{流失 Drained 1}。"
                 }
             },
             "brilliant": {
@@ -4564,7 +4564,7 @@
             "crushing": {
                 "Name": "粉碎符文",
                 "Note": {
-                    "criticalSuccess": "重击时， 目标陷入 @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1} 与 @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1} 直到你的下回合结束。"
+                    "criticalSuccess": "当你用此武器造成一次重击时，你的目标陷入@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}和@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}，直到你的下回合结束。"
                 }
             },
             "cunning": {
@@ -4591,19 +4591,19 @@
             "fearsome": {
                 "Name": "可怖符文",
                 "Note": {
-                    "criticalSuccess": "重击时，目标陷入 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{力竭 Frightened 1}。"
+                    "criticalSuccess": "当你用此武器重击时，目标陷入@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{力竭 Frightened 1}。"
                 }
             },
             "flaming": {
                 "Name": "炽焰符文",
                 "Note": {
-                    "criticalSuccess": "重击时, 会再附加 [[/r {1d10}[persistent,fire]]] # Flaming Rune]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}。"
+                    "criticalSuccess": "当你用此武器的一次打击重击时，你额外造成[[/r {1d10}[persistent,fire]]] # Flaming Rune]]@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害 Persistent Fire Damage}。"
                 }
             },
             "frost": {
                 "Name": "冻寒符文",
                 "Note": {
-                    "criticalSuccess": "重击时， 目标陷入 @UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1} 直到你的下回合结束，除非通过一次成功的@Check[type:fortitude|dc:24|name:Frost Rune]豁免。"
+                    "criticalSuccess": "重击时，除非成功通过一次@Check[type:fortitude|dc:24|name:Frost Rune]豁免，否则目标陷入@UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}直到你的下回合结束。"
                 }
             },
             "ghostTouch": {
@@ -4613,8 +4613,8 @@
             "greaterAnchoring": {
                 "Name": "高等锚定符文",
                 "Note": {
-                    "criticalSuccess": "重击时, 武器对目标施放8环的<em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Dimensional Anchor}</em>(@Check[type:will|dc:38|name:Greater Anchoring Rune], 反制检定 [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28}), 除非目标的意志豁免检定大成功， <em>次元锚</em> 至少持续一轮，而不是没有效果。",
-                    "success": "<strong>高等锚定符文</strong> 当命中目标但没有重击时，目标受到四环 <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{Dimensional Anchor}</em> 效果影响一轮而不需要豁免 (反制检定[[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28})."
+                    "criticalSuccess": "当你用锚定武器重击一个目标时, 武器对目标施放8环的<em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{次元锚 Dimensional Anchor}</em>(@Check[type:will|dc:38|name:Greater Anchoring Rune], 反制调整值为[[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28})，除非目标的意志豁免检定大成功， <em>次元锚</em>至少会持续一轮，而不是没有效果。",
+                    "success": "<strong>高等锚定符文</strong> 当命中目标但没有重击时，目标受到四环 <em>@UUID[Compendium.pf2e.spells-srd.ksLCg62cLOojw3gN]{次元锚 Dimensional Anchor}</em> 效果影响一轮而不需要豁免(反制调整值[[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28})。"
                 }
             },
             "greaterBloodbane": {
@@ -4623,7 +4623,7 @@
             "greaterBrilliant": {
                 "Name": "高等光辉符文",
                 "Note": {
-                    "criticalSuccess": "该武器造成的伤害忽略目标的火焰、善良或正能量的抗力。重击时, 目标必须通过一个成功的 @Check[type:fortitude|dc:41|name:Greater Brilliant Rune]豁免否则陷入 @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲 Blinded} 一轮。",
+                    "criticalSuccess": "该武器造成的伤害忽略目标的火焰、善良或正能量的抗力。重击时, 目标必须成功通过一个@Check[type:fortitude|dc:41|name:Greater Brilliant Rune]豁免否则陷入 @UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲 Blinded}一轮。",
                     "success": "<strong>高等光能符文</strong>该武器造成的伤害忽略目标的火焰、善良或正能量的抗力。"
                 }
             },
@@ -4637,13 +4637,13 @@
             "greaterCrushing": {
                 "Name": "高等粉碎符文",
                 "Note": {
-                    "criticalSuccess": "你的重击使目标陷入 @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2} 和 @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2} 直到你的下回合结束。"
+                    "criticalSuccess": "你的重击使目标陷入@UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}和@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}，直到你的下回合结束。"
                 }
             },
             "greaterDisrupting": {
                 "Name": "高等瓦解符文",
                 "Note": {
-                    "criticalSuccess": "重击时，目标不死生物必须通过一个成功的@Check[type:fortitude|dc:34|traits:incapacitation|name:Greater Disrupting Rune]豁免来规避以下效果。 这是一个失能效果。<br /><br /><strong>大成功</strong>陷入 @UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1} 直到你下一个回合结束<br /><strong>成功</strong> 陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}直到你下一回合结束<br /><strong>失败</strong>陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 3} 直到你下一回合结束<br /><strong>大失败</strong> 被直接摧毁。"
+                    "criticalSuccess": "重击时，目标不死生物必须成功通过一个@Check[type:fortitude|dc:34|traits:incapacitation|name:Greater Disrupting Rune]豁免来规避以下效果。这是一个失能效果。<br /><br /><strong>大成功</strong> 陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}直到你下一个回合结束<br /><strong>成功</strong> 陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}直到你下一回合结束<br /><strong>失败</strong> 陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 3} 直到你下一回合结束<br /><strong>大失败</strong> 被直接摧毁。"
                 }
             },
             "greaterExtending": {
@@ -4655,20 +4655,20 @@
             "greaterFearsome": {
                 "Name": "高等可怖符文",
                 "Note": {
-                    "criticalSuccess": "重击时，目标陷入 @UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}。"
+                    "criticalSuccess": "当你用此武器重击时，目标陷入@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}。"
                 }
             },
             "greaterFlaming": {
                 "Name": "高等炽焰符文",
                 "Note": {
-                    "criticalSuccess": "该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。重击时，对目标造成火焰持续伤害[[/r {2d10}[persistent,fire]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}。",
+                    "criticalSuccess": "该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。当你用此武器的打击重击时，你对目标额外造成[[/r {2d10}[persistent,fire]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害 Persistent Fire Damage}。",
                     "success": "该武器造成的火焰伤害忽略目标的火焰抗力。"
                 }
             },
             "greaterFrost": {
                 "Name": "高等冻寒符文",
                 "Note": {
-                    "criticalSuccess": "该武器造成的寒冷伤害忽略目标的寒冷抗力。重击时，除非通过一个@Check[type:fortitude|dc:34|name:Greater Thundering Rune]豁免，否则目标陷入@UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1} 直到你下一回合结束。",
+                    "criticalSuccess": "该武器造成的寒冷伤害忽略目标的寒冷抗力。重击时，除非成功通过一个@Check[type:fortitude|dc:34|name:Greater Thundering Rune]豁免，否则目标陷入@UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}直到你下一回合结束。",
                     "success": "<strong>高等冻寒符文</strong>该武器造成的寒冷伤害忽略目标的寒冷抗力。"
                 }
             },
@@ -4691,7 +4691,7 @@
             "greaterThundering": {
                 "Name": "高等雷鸣符文",
                 "Note": {
-                    "criticalSuccess": "该武器造成的音波伤害忽视音波抗力。 重击时，目标必须通过@Check[type:fortitude|dc:34|name:Greater Thundering Rune]豁免检定，否则永久陷入@UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened} 。",
+                    "criticalSuccess": "该武器造成的音波伤害忽视音波抗力。 重击时，目标必须成功通过一个@Check[type:fortitude|dc:34|name:Greater Thundering Rune]豁免，否则永久陷入@UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened} 。",
                     "success": "该武器造成的音波伤害忽视音波抗力。"
                 }
             },
@@ -4702,10 +4702,10 @@
                     "Bow": "<strong>深化符文</strong> 拔出弹头的运动DC为20。",
                     "Brawling": "<strong>深化符文</strong> 目标的豁免获得-4环境减值。",
                     "Club": "<strong>深化符文</strong> 你可以击退目标最多15尺远。",
-                    "Dart": "<strong>深化符文</strong> 基础持续流血伤害提升为[[/r {2d6}[persistent,bleed]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage}。",
+                    "Dart": "<strong>深化符文</strong> 基础持续流血伤害提升为[[/r {2d6}[persistent,bleed]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害 Persistent Bleed Damage}。",
                     "Flail": "<strong>深化符文</strong> 你移动目标5尺。你无法将其移动远离你，但可以按你所想将其移动到你的另一个方位上。",
                     "Hammer": "<strong>深化符文</strong> 你还可以将其击退离你5尺远。",
-                    "Knife": "<strong>深化符文</strong> 只要目标还受到该@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}，其速度获得-5尺状态减值。",
+                    "Knife": "<strong>深化符文</strong> 只要目标还受到该@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害 Persistent Bleed Damage}，其速度获得-5尺状态减值。",
                     "Pick": "<strong>深化符文</strong>重击专精效果的额外伤害增加为每颗武器伤害骰4点。",
                     "Polearm": "<strong>深化符文</strong> 你可以移动目标最多10尺。",
                     "Shield": "<strong>深化符文</strong> 你可以击退目标最多10尺远。",
@@ -4773,13 +4773,13 @@
             "thundering": {
                 "Name": "雷鸣符文",
                 "Note": {
-                    "criticalSuccess": "重击时， 目标必须通过@Check[type:fortitude|dc:24|name:Thundering Rune]豁免检定，否则陷入@UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened}一分钟(大失败时变为一小时)."
+                    "criticalSuccess": "当造成一次重击时， 目标必须成功通过一次@Check[type:fortitude|dc:24|name:Thundering Rune]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋 Deafened}一分钟(大失败时变为一小时)。"
                 }
             },
             "unholy": {
                 "Name": "邪恶符文",
                 "Note": {
-                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每天一次)<br /><br /><strong>触发</strong>你用该武器对一善良生物重击成功<br /><br /><strong>效果</strong> 符文蚀刻的武器每有1个武器伤害骰，目标就受到1d8点 @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害} 。"
+                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每天一次)<br /><br /><strong>触发</strong>你用该武器对一善良生物的攻击骰重击<br /><br /><strong>效果</strong> 符文蚀刻的武器每有1个武器伤害骰，目标就受到1d8点@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage 持续流血伤害} 。"
                 }
             },
             "vorpal": {
@@ -4791,8 +4791,8 @@
             "wounding": {
                 "Name": "血光符文",
                 "Note": {
-                    "criticalSuccess": "重击时，你造成额外的[[/r {1d6*2}[persistent,bleed]]] @UUID[Compendium.pf2e.conditionitems.Persistent Damage]{持续流血伤害}。",
-                    "success": "命中目标时， 你造成额外的[[/r {1d6}[persistent,bleed]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}。"
+                    "criticalSuccess": "当你用血光武器重击一个生物时，你额外造成[[/r {1d6*2}[persistent,bleed]]] @UUID[Compendium.pf2e.conditionitems.Persistent Damage]{持续流血伤害 Persistent Bleed Damage}。",
+                    "success": "当你用血光武器击中一个生物时， 你额外造成[[/r {1d6}[persistent,bleed]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害 Persistent Bleed Damage}。"
                 }
             }
         },
@@ -5239,7 +5239,7 @@
             "MerchantLabel": "商人",
             "MoveLoot": "移动物品",
             "MoveLootMessage": "你想移动几件物品?",
-            "MoveLootPopupTitle": "移动战利品",
+            "MoveLootPopupTitle": "物品数量",
             "TakeSubtitle": "拿取物品",
             "DepositSubtitle": "存放物品",
             "TransferSubtitle": "转移物品",
@@ -5320,7 +5320,7 @@
                     "AtWillSpells": "<p>怪物可以施放任意多次随意法术而无需花费法术位。</p>",
                     "Aura": "<p>怪物的灵光会自动影响怪物周边指定发散范围内的一切事物。怪物无需在灵光上花费任何动作；灵光将在特定的时间起效，例如生物在灵光内结束其回合或是生物进入灵光。</p>\n<p>如果一个灵光仅造成伤害，它的条目中只会列出半径、伤害和豁免检定。这类灵光在生物进入灵光或是在灵光内开始其回合时对生物造成伤害。一个生物在同一回合内仅会被此灵光伤害一次。</p>\n<p>GM也许会判定怪物的光环不会影响其盟友。例如，一个生物在与某怪物长时间同处之后可能会免疫此怪物的气势凶猛。</p>",
                     "Buck": "<hr />\n<p>大多数充当坐骑的怪物都会尝试甩脱那些讨厌恼人的骑手，不过除非是收到了惊吓或是虐待，否则大多数坐骑不会对被信任的生物使用这种反应动作。</p>\n<p><strong>触发</strong> 一个生物在骑在怪物上时使用@UUID[Compendium.pf2e.actionspf2e.PM5jvValFkbFH3TV]{骑乘 Mounts}或是@UUID[Compendium.pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{指挥怪物 Command an Animal}动作。</p>\n<hr />\n<p><strong>效果</strong>触发的生物必须成功通过一次所列DC的反射豁免检定，否则被摔落且@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}。如果豁免结果是大失败，触发的生物还会在正常的坠落伤害外额外承受 [[/roll {1d6}[bludgeoning]]]{1d6钝击伤害}。</p>",
-                    "CatchRock": "<p><strong>要求</strong> 怪物必须有一只空闲手，但是能够 @UUID[Compendium.pf2e.actionspf2e.wQYmDStjdjn0I26t]{松开}手上握持的物品作为此反应动作的一部分。</p>\n<p><strong>触发</strong> 怪物成为一次投石打击的目标，或是石块将要掉落到怪物上。</p>\n<hr />\n<p><strong>效果</strong> 怪物在对抗此次攻击的AC或是任何对抗落石的防御上获得+4环境加值。如果攻击未命中或是怪物成功避免了落石，怪物接住了石头，避免了伤害。现在，是这只怪物握住了石头。</p>",
+                    "CatchRock": "<p><strong>要求</strong> 怪物必须有一只空闲手，但是能够@UUID[Compendium.pf2e.actionspf2e.wQYmDStjdjn0I26t]{松开}手上握持的物品作为此反应动作的一部分。</p>\n<p><strong>触发</strong> 怪物成为一次投石打击的目标，或是石块将要掉落到怪物上。</p>\n<hr />\n<p><strong>效果</strong> 怪物在对抗此次攻击的AC或是任何对抗落石的防御上获得+4环境加值。如果攻击未命中或是怪物成功避免了落石，怪物接住了石头，避免了伤害。现在，是这只怪物握住了石头。</p>",
                     "ChangeShape": "<p>怪物无限期地改变了其形态。它能够使用此动作恢复原形或是改为一个新的形态。除非另有说明，否则怪物无法使用变身能力呈现出某个特定个体。使用变身也被视为使用欺骗技能的@UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{乔装 Impersonate}来伪装自身。在判别所变化形态的生物族裔或是生物类型时，怪物的变形将自动成功对抗察觉DC，并且在防止从其他方面识破其伪装的欺骗DC上获得+4状态加值。变身能力指定了怪物能够变化的形态。怪物仅能变化其生理形态，并不会获得新形态的特殊能力。例如，在每个形态下，它都会替换其正常速度与打击，并且可能改变其感官或体型。所有变更都会在数据栏中列出。</p>",
                     "ConstantSpells": "<p>一个恒定法术将持续对怪物生效而无需怪物施放之，并且法术的持续时间为永久。如果一个恒定法术被反制，则怪物可以花费此法术正常情况下所要求的施法动作来将其重新激活。</p>",
                     "Constrict": "<p>怪物对任意数量的被其@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{擒抱 Grabbed} 或@UUID[Compendium.pf2e.conditionitems.VcDeM8A5oI6VqhbM]{束缚 Restrained} 的生物造成所列出的伤害。这些生物都可进行一次基础强韧豁免对抗所列出的DC。</p>",
