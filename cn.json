@@ -5540,7 +5540,9 @@
         "TraitDescriptionTech": "具有此特性的物品与纽梅利亚的技术相关。",
         "MagicTraditionUseSpellLabel": "使用魔法根源",
         "TraitTech": "科学",
-        "TraitDescriptionGhoran": "一种依靠从种子中不断复生而长生的智能植物族裔。"
+        "TraitDescriptionGhoran": "一种依靠从种子中不断复生而长生的智能植物族裔。",
+        "AreaSize65": "65 尺",
+        "DeleteSpellcastEntryTitle": "删除施法能力"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
