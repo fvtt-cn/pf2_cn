@@ -1075,12 +1075,16 @@
             },
             "Bard": {
                 "Muse": {
-                    "Prompt": "Select a muse."
+                    "Prompt": "Select a muse.",
+                    "Enigma": "Enigma",
+                    "Maestro": "Maestro",
+                    "Polymath": "Polymath",
+                    "Warrior": "Warrior"
                 }
             },
             "Beastkin": {
                 "AnimalSenses": {
-                    "Prompt": "Select a sense available to your inherant animal."
+                    "Prompt": "Select a sense available to your inherent animal."
                 },
                 "Senses": {
                     "EcholocationImprecise": "Echolocation (Imprecise) 30 feet",
