@@ -504,7 +504,7 @@
             "Seek": {
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 若你搜索生物，所有你对其大成功的@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪 Undetected}或@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}的生物对你变为@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}。若你搜索物体，你得知其位置。",
-                    "success": "<strong>成功</strong> 若你搜索生物，所有对你@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪Undetected}的生物变为对你@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}而非@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪Undetected}，所有对你@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}的生物变为对你@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}。若你搜索物体，你得知其位置或获得一些线索，具体由GM判断。"
+                    "success": "<strong>成功</strong> 若你搜索生物，所有对你@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪}的生物变为对你@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}而非@UUID[Compendium.pf2e.conditionitems.VRSef5y1LmL2Hkjf]{无踪}，所有对你@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}的生物变为对你@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}。若你搜索物体，你得知其位置或获得一些线索，具体由GM判断。"
                 },
                 "Title": "搜索"
             },
