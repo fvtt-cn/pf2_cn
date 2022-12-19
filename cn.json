@@ -541,8 +541,8 @@
             "Sneak": {
                 "Notes": {
                     "success": "<strong>成功</strong> 你在移动过程中不会被生物发现，在移动结束时也不会。",
-                    "failure": "<strong>失败</strong> 一个警报的声音或其他迹象泄露了你的位置，不过你仍然保持隐身。在你移动的过程中，你一直都不会被生物发现",
-                    "criticalFailure": "<strong>大失败</strong> 你发现了!在你的整个运动过程中，你都被某个生物观察着，并且一直如此。如果你是隐形的且对于那个生物来说是藏匿状态，那么你在整个运动过程中都是藏匿状态，并且一直如此。",
+                    "failure": "<strong>失败</strong> 你发出声音或是留下蛛丝马迹，让观察者注意到有人在他们鼻子下面猫猫祟祟地行动——但他们还看不到你。在你的移动期间和结束移动后你都对对方视为藏匿状态",
+                    "criticalFailure": "<strong>大失败</strong> 你被发现了！在你的移动期间和结束移动后你都对对方视为可见状态。如果你处于隐形状态且对观察你的生物视为拥有隐匿，那么在你的移动期间和结束移动后你都对对方视为藏匿而非可见状态。",
                     "criticalSuccess": "<strong>大成功</strong> 你在移动过程中不会被生物发现，在移动结束时也不会。"
                 },
                 "Title": "潜行"
@@ -1776,7 +1776,7 @@
         "ConditionTypeHostile": "敌对",
         "ConditionTypeImmobilized": "禁足",
         "ConditionTypeIndifferent": "不关心",
-        "ConditionTypeInvisible": "隐匿",
+        "ConditionTypeInvisible": "隐形",
         "ConditionTypeObserved": "可见",
         "ConditionTypeParalyzed": "麻痹",
         "ConditionTypePersistent": "持续伤害",
@@ -5083,8 +5083,8 @@
                 "summary": "NPC不把你当回事。"
             },
             "invisible": {
-                "name": "隐匿",
-                "rules": "<p>处于隐匿状态时，你不会被看见。你对所有生物都处于无踪（Undetected）状态。生物可尝试搜索到你；若生物察觉检定对抗你的潜行DC成功，你对该生物会变成藏匿（Hidden）状态，直到你成功潜行（Sneak）再变为无踪状态。若你在已看到你的单位面前变成隐匿状态，则直到你成功潜行（Sneak）为止，你对该单位初始只为藏匿状态而非无踪状态。除非有特殊能力或魔法，否则处于隐匿状态下的你不会变成可见状态。</p>",
+                "name": "隐形",
+                "rules": "<p>处于隐形状态时，你不会被看见。你对所有生物都处于无踪（Undetected）状态。生物可尝试搜索（Seek）到你；若生物察觉检定对抗你的潜行DC成功，你对该生物会变成藏匿（Hidden）状态，直到你成功潜行（Sneak）再变为无踪状态。若你在已看到你的单位面前变成隐形状态，则直到你成功潜行（Sneak）为止，你对该单位初始只为藏匿状态而非无踪状态。除非有特殊能力或魔法，否则处于隐形状态下的你不会变成可见状态。</p>",
                 "summary": "踪迹全无。"
             },
             "observed": {
