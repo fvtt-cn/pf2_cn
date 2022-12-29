@@ -59,7 +59,7 @@
             },
             "Note": {
                 "GrabbingTrunk": {
-                    "Text": "你的长鼻攻击命中中型或更小体型的生物后可以将其@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{攫抓 Grabbed}。如果你成功通过@UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒抱 Grapple}检定对抗你长鼻所攫抓的生物，则可以带着该生物一起移动。",
+                    "Text": "你的长鼻攻击命中中型或更小体型的生物后可以将其@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{攫抓 Grabbed}。如果你成功通过@UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒拿 Grapple}检定对抗你长鼻所攫抓的生物，则可以带着该生物一起移动。",
                     "Title": "鼻卷"
                 }
             }
