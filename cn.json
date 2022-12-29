@@ -575,7 +575,7 @@
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 你的篡改非常有效。如果你篡改了武器，敌人在使用该武器进行的攻击骰和伤害骰上承受-2环境罚值。如果你篡改了护甲，护甲会妨碍敌人的移动，令敌人陷入措手不及且在速度上承受-10罚值。该效果持续到敌人交互Interact以移除，无论你选择进行何种篡改。 @UUID[Compendium.pf2e.feat-effects.rzcpTJU9MvW1x1gz]{Effect: Armor Tampered With (Critical Success)} @UUID[Compendium.pf2e.feat-effects.o7qm13OmaYOMwgib]{Effect: Weapon Tampered With (Critical Success)}",
                     "success": "<strong>成功</strong> 你的篡改暂时有效。如大成功，但效果持续到你的下回合开始，即使敌人没有进行交互Interact以移除。 @UUID[Compendium.pf2e.feat-effects.IfRkgjyh0JzGalIy]{效果：篡改护甲（成功）} @UUID[Compendium.pf2e.feat-effects.4QWayYR3JSL9bk2T]{效果：篡改武器（成功）}",
-                    "criticalFailure": "<strong>Critical Failure</strong> 你的篡改引起了华丽的麻烦，你的工具或器械发生了小规模的爆炸。你承受等于 [[/r {@details.level.value}[fire] # Tamper Backfire]]{你等级的火焰伤害}。"
+                    "criticalFailure": "<strong>大失败</strong> 你的篡改引起了华丽的麻烦，你的工具或器械发生了小规模的爆炸。你承受等于 [[/r {@details.level.value}[fire] # Tamper Backfire]]{你等级的火焰伤害}。"
                 },
                 "Title": "篡改"
             },
