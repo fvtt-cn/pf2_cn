@@ -573,7 +573,7 @@
             },
             "Tamper": {
                 "Notes": {
-                    "criticalSuccess": "<strong>大成功</strong> 你的篡改非常有效。如果你篡改了武器，敌人在使用该武器进行的攻击骰和伤害骰上承受-2环境罚值。如果你篡改了护甲，护甲会妨碍敌人的移动，令敌人陷入措手不及且在速度上承受-10罚值。该效果持续到敌人交互Interact以移除，无论你选择进行何种篡改。 @UUID[Compendium.pf2e.feat-effects.rzcpTJU9MvW1x1gz]{Effect: Armor Tampered With (Critical Success)} @UUID[Compendium.pf2e.feat-effects.o7qm13OmaYOMwgib]{Effect: Weapon Tampered With (Critical Success)}",
+                    "criticalSuccess": "<strong>大成功</strong> 你的篡改非常有效。如果你篡改了武器，敌人在使用该武器进行的攻击骰和伤害骰上承受-2环境罚值。如果你篡改了护甲，护甲会妨碍敌人的移动，令敌人陷入措手不及且在速度上承受-10罚值。该效果持续到敌人交互Interact以移除，无论你选择进行何种篡改。 @UUID[Compendium.pf2e.feat-effects.rzcpTJU9MvW1x1gz]{效果: Armor Tampered With (Critical Success)} @UUID[Compendium.pf2e.feat-effects.o7qm13OmaYOMwgib]{效果: Weapon Tampered With (Critical Success)}",
                     "success": "<strong>成功</strong> 你的篡改暂时有效。如大成功，但效果持续到你的下回合开始，即使敌人没有进行交互Interact以移除。 @UUID[Compendium.pf2e.feat-effects.IfRkgjyh0JzGalIy]{效果：篡改护甲（成功）} @UUID[Compendium.pf2e.feat-effects.4QWayYR3JSL9bk2T]{效果：篡改武器（成功）}",
                     "criticalFailure": "<strong>大失败</strong> 你的篡改引起了华丽的麻烦，你的工具或器械发生了小规模的爆炸。你承受等于 [[/r {@details.level.value}[fire] # Tamper Backfire]]{你等级的火焰伤害}。"
                 },
@@ -4543,7 +4543,7 @@
             "bloodthirsty": {
                 "Name": "嗜血符文",
                 "Note": {
-                    "criticalSuccess": "当你重击一个正在受到@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害 Persistent Bleed Damage}的目标时，目标陷入@UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{流失 Drained 1}。"
+                    "criticalSuccess": "当你重击一个正在受到@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}的目标时，目标陷入@UUID[Compendium.pf2e.conditionitems.4D2KBtexWXa6oUMR]{流失 Drained 1}。"
                 }
             },
             "brilliant": {
@@ -4661,7 +4661,7 @@
             "greaterFlaming": {
                 "Name": "高等炽焰符文",
                 "Note": {
-                    "criticalSuccess": "该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。当你用此武器的打击重击时，你对目标额外造成[[/r {2d10}[persistent,fire]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害 Persistent Fire Damage}。",
+                    "criticalSuccess": "该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。当你用此武器的打击重击时，你对目标额外造成[[/r {2d10}[persistent,fire]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}。",
                     "success": "该武器造成的火焰伤害忽略目标的火焰抗力。"
                 }
             },
@@ -4702,10 +4702,10 @@
                     "Bow": "<strong>深化符文</strong> 拔出弹头的运动DC为20。",
                     "Brawling": "<strong>深化符文</strong> 目标的豁免获得-4环境减值。",
                     "Club": "<strong>深化符文</strong> 你可以击退目标最多15尺远。",
-                    "Dart": "<strong>深化符文</strong> 基础持续流血伤害提升为[[/r {2d6}[persistent,bleed]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害 Persistent Bleed Damage}。",
+                    "Dart": "<strong>深化符文</strong> 基础持续流血伤害提升为[[/r {2d6}[persistent,bleed]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}。",
                     "Flail": "<strong>深化符文</strong> 你移动目标5尺。你无法将其移动远离你，但可以按你所想将其移动到你的另一个方位上。",
                     "Hammer": "<strong>深化符文</strong> 你还可以将其击退离你5尺远。",
-                    "Knife": "<strong>深化符文</strong> 只要目标还受到该@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害 Persistent Bleed Damage}，其速度获得-5尺状态减值。",
+                    "Knife": "<strong>深化符文</strong> 只要目标还受到该@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}，其速度获得-5尺状态减值。",
                     "Pick": "<strong>深化符文</strong>重击专精效果的额外伤害增加为每颗武器伤害骰4点。",
                     "Polearm": "<strong>深化符文</strong> 你可以移动目标最多10尺。",
                     "Shield": "<strong>深化符文</strong> 你可以击退目标最多10尺远。",
@@ -4779,7 +4779,7 @@
             "unholy": {
                 "Name": "邪恶符文",
                 "Note": {
-                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每天一次)<br /><br /><strong>触发</strong>你用该武器对一善良生物的攻击骰重击<br /><br /><strong>效果</strong> 符文蚀刻的武器每有1个武器伤害骰，目标就受到1d8点@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{Persistent Bleed Damage 持续流血伤害} 。"
+                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每天一次)<br /><br /><strong>触发</strong>你用该武器对一善良生物的攻击骰重击<br /><br /><strong>效果</strong> 符文蚀刻的武器每有1个武器伤害骰，目标就受到1d8点@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续 Bleed Damage 持续流血伤害} 。"
                 }
             },
             "vorpal": {
