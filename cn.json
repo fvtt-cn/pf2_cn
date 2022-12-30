@@ -573,8 +573,8 @@
             },
             "Tamper": {
                 "Notes": {
-                    "criticalSuccess": "<strong>大成功</strong> 你的篡改非常有效。如果你篡改了武器，敌人在使用该武器进行的攻击骰和伤害骰上承受-2环境罚值。如果你篡改了护甲，护甲会妨碍敌人的移动，令敌人陷入措手不及且在速度上承受-10罚值。该效果持续到敌人交互Interact以移除，无论你选择进行何种篡改。 @UUID[Compendium.pf2e.feat-effects.rzcpTJU9MvW1x1gz]{效果: Armor Tampered With (Critical Success)} @UUID[Compendium.pf2e.feat-effects.o7qm13OmaYOMwgib]{效果: Weapon Tampered With (Critical Success)}",
-                    "success": "<strong>成功</strong> 你的篡改暂时有效。如大成功，但效果持续到你的下回合开始，即使敌人没有进行交互Interact以移除。 @UUID[Compendium.pf2e.feat-effects.IfRkgjyh0JzGalIy]{效果：篡改护甲（成功）} @UUID[Compendium.pf2e.feat-effects.4QWayYR3JSL9bk2T]{效果：篡改武器（成功）}",
+                    "criticalSuccess": "<strong>大成功</strong> 你的篡改非常有效。如果你篡改了武器，敌人在使用该武器进行的攻击骰和伤害骰上承受-2环境罚值。如果你篡改了护甲，护甲会妨碍敌人的移动，令敌人陷入措手不及且在速度上承受-10罚值。该效果持续到敌人交互以移除，无论你选择进行何种篡改。 @UUID[Compendium.pf2e.feat-effects.rzcpTJU9MvW1x1gz]{效果: Armor Tampered With (大成功)} @UUID[Compendium.pf2e.feat-effects.o7qm13OmaYOMwgib]{效果: Weapon Tampered With (大成功)}",
+                    "success": "<strong>成功</strong> 你的篡改暂时有效。如大成功，但效果持续到你的下回合开始，即使敌人没有进行交互以移除。 @UUID[Compendium.pf2e.feat-effects.IfRkgjyh0JzGalIy]{效果：篡改护甲（成功）} @UUID[Compendium.pf2e.feat-effects.4QWayYR3JSL9bk2T]{效果：篡改武器（成功）}",
                     "criticalFailure": "<strong>大失败</strong> 你的篡改引起了华丽的麻烦，你的工具或器械发生了小规模的爆炸。你承受等于 [[/r {@details.level.value}[fire] # Tamper Backfire]]{你等级的火焰伤害}。"
                 },
                 "Title": "篡改"
@@ -5084,7 +5084,7 @@
             },
             "invisible": {
                 "name": "隐形",
-                "rules": "<p>处于隐形状态时，你不会被看见。你对所有生物都处于无踪（Undetected）状态。生物可尝试搜索（Seek）到你；若生物察觉检定对抗你的潜行DC成功，你对该生物会变成藏匿（Hidden）状态，直到你成功潜行（Sneak）再变为无踪状态。若你在已看到你的单位面前变成隐形状态，则直到你成功潜行（Sneak）为止，你对该单位初始只为藏匿状态而非无踪状态。除非有特殊能力或魔法，否则处于隐形状态下的你不会变成可见状态。</p>",
+                "rules": "<p>处于隐形状态时，你不会被看见。你对所有生物都处于无踪状态。生物可尝试搜索到你；若生物察觉检定对抗你的潜行DC成功，你对该生物会变成藏匿状态，直到你成功潜行再变为无踪状态。若你在已看到你的单位面前变成隐形状态，则直到你成功潜行为止，你对该单位初始只为藏匿状态而非无踪状态。除非有特殊能力或魔法，否则处于隐形状态下的你不会变成可见状态。</p>",
                 "summary": "踪迹全无。"
             },
             "observed": {
@@ -5119,7 +5119,7 @@
             },
             "restrained": {
                 "name": "束缚",
-                "rules": "<p>你被绑住几乎无法动弹，或某生物压制住了你。你获得措手不及状态和禁足状态，且你无法使用任何拥有攻击或操纵特征的动作，除了逃脱（Escape）和破拆（Force Open）束缚这俩动作。束缚状态覆盖擒抱状态。</p>",
+                "rules": "<p>你被绑住几乎无法动弹，或某生物压制住了你。你获得措手不及状态和禁足状态，且你无法使用任何拥有攻击或操纵特征的动作，除了逃脱和破拆（Force Open）束缚这俩动作。束缚状态覆盖擒抱状态。</p>",
                 "summary": "你被捆住无法移动，或缠斗中的生物压制住了你。"
             },
             "sickened": {
