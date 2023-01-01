@@ -694,7 +694,16 @@
             },
             "CannotAddType": "无法将{type}物品添加到此角色。",
             "Condition": {
-                "Flanked": "措手不及(夹击)"
+                "Flanked": "措手不及(夹击)",
+                "PersistentDamage": {
+                    "Dialog": {
+                        "Add": "赋予持续伤害",
+                        "Title": "持续伤害 ({actor})",
+                        "Remove": "移除持续伤害"
+                    },
+                    "Name": "持续伤害 ({formula})",
+                    "NameWithDC": "持续伤害({formula} DC{dc})"
+                }
             },
             "Deity": {
                 "Alignment": "阵营",
@@ -1190,7 +1199,11 @@
                 },
                 "ThrownUsage": {
                     "Label": "用作投掷"
-                }
+                },
+                "Damage": {
+                    "DiceNumber": "骰数"
+                },
+                "FromABP": "自动成长加值已将该武器的{property}调整为{value}。"
             },
             "Rules": {
                 "Apply": "应用",
@@ -1904,7 +1917,7 @@
                 },
                 "CompositeLabel": {
                     "Exceptions0DoubleVs0": "{type} {value}",
-                    "Exceptions0DoubleVs1": "{type} {value} (此抗力{doubleVs1}时翻倍)",
+                    "Exceptions0DoubleVs1": "{type} {value} (此抗力对抗{doubleVs1}时翻倍)",
                     "Exceptions0DoubleVs2": "{type} {value} (对{doubleVs1} 或{doubleVs2}双倍抗力)",
                     "Exceptions0DoubleVs4": "{type} {value} (对{doubleVs1}, {doubleVs2}, {doubleVs3}或{doubleVs4}双倍抗力)",
                     "Exceptions1DoubleVs0": "{type} {value} (除了{exception1})",
@@ -1928,8 +1941,128 @@
                     "Exceptions4DoubleVs2": "{type} {value} (除{exception1}、{exception2}、{exception3}或{exception4}; 此抗力对抗{doubleVs1}或{doubleVs2}时翻倍)",
                     "Exceptions4DoubleVs3": "{type} {value} (除{exception1}、{exception2}、{exception3}或{exception4}; 此抗力对抗{doubleVs1}、{doubleVs2}或{doubleVs3}时翻倍)",
                     "Exceptions4DoubleVs4": "{type} {value} (除{exception1}、{exception2}、{exception3}或{exception4}; 此抗力对抗{doubleVs1}、{doubleVs2}、{doubleVs3}或{doubleVs4}时翻倍)"
+                },
+                "Type": {
+                    "illusion": "幻术系",
+                    "immobilized": "禁足",
+                    "inhaled": "吸入",
+                    "light": "光亮",
+                    "magic": "魔法",
+                    "magical": "魔法",
+                    "misfortune-effects": "厄运效果",
+                    "mithral": "秘银",
+                    "necromancy": "死灵系",
+                    "non-magical": "非魔法",
+                    "nonlethal": "非致命",
+                    "nonlethal-attacks": "非致命攻击",
+                    "object-immunities": "物品免疫",
+                    "protean-anatomy": "幻蛇体质",
+                    "radiation": "辐射",
+                    "abjuration": "防护系",
+                    "adamantine": "精金",
+                    "all-damage": "全部伤害",
+                    "area-damage": "区域伤害",
+                    "auditory": "听觉",
+                    "axe-vulnerability": "斧类易伤",
+                    "arrow-vulnerability": "箭矢易伤",
+                    "blinded": "目盲",
+                    "broken": "破损",
+                    "clumsy": "笨拙",
+                    "cold-iron": "寒铁",
+                    "confused": "困惑",
+                    "conjuration": "咒法系",
+                    "controlled": "被控制",
+                    "critical-hits": "重击",
+                    "curse": "诅咒",
+                    "darkwood": "暗木",
+                    "dazzled": "目眩",
+                    "deafened": "耳聋",
+                    "divination": "预言系",
+                    "doomed": "毁灭",
+                    "drained": "流失",
+                    "emotion": "情绪",
+                    "enchantment": "惑控系",
+                    "energy": "能量",
+                    "enfeebled": "力竭",
+                    "evocation": "塑能系",
+                    "fascinated": "迷魂",
+                    "fatigued": "疲乏",
+                    "fear-effects": "恐惧效果",
+                    "flat-footed": "措手不及",
+                    "fleeing": "逃跑",
+                    "ghost-touch": "幽冥",
+                    "grabbed": "擒抱",
+                    "healing": "治疗",
+                    "hidden": "藏匿",
+                    "olfactory": "味觉",
+                    "orichalcum": "山铜",
+                    "paralyzed": "麻痹",
+                    "petrified": "石化",
+                    "physical": "物理",
+                    "plant": "植物",
+                    "polymorph": "变形",
+                    "possession": "占据",
+                    "prone": "倒地",
+                    "restrained": "束缚",
+                    "salt": "盐",
+                    "salt-water": "咸水",
+                    "scrying": "探知",
+                    "silver": "银",
+                    "sleep": "睡眠",
+                    "slowed": "缓慢",
+                    "splash-damage": "泼溅伤害",
+                    "spell-deflection": "法术偏斜",
+                    "stunned": "震慑",
+                    "stupefied": "呆滞",
+                    "swarm-attacks": "集群攻击",
+                    "swarm-mind": "母巢思维",
+                    "transmutation": "变化系",
+                    "unarmed-attacks": "无武装攻击",
+                    "unconscious": "失去意识",
+                    "vampire-weaknesses": "吸血鬼弱点",
+                    "visual": "视觉",
+                    "vorpal": "斩首",
+                    "vorpal-fear": "恐惧斩首",
+                    "vulnerable-to-sunlight": "阳光易伤",
+                    "warpglass": "扭曲玻璃",
+                    "water": "水",
+                    "weapons": "武器",
+                    "weapons-shedding-bright-light": "发光武器",
+                    "death-effects": "死亡效果",
+                    "disease": "疾病",
+                    "frightened": "惊惧",
+                    "sickened": "恶心",
+                    "trip": "摔拌"
                 }
-            }
+            },
+            "RollFlavor": {
+                "acid": "酸液",
+                "air": "气",
+                "bleed": "流血",
+                "bludgeoning": "钝击",
+                "chaotic": "混乱",
+                "cold": "寒冷",
+                "earth": "土",
+                "electricity": "电击",
+                "evil": "邪恶",
+                "force": "力场",
+                "good": "善良",
+                "lawful": "守序",
+                "mental": "心灵",
+                "metal": "金属",
+                "negative": "负能量",
+                "persistent": "持续{damageType}",
+                "piercing": "穿刺",
+                "poison": "毒素",
+                "positive": "正能量",
+                "precision": "精准",
+                "slashing": "挥砍",
+                "sonic": "音波",
+                "splash": "泼溅",
+                "untyped": "无名",
+                "fire": "火焰"
+            },
+            "PersistentTooltip": "持续{damageType}"
         },
         "DamageCategoriesLabel": "伤害类别",
         "DamageDieD10": "d10",
@@ -1981,7 +2114,15 @@
                 "FastHealing": {
                     "FastHealingLabel": "受到快速治疗",
                     "RegenerationLabel": "受到再生",
-                    "DeactivatedBy": "被{types}暂时无效"
+                    "DeactivatedBy": "被{types}暂时无效",
+                    "fast-healing": {
+                        "Name": "快速治疗",
+                        "ReceivedMessage": "受到快速治疗"
+                    },
+                    "regeneration": {
+                        "Name": "再生",
+                        "ReceivedMessage": "受到再生"
+                    }
                 }
             },
             "Budget": {
@@ -3371,7 +3512,7 @@
         "TraitAasimar": "神裔",
         "TraitAberration": "异怪",
         "TraitAbjuration": "防护系",
-        "TraitAcid": "酸",
+        "TraitAcid": "酸液",
         "TraitAdditive1": "添加剂 1",
         "TraitAdditive2": "添加剂 2",
         "TraitAdditive3": "添加剂 3",
