@@ -1904,7 +1904,7 @@
                 },
                 "CompositeLabel": {
                     "Exceptions0DoubleVs0": "{type} {value}",
-                    "Exceptions0DoubleVs1": "{type} {value} (对{doubleVs1}双倍抗力)",
+                    "Exceptions0DoubleVs1": "{type} {value} (此抗力{doubleVs1}时翻倍)",
                     "Exceptions0DoubleVs2": "{type} {value} (对{doubleVs1} 或{doubleVs2}双倍抗力)",
                     "Exceptions0DoubleVs4": "{type} {value} (对{doubleVs1}, {doubleVs2}, {doubleVs3}或{doubleVs4}双倍抗力)",
                     "Exceptions1DoubleVs0": "{type} {value} (除了{exception1})",
@@ -1915,7 +1915,12 @@
                     "Exceptions2DoubleVs0": "{type} {value} (除{exception1}或{exception2})",
                     "Exceptions2DoubleVs1": "{type} {value} (除{exception1}或{exception2}; 此抗力对抗{doubleVs1}时翻倍)",
                     "Exceptions2DoubleVs2": "{type} {value} (除{exception1}或{exception2}; 此抗力对抗{doubleVs1}或{doubleVs2}时翻倍)",
-                    "Exceptions1DoubleVs4": "{type} {value} (除{exception1}; 此抗力对抗{doubleVs1}、{doubleVs2}、{doubleVs3}或{doubleVs4}时翻倍)"
+                    "Exceptions1DoubleVs4": "{type} {value} (除{exception1}; 此抗力对抗{doubleVs1}、{doubleVs2}、{doubleVs3}或{doubleVs4}时翻倍)",
+                    "Exceptions2DoubleVs4": "{type} {value} (除{exception1}或{exception2}; 此抗力对抗{doubleVs1}、{doubleVs2}、{doubleVs3}或{doubleVs4}时翻倍)",
+                    "Exceptions3DoubleVs0": "{type} {value} (除{exception1}、{exception2}或{exception3})",
+                    "Exceptions3DoubleVs1": "{type} {value} (除{exception1}、{exception2}或{exception3}; 此抗力对抗{doubleVs1}时翻倍)",
+                    "Exceptions3DoubleVs2": "{type} {value} (除{exception1}、{exception2}或{exception3}; 此抗力对抗{doubleVs1}或{doubleVs2}时翻倍)",
+                    "Exceptions2DoubleVs3": "{type} {value} (除{exception1}或{exception2}; 此抗力对抗{doubleVs1}、{doubleVs2}或{doubleVs3}时翻倍)"
                 }
             }
         },
