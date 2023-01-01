@@ -575,7 +575,7 @@
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 你的篡改非常有效。如果你篡改了武器，敌人在使用该武器进行的攻击骰和伤害骰上承受-2环境罚值。如果你篡改了护甲，护甲会妨碍敌人的移动，令敌人陷入措手不及且在速度上承受-10罚值。该效果持续到敌人交互以移除，无论你选择进行何种篡改。 @UUID[Compendium.pf2e.feat-effects.rzcpTJU9MvW1x1gz]{效果: Armor Tampered With (大成功)} @UUID[Compendium.pf2e.feat-effects.o7qm13OmaYOMwgib]{效果: Weapon Tampered With (大成功)}",
                     "success": "<strong>成功</strong> 你的篡改暂时有效。如大成功，但效果持续到你的下回合开始，即使敌人没有进行交互以移除。 @UUID[Compendium.pf2e.feat-effects.IfRkgjyh0JzGalIy]{效果：篡改护甲（成功）} @UUID[Compendium.pf2e.feat-effects.4QWayYR3JSL9bk2T]{效果：篡改武器（成功）}",
-                    "criticalFailure": "<strong>大失败</strong> 你的篡改引起了华丽的麻烦，你的工具或器械发生了小规模的爆炸。你承受等于 [[/r {@details.level.value}[fire] # Tamper Backfire]]{你等级的火焰伤害}。"
+                    "criticalFailure": "<strong>大失败</strong> 你的篡改引起了华丽的麻烦，你的工具或器械发生了小规模的爆炸。你承受等于 [[/r (@details.level.value}[fire] # Tamper Backfire]]{你等级的火焰伤害}。"
                 },
                 "Title": "篡改"
             },
@@ -1920,7 +1920,14 @@
                     "Exceptions3DoubleVs0": "{type} {value} (除{exception1}、{exception2}或{exception3})",
                     "Exceptions3DoubleVs1": "{type} {value} (除{exception1}、{exception2}或{exception3}; 此抗力对抗{doubleVs1}时翻倍)",
                     "Exceptions3DoubleVs2": "{type} {value} (除{exception1}、{exception2}或{exception3}; 此抗力对抗{doubleVs1}或{doubleVs2}时翻倍)",
-                    "Exceptions2DoubleVs3": "{type} {value} (除{exception1}或{exception2}; 此抗力对抗{doubleVs1}、{doubleVs2}或{doubleVs3}时翻倍)"
+                    "Exceptions2DoubleVs3": "{type} {value} (除{exception1}或{exception2}; 此抗力对抗{doubleVs1}、{doubleVs2}或{doubleVs3}时翻倍)",
+                    "Exceptions3DoubleVs3": "{type} {value} (除{exception1}、{exception2}或{exception3}; 此抗力对抗{doubleVs1}、{doubleVs2}或{doubleVs3}时翻倍)",
+                    "Exceptions3DoubleVs4": "{type} {value} (除{exception1}、{exception2}或{exception3}; 此抗力对抗{doubleVs1}、{doubleVs2}、{doubleVs3}或{doubleVs4}时翻倍)",
+                    "Exceptions4DoubleVs0": "{type} {value} (除{exception1}、{exception2}、{exception3}或{exception4})",
+                    "Exceptions4DoubleVs1": "{type} {value} (除{exception1}、{exception2}、{exception3}或{exception4}; 此抗力对抗{doubleVs1}时翻倍)",
+                    "Exceptions4DoubleVs2": "{type} {value} (除{exception1}、{exception2}、{exception3}或{exception4}; 此抗力对抗{doubleVs1}或{doubleVs2}时翻倍)",
+                    "Exceptions4DoubleVs3": "{type} {value} (除{exception1}、{exception2}、{exception3}或{exception4}; 此抗力对抗{doubleVs1}、{doubleVs2}或{doubleVs3}时翻倍)",
+                    "Exceptions4DoubleVs4": "{type} {value} (除{exception1}、{exception2}、{exception3}或{exception4}; 此抗力对抗{doubleVs1}、{doubleVs2}、{doubleVs3}或{doubleVs4}时翻倍)"
                 }
             }
         },
@@ -2698,7 +2705,7 @@
                 "name": "FVTT状态图标设置"
             },
             "statusEffectShowCombatMessage": {
-                "hint": "每回合都在聊天栏显示战斗状态信息。这一设置在游戏存在多个GM的时候仅能为一个人使用。",
+                "hint": "每回合都在聊天栏显示当回合参战者的状态信息。",
                 "name": "显示战斗状态信息"
             },
             "statusEffectType": {
@@ -2790,6 +2797,10 @@
                 "LootableNPCs": {
                     "Name": "NPC是可以被搜刮的",
                     "Hint": "NPC死亡后，玩家可以拾取战利品。"
+                },
+                "IWR": {
+                    "Name": "免疫、弱点和抗力",
+                    "Hint": "在人物身上应用伤害时，根据人物的免疫、弱点和抗力调整伤害值。"
                 }
             },
             "Homebrew": {
@@ -2840,6 +2851,14 @@
                 "EquipmentTraits": {
                     "Name": "装备特征",
                     "Hint": "适用于武器以外的装备的特性"
+                },
+                "Tabs": {
+                    "Traits": "特征和类型",
+                    "Damage": "伤害类型"
+                },
+                "DamageTypes": {
+                    "name": "自定义伤害类型",
+                    "Hint": "用于系统识别的额外伤害类型"
                 }
             },
             "Metagame": {
@@ -3014,6 +3033,10 @@
                         "Hint": "将属性提升的能力分散到更多等级。除6级、11级和16级外，玩家每级都会获得一项提升。"
                     }
                 }
+            },
+            "TOTMToggles": {
+                "Name": "启用心灵剧场",
+                "Hint": "在人物卡上添加额外的开关，以播放心灵剧场。 此操作将允许启用某些功能而无需在Foundry中选定目标。"
             }
         },
         "SaveDCLabel": "豁免DC {dc} {type}",
@@ -3188,17 +3211,17 @@
         "SpellCollectionRemove": "从法术合集中移除",
         "SpellLabel": "法术",
         "SpellLabelPlural": "法术",
-        "SpellLevel": "{category} {level}",
-        "SpellLevel1": "1st 等级",
-        "SpellLevel10": "10th 等级",
-        "SpellLevel2": "2nd 等级",
-        "SpellLevel3": "3rd 等级",
-        "SpellLevel4": "4th 等级",
-        "SpellLevel5": "5th 等级",
-        "SpellLevel6": "6th 等级",
-        "SpellLevel7": "7th 等级",
-        "SpellLevel8": "8th 等级",
-        "SpellLevel9": "9th 等级",
+        "SpellLevel": "{level}环",
+        "SpellLevel1": "1环",
+        "SpellLevel10": "10环",
+        "SpellLevel2": "2环",
+        "SpellLevel3": "3环",
+        "SpellLevel4": "4环",
+        "SpellLevel5": "5环",
+        "SpellLevel6": "6环",
+        "SpellLevel7": "7环",
+        "SpellLevel8": "8环",
+        "SpellLevel9": "9环",
         "SpellLevelLabel": "法术等级",
         "SpellLevelBase": "基础: {level}",
         "SpellLevelHeightened": "升阶: +{heightened}",
@@ -3334,7 +3357,9 @@
                 "Dimensions": "尺寸",
                 "LinkToActorSize": {
                     "Label": "关联至角色体型",
-                    "Hint": "保持此指示物的尺寸与其角色的体型类别一致"
+                    "Hint": "保持此指示物的尺寸与其角色的体型类别一致",
+                    "Link": "与角色体型关联",
+                    "Unlink": "取消与角色体型关联"
                 }
             }
         },
@@ -4276,7 +4301,7 @@
             },
             "errorTargetToken": "需要选中一个目标。",
             "noDamageInfoForOutcome": "没有关于 {outcome}的伤害信息。",
-            "shiftModifyDamageLabel": "调整值:",
+            "shiftModifyDamageLabel": "调整伤害/治疗",
             "shiftModifyDamageTitle": "修改骰出的伤害/治疗"
         },
         "UnitPriceLabel": "单价",
@@ -4505,7 +4530,9 @@
                 "war-lance": "战枪",
                 "reinforced-wheels": "加固车轮",
                 "wheel-blades": "轮刃",
-                "wheel-spikes": "轮刺"
+                "wheel-spikes": "轮刺",
+                "thorn-whip": "荆棘之鞭",
+                "injection-spear": "注射矛"
             }
         },
         "WeaponAbilityLabel": "武器能力",
@@ -4592,7 +4619,7 @@
             "corrosive": {
                 "Name": "腐蚀符文",
                 "Note": {
-                    "criticalSuccess": "重击时，目标的盔甲受到 [[/r {3d6}[acid] #Corrosive Rune]]{3d6 acid} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。"
+                    "criticalSuccess": "重击时，目标的盔甲受到 [[/r (3d6}[acid] #Corrosive Rune]]{3d6 acid} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。"
                 }
             },
             "crushing": {
@@ -4664,7 +4691,7 @@
             "greaterCorrosive": {
                 "Name": "高等腐蚀符文",
                 "Note": {
-                    "criticalSuccess": "该武器造成的酸液伤害无视酸液抗力。 重击时，目标的盔甲受到 [[/r {6d6}[acid]]{6d6 酸液} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。",
+                    "criticalSuccess": "该武器造成的酸液伤害无视酸液抗力。 重击时，目标的盔甲受到 [[/r (6d6}[acid]]{6d6 酸液} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。",
                     "success": "<strong>Greater Corrosive Rune</strong> 该武器造成的酸液伤害无视酸液抗力。"
                 }
             },
@@ -4677,7 +4704,7 @@
             "greaterDisrupting": {
                 "Name": "高等瓦解符文",
                 "Note": {
-                    "criticalSuccess": "重击时，目标不死生物必须成功通过一个@Check[type:fortitude|dc:34|traits:incapacitation|name:Greater Disrupting Rune]豁免来规避以下效果。这是一个失能效果。<br /><br /><strong>大成功</strong> 陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}直到你下一个回合结束<br /><strong>成功</strong> 陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}直到你下一回合结束<br /><strong>失败</strong> 陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 3} 直到你下一回合结束<br /><strong>大失败</strong> 被直接摧毁。"
+                    "criticalSuccess": "重击时，目标不死生物必须成功通过一个@Check[type:fortitude|dc:34|traits:incapacitation|name:Greater Disrupting Rune]豁免来规避以下效果。这是一个失能效果。<br /><strong>大成功</strong> 陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}直到你下一个回合结束<br /><strong>成功</strong> 陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}直到你下一回合结束<br /><strong>失败</strong> 陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 3} 直到你下一回合结束<br /><strong>大失败</strong> 被直接摧毁。"
                 }
             },
             "greaterExtending": {
@@ -4695,7 +4722,7 @@
             "greaterFlaming": {
                 "Name": "高等炽焰符文",
                 "Note": {
-                    "criticalSuccess": "该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。当你用此武器的打击重击时，你对目标额外造成[[/r {2d10}[persistent,fire]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续火焰伤害}。",
+                    "criticalSuccess": "该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。当你用此武器的打击重击时，你对目标额外造成[[/r 2d10[persistent,fire]]]。",
                     "success": "该武器造成的火焰伤害忽略目标的火焰抗力。"
                 }
             },
@@ -4736,7 +4763,7 @@
                     "Bow": "<strong>深化符文</strong> 拔出弹头的运动DC为20。",
                     "Brawling": "<strong>深化符文</strong> 目标的豁免获得-4环境减值。",
                     "Club": "<strong>深化符文</strong> 你可以击退目标最多15尺远。",
-                    "Dart": "<strong>深化符文</strong> 基础持续流血伤害提升为[[/r {2d6}[persistent,bleed]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}。",
+                    "Dart": "<strong>深化符文</strong> 基础持续流血伤害提升为[[/r 2d6[persistent,bleed]]]。",
                     "Flail": "<strong>深化符文</strong> 你移动目标5尺。你无法将其移动远离你，但可以按你所想将其移动到你的另一个方位上。",
                     "Hammer": "<strong>深化符文</strong> 你还可以将其击退离你5尺远。",
                     "Knife": "<strong>深化符文</strong> 只要目标还受到该@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}，其速度获得-5尺状态减值。",
@@ -4754,7 +4781,7 @@
             "holy": {
                 "Name": "神圣符文",
                 "Note": {
-                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每日一次)<br /><br /><strong>触发</strong> 你用该武器对一邪恶生物重击成功<br /><br /><strong>效果</strong>你获得该邪恶生物等级双倍的HP。这是一个善良、正能量、治疗效果。"
+                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每日一次)<br /><strong>触发</strong> 你用该武器对一邪恶生物重击成功<br /><br /><strong>效果</strong>你获得该邪恶生物等级双倍的HP。这是一个善良、正能量、治疗效果。"
                 }
             },
             "hopeful": {
@@ -4813,7 +4840,7 @@
             "unholy": {
                 "Name": "邪恶符文",
                 "Note": {
-                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每天一次)<br /><br /><strong>触发</strong>你用该武器对一善良生物的攻击骰重击<br /><br /><strong>效果</strong> 符文蚀刻的武器每有1个武器伤害骰，目标就受到1d8点@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续 Bleed Damage 持续流血伤害} 。"
+                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每天一次)<br /><strong>触发</strong>你用该武器对一善良生物的攻击骰重击<br /><strong>效果</strong> 符文蚀刻的武器每有1个武器伤害骰，目标就受到1d8点@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续 Bleed Damage 持续流血伤害} 。"
                 }
             },
             "vorpal": {
@@ -5299,7 +5326,9 @@
             "SheetType": "表格形式",
             "SplitCoinsLabel": "分发货币",
             "SplitCoinsPopupHeader": "选择角色分发货币",
-            "Stack": "创建新的战利品堆？"
+            "Stack": "创建新的战利品堆？",
+            "PurchaseLootMessage": "你希望购买多少道具？",
+            "PurchaseLoot": "购买道具"
         },
         "vehicle": {
             "VehicleString": "载具",
@@ -5551,7 +5580,7 @@
         "LanguageKovintal": "",
         "LanguageMahwek": "",
         "TraitPaaridar": "",
-        "TraitSkelm": "",
+        "TraitSkelm": "癫佬",
         "PreciousMaterialSisterstoneDescription": "姐妹石是一种术语，用于指代产出于在少女之原的被精魂注入的两种密切相关矿石——黄昏姐妹石和绯红姐妹石。黄昏姐妹石是淡橙色，而猩红色姐妹石是淡红色，除了颜色不同外，它们具有相同的物理特性。当靠近另一种姐妹石制成的物品时，它们都会开始散发出排斥不死生物的精神能量。",
         "LanguageOcotan": "",
         "LanguageRazatlani": "",
@@ -5559,11 +5588,11 @@
         "TraitDescriptionGoloma": "",
         "LanguageOkaiyan": "",
         "LanguageDrooni": "",
-        "TraitDescriptionGhul": "",
-        "TraitDescriptionShisk": "",
+        "TraitDescriptionGhul": "贪婪而暴食的不死鬼巨灵，它们起源自巨灵。",
+        "TraitDescriptionShisk": "神秘的类人生物生物，全身覆盖着脱毛羽管，居住在地下。",
         "TraitStheno": "",
         "TraitKovintus": "",
-        "TraitDescriptionSubjectiveGravity": "",
+        "TraitDescriptionSubjectiveGravity": "在具有主观重力特征的位面上，所有具有质量的物体都拥有相同重力的重力中心，但只在一个非无心智的生物希望时才会如此。",
         "PreciousMaterialWarpglassDescription": "",
         "PreciousMaterialGrisantianPeltDescription": "",
         "BrowserWarnPackNotLoaded": "合集包 \"{pack}\" 无法加载。",
@@ -5577,7 +5606,31 @@
         "TraitTech": "科学",
         "TraitDescriptionGhoran": "一种依靠从种子中不断复生而长生的智能植物族裔。",
         "AreaSize65": "65 尺",
-        "DeleteSpellcastEntryTitle": "删除施法能力"
+        "DeleteSpellcastEntryTitle": "删除施法能力",
+        "TraitDeadly": "致命",
+        "TraitCapacity": "弹容",
+        "TraitDescriptionJousting": "这种武器适用于骑乘战斗。当你上马时，如果你在攻击动作前移动了至少10英尺，那么该攻击的伤害增加一个等于武器的伤害骰子数量的环境加值。此外，当骑乘时，你可以单手使用武器，将伤害骰更改所列值。",
+        "TraitReload": "装填",
+        "SpellNonCantripLabel": "非戏法",
+        "TraitFatalAim": "夺命瞄准",
+        "TraitVolley": "远射",
+        "TraitVersatile": "多用",
+        "TraitTwoHand": "双手",
+        "TraitThrown200": "投掷200尺",
+        "TraitDescriptionAndroid": "通过人工手段创造的合成人形族裔。 在纽梅瑞亚最常见。",
+        "TraitDescriptionMetal": "具有金属特征的效果会操纵或召唤金属。操纵金属的效果在没有金属的区域无效。具有这种特性的生物主要由金属组成，或者与该元素有魔法联系。",
+        "TraitJousting": "骑战",
+        "TraitScatter": "散射",
+        "TraitRange": "射程",
+        "TraitRange190": "射程 190 ft",
+        "TraitRange170": "射程 170 ft",
+        "TraitRange160": "射程 160 ft",
+        "TraitRange140": "射程 140 ft",
+        "TraitRange130": "射程 130 ft",
+        "TraitRange110": "射程 110 ft",
+        "TraitWornOrOneHand": "穿戴或单手持握",
+        "TraitFatal": "夺命",
+        "ToggleEffectUnidentified": "是否启用效果未鉴定功能"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
