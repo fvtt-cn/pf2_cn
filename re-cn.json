@@ -424,17 +424,27 @@
                         "AllowedDrops": "0级或1级的简易或军用武器",
                         "Prompt": "选择一项武器大发明。"
                     }
+                },
+                "Modification": {
+                    "Initial": {
+                        "AllowedDrops": "1级发明家职业特性",
+                        "Prompt": "选择一种初始改装"
+                    }
                 }
             },
             "DedicationCraftingEntry": {
-                "Poisoner": "囚犯",
+                "Poisoner": "投毒者",
                 "Herbalist": "草药师",
-                "Snarecrafter": "圈套师"
+                "Snarecrafter": "圈套师",
+                "FireworkTechnician": "烟火技师",
+                "TalismanDabbler": "魔玩家"
             },
             "Cover": {
                 "Lesser": "次等",
                 "Standard": "标准",
-                "Greater": "高等"
+                "Greater": "高等",
+                "Prone": "倒地",
+                "Prompt": "选择掩蔽等级"
             },
             "PreciseStrike": {
                 "Finisher": "终结技"
@@ -455,14 +465,31 @@
             },
             "Elf": {
                 "BrightnessSeeker": {
-                    "Weal": "幸福",
-                    "WealAndWoe": "祸福甘苦",
-                    "Woe": "灾祸"
+                    "Weal": "吉",
+                    "WealAndWoe": "吉且凶",
+                    "Woe": "凶",
+                    "Label": "呼唤光明",
+                    "Prompt": "选择卜筮术的结果"
+                },
+                "Woodcraft": {
+                    "Note": "当处于森林或丛林环境时，如果你在为辨别方向，求生或是掩盖行踪而进行的生存技能检定中骰出大失败，你会获得失败；而如果你骰出了成功，你会获得大成功。"
+                },
+                "UnwaveringMien": {
+                    "Note": "对抗使你入睡的效果时，豁免成功度提升1级。"
+                },
+                "DemonbaneWarrior": {
+                    "Note": "如果你的行动强迫一个恶魔受到它弱点罪孽造成的伤害，专长的伤害再增加 [[/r 2]]。"
                 }
             },
             "Kobold": {
                 "DragonbloodParagon": {
-                    "Dracomancer": "龙学家"
+                    "Dracomancer": "龙学家",
+                    "VenomtailKobold": "毒尾狗头人",
+                    "KoboldBreath": "狗头人之息",
+                    "StrongjawKobold": "壮颚狗头人"
+                },
+                "DragonsPresence": {
+                    "Note": "当你在对抗恐惧效果的豁免检定中掷出成功时，可用大成功替代它。当你在此检定中投掷出失败时，则用大失败替代它。"
                 }
             },
             "Mummy": {
@@ -470,35 +497,127 @@
                     "Arctic": "极地",
                     "Desert": "沙漠",
                     "Mountain": "山脉",
-                    "Swamp": "沼泽"
+                    "Swamp": "沼泽",
+                    "Prompt": "选择你的束缚地"
+                },
+                "AccursedTouch": {
+                    "Note": {
+                        "TwentiethLevel": "若你用拳头造成了重击，你对敌人造成[[/r 4d6[persistent,negative]]]，持续伤害持续时的敌人还陷入@UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}。",
+                        "FourteenthLevel": "若你用拳头造成了重击，你对敌人造成[[/r 3d6[persistent,negative]]]，持续伤害持续时的敌人还陷入@UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}。",
+                        "Base": "若你用拳头造成了重击，你对敌人造成[[/r (2d6)[persistent,negative]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续负能量伤害}，持续伤害持续时的敌人还陷入@UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}。"
+                    }
                 }
             },
             "Zombie": {
                 "Deteriorated": "劣化"
             },
             "WildMorph": {
-                "Wings": "翅膀"
+                "Wings": "翅膀 Wings",
+                "Prompt": "选择变形",
+                "WildClaws": "野性之爪 Wild Claws",
+                "WildJaws": "野性大颚 Wild Jaws",
+                "LongVines": "长藤蔓 Long Vines",
+                "ElementalMatter": "元素物质 Elemental Matter"
             },
             "HarrowDeck": {
                 "HarrowSuits": {
-                    "Shields": "盾牌",
-                    "Stars": "星星",
-                    "Keys": "钥匙",
-                    "Hammers": "铁锤",
-                    "Crowns": "皇冠",
-                    "Books": "书籍"
-                }
+                    "Shields": "盾之牌组",
+                    "Stars": "星之牌组",
+                    "Keys": "键之牌组",
+                    "Hammers": "锤之牌组",
+                    "Crowns": "冠之牌组",
+                    "Books": "书之牌组"
+                },
+                "Prompt": "选择哈罗牌组"
             },
             "SubstituteRoll": {
                 "Assurance": "驾轻就熟"
             },
             "Ghoul": {
                 "Satiated": "满足",
-                "FullySatiated": "充分满足"
+                "FullySatiated": "充分满足",
+                "SickeningBite": {
+                    "criticalSuccess": "当你的啃咬对生物造成重击时，该生物会陷入@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 Sickened 1}。这是个疾病效果。",
+                    "success": "你能够终止满足状态来给目标带来@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 Sickened 1}状态。"
+                }
             },
             "MartialProficiency": {
                 "AdvancedGhoranWeapons": "进阶蒿兰武器",
-                "MartialGhoranWeapons": "军用蒿兰武器"
+                "MartialGhoranWeapons": "军用蒿兰武器",
+                "MartialGroup": {
+                    "axe": "军用斧",
+                    "bomb": "军用炸弹",
+                    "shield": "军用盾牌",
+                    "sling": "军用投索",
+                    "firearm": "军用火器",
+                    "hammer": "军用锤",
+                    "pick": "军用镐",
+                    "polearm": "军用长武",
+                    "spear": "军用矛",
+                    "club": "军用棍棒",
+                    "dart": "军用暗器",
+                    "brawling": "军用搏击",
+                    "knife": "军用短刃",
+                    "flail": "军用连枷",
+                    "bow": "军用弓弩",
+                    "sword": "军用剑"
+                },
+                "MartialOrcWeapons": "军用兽人武器",
+                "MartialTenguWeapons": "军用天狗武器",
+                "AdvancedHalflingWeapons": "进阶半身人武器",
+                "MartialHalflingWeapons": "军用半身人武器",
+                "AdvancedDwarfWeapons": "进阶矮人武器",
+                "AdvancedElfWeapons": "进阶精灵武器",
+                "AdvancedFirearmsCrossbows": "进阶火器&弩",
+                "AdvancedGeniekinWeapons": "进阶巨灵武器",
+                "AdvancedGroup": {
+                    "hammer": "进阶锤",
+                    "knife": "进阶短刃",
+                    "firearm": "进阶火器",
+                    "flail": "进阶连枷",
+                    "shield": "进阶盾牌",
+                    "club": "进阶棍棒",
+                    "dart": "进阶暗器",
+                    "pick": "进阶镐",
+                    "polearm": "进阶长武",
+                    "sling": "进阶投索",
+                    "spear": "进阶矛",
+                    "sword": "进阶剑",
+                    "axe": "进阶斧",
+                    "bomb": "进阶炸弹",
+                    "bow": "进阶弓弩",
+                    "brawling": "进阶搏击"
+                },
+                "AdvancedHobgoblinWeapons": "进阶大地精武器",
+                "AdvancedKoboldWeapons": "进阶狗头人武器",
+                "AdvancedOrcWeapons": "进阶兽人武器",
+                "AdvancedTenguWeapons": "进阶天狗武器",
+                "MartialCatfolkWeapons": "军用猫族武器",
+                "MartialConrasuWeapons": "军用空塑人武器",
+                "MartialDwarfWeapons": "军用矮人武器",
+                "MartialGoblinWeapons": "军用地精武器",
+                "MartialGrippliWeapons": "军用树蛙人武器",
+                "MartialKoboldWeapons": "军用狗头人武器",
+                "MonasticArchery": "禅弓式",
+                "SimpleBombsFirearms": "简易炸弹&火器",
+                "SimpleMartialTwoHandedMeleeWeapons": "简易&军用双手近战武器",
+                "SimpleMartialBows": "简易&军用弓弩",
+                "MartialGeniekinWeapons": "军用巨灵武器",
+                "MartialGnollWeapons": "军用豺狼人武器",
+                "AdvancedAzarketiWeapons": "进阶阿扎克缇武器",
+                "AdvancedCatfolkWeapons": "进阶猫族武器",
+                "AdvancedConrasuWeapons": "进阶空塑人武器",
+                "AdvancedGoblinWeapons": "进阶地精武器",
+                "MartialAzarketiWeapons": "军用阿扎克缇武器",
+                "MartialBombsFirearms": "军用炸弹&火器",
+                "MartialElfWeapons": "军用精灵武器",
+                "MartialFirearmsCrossbows": "军用火器&弩",
+                "MartialGnomeWeapons": "军用侏儒武器",
+                "MartialHobgoblinWeapons": "军用大地精武器",
+                "SimpleFirearmsCrossbows": "简易火器&弩",
+                "AdvancedGnollWeapons": "进阶豺狼人武器",
+                "AdvancedGnomeWeapons": "进阶侏儒武器",
+                "AdvancedGrippliWeapons": "进阶树蛙人武器"
             },
             "GeneralTraining": {
                 "AllowedDrops": "1级通用专长",
@@ -516,7 +635,9 @@
                 "Senses": {
                     "EcholocationImprecise": "回声定位(模糊)30尺",
                     "EcholocationPrecise": "将回声定位提升为精确感官",
-                    "TremorsenseImprecise": "震颤感知(模糊)30尺"
+                    "TremorsenseImprecise": "震颤感知(模糊)30尺",
+                    "Scent": "灵敏嗅觉(模糊)30尺",
+                    "TremorsensePrecise": "将震颤感知提升为精确感官"
                 },
                 "AnimalSenses": {
                     "Prompt": "选择一种你的本源动物具有的感官"
@@ -622,6 +743,609 @@
                 "BracersOfArmor": "野兽之肤w/盔甲护腕",
                 "ExplorersClothing": "野兽之肤w/探险者服装",
                 "MageArmor": "野兽之肤w/法师护甲"
+            },
+            "DancingShield": {
+                "Prompt": "选择盾牌AC加值"
+            },
+            "DeityAndCause": {
+                "AllowedDrops": "1级神卫职业特性",
+                "Prompt": "选择神卫事业"
+            },
+            "Dhampir": {
+                "Adhyabhau": {
+                    "SaveNote": "你在抵抗带有情绪特征的效果的意志豁免成功时，视为大成功处理。"
+                },
+                "BloodlettingFangs": {
+                    "AttackNote": "当你使用尖牙的打击造成重击时，额外造成[[/r 1d4[persistent,bleed]]]。"
+                }
+            },
+            "DragonDisciple": {
+                "DragonChoice": {
+                    "Crystal": "结晶龙",
+                    "Forest": "森龙",
+                    "Black": "黑龙",
+                    "Gold": "金龙",
+                    "Sea": "海龙",
+                    "Green": "绿龙",
+                    "Silver": "银龙",
+                    "Magma": "熔岩龙",
+                    "Red": "红龙",
+                    "Sky": "天龙",
+                    "Umbral": "影龙",
+                    "Underworld": "伏藏龙",
+                    "Copper": "赤铜龙",
+                    "Bronze": "青铜龙",
+                    "Cloud": "云龙",
+                    "White": "白龙",
+                    "Blue": "蓝龙",
+                    "Brass": "黄铜龙",
+                    "Brine": "洋龙",
+                    "Sovereign": "君龙"
+                },
+                "ScalesOfTheDragon": {
+                    "MageArmor": "龙之鳞w/法师护甲",
+                    "BracersOfArmor": "龙之鳞w/盔甲护腕",
+                    "ExplorersClothing": "龙之鳞w/探险者服装"
+                },
+                "Prompt": "选择一种龙"
+            },
+            "Equipment": {
+                "EagleEyeElixir": {
+                    "Lesser": {
+                        "SecretLabel": "次等鹰眼灵药（寻找密门和陷阱）"
+                    },
+                    "Major": {
+                        "SecretLabel": "上等鹰眼灵药（寻找密门和陷阱）"
+                    },
+                    "Greater": {
+                        "SecretLabel": "高等鹰眼灵药（寻找密门和陷阱）"
+                    },
+                    "Moderate": {
+                        "SecretLabel": "中等鹰眼灵药（寻找密门和陷阱）"
+                    }
+                },
+                "BravosBrew": {
+                    "Greater": {
+                        "FearLabel": "高等狂徒醇酿（对抗恐惧）"
+                    },
+                    "Lesser": {
+                        "FearLabel": "次等狂徒醇酿（对抗恐惧）"
+                    },
+                    "Moderate": {
+                        "FearLabel": "中等狂徒醇酿（对抗恐惧）"
+                    }
+                },
+                "PhantomShroud": {
+                    "StrikeLabel": "幽灵之手 Ghostly Hand"
+                }
+            },
+            "FighterWeaponMasteryLegend": {
+                "Advanced": {
+                    "spear": "进阶矛",
+                    "brawling": "进阶搏击",
+                    "axe": "进阶斧",
+                    "pick": "进阶镐",
+                    "polearm": "进阶长武",
+                    "shield": "进阶盾牌",
+                    "club": "进阶棍棒",
+                    "dart": "进阶暗器",
+                    "firearm": "进阶火器",
+                    "flail": "进阶连枷",
+                    "hammer": "进阶锤",
+                    "bomb": "进阶炸弹",
+                    "bow": "进阶弓弩",
+                    "knife": "进阶短刃",
+                    "sling": "进阶投索",
+                    "sword": "进阶剑"
+                },
+                "SimpleMartial": {
+                    "sling": "简易&军用投索",
+                    "spear": "简易&军用矛",
+                    "bow": "简易&军用弓弩",
+                    "polearm": "简易&军用长武",
+                    "shield": "简易&军用盾牌",
+                    "sword": "简易&军用剑",
+                    "knife": "简易&军用短刃",
+                    "pick": "简易&军用镐",
+                    "firearm": "简易&军用火器",
+                    "flail": "简易&军用连伽",
+                    "hammer": "简易&军用锤",
+                    "axe": "简易&军用斧",
+                    "bomb": "简易&军用炸弹",
+                    "brawling": "简易&军用搏击",
+                    "dart": "简易&军用暗器",
+                    "club": "简易&军用棍棒"
+                }
+            },
+            "MarkForDeath": {
+                "SeekMark": "搜索死亡标记",
+                "TargetMark": "目标已被死亡标记",
+                "DeceiveMark": "用欺骗检定对标记目标进行虚招"
+            },
+            "Prompt": {
+                "AdvancedMulticlassFeat": "选择一个等级为最多你角色等级一半的职业专长",
+                "Material": "选择一种材质",
+                "EnergyType": "选择一种能量类型",
+                "CantripOrNonCantrip": "选择戏法或非戏法法术",
+                "ConsciousMind": "选择显意识",
+                "CreatureSize": "选择生物体型",
+                "Deity": "选择一个神祇",
+                "DamageType": "选择一种伤害类型",
+                "Element": "选择一种元素",
+                "Feat": "选择一个专长",
+                "FirstImplement": "选择你的第一奇具",
+                "Lesson": "选择教诲",
+                "SecondImplement": "选择你的第二奇具",
+                "DeitysDomain": "选择神祇的一个领域",
+                "EvolutionFeat": "选择你的第一个进化专长",
+                "Shillelagh": "选择一根棍棒或木杖",
+                "Skill": "选择一个技能",
+                "SubconsciousMind": "选择潜意识",
+                "SkillFeat": "选择一个技能专长",
+                "ThirdImplement": "选择你的第三奇具",
+                "Weapon": "选择一个武器",
+                "WildShape": "选择变化形态",
+                "UnarmedAttack": "选择一种无武装打击",
+                "WeaponGroup": "选择一个武器组",
+                "LevelOneClassFeat": "选择一个1级职业专长",
+                "LevelOneOrTwoClassFeat": "选择一个1或2级职业专长",
+                "PathToPerfection": "选择一种完美之道"
+            },
+            "SterlingDynamo": {
+                "Label": "纹银机铠士",
+                "AutomaticPower": "自动出力强化型机铠",
+                "ManualPower": "手动出力强化型机铠",
+                "AutomaticPercussive": "自动精准打击型机铠",
+                "ManualPercussive": "手动精准打击型机铠"
+            },
+            "TwoHanded": {
+                "Cane": "双手使用手杖",
+                "Katana": "双手使用打刀",
+                "Khakkhara": "双手使用禅杖",
+                "ReinforcedStock": "双手使用加固枪托",
+                "RhokaSword": "双手使用双叉剑",
+                "Staff": "双手使用木杖",
+                "BastardSword": "双手使用变种剑",
+                "BattleLute": "双手使用战斗鲁特琴",
+                "Broom": "双手使用扫帚"
+            },
+            "WellspringMage": {
+                "CriticalSuccess": "你暂时恢复一个由你选择的任何环位的已消耗法术位。这个暂时恢复的临时法术位将会持续一分钟，如果你不在一分钟内使用它，你将在法术位过期时产生@UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{泉源涌动 Wellspring Surge}。",
+                "Initiative": "当你为一场非不重要的战斗骰先攻和由GM选择的其它高压情形时，你的魔力将开始涌动。进行一个@Check[type:flat|dc:6|traits:wellspring-magic]检定。",
+                "Failure": "你立刻产生@UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{泉源涌动 Wellspring Surge}，法术环位将从你最高的三个环位随机决定（或者你全部的法术环位，如果你的最高环位小于三）。",
+                "Success": "你暂时恢复一个从你最高的三个环位随机决定恢复的已消耗法术位。这个暂时恢复的临时法术位将会持续3回合，如果你不在一分钟内使用它，你将在法术位过期时产生@UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{泉源涌动 Wellspring Surge}。"
+            },
+            "ChromaticArmor": {
+                "Force": "紫(力场)",
+                "Mental": "靛(心灵)",
+                "Prompt": "选择一种颜色",
+                "Acid": "橙(酸)",
+                "Electricity": "黄(电击)",
+                "Fire": "红(火焰)",
+                "Poison": "绿(毒素)",
+                "Sonic": "蓝(音波)"
+            },
+            "Gunslinger": {
+                "Way": {
+                    "Prompt": "选择道途"
+                }
+            },
+            "Oracle": {
+                "Mystery": {
+                    "Prompt": "选择一种秘示域"
+                }
+            },
+            "Magus": {
+                "HybridStudy": {
+                    "Prompt": "选择一种融汇研究"
+                },
+                "SparklingTarge": {
+                    "DefendingLabel": "防御魔法"
+                },
+                "ArcaneCascade": {
+                    "WeaponDamage": "武器伤害"
+                }
+            },
+            "Monk": {
+                "SacredKi": {
+                    "Prompt": "选择阵营伤害"
+                }
+            },
+            "Shisk": {
+                "PiercingQuills": {
+                    "Note": "你的尖刺无武装攻击在一次命中大成功时造成@Localize[PF2E.PersistentDamage.Bleed1d4.success]。"
+                }
+            },
+            "Shoony": {
+                "EsteemedVisitor": {
+                    "Note": "当你在聚居地为了搜集信息或建立印象而进行交涉检定时，如果你的掷骰结果是大失败，这个结果改为普通失败。"
+                },
+                "FishseekerShoony": {
+                    "Note": "如果你在抓住边缘检定中取得成功，那么这次成功视为大成功；如果这次检定是大失败，则视为普通失败。"
+                }
+            },
+            "Ratfolk": {
+                "LabRat": {
+                    "Note": "你在抵抗毒素或灵药效果的豁免骰上成功时，视为大成功处理。"
+                },
+                "WarrenNavigator": {
+                    "Note": "你在进行辨别方向时，检定结果的成功度视为比实际上升1级。"
+                }
+            },
+            "Dwarf": {
+                "DeathWardenDwarf": {
+                    "Note": "如果你在对抗死灵效果的豁免骰中取得成功，那么作为代替你将获得大成功。"
+                },
+                "ElementalHeart": {
+                    "Prompt": "选择元素之心的种类"
+                },
+                "ForgeBlessedShot": {
+                    "Note": "忽略目标的@UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{隐蔽 Concealed}隐蔽状态，以及目标的弱效、标准、强效掩蔽。"
+                },
+                "KneelForNoGod": {
+                    "Note": "当你对抗神术时，用失败代替大失败。"
+                },
+                "RockRunner": {
+                    "Note": "当你在由石头或泥土构成的狭窄表面或不稳地面上使用特技技能来保持平衡时，你不会措手不及，且将这些特技检定的成功视为大成功。"
+                },
+                "VengefulHatred": {
+                    "Prompt": "选择一种世代仇敌"
+                },
+                "SparkFist": {
+                    "Note": "每次你用拳头命中时，你承受[[/r (1+@weapon.data.data.runes.striking)[fire]]]{火焰伤害}。"
+                },
+                "TombWatchersGlare": {
+                    "Note": "当你重击一个亡灵生物，亡灵@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}，持续1回合。"
+                }
+            },
+            "Fleshwarp": {
+                "CoatingOfSlime": {
+                    "CriticalHit": "重击时，目标承受[[/r 1d4[persistent,acid]]]。"
+                },
+                "LivingWeapon": {
+                    "Prompt": "选择用作武器的身体部位"
+                },
+                "MutateWeapon": {
+                    "Bonus": "选择加值",
+                    "Target": "选择一个你的肢体武器",
+                    "Reach": "获得长触及10",
+                    "Accuracy": "获得攻击检定+1加值"
+                }
+            },
+            "MagicalExperiment": {
+                "EnhancedSenses": "强化感官",
+                "ResistantSkin": "抗力皮肤",
+                "TouchTelepathy": "接触心灵感应"
+            },
+            "Ranger": {
+                "HuntersEdge": {
+                    "Prompt": "选择一种猎手优势"
+                }
+            },
+            "TOTMToggle": {
+                "FirstRangeIncrement": "需求目标位于第一射程增量内的能力正在生效",
+                "Vampire": "需求目标是吸血鬼的能力正在生效",
+                "FlatFooted": "需求目标措手不及的能力正在生效",
+                "Undead": "需求目标是不死生物的能力正在生效"
+            },
+            "Wizard": {
+                "ArcaneSchool": {
+                    "Prompt": "选择奥术学派"
+                },
+                "ArcaneThesis": {
+                    "Prompt": "选择一个奥术论题"
+                },
+                "Metamagic1": {
+                    "Prompt": "选择一个1级法师超魔专长"
+                }
+            },
+            "Rogue": {
+                "EldritchTrickster": {
+                    "Prompt": "选择一个施法兼职变体"
+                },
+                "Racket": {
+                    "Prompt": "选择一种诡术"
+                },
+                "TrainSkill": {
+                    "Prompt": "选择一个你要受训的技能"
+                }
+            },
+            "Sorcerer": {
+                "Bloodline": {
+                    "Prompt": "选择血统"
+                }
+            },
+            "Defending": {
+                "FireSpell": "防御火焰法术"
+            },
+            "Fetchling": {
+                "DeepFetchling": {
+                    "Prompt": "选择要抵抗的伤害类型"
+                }
+            },
+            "FollowTheExpert": {
+                "Prompt": "选择专家的技能熟练度"
+            },
+            "GameHunterDedication": {
+                "TargetHuntedPrey": "目标是你的猎杀目标（仅限动物、魔兽或龙）"
+            },
+            "Ganzi": {
+                "Irrepressible": {
+                    "SaveNote": "当你在对抗情绪或恐惧效果的豁免中骰出成功时，你改为获得大成功。"
+                }
+            },
+            "Human": {
+                "WitchWarden": {
+                    "SaveNote": " 你在对抗诅咒与由女巫或鬼婆施放的法术而进行的豁免骰中成功时，结果变为大成功。"
+                },
+                "SaocAstrology": {
+                    "Prompt": "选择你通过索克占星术动作获得的环境减值或加值"
+                },
+                "VikingShieldbearer": {
+                    "Prompt": "选择你要获得受训熟练度的武器"
+                }
+            },
+            "HuntPrey": {
+                "SeekHuntedPrey": "搜索猎杀目标",
+                "FirstHitSwitch": "本回合第一次命中猎杀目标",
+                "TrackHuntedPrey": "追踪猎杀目标",
+                "FirstHitDamage": "对猎杀目标的第一次打击",
+                "TargetHuntedPrey": "目标是你的猎杀目标"
+            },
+            "MountainStance": {
+                "BracersOfArmor": "山岳架势w/盔甲护腕",
+                "ExplorersClothing": "山岳架势w/探索者服装",
+                "MageArmor": "山岳架势w/法师护甲"
+            },
+            "PackAttack": {
+                "Label": "目标位于至少两个盟友的射程内"
+            },
+            "Orc": {
+                "HoldMark": {
+                    "Axe": "斧（斧或镐）",
+                    "Shield": "盾牌（锤或盾牌）",
+                    "Torch": "火把（炸弹或短刃）",
+                    "Prompt": "选择你部族印记的形状"
+                }
+            },
+            "SneakAttack": "偷袭",
+            "Poppet": {
+                "WashOut": {
+                    "Note": "每当你对正在生效的毒素进行豁免成功时，你将其阶段减少2，或将恶性毒的阶段减少1。每当你对正在生效的毒素进行豁免大成功时，你将其阶段减少3，或将恶性毒的阶段减少2。"
+                }
+            },
+            "SnipingDuoDedication": {
+                "Label": "狙击小组搭档本轮已用打击击中目标"
+            },
+            "Sprite": {
+                "SpritesSpark": {
+                    "Nyktera": "超声波脉冲",
+                    "Melixie": "刺痛射击",
+                    "LuminousSprite": "光辉火花",
+                    "Grig": "不谐音符",
+                    "Pixie": "皮克精之尘",
+                    "Draxie": "欢乐闪光"
+                },
+                "LuminousSprite": {
+                    "Light": "点燃"
+                }
+            },
+            "Suli": {
+                "Dualborn": {
+                    "SecondElement": "选择你的第二传承",
+                    "FirstElement": "选择你的第一传承"
+                },
+                "ElementalAssault": {
+                    "Prompt": "选择一种元素"
+                }
+            },
+            "Target": {
+                "Necromancer": "目标是死灵师"
+            },
+            "TrinityGeodeLabel": "三一晶洞",
+            "SkillMastery": {
+                "AllowedDrops": "技能专长",
+                "MasterPrompt": "选择获得大师熟练度的技能",
+                "ExpertPrompt": "选择要获得专家熟练度的技能"
+            },
+            "Hobgoblin": {
+                "AgonizingRebuke": {
+                    "Note": "当你成功对一个敌人@UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{挫败士气 Demoralize}时，只要该敌人仍然处于@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧 Frightened}状态并正在与你交战，就会在每回合开始时承受[[/r (1d4)[mental]]]{1d4心灵伤害}。如果你在威吓技能上达到大师熟练，伤害提升至[[/r (2d4)[mental]]]{2d4}，如果你有传奇熟练，伤害提升至[[/r (3d4)[mental]]]{3d4}。"
+                },
+                "CantorianReinforcement": {
+                    "Note": "当你在一个抵抗疾病或毒素的豁免骰中获得成功，你的苦难阶段降低2（对于恶性疾病或毒素则降低1），当你获得大成功，阶段降低3（对于恶性的疾病或毒素则降低2）。"
+                },
+                "WarConditioning": {
+                    "Prompt": "选择一种移动类型"
+                }
+            },
+            "LitTorch": "火把已点燃",
+            "Lizardfolk": {
+                "ParthenogenicHatchling": {
+                    "Note": "每当你针对疾病的豁免检定成功时, 都会使其降低2阶段，致命疾病则降低1阶段。每个对抗持续疾病的大成功会使其降低3阶段，致命疾病则降低2阶段。"
+                },
+                "GuidedByTheStars": {
+                    "Prompt": "选择豁免或技能"
+                }
+            },
+            "BrevicNoble": {
+                "Prompt": "选择你所属的布雷斡家族",
+                "Medvyed": "梅德伟耶德 Medvyed",
+                "Orlovsky": "奥尔洛夫斯基 Orlovsky",
+                "Surtova": "索托瓦 Surtova",
+                "Garess": "盖雷斯 Garess",
+                "Lebeda": "莱贝达 Lebeda",
+                "Lodovka": "洛多夫卡 Lodovka"
+            },
+            "TerrainExpertise": {
+                "Prompt": "选择要获得专家的地形"
+            },
+            "WardingRune": {
+                "Prompt": "选择一个预言系以外的魔法学派"
+            },
+            "Witch": {
+                "Patron": {
+                    "Prompt": "选择一个庇护主"
+                }
+            },
+            "CelestialResistance": {
+                "Prompt": "选择一种和你的血统关联的能量"
+            },
+            "SoulWarden": {
+                "SafeguardSoul": {
+                    "Label": "你在对抗尝试操纵你灵魂的效果"
+                },
+                "SpiralSworn": {
+                    "Label": "目标是不死生物火被囚困的灵魂"
+                },
+                "UndeadNearby": "附近有不死生物"
+            },
+            "ToggleProperty": {
+                "GourdHead": "Gourd Head: 增加察觉DC",
+                "TagTeam": "和另一个秘密结社成员夹击",
+                "Triangulate": "观察手能看到目标"
+            },
+            "Stance": {
+                "Attack": {
+                    "WolfJaws": "狼咬"
+                }
+            },
+            "CriticalDeck": {
+                "Effect": {
+                    "Label": "重击效果"
+                }
+            },
+            "Multitalented": {
+                "Prompt": "选择一种兼职入门专长",
+                "AllowedDrops": "2级兼职入门专长"
+            },
+            "SnipersAim": {
+                "Note": "忽略目标的隐蔽状态。"
+            },
+            "SpellmastersResilience": {
+                "Prompt": "选择要获得抗性的法术根源"
+            },
+            "Leshy": {
+                "ThornedSeedpod": {
+                    "Note": "当你用种子荚进行的打击获得大成功时，藤蔓将缠绕并刺伤你的敌人，造成[[/r 1d4[persistent,piercing]]]。"
+                },
+                "Seedpod": {
+                    "Note": "当造成重击时，种子荚会爆裂，长出一堆杂乱的植物，并对目标的速度造成-10尺的环境减值，效果持续1回合。"
+                }
+            },
+            "Lich": {
+                "HandOfTheLich": {
+                    "Note": "当你用拳头打击对一个活着的生物造成重击时，该生物陷入@UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}直到其下回合结束，除非它成功通过一次对抗你法术DC的@Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)]豁免。"
+                }
+            },
+            "Vampire": {
+                "ViciousFangs": {
+                    "Note": {
+                        "Base": "你的尖牙打击在暴击时造成额外[[/r 1d6[persistent,bleed]]]。",
+                        "FourteenthLevel": "你的尖牙打击在暴击时造成额外[[/r 2d6[persistent,bleed]]]。",
+                        "TwentiethLevel": "你的尖牙打击在暴击时造成额外[[/r 3d6[persistent,bleed]]]。"
+                    }
+                }
+            },
+            "VirtuosicPerformer": {
+                "Prompt": "选择表演类型"
+            },
+            "UndeadSlayer": {
+                "SlayersBlessing": {
+                    "Note": "目标@UUID[Compendium.pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{逃跑 Fleeing}1轮。"
+                }
+            },
+            "BountyHunterDedication": {
+                "GatherInfoHuntedPrey": "针对猎杀目标进行搜集信息"
+            },
+            "Chronoskimmer": {
+                "DestabilizeFailureLabel": "动摇时间流（失败）",
+                "DestabilizeSuccessLabel": "动摇时间流（成功）",
+                "StabilizeLabel": "稳定时间流"
+            },
+            "VitalityManipulationStance": {
+                "StrikeLabel": "生命波 Vitality Blast",
+                "Note": "当你使用震慑拳时，取代豁免造成震慑，你可以选择改为让目标进行一次@Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)]豁免对抗你的职业DC，对照下列结果。你必须在目标掷豁免骰之前选择。</p><hr><p><strong>大成功</strong> 目标不受影响。</p><p><strong>成功</strong> 目标的肌肉会暂时变弱1轮，目标陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}，并且它在尝试使用具有操作特征的动作时，除非成功通过一次DC为5+力竭状态值的纯骰检定，否则被打断。</p><p><strong>失败</strong> 同成功，但持续时间为1分钟。</p><p><strong>大失败</strong> 同成功，但持续时间为1分钟，纯骰DC为11，且目标在持续时间内所有速度承受-10尺状态减值。</p>"
+            },
+            "BlessingOfDefiance": {
+                "Prompt": "选择一种豁免"
+            },
+            "ClanWeapon": {
+                "Label": "氏族武器",
+                "ClanPistol": "氏族手枪（族裔专长）",
+                "Prompt": "选择一种氏族武器"
+            },
+            "Cleric": {
+                "Doctrine": {
+                    "Prompt": "选择一种信条"
+                }
+            },
+            "Conrasu": {
+                "CeremonyEvenedHand": {
+                    "Prompt": "选择一种无武装打击"
+                },
+                "RiteOfPassage": {
+                    "Note": "当你在森林中的狭窄地表和不平整地表使用特技技能进行保持平衡动作时，并在检定中成功时，能得到大成功的结果。"
+                }
+            },
+            "Druid": {
+                "DruidicOrder": {
+                    "Prompt": "选择德鲁伊派系"
+                }
+            },
+            "Goblin": {
+                "ExtraSquishy": {
+                    "Note": "在挤入空间时，若你的检定成功，改为获得大成功。"
+                },
+                "RecklessAbandon": {
+                    "Note": "若你对抗有害效果的豁免检定失败或大失败，改为获得成功。"
+                },
+                "TorchGoblin": {
+                    "Note": "只要你受到持续的火焰伤害，你对相邻生物的所有近战攻击都会额外造成每个武器伤害骰[[/r 1[fire]]]{1火焰伤害}。"
+                }
+            },
+            "HalfElf": {
+                "EarnedGlory": {
+                    "Note": "当你尝试表演检定来对一名精灵进行建立印象动作时，若检定结果为大失败，则使用失败作为替代。"
+                }
+            },
+            "Halfling": {
+                "KeenEyes": {
+                    "Label": "搜索30尺内的藏匿或无踪生物"
+                },
+                "SureFeet": {
+                    "ClimbNote": "如果你在一次用以攀爬的运动检定中投出了成功，那么将它视为大成功。而且当你尝试攀爬时，不会陷入措手不及状态。",
+                    "BalanceNote": "如果你在一次用以保持平衡的特技检定中投出了成功，那么将它视为大成功。而且当你尝试保持平衡时，不会陷入措手不及状态。"
+                },
+                "Innocuous": {
+                    "Note": "即使你在分神的欺骗检定中失败，只要不是大失败，类人生物就不会意识到你在试图忽悠他们。"
+                }
+            },
+            "Investigator": {
+                "Methodology": {
+                    "Prompt": "选择一种方法论"
+                }
+            },
+            "SpellEffectProtection": {
+                "Prompt": "选择防护术对抗的阵营"
+            },
+            "Swashbuckler": {
+                "Style": {
+                    "Prompt": "选择一种风格"
+                }
+            },
+            "Gnome": {
+                "GrimInsight": {
+                    "SaveNote": "如果你在对抗恐惧效果的豁免检定中成功，你获得大成功作为代替，并且恐惧效果的来源对你陷入@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed}，直到你的下个回合结束。"
+                }
+            },
+            "HouseOfPerfection": {
+                "UnbreakingWaves": "永涛宗",
+                "UnfoldingWind": "刚风宗",
+                "UntwistingIron": "坚铁宗",
+                "Label": "完美学社",
+                "Prompt": "选择一个完美学社",
+                "UnblinkingFlame": "静焰宗"
             }
         },
         "RuleElement": {
@@ -936,7 +1660,27 @@
             "RuleElements": {
                 "ChoiceSet": {
                     "Decline": "拒绝",
-                    "SaveLabel": "豁免"
+                    "SaveLabel": "保存",
+                    "NoLabel": "否",
+                    "SkillLabel": "技能",
+                    "YesLabel": "是",
+                    "DragHomebrewItem": "将自定义物品拖到这里，以替换以上选项",
+                    "HomebrewItem": "自定义物品",
+                    "Prompt": "进行选择"
+                },
+                "MarkTarget": {
+                    "Timeout": "由于缺少目标，效果创建已取消。",
+                    "TargetToken": "将鼠标悬停在Token上按T选择其为目标。按Esc取消。"
+                },
+                "Prompt": {
+                    "NoSelectionMade": "没有进行选择：{item}未激活。",
+                    "NoValidOptions": "{actor}没有有效的{item}选项。"
+                },
+                "GrantItem": {
+                    "AlreadyHasItem": "{actor} 已有 {item}，因此没有再次添加。"
+                },
+                "EffectTarget": {
+                    "Prompt": "选择此效果的目标"
                 }
             }
         },
@@ -972,6 +1716,17 @@
                 "success": "[[/r 1[persistent,bleed]]]",
                 "criticalSuccess": "[[/r 2[persistent,bleed]]]"
             }
+        },
+        "Terrain": {
+            "Sky": "空域",
+            "Swamp": "沼泽",
+            "Underground": "地底",
+            "Aquatic": "水域",
+            "Arctic": "极地",
+            "Desert": "沙漠",
+            "Forest": "林地",
+            "Mountain": "山脉",
+            "Plains": "平原"
         }
     }
 }
