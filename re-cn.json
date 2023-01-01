@@ -386,7 +386,52 @@
             },
             "TwigjackSack": {
                 "Greater": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 4[persistent,bleed]]]和[[/r (3[splash])[piercing]]]{3穿刺溅射伤害}"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 4[persistent,bleed]]]和[[/r (3[splash])[piercing]]]{3穿刺溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r 8}[persistent,bleed]]]和[[/r (3[splash])[piercing]]]{3穿刺溅射伤害}"
+                },
+                "Moderate": {
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r 6[persistent,bleed]]]和[[/r (2[splash])[piercing]]]{2穿刺溅射伤害}",
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 3[persistent,bleed]]]和[[/r (2[splash])[piercing]]]{2穿刺溅射伤害}"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 1[persistent,bleed]]]和[[/r (1[splash])[piercing]]]{1穿刺溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r 2[persistent,bleed]]]和[[/r (1[splash])[piercing]]]{1穿刺溅射伤害}"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 5[persistent,bleed]]]和[[/r (4[splash])[piercing]]]{4穿刺溅射伤害}",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r 10[persistent,bleed]]]和[[/r (4[splash])[piercing]]]{4穿刺溅射伤害}"
+                }
+            },
+            "VexingVapor": {
+                "Lesser": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r (1[splash])[mental]]]{1心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续到目标下回合结束",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (1[splash])[mental]]]{1心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续1分钟"
+                },
+                "Greater": {
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (3[splash])[mental]]]{3心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续1分钟",
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r (3[splash])[mental]]]{3心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续到目标下回合结束"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r (4[splash])[mental]]]{4心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续到目标下回合结束",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (4[splash])[mental]]]{4心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续1分钟"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2[splash])[mental]]]{2心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续到目标下回合结束",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2[splash])[mental]]]{2心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续1分钟"
+                }
+            },
+            "WaterBomb": {
+                "Greater": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r (3[splash])[bludgeoning]]]{3非致命钝击溅射伤害}。炸弹熄灭溅射区域内的非魔法火焰。"
+                },
+                "Major": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r (4[splash])[bludgeoning]]]{4非致命钝击溅射伤害}。炸弹熄灭溅射区域内的非魔法火焰。"
+                },
+                "Moderate": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2[splash])[bludgeoning]]]{2非致命钝击溅射伤害}。"
+                },
+                "Lesser": {
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r (1[splash])[bludgeoning]]]{1非致命钝击溅射伤害}"
                 }
             }
         },
