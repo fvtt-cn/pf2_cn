@@ -1392,7 +1392,13 @@
                     "Label": "生成攻击"
                 }
             },
-            "Plural": "角色"
+            "Plural": "角色",
+            "IWREditor": {
+                "Title": "{actor}： {category}",
+                "Type": "类型",
+                "Exceptions": "例外",
+                "DoubleVs": "双倍于"
+            }
         },
         "ActorSizeGargantuan": "巨型",
         "ActorSizeHuge": "超大型",
@@ -1888,7 +1894,26 @@
         "CurrentStaminaTitle": "你拥有的耐力池",
         "Damage": {
             "Base": "基础",
-            "NoDamageFormulaLabel": "无伤"
+            "NoDamageFormulaLabel": "无伤",
+            "IWR": {
+                "ApplicationBreakdown": {
+                    "immunity": "免疫{type}: {adjustment}",
+                    "resistance": "具有{type}抗力: {adjustment}",
+                    "unaffected": "不受{type}影响:{adjustment}",
+                    "weakness": "具有{type}弱点: {adjustment}"
+                },
+                "CompositeLabel": {
+                    "Exceptions0DoubleVs0": "{type} {value}",
+                    "Exceptions0DoubleVs1": "{type} {value} (对{doubleVs1}双倍抗力)",
+                    "Exceptions0DoubleVs2": "{type} {value} (对{doubleVs1} 或{doubleVs2}双倍抗力)",
+                    "Exceptions0DoubleVs4": "{type} {value} (对{doubleVs1}, {doubleVs2}, {doubleVs3}或{doubleVs4}双倍抗力)",
+                    "Exceptions1DoubleVs0": "{type} {value} (除了{exception1})",
+                    "Exceptions1DoubleVs1": "{type} {value} (除了 {exception1}; 对{doubleVs1}双倍抗力)",
+                    "Exceptions0DoubleVs3": "{type} {value} (对{doubleVs1}, {doubleVs2}或{doubleVs3}双倍抗力)",
+                    "Exceptions1DoubleVs2": "{type} {value} (除了{exception1};对{doubleVs1}或{doubleVs2}双倍抗力)",
+                    "Exceptions1DoubleVs3": "{type} {value} (除了{exception1}; 对{doubleVs1}, {doubleVs2}或{doubleVs3}双倍抗力)"
+                }
+            }
         },
         "DamageCategoriesLabel": "伤害类别",
         "DamageDieD10": "d10",
@@ -5485,15 +5510,16 @@
             "Double": "对选定目标施加双倍伤害。",
             "DoubleContext": "双倍伤害",
             "DoubleShort": "Double",
-            "Triple": "对目标施加三倍伤害。",
+            "Triple": "[点击] 对目标施加三倍伤害。",
             "TripleContext": "施加三倍伤害",
             "TripleShort": "Triple",
-            "ShieldBlock": "切换所选角色的盾牌格挡状态。",
+            "ShieldBlock": "[点击]在应用伤害前切换所选角色的盾牌格挡状态。",
             "ShieldBlockContext": "盾牌格挡",
             "ShieldBlockShort": "Block",
-            "Healing": "对选定目标施加完整治疗。",
+            "Healing": "[点击]对选定目标施加完整治疗。",
             "HealingContext": "施加治疗",
-            "HealingShort": "Heal"
+            "HealingShort": "Heal",
+            "Adjust": "[Shift-点击]在应用前调整数值。"
         },
         "PreciousMaterialPeachwoodDescription": "桃木武器在阳光直射下会呈现出一种特别的赤褐色。当打击具有和暗木有关的抗力或弱点的不死生物时，桃木将被视为暗木（这能让桃木武器忽视僵尸jiang-shi的抗力）。此外，桃木武器还能忽视一部分任意类型的不死生物的抗力。使用桃木武器打击不死生物时，标准纯度忽视不死生物2点抗力，高纯度忽视4点抗力。",
         "PreciousMaterialPeachwood": "桃木",
