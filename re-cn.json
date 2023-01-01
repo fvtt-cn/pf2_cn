@@ -507,6 +507,121 @@
             "AdvancedGeneralTraining": {
                 "AllowedDrops": "7级或更低的通用专长",
                 "Prompt": "选择一个7级或更低的通用专长。"
+            },
+            "AncientElf": {
+                "AllowedDrops": "兼职入门专长",
+                "Prompt": "选择一个兼职入门专长"
+            },
+            "Beastkin": {
+                "Senses": {
+                    "EcholocationImprecise": "回声定位(模糊)30尺",
+                    "EcholocationPrecise": "将回声定位提升为精确感官",
+                    "TremorsenseImprecise": "震颤感知(模糊)30尺"
+                },
+                "AnimalSenses": {
+                    "Prompt": "选择一种你的本源动物具有的感官"
+                }
+            },
+            "Alchemist": {
+                "ResearchField": {
+                    "Prompt": "选择一个研究课题"
+                },
+                "AlchemicalCrossbow": {
+                    "Prompt": "选择装填到弩上的炸弹"
+                }
+            },
+            "Aid": {
+                "Prompt": "选择协助带来的加值"
+            },
+            "Barbarian": {
+                "Dragon": {
+                    "Prompt": "选择一种龙"
+                },
+                "Animal": {
+                    "Prompt": "选择一种动物"
+                },
+                "Instinct": {
+                    "Prompt": "选择一种本能"
+                },
+                "Giant": {
+                    "prompt": "为狂暴抗力选择一种能量类型"
+                }
+            },
+            "Bard": {
+                "Muse": {
+                    "Prompt": "选择缪斯",
+                    "Enigma": "谜团 Enigma",
+                    "Maestro": "大师 Maestro",
+                    "Polymath": "博学 Polymath",
+                    "Warrior": "武者 Warrior"
+                }
+            },
+            "Automaton": {
+                "ArcaneLocomotion": {
+                    "Prompt": "选择一种移动类型"
+                },
+                "HunterAutomaton": {
+                    "ToggleLabel": "四足奔跑"
+                },
+                "EnhanceableFeats": {
+                    "AutomatonArmament": "灵导械武装",
+                    "AutomatonLore": "灵导械学识",
+                    "CoreAttunement": "核心共鸣",
+                    "ArcaneCamouflage": "奥术迷彩",
+                    "ArcaneCommunication": "奥术联络",
+                    "ArcaneEye": "奥术瞳",
+                    "ArcaneLocomotion": "奥术牵引",
+                    "ArcanePropulsion": "奥术推进",
+                    "ArcaneSafeguards": "奥术护佑",
+                    "ArcaneSlam": "奥术摔砸",
+                    "AstralBlink": "星界闪现",
+                    "EnergyBeam": "能量射线",
+                    "EnlargedChassis": "增幅装甲",
+                    "IntegratedArmament": "集成武装",
+                    "LesserAugmentation": "次级增强",
+                    "MagicalResistance": "魔法抗性",
+                    "RainOfBolts": "螺栓雨",
+                    "ReinforcedChassis": "加固外壳",
+                    "CoreRejuvenation": "核心重启"
+                },
+                "EnergyBeam": {
+                    "CriticalHit": "重击时，目标受到等于武器伤害骰数的持续火焰伤害。你的眼部射线不会添加重击专精效果。"
+                },
+                "MagicalResistance": {
+                    "Prompt": "选择一种能量类型"
+                },
+                "AutomatonArmament": {
+                    "Prompt": "选择一种非武装打击"
+                },
+                "CoreCannon": {
+                    "AttackNote": "你需要将最高的潜能符文加成手动加成到此次攻击检定上",
+                    "CriticalHit": "重击时，目标受到[[/r 10[persistent,fire]]]。你的核心火炮不会添加重击专精效果。</p>"
+                },
+                "Enhancement": {
+                    "ArcaneLocomotionClimbSpeed": "获得攀爬速度",
+                    "ArcaneLocomotionIncreaseSpeed": "增加速度",
+                    "ArcaneLocomotionSwimSpeed": "获得游泳速度",
+                    "MagicalResistanceAll": "获得额外抗力",
+                    "MagicalResistanceIncrease": "增强已有抗力",
+                    "EnhancementPrompt": "选择一种增强",
+                    "AugmentationPrompt": "选择一种增强感官"
+                }
+            },
+            "AftermathFeats": {
+                "DormantEruptionToggle": "你今天已用过活化火山",
+                "StoneFistLabel": "石拳"
+            },
+            "AllowedDrops": {
+                "DeityOrPantheon": "神祇或信仰"
+            },
+            "AncestralParagon": {
+                "AllowedDrops": "1级族裔专长",
+                "Prompt": "选择一个1级族裔专长"
+            },
+            "AnimalSkin": {
+                "BracersOfArmor": "野兽之肤w/盔甲护腕",
+                "ExplorersClothing": "野兽之肤w/探险者服装",
+                "MageArmor": "野兽之肤w/法师护甲"
             }
         },
         "RuleElement": {
@@ -611,7 +726,49 @@
             "Mountains": "在山脉中",
             "Lava": "在熔岩中",
             "Navigate": "导航",
-            "NearTheOcean": "临近海洋"
+            "NearTheOcean": "临近海洋",
+            "Sand": "在沙地中",
+            "Swim": "游泳",
+            "Swamps": "沼泽中",
+            "Dance": "舞蹈",
+            "RustyTerrain": "堆积生锈物体的区域中",
+            "UnderwaterVegetation": "水下植被中",
+            "Vegetation": "植被中",
+            "Weave": "纺织",
+            "OceansForests": "在海上或林中",
+            "Trip": "摔绊",
+            "Rocky": "在岩石地形",
+            "Snow": "雪中",
+            "Steal": "盗窃",
+            "Track": "追踪",
+            "TrashAndRubbish": "垃圾中",
+            "Undergrowth": "灌木丛中",
+            "TrackBleedingCreature": "追踪流血生物",
+            "TripTangle": "摔绊和绊足",
+            "VsArthropods": "对抗节肢动物",
+            "VsControlled": "对抗被控制效果",
+            "VsMagic": "对抗魔法效果",
+            "VsMental": "对抗心灵效果",
+            "NighttimeWithMoonVisible": "能看到月亮的夜间",
+            "Paint": "绘画",
+            "SenseMotive": "察言观色",
+            "Sewers": "下水道中",
+            "Shove": "推撞",
+            "StonyOrIcyAreas": "在岩石或冰块地区",
+            "StringedInstruments": "演奏弦乐器",
+            "Squeeze": "挤入空间",
+            "Subsist": "求生",
+            "VsDarknessLightShadow": "对抗黑暗、光亮或阴影效果",
+            "VsDiseases": "对抗疾病",
+            "VsEmotion": "对抗情绪效果",
+            "VsPlants": "对抗植物",
+            "VsProne": "对抗倒地效果",
+            "Water": "在水中",
+            "WaterOrMud": "在水或泥中",
+            "VsShoveOrTrip": "对抗推撞或摔绊",
+            "ImpersonateHumanVersion": "乔装为他们自己的人类形态时",
+            "TellTheTruth": "讲述真相",
+            "ThickVegetation": "茂密植被中"
         },
         "OracleCurses": {
             "Label": {
@@ -683,6 +840,9 @@
                 "ReevaluateOnUpdate": "更新时重新估价",
                 "AllowDuplicate": "允许重复项",
                 "ReplaceSelf": "更新自身"
+            },
+            "FastHealing": {
+                "DeactivatedBy": "使其失效"
             }
         },
         "NPCAbility": {
@@ -758,11 +918,19 @@
                 "JiangShi": {
                     "StanceOfDeath": {
                         "SunderedVeins": {
-                            "Note": "目标陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 1}"
+                            "Note": "目标陷入@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 1}",
+                            "Label": "脉断气绝架势"
+                        },
+                        "CloudlessVoid": {
+                            "Label": "覆云冥爪架式"
                         }
                     }
                 }
-            }
+            },
+            "LegionArchon": {
+                "FlameOfJustice": "正义之炎 - 重击"
+            },
+            "KrampusPunishTheNaughty": "坎普斯对抗“淘气”目标掷骰"
         },
         "UI": {
             "RuleElements": {
@@ -782,6 +950,28 @@
             "ForceGhostTouchDoubleNonMagical": "除力场或幽冥；此抗力对抗非魔法时翻倍",
             "ForceGhostTouchNegativeDoubleNonMagical": "除力场、幽冥或负能量；此抗力对抗非魔法时翻倍",
             "ForceGhostTouchPositiveDoubleNonMagical": "除力场、幽冥或正能量；此抗力对抗非魔法时翻倍"
+        },
+        "PersistentDamage": {
+            "Acid1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[persistent,acid]]]",
+                "success": "[[/r 1d4[persistent,acid]]]"
+            },
+            "Acid1d6": {
+                "success": "[[/r 1d6[persistent,acid]]]",
+                "criticalSuccess": "[[/r (2*1d6)[persistent,acid]]]"
+            },
+            "Acid2d6": {
+                "criticalSuccess": "[[/r (2*2d6)[persistent,acid]]]",
+                "success": "[[/r 2d6[persistent,acid]]]"
+            },
+            "Acid2d6+2": {
+                "success": "[[/r (2d6+2)[persistent,acid]]]",
+                "criticalSuccess": "[[/r (2*2d6+4)[persistent,acid]]]"
+            },
+            "Bleed1": {
+                "success": "[[/r 1[persistent,bleed]]]",
+                "criticalSuccess": "[[/r 2[persistent,bleed]]]"
+            }
         }
     }
 }
