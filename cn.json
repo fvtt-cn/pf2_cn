@@ -701,7 +701,7 @@
                         "Title": "持续伤害 ({actor})",
                         "Remove": "移除持续伤害"
                     },
-                    "Name": "持续伤害 ({formula})",
+                    "Name": "持续伤害 ({formula} {damageType})",
                     "NameWithDC": "持续伤害({formula} DC{dc})"
                 }
             },
@@ -4987,7 +4987,7 @@
             "vorpal": {
                 "Name": "斩首符文",
                 "Note": {
-                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 想象(死亡，失能))<br /><br /><strong>触发</strong>你用该武器的打击动作骰出天然20、重击成功且造成了挥砍伤害，目标必须有头；<br /><br /><strong>效果</strong> 目标必须成功通过@Check[type:fortitude|dc:37|traits:death,incapacitation]|name:Vorpal Rune]检定，否则被斩首。除非目标失去这个头部也能活，否则会击杀它。对于有多个头部的生物，通常只在砍掉其最后一个头部时才会立刻击杀它。"
+                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 想象(死亡，失能))<br /><strong>触发</strong>你用该武器的打击动作骰出天然20、重击成功且造成了挥砍伤害，目标必须有头；<br /><strong>效果</strong> 目标必须成功通过@Check[type:fortitude|dc:37|traits:death,incapacitation|name:Vorpal Rune]检定，否则被斩首。除非目标失去这个头部也能活，否则会击杀它。对于有多个头部的生物，通常只在砍掉其最后一个头部时才会立刻击杀它。"
                 }
             },
             "wounding": {
@@ -5680,13 +5680,13 @@
         "TraitSocial": "社群",
         "TraitThrown80": "投掷 80 ft.",
         "DamageButton": {
-            "Full": "对选定目标施加完整伤害。",
+            "Full": "[Click] 对选定目标施加完整伤害。",
             "FullContext": "施加伤害",
             "FullShort": "Damage",
-            "Half": "对选定目标施加半数伤害。",
+            "Half": "[Click] 对选定目标施加半数伤害。",
             "HalfContext": "半数伤害",
             "HalfShort": "Half",
-            "Double": "对选定目标施加双倍伤害。",
+            "Double": "[Click] 对选定目标施加双倍伤害。",
             "DoubleContext": "双倍伤害",
             "DoubleShort": "Double",
             "Triple": "[点击] 对目标施加三倍伤害。",
