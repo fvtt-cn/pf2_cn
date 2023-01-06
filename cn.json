@@ -5771,7 +5771,8 @@
         "TraitRange110": "射程 110 ft",
         "TraitWornOrOneHand": "穿戴或单手持握",
         "TraitFatal": "夺命",
-        "ToggleEffectUnidentified": "是否启用效果未鉴定功能"
+        "ToggleEffectUnidentified": "是否启用效果未鉴定功能",
+        "TraitDescriptionWildHunt": "具有狂猎特征的生物绝不会低于14级。它们拥有高等黑暗视觉、苍翠视野、位面适应、狂野凝视、合作本能、对寒铁的弱点、与动物和植物交谈的能力、以及它们各自的狂猎链接。"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
