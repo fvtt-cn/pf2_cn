@@ -4793,7 +4793,7 @@
             "fearsome": {
                 "Name": "可怖符文",
                 "Note": {
-                    "criticalSuccess": "当你用此武器重击时，目标陷入@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{力竭 Frightened 1}。"
+                    "criticalSuccess": "当你用此武器重击时，目标陷入@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧 Frightened 1}。"
                 }
             },
             "flaming": {
