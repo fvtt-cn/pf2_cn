@@ -1285,7 +1285,8 @@
                     "KeyIcon": "关键属性",
                     "VoluntaryFlaw": {
                         "Title": "自选缺陷",
-                        "Description": "选择两个自选缺陷以获得额外提升。"
+                        "Description": "你可以单纯为了扮演一个有缺陷的角色而选择一个或多个自选缺陷。",
+                        "LegacyDescription": "这是CRB第四次出版之前存在的自选缺陷功能。它因在老角色所被保留，并继续作为开拓者协会的可用选项。"
                     },
                     "BackgroundBoostDescription": "两个提升：一个必须是{a}或{b}。",
                     "AbilityScoreMethod": {
@@ -2032,8 +2033,11 @@
                     "disease": "疾病",
                     "frightened": "惊惧",
                     "sickened": "恶心",
-                    "trip": "摔拌"
-                }
+                    "trip": "摔拌",
+                    "vorpal-adamantine": "斩首精金"
+                },
+                "ActorIsImmune": "{actor} 对{effect}免疫。",
+                "ActorIsUnaffected": "{actor}不受{effect}影响。"
             },
             "RollFlavor": {
                 "acid": "酸液",
@@ -2062,7 +2066,8 @@
                 "untyped": "无名",
                 "fire": "火焰"
             },
-            "PersistentTooltip": "持续{damageType}"
+            "PersistentTooltip": "持续{damageType}",
+            "IncreasedFrom": "从 {original} 增加到最少1个"
         },
         "DamageCategoriesLabel": "伤害类别",
         "DamageDieD10": "d10",
@@ -4673,7 +4678,11 @@
                 "wheel-blades": "轮刃",
                 "wheel-spikes": "轮刺",
                 "thorn-whip": "荆棘之鞭",
-                "injection-spear": "注射矛"
+                "injection-spear": "注射矛",
+                "kris": "波形刀",
+                "broadspear": "宽矛",
+                "flying-talon": "飞爪",
+                "talwar": "塔瓦弯刀"
             }
         },
         "WeaponAbilityLabel": "武器能力",
@@ -5772,7 +5781,19 @@
         "TraitWornOrOneHand": "穿戴或单手持握",
         "TraitFatal": "夺命",
         "ToggleEffectUnidentified": "是否启用效果未鉴定功能",
-        "TraitDescriptionWildHunt": "具有狂猎特征的生物绝不会低于14级。它们拥有高等黑暗视觉、苍翠视野、位面适应、狂野凝视、合作本能、对寒铁的弱点、与动物和植物交谈的能力、以及它们各自的狂猎链接。"
+        "TraitDescriptionWildHunt": "具有狂猎特征的生物绝不会低于14级。它们拥有高等黑暗视觉、苍翠视野、位面适应、狂野凝视、合作本能、对寒铁的弱点、与动物和植物交谈的能力、以及它们各自的狂猎链接。",
+        "TraitRange290": "射程 290 ft",
+        "TraitRange310": "射程 310 ft",
+        "TraitRange320": "射程 320 ft",
+        "TraitRange210": "射程 210 ft",
+        "TraitRange220": "射程 220 ft",
+        "TraitRange230": "射程 230 ft",
+        "TraitRange250": "射程 250 ft",
+        "TraitRange260": "射程 260 ft",
+        "TraitRange270": "射程 270 ft",
+        "TraitRange280": "射程 280 ft",
+        "TraitRangeIncrement25": "射程增量 25 ft",
+        "Bonus": "加值"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
