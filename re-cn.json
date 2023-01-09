@@ -67,38 +67,38 @@
         "BombNotes": {
             "AcidFlask": {
                 "Greater": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 3d6[persistent,acid]]]以及[[/r (3[splash])[acid]]]{3点酸液溅射伤害}",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*3d6)[persistent,acid]]]以及[[/r (3}(3[splash])[acid]]]{3点酸液溅射伤害}"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 3d6[persistent,acid]]]以及[[/r (3[splash])[acid]]]{3点酸液溅射伤害}。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*3d6)[persistent,acid]]]以及[[/r (3}(3[splash])[acid]]]{3点酸液溅射伤害}。"
                 },
                 "Lesser": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 1d6[persistent,acid]]]以及[[/r (1[splash])[acid]]]{1点酸液溅射伤害}",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*1d6)[persistent,acid]]]以及[[/r (1[splash])[acid]]]{1点酸液溅射伤害}"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 1d6[persistent,acid]]]以及[[/r (1[splash])[acid]]]{1点酸液溅射伤害}。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*1d6)[persistent,acid]]]以及[[/r (1[splash])[acid]]]{1点酸液溅射伤害}。"
                 },
                 "Major": {
                     "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 4d6[persistent,acid]]]以及[[/r (4[splash])[acid]]]{4点酸液溅射伤害}。",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成 [[/r (2*4d6)[persistent,acid]]]以及 [[/r (4[splash])[acid]]]{4点酸液溅射伤害}"
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成 [[/r (2*4d6)[persistent,acid]]]以及 [[/r (4[splash])[acid]]]{4点酸液溅射伤害}。"
                 },
                 "Moderate": {
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*2d6)[persistent,acid]]]以及[[/r (2[splash])[acid]]]{2点酸液溅射伤害}",
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 2d6[persistent,acid]]]以及[[/r (2[splash])[acid]]]{2点酸液溅射伤害}"
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*2d6)[persistent,acid]]]以及[[/r (2[splash])[acid]]]{2点酸液溅射伤害}。",
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 2d6[persistent,acid]]]以及[[/r (2[splash])[acid]]]{2点酸液溅射伤害}。"
                 }
             },
             "AlchemistsFire": {
                 "Greater": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 3[persistent,fire]]]以及[[/r (3[splash])[fire]]]{3点火焰溅射伤害}",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r 2*3[persistent,fire]]]以及[[/r (3[splash])[fire]]]{3点火焰溅射伤害}"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 3[persistent,fire]]]以及[[/r (3[splash])[fire]]]{3点火焰溅射伤害}。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*3)[persistent,fire]]]以及[[/r (3[splash])[fire]]]{3点火焰溅射伤害}。"
                 },
                 "Lesser": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 1[persistent,fire]]]以及[[/r (1[splash])[fire]]]伤害",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r 2*1[persistent,fire]]]以及[[/r (1[splash])[fire]]]伤害"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 1[persistent,fire]]]以及[[/r (1[splash])[fire]]]伤害。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*1)[persistent,fire]]]以及[[/r (1[splash])[fire]]]伤害。"
                 },
                 "Major": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 4[persistent,fire]]]伤害以及[[/r (4[splash])[fire]]]伤害",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r 2*4[persistent,fire]]]伤害以及[[/r (4[splash])[fire]]]伤害"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 4[persistent,fire]]]伤害以及[[/r (4[splash])[fire]]]伤害。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*4)[persistent,fire]]]伤害以及[[/r (4[splash])[fire]]]伤害。"
                 },
                 "Moderate": {
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r 2*2[persistent,fire]]]伤害以及[[/r (2[splash])[fire]]]伤害",
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 2[persistent,fire]]]以及[[/r (2[splash])[fire]]]伤害"
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*2)[persistent,fire]]]伤害以及[[/r (2[splash])[fire]]]伤害。",
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 2[persistent,fire]]]以及[[/r (2[splash])[fire]]]伤害。"
                 }
             },
             "FrostVial": {
@@ -117,12 +117,12 @@
             },
             "BlightBomb": {
                 "Greater": {
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*3d4}[persistent,fire]]]以及[[/r (3[splash])[poison]]]伤害",
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 3d4[persistent,fire]]]以及[[/r (3[splash])[poison]]]伤害"
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*3d4}[persistent,fire]]]以及[[/r (3[splash])[poison]]]伤害。",
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 3d4[persistent,fire]]]以及[[/r (3[splash])[poison]]]伤害。"
                 },
                 "Lesser": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成 [[/r 1d4[persistent,poison]]]伤害以及[[/r (1[splash])[poison]]]伤害",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成 [[/r (2*1d4)[persistent,poison]]]以及[[/r (1[splash])[poison]]]伤害"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成 [[/r 1d4[persistent,poison]]]伤害以及[[/r (1[splash])[poison]]]伤害。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成 [[/r (2*1d4)[persistent,poison]]]以及[[/r (1[splash])[poison]]]伤害。"
                 },
                 "Major": {
                     "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 4d4[persistent,poison]]]以及[[/r (4[splash])[poison]]]伤害",
@@ -416,8 +416,8 @@
                     "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (4[splash])[mental]]]{4心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续1分钟"
                 },
                 "Moderate": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2[splash])[mental]]]{2心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续到目标下回合结束",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2[splash])[mental]]]{2心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续1分钟"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2[splash])[mental]]]{2心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续到目标下回合结束。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2[splash])[mental]]]{2心灵溅射伤害}，且目标必须在执行专注动作前成功通过一次@Check[type:flat|dc:5]，该效果持续1分钟。"
                 }
             },
             "WaterBomb": {
@@ -433,6 +433,14 @@
                 "Lesser": {
                     "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r (1[splash])[bludgeoning]]]{1非致命钝击溅射伤害}"
                 }
+            },
+            "GooGrenade": {
+                "success": "<strong>效果</strong> 在命中时，该生物因粘在身上的粘性物质而获得速度减值。 @UUID[Compendium.pf2e.equipment-effects.5JYchreCttBg7RcD]{Effect: Goo Grenade}",
+                "Greater": "高等",
+                "Lesser": "次等",
+                "Major": "上等",
+                "Moderate": "中等",
+                "Prompt": "选择粘着手雷的品级。"
             }
         },
         "SpecificRule": {
@@ -1537,7 +1545,8 @@
             "VsShoveOrTrip": "对抗推撞或摔绊",
             "ImpersonateHumanVersion": "乔装为他们自己的人类形态时",
             "TellTheTruth": "讲述真相",
-            "ThickVegetation": "茂密植被中"
+            "ThickVegetation": "茂密植被中",
+            "AcidicEnvironment": "酸性环境中"
         },
         "OracleCurses": {
             "Label": {
