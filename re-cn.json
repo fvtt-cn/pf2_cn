@@ -435,7 +435,7 @@
                 }
             },
             "GooGrenade": {
-                "success": "<strong>效果</strong> 在命中时，该生物因粘在身上的粘性物质而获得速度减值。 @UUID[Compendium.pf2e.equipment-effects.5JYchreCttBg7RcD]{Effect: Goo Grenade}",
+                "success": "<strong>效果</strong> 在命中时，该生物因粘在身上的粘性物质而获得速度减值。 @UUID[Compendium.pf2e.equipment-effects.5JYchreCttBg7RcD]{效果: Goo Grenade}",
                 "Greater": "高等",
                 "Lesser": "次等",
                 "Major": "上等",
