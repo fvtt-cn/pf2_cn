@@ -702,7 +702,14 @@
                         "Remove": "移除持续伤害"
                     },
                     "Name": "持续伤害 ({formula} {damageType})",
-                    "NameWithDC": "持续伤害({formula} DC{dc})"
+                    "NameWithDC": "持续伤害({formula} DC{dc})",
+                    "Chat": {
+                        "Recover": "进行恢复检定",
+                        "RecoverLabel": "恢复: {name}"
+                    },
+                    "Error": {
+                        "DoesNotExist": "该角色上没有正持续的{damageType}伤害"
+                    }
                 }
             },
             "Deity": {
@@ -2067,7 +2074,8 @@
                 "fire": "火焰"
             },
             "PersistentTooltip": "持续{damageType}",
-            "IncreasedFrom": "从 {original} 增加到最少一个"
+            "IncreasedFrom": "从 {original} 增加到最少一个",
+            "Scatter": "散射伤害"
         },
         "DamageCategoriesLabel": "伤害类别",
         "DamageDieD10": "d10",
@@ -2388,7 +2396,7 @@
         },
         "KitItems": "物品",
         "KitWorldItem": "物品在合集包中不存在，或许不会产生作用",
-        "LackCastConsumableCapability": "{actor}缺乏使用{spell}的熟练且没有巧取魔法物品专长",
+        "LackCastConsumableCapability": "{actor}缺乏使用{spell}的熟练且没有巧取魔法物品专长。",
         "LanguageAbyssal": "深渊语",
         "LanguageAdlet": "狼妖",
         "LanguageAkitonian": "阿基顿",
@@ -3661,7 +3669,7 @@
         "TraitDescriptionAasimar": "拥有本特征的生物为神裔。",
         "TraitDescriptionAbjuration": "拥有此特征的效果、魔法和物品与防护系有关联，尤其是在涉及防护和守卫时。",
         "TraitDescriptionAcid": "拥有此特征的效果造成酸伤害；拥有此特征的生物与酸类魔法有关联。",
-        "TraitDescriptionAdditive": "具有添加剂特征的专长允许你花费动作向炸弹或灵药中添加特殊物质。单独一件炼金物品只能添加一份添加剂，尝试添加更多添加剂将会破坏这件物品。你通常只有在制作一件灌注炼金物品时才能使用具有添加剂特征的动作，这些动作中的某些必须与高速炼金动作一起使用。添加剂特征后面总是标注着等级，例如添加剂2。添加剂会将它的等级添加到你正在用其调制的炼金物品的等级上；将相加的结果作为混合物的新等级。这件混合物的物品等级不能高于你的高阶炼金术等级。",
+        "TraitDescriptionAdditive": "具有添加剂特征的专长允许你花费动作向炸弹或灵药中添加特殊物质。单独一件炼金物品只能添加一份添加剂，尝试添加更多添加剂将会破坏这件物品。你通常只有在制作一件灌注炼金物品时才能使用具有添加剂特征的动作，这些动作中的某些必须与高速炼金动作一起使用。添加剂特征后面总是标注着等级，例如添加剂2。添加剂会将它的等级添加到你正在用其调制的炼金物品的等级上；将相加的结果作为混合物的新等级。这件混合物的物品等级不能高于你的高阶炼金术等级",
         "TraitDescriptionAeon": "这些监视者自诩为现实的守护者。御衡者通常具有二元性的本质和形态，并以二分法来看待事物，但奇匠族和制裁者不会如此行事。奇匠族与制裁者御衡者会通过一种称为心像的奇特心灵感应来进行沟通。",
         "TraitDescriptionAesir": "Aesir 是来自混乱位面的好战观察者，它们不断磨练战斗技巧，为了对抗多元宇宙的终结而备战。",
         "TraitDescriptionAgathion": "盖丁是具备动物特征的天界生物族系，他们是涅槃境位面的原生生物。大多数盖丁天族都是中立善良阵营，具有黑暗视觉，并且具有邪恶伤害的弱点。",
