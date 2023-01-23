@@ -196,20 +196,20 @@
             },
             "JunkBomb": {
                 "Greater": {
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*3)[persistent,bleed]]]伤害以及[[/r (3[splash])[slashing]]]伤害。",
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 3[persistent,bleed]]]以及[[/r (3[splash])[slashing]]]伤害。"
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*3)[bleed]]]伤害以及[[/r (3[splash])[slashing]]]伤害。",
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 3[bleed]]]以及[[/r (3[splash])[slashing]]]伤害。"
                 },
                 "Lesser": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 1[persistent,bleed]]]伤害以及[[/r (1[splash])[slashing]]]伤害。",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*1)[persistent,bleed]]]以及[[/r (1[splash])[slashing]]]伤害。"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 1[bleed]]]伤害以及[[/r (1[splash])[slashing]]]伤害。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*1)[bleed]]]以及[[/r (1[splash])[slashing]]]伤害。"
                 },
                 "Major": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 4[persistent,bleed]]]以及[[/r (4[splash])[slashing]]]伤害。",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*4)[persistent,bleed]]]以及[[/r (4[splash])[slashing]]]伤害。"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 4[bleed]]]以及[[/r (4[splash])[slashing]]]伤害。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*4)[bleed]]]以及[[/r (4[splash])[slashing]]]伤害。"
                 },
                 "Moderate": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 2[persistent,bleed]]]以及[[/r (2[splash])[slashing]]]伤害。",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*2)[persistent,bleed]]]以及[[/r (2[splash])[slashing]]]伤害。"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 2[bleed]]]以及[[/r (2[splash])[slashing]]]伤害。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*2)[bleed]]]以及[[/r (2[splash])[slashing]]]伤害。"
                 }
             },
             "MudBomb": {
@@ -386,20 +386,20 @@
             },
             "TwigjackSack": {
                 "Greater": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 4[persistent,bleed]]]和[[/r (3[splash])[piercing]]]{3穿刺溅射伤害}。",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*4)[persistent,bleed]]]和[[/r (3[splash])[piercing]]]{3穿刺溅射伤害}。"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 4[bleed]]]和[[/r (3[splash])[piercing]]]{3穿刺溅射伤害}。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*4)[bleed]]]和[[/r (3[splash])[piercing]]]{3穿刺溅射伤害}。"
                 },
                 "Moderate": {
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*3)[persistent,bleed]]]和[[/r (2[splash])[piercing]]]{2穿刺溅射伤害}。",
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 3[persistent,bleed]]]和[[/r (2[splash])[piercing]]]{2穿刺溅射伤害}。"
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*3)[bleed]]]和[[/r (2[splash])[piercing]]]{2穿刺溅射伤害}。",
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 3[bleed]]]和[[/r (2[splash])[piercing]]]{2穿刺溅射伤害}。"
                 },
                 "Lesser": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 1[persistent,bleed]]]和[[/r (1[splash])[piercing]]]{1穿刺溅射伤害}。",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*1)[persistent,bleed]]]和[[/r (1[splash])[piercing]]]{1穿刺溅射伤害}。"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 1[bleed]]]和[[/r (1[splash])[piercing]]]{1穿刺溅射伤害}。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*1)[bleed]]]和[[/r (1[splash])[piercing]]]{1穿刺溅射伤害}。"
                 },
                 "Major": {
-                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 5[persistent,bleed]]]和[[/r (4[splash])[piercing]]]{4穿刺溅射伤害}。",
-                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*5)[persistent,bleed]]]和[[/r (4[splash])[piercing]]]{4穿刺溅射伤害}。"
+                    "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 5[bleed]]]和[[/r (4[splash])[piercing]]]{4穿刺溅射伤害}。",
+                    "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*5)[bleed]]]和[[/r (4[splash])[piercing]]]{4穿刺溅射伤害}。"
                 }
             },
             "VexingVapor": {
@@ -809,7 +809,7 @@
                     "SaveNote": "你在抵抗带有情绪特征的效果的意志豁免成功时，视为大成功处理。"
                 },
                 "BloodlettingFangs": {
-                    "AttackNote": "当你使用尖牙的打击造成重击时，额外造成[[/r 1d4[persistent,bleed]]]。"
+                    "AttackNote": "当你使用尖牙的打击造成重击时，额外造成[[/r 1d4[bleed]]]。"
                 }
             },
             "DragonDisciple": {
@@ -1294,9 +1294,9 @@
             "Vampire": {
                 "ViciousFangs": {
                     "Note": {
-                        "Base": "你的尖牙打击在暴击时造成额外[[/r 1d6[persistent,bleed]]]。",
-                        "FourteenthLevel": "你的尖牙打击在暴击时造成额外[[/r 2d6[persistent,bleed]]]。",
-                        "TwentiethLevel": "你的尖牙打击在暴击时造成额外[[/r 3d6[persistent,bleed]]]。"
+                        "Base": "你的尖牙打击在暴击时造成额外[[/r 1d6[bleed]]]。",
+                        "FourteenthLevel": "你的尖牙打击在暴击时造成额外[[/r 2d6[bleed]]]。",
+                        "TwentiethLevel": "你的尖牙打击在暴击时造成额外[[/r 3d6[bleed]]]。"
                     }
                 }
             },
@@ -1767,8 +1767,8 @@
                 "criticalSuccess": "[[/r (2*2d6+4)[persistent,acid]]]"
             },
             "Bleed1": {
-                "success": "[[/r 1[persistent,bleed]]]",
-                "criticalSuccess": "[[/r 2[persistent,bleed]]]"
+                "success": "[[/r 1[bleed]]]",
+                "criticalSuccess": "[[/r 2[bleed]]]"
             }
         },
         "Terrain": {
