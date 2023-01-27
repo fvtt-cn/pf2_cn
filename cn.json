@@ -31,7 +31,8 @@
         "TypeSpell": "法术",
         "TypeSpellcastingentry": "法术列表",
         "TypeTreasure": "宝物",
-        "TypeWeapon": "武器"
+        "TypeWeapon": "武器",
+        "TypeAffliction": "苦难"
     },
     "COMBAT": {
         "Begin": "开始遭遇",
@@ -56,7 +57,8 @@
             "Placeholder": "内容检索",
             "Hint": "检索集合包内容，而不是按名称去筛选"
         },
-        "Search": "搜索集合包"
+        "Search": "搜索集合包",
+        "Migrate": "迁移合集"
     },
     "CONTROLS": {
         "AdjustSceneDarkness": "调整场景黑暗度",
@@ -1241,7 +1243,10 @@
                 "StowingLabel": "要装进容器里吗？"
             },
             "WorldItemWarning": "这是一个世界项目，如果存入集合包中则不会起效",
-            "RemovalPrevented": "{preventer}阻止了{item}的移除。"
+            "RemovalPrevented": "{preventer}阻止了{item}的移除。",
+            "Affliction": {
+                "AddStage": "添加阶段"
+            }
         },
         "ActionsCheck": {
             "acrobatics": "特技检定",
@@ -1320,7 +1325,8 @@
                 },
                 "ClassDC": {
                     "Label": "职业DC",
-                    "Plural": "职业DC"
+                    "Plural": "职业DC",
+                    "LabelSpecific": "职业DC ({class})"
                 }
             },
             "Creature": {
@@ -1921,7 +1927,8 @@
                     "immunity": "免疫{type}: {adjustment}",
                     "resistance": "具有{type}抗力: {adjustment}",
                     "unaffected": "不受{type}影响:{adjustment}",
-                    "weakness": "具有{type}弱点: {adjustment}"
+                    "weakness": "具有{type}弱点: {adjustment}",
+                    "ignored": "忽略了对{type}的抗力！"
                 },
                 "CompositeLabel": {
                     "Exceptions0DoubleVs0": "{type} {value}",
@@ -2075,7 +2082,8 @@
             },
             "PersistentTooltip": "持续{damageType}",
             "IncreasedFrom": "从 {original} 增加到最少一个",
-            "Scatter": "散射伤害"
+            "Scatter": "散射伤害",
+            "Precision": "精准"
         },
         "DamageCategoriesLabel": "伤害类别",
         "DamageDieD10": "d10",
@@ -5801,7 +5809,18 @@
         "TraitRange270": "射程 270 ft",
         "TraitRange280": "射程 280 ft",
         "TraitRangeIncrement25": "射程增量 25 ft",
-        "Bonus": "加值"
+        "Bonus": "加值",
+        "CastingItemCreateDialog": {
+            "10thLevelWand": "10级魔杖不存在",
+            "itemTypeLabel": "物品类型: ",
+            "label": "通过拖拽的法术生成一个施法物品",
+            "cantripDeck5": "戏法套牌（5卡包） Cantrip Deck (5-pack)",
+            "scroll": "卷轴",
+            "spellLevelLabel": "升阶: ",
+            "submit": "创建物品",
+            "title": "创建施法物品",
+            "wand": "魔杖"
+        }
     },
     "DOCUMENT": {
         "Combat": "遭遇",
