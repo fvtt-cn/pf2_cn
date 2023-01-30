@@ -4895,7 +4895,7 @@
             "greaterFrost": {
                 "Name": "高等冻寒符文",
                 "Note": {
-                    "criticalSuccess": "该武器造成的寒冷伤害忽略目标的寒冷抗力。重击时，除非成功通过一个@Check[type:fortitude|dc:34|name:Greater Thundering Rune]豁免，否则目标陷入@UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}直到你下一回合结束。",
+                    "criticalSuccess": "该武器造成的寒冷伤害忽略目标的寒冷抗力。重击时，除非成功通过一个@Check[type:fortitude|dc:34|name:Greater Frost Rune]豁免，否则目标陷入@UUID[Compendium.pf2e.conditionitems.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}直到你下一回合结束。",
                     "success": "<strong>高等冻寒符文</strong>该武器造成的寒冷伤害忽略目标的寒冷抗力。"
                 }
             },
@@ -4929,7 +4929,7 @@
                     "Bow": "<strong>深化符文</strong> 拔出弹头的运动DC为20。",
                     "Brawling": "<strong>深化符文</strong> 目标的豁免获得-4环境减值。",
                     "Club": "<strong>深化符文</strong> 你可以击退目标最多15尺远。",
-                    "Dart": "<strong>深化符文</strong> 基础持续流血伤害提升为[[/r 2d6[persistent,bleed]]]。",
+                    "Dart": "<strong>深化符文</strong> 基础持续流血伤害提升为[[/r 2d6[bleed]]]。",
                     "Flail": "<strong>深化符文</strong> 你移动目标5尺。你无法将其移动远离你，但可以按你所想将其移动到你的另一个方位上。",
                     "Hammer": "<strong>深化符文</strong> 你还可以将其击退离你5尺远。",
                     "Knife": "<strong>深化符文</strong> 只要目标还受到该@UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害}，其速度获得-5尺状态减值。",
