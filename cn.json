@@ -653,6 +653,26 @@
                 },
                 "Label": "治疗伤害",
                 "SkillSelect": "治疗伤害技能:"
+            },
+            "DisableDevice": {
+                "Notes": {
+                    "criticalFailure": "<strong>大失败</strong>装置被你触发了。",
+                    "criticalSuccess": "<strong>大成功</strong> 你直接解除了面前的装置，或是在解除复杂结构的装置时视为获得了两次成功结果。你不会留下你曾经捣鼓过这件装置的痕迹，并且如果这件装置可以重置的话，你可以选择重置它。",
+                    "success": "<strong>成功</strong> 你直接解除了面前的装置，或是在解除复杂结构的装置时获得了一次成功结果。"
+                },
+                "Title": "解除装置"
+            },
+            "DecipherWriting": {
+                "Notes": {
+                    "success": "<strong>成功</strong> 你理解了文本的正确含义。但如果你是在解读加密的文本，那么你知道的是文本的大意，而非百分之百逐字逐句意义的翻译。",
+                    "criticalSuccess": "<strong>大成功</strong> 你理解了文本的确切含义。",
+                    "failure": "<strong>失败</strong> 你看不懂文本的意思，并且在接下来对该文本的解译文书尝试中承受-2环境减值。",
+                    "criticalFailure": "<strong>大失败</strong> 你认为你理解了文本的正确含义，但事实上你读错了其中的信息。"
+                },
+                "Title": "解译文书",
+                "Warning": {
+                    "NoSkill": "解译文书时会使用到不同的技能，但没有明确指定。可以用奥法技能解译科学或魔法文献，用神秘技能解译秘传和哲学文本，用宗教技能解译教会经文，用社交技能解译密码或是古代书写等。"
+                }
             }
         },
         "Item": {
@@ -711,7 +731,8 @@
                     },
                     "Error": {
                         "DoesNotExist": "该角色上没有正持续的{damageType}伤害"
-                    }
+                    },
+                    "RollDamage": "投骰伤害"
                 }
             },
             "Deity": {
@@ -1046,9 +1067,17 @@
                 "ShowTokenIcon": "显示指示物图标？",
                 "AddBadge": "增加记数",
                 "BadgeType": {
-                    "Counter": "记数"
+                    "Counter": "记数",
+                    "counter": "计数",
+                    "formula": "公式",
+                    "value": "固定值"
                 },
-                "Unidentified": "不明？"
+                "Unidentified": "不明？",
+                "AddLabel": "添加标签",
+                "LabelPlaceholder": "阶段标签",
+                "ExtraSelections": {
+                    "Labels": "计数（带标签）"
+                }
             },
             "Feat": {
                 "OnlyLevel1": "必须在1级时选取",
@@ -1069,7 +1098,8 @@
                 "Info": {
                     "Added": "{item}已添加到{category}。"
                 },
-                "LevelLabel": "专长"
+                "LevelLabel": "专长",
+                "LevelN": "专长 {level}"
             },
             "Heritage": {
                 "AncestryNotFound": "找不到引用的族裔模板。",
@@ -1127,6 +1157,11 @@
                     "Improvised": "临时",
                     "Shoddy": "劣质",
                     "Herbal": "草药"
+                },
+                "FromSpell": {
+                    "Scroll": "{name} 卷轴 ({level}环)",
+                    "Wand": "{name} 魔杖 ({level}环)",
+                    "CantripDeck5": "{name}戏法套牌（5卡包）"
                 }
             },
             "SidebarSummary": "{type}目录",
@@ -1229,8 +1264,10 @@
                     "SheetTitle": "{originalName} (变体)"
                 },
                 "Warning": {
-                    "InvalidLevel": "尝试添加法术{name}至 {targetLevel}，但法术基础环级为{baseLevel}。"
-                }
+                    "InvalidLevel": "尝试添加法术{name}至 {targetLevel}，但法术基础环级为{baseLevel}。",
+                    "WrongSpellType": "无法将 {spellType} 法术添加到此施法目录。"
+                },
+                "LevelN": "法术{level}"
             },
             "CreationDialog": {
                 "Categories": {
@@ -1245,7 +1282,14 @@
             "WorldItemWarning": "这是一个世界项目，如果存入集合包中则不会起效",
             "RemovalPrevented": "{preventer}阻止了{item}的移除。",
             "Affliction": {
-                "AddStage": "添加阶段"
+                "AddStage": "添加阶段",
+                "SaveLabel": "豁免DC",
+                "StageLabel": "阶段",
+                "Stage": "阶段{stage}",
+                "OnsetLabel": "潜伏期",
+                "Error": {
+                    "RestrictedStageItem": "只有效果可以直接添加到苦难中"
+                }
             }
         },
         "ActionsCheck": {
@@ -2048,7 +2092,8 @@
                     "frightened": "惊惧",
                     "sickened": "恶心",
                     "trip": "摔拌",
-                    "vorpal-adamantine": "斩首精金"
+                    "vorpal-adamantine": "斩首精金",
+                    "damage-from-spells": "法术伤害"
                 },
                 "ActorIsImmune": "{actor} 对{effect}免疫。",
                 "ActorIsUnaffected": "{actor}不受{effect}影响。"
@@ -4698,7 +4743,8 @@
                 "kris": "波形刀",
                 "broadspear": "宽矛",
                 "flying-talon": "飞爪",
-                "talwar": "塔瓦弯刀"
+                "talwar": "塔瓦弯刀",
+                "triggerbrand": "扳机剑"
             }
         },
         "WeaponAbilityLabel": "武器能力",
@@ -5820,7 +5866,14 @@
             "submit": "创建物品",
             "title": "创建施法物品",
             "wand": "魔杖"
-        }
+        },
+        "TraitEtchedOntoLightArmor": "蚀刻在轻甲上",
+        "TraitEtchedOntoASlashingMeleeWeapon": "蚀刻到挥砍近战武器上",
+        "TraitEtchedOntoAPiercingOrSlashingMeleeWeapon": "蚀刻到穿刺或挥砍近战武器上",
+        "TraitEtchedOntoAWeaponWOAxiomaticRune": "蚀刻到没有公理符文的武器上",
+        "TraitEtchedOntoAWeaponWOUnholyRune": "蚀刻到没有邪恶符文的武器上",
+        "TraitEtchedOntoAWeaponWOAnarchicRune": "蚀刻到没有混沌符文的武器上",
+        "TraitEtchedOntoAWeaponWOHolyRune": "蚀刻到没有神圣符文的武器上"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
