@@ -1320,16 +1320,16 @@
         "ActionsReactionsHeader": "反应动作列表",
         "Actor": {
             "ApplyDamage": {
-                "AtFullHealth": "{actor} 已经恢复至满血。",
-                "DamagedForN": "{actor}受到{hpDamage}点伤害。",
-                "ShieldAbsorbsAll": "{actor}毫发无伤，他们的盾牌完全吸收了{absorbedDamage}点伤害。",
-                "DamagedForNShield": "{actor}的盾牌抵挡了{absorbedDamage}点伤害, 并且自身受到{hpDamage}点穿透伤害。",
-                "HealedForN": "{actor}受到了{hpDamage}点治疗。",
+                "AtFullHealth": "<actor>{actor}</actor> 已经恢复至满血。",
+                "DamagedForN": "<actor>{actor}</actor>受到{hpDamage}点伤害。",
+                "ShieldAbsorbsAll": "<actor>{actor}</actor>毫发无伤，他们的盾牌完全吸收了{absorbedDamage}点伤害。",
+                "DamagedForNShield": "<actor>{actor}</actor>的盾牌抵挡了{absorbedDamage}点伤害, 并且自身受到{hpDamage}点穿透伤害。",
+                "HealedForN": "<actor>{actor}</actor>受到了{hpDamage}点治疗。",
                 "ShieldDamagedForN": "他们的盾牌也受到 {shieldDamage}点伤害。",
                 "ShieldDamagedForNBroken": "他们的盾牌也受到 {shieldDamage}点伤害，并破损。",
                 "ShieldDamagedForNDestroyed": "他们的盾牌也受到 {shieldDamage}点伤害，并破坏。",
                 "ShieldNotRaised": "{actor} 并未举起他们的盾牌。",
-                "TakesNoDamage": "{actor} 没有受到伤害。"
+                "TakesNoDamage": "<actor>{actor}</actor>没有受到伤害。"
             },
             "Character": {
                 "AbilityBuilder": {
@@ -4628,7 +4628,7 @@
                 "juggling-club": "杂耍棒",
                 "kama": "单镰",
                 "karambit": "爪刀",
-                "katana": "武士刀",
+                "katana": "打刀",
                 "katar": "拳匕",
                 "khakkara": "禅杖",
                 "khopesh": "镰剑",
