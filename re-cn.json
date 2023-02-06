@@ -441,6 +441,9 @@
                 "Major": "上等",
                 "Moderate": "中等",
                 "Prompt": "选择粘着手雷的品级。"
+            },
+            "BioluminescenceBomb": {
+                "success": "<p>炸弹落点@Template[type:emanation|distance:10]{10尺}内的所有生物都必须尝试@Check[type:reflex|dc:17] 豁免，否则会沾染荧光剂，持续发光24小时。受影响的生物还必须尝试@Check[type:fortitude|dc:17]豁免来对抗爆发的强光。</p><p><strong>成功</strong> 生物不受影响。</p><p><strong>失败</strong> 生物@UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩 Dazzled}1轮。</p><p><strong>大失败</strong> 生物@UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲 Blinded}1轮，然后再目眩1轮。</p>"
             }
         },
         "SpecificRule": {
@@ -514,7 +517,8 @@
                 "Artistry": "技艺",
                 "Blacksmithing": "铁匠",
                 "Bookmaking": "书籍装订",
-                "Glassmaking": "吹制玻璃"
+                "Glassmaking": "吹制玻璃",
+                "Prompt": "选择专攻方向。"
             },
             "Elf": {
                 "BrightnessSeeker": {
@@ -670,7 +674,11 @@
                 "SimpleFirearmsCrossbows": "简易火器&弩",
                 "AdvancedGnollWeapons": "进阶豺狼人武器",
                 "AdvancedGnomeWeapons": "进阶侏儒武器",
-                "AdvancedGrippliWeapons": "进阶树蛙人武器"
+                "AdvancedGrippliWeapons": "进阶树蛙人武器",
+                "MartialVishkanyaWeapons": "军用蝮蛇武器",
+                "MartialVanaraWeapons": "军用灵猴武器",
+                "AdvancedVishkanyaWeapons": "进阶蝮蛇武器",
+                "AdvancedVanaraWeapons": "进阶灵猴武器"
             },
             "GeneralTraining": {
                 "AllowedDrops": "1级通用专长",
@@ -709,7 +717,8 @@
             },
             "Barbarian": {
                 "Dragon": {
-                    "Prompt": "选择一种龙"
+                    "Prompt": "选择一种龙",
+                    "NormalRageDamage": "造成正常的狂暴伤害"
                 },
                 "Animal": {
                     "Prompt": "选择一种动物"
@@ -718,7 +727,8 @@
                     "Prompt": "选择一种本能"
                 },
                 "Giant": {
-                    "prompt": "为狂暴抗力选择一种能量类型"
+                    "prompt": "为狂暴抗力选择一种能量类型",
+                    "Prompt": "选择狂暴的能量抗力类型。"
                 }
             },
             "Bard": {
@@ -942,7 +952,9 @@
                 "WeaponGroup": "选择一个武器组",
                 "LevelOneClassFeat": "选择一个1级职业专长",
                 "LevelOneOrTwoClassFeat": "选择一个1或2级职业专长",
-                "PathToPerfection": "选择一种完美之道"
+                "PathToPerfection": "选择一种完美之道",
+                "DragonBreathWeapon": "选择一种龙类吐息。",
+                "WeaponOrUnarmed": "选择一把武器或无武装打击。"
             },
             "SterlingDynamo": {
                 "Label": "纹银机铠士",
@@ -1002,6 +1014,13 @@
             "Monk": {
                 "SacredKi": {
                     "Prompt": "选择阵营伤害"
+                },
+                "StunningFist": {
+                    "Note": "目标必须通过@Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.monk.value)|traits:incapacitation|overrideTraits:true]，对抗你的职业DC，否则陷入@UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{震慑 Stunned 1} (大失败陷入@UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{震慑 Stunned 3})。"
+                },
+                "OneInchPunch": {
+                    "TwoActionLabel": "寸拳（2动作）",
+                    "ThreeActionLabel": "寸拳（3动作）"
                 }
             },
             "Shisk": {
@@ -1073,13 +1092,18 @@
             "Ranger": {
                 "HuntersEdge": {
                     "Prompt": "选择一种猎手优势"
+                },
+                "HamstringingStrike": {
+                    "Prompt": "选择打击结果。",
+                    "Note": "如果命中猎物，该生物的速度将获得-5尺的状态减值。如果对你的猎物造成了重击，该生物的速度将获得-10尺的状态减值。\n@UUID[Compendium.pf2e.feat-effects.ESnzqtwSgahLcxg2]{效果: 断筋打击}"
                 }
             },
             "TOTMToggle": {
                 "FirstRangeIncrement": "需求目标位于第一射程增量内的能力正在生效",
                 "Vampire": "需求目标是吸血鬼的能力正在生效",
                 "FlatFooted": "需求目标措手不及的能力正在生效",
-                "Undead": "需求目标是不死生物的能力正在生效"
+                "Undead": "需求目标是不死生物的能力正在生效",
+                "Incorporeal": "启用需求目标为虚体的能力"
             },
             "Wizard": {
                 "ArcaneSchool": {
@@ -1159,6 +1183,13 @@
                     "Shield": "盾牌（锤或盾牌）",
                     "Torch": "火把（炸弹或短刃）",
                     "Prompt": "选择你部族印记的形状"
+                },
+                "OrcWarmask": {
+                    "Land": "大地",
+                    "Magic": "魔法",
+                    "Prompt": "选择兽人战纹的力量来源。",
+                    "Unknown": "未知",
+                    "Gods": "诸神"
                 }
             },
             "SneakAttack": "偷袭",
@@ -1301,7 +1332,16 @@
                 }
             },
             "VirtuosicPerformer": {
-                "Prompt": "选择表演类型"
+                "Prompt": "选择表演类型",
+                "Acting": "戏剧",
+                "Comedy": "喜剧",
+                "Dance": "舞蹈",
+                "Keyboards": "键盘乐器",
+                "Oratory": "演说",
+                "Percussion": "打击乐",
+                "Singing": "歌唱",
+                "Strings": "弦乐",
+                "Winds": "管乐"
             },
             "UndeadSlayer": {
                 "SlayersBlessing": {
@@ -1377,6 +1417,9 @@
             "Investigator": {
                 "Methodology": {
                     "Prompt": "选择一种方法论"
+                },
+                "PursueALead": {
+                    "Label": "正在用追查方向调查指定客体"
                 }
             },
             "SpellEffectProtection": {
@@ -1403,6 +1446,87 @@
             "Champion": {
                 "DivineSmite": {
                     "Label": "神圣制裁"
+                }
+            },
+            "DeviantAbilities": {
+                "AwakenedPower": {
+                    "BoneSpikesPoison": "骨刺: 毒液",
+                    "ConsumeEnergyRange": "吞噬能量: 增加范围",
+                    "ConsumeEnergyStrikes": "吞噬能量: 增强打击",
+                    "DistantWanderingFly": "神游: 飞行",
+                    "DistantWanderingQuick": "神游: 迅捷",
+                    "EerieFlickerTerrify": "怪异闪烁: 可怕影子",
+                    "EerieFlickerCompress": "怪异闪烁: 凝聚闪烁",
+                    "TectonicStompStun": "地震重踏: 震慑敌人",
+                    "BlastingBeamsLine": "爆炸射线: 60尺线形",
+                    "BlastingBeamsAgile": "爆炸射线: 灵巧打击",
+                    "BoneSpikesReach": "骨刺: 长触及",
+                    "EnervatingWailSilent": "衰弱哭嚎: 无声哭嚎",
+                    "PropulsiveLeapWeapon": "助推飞跃: 推进武器",
+                    "StormingBreathProne": "风暴吐息: 击倒",
+                    "EnervatingWailEnfeebling": "衰弱哭嚎: 削弱哭嚎",
+                    "GhostlyGraspGrab": "幽冥鬼爪: 擒抱",
+                    "GhostlyGraspPush": "幽冥鬼爪: 推离",
+                    "HighSpeedRegenerationDeath": "高速再生: 紧急再生",
+                    "HighSpeedRegenerationSpeed": "高速再生: 速度增加",
+                    "Prompt": "为特异专长选择一种觉醒能力。",
+                    "PropulsiveLeapSpeed": "助推飞跃: 速度增加",
+                    "StormingBreathEscape": "风暴吐息: 快速逃脱",
+                    "TectonicStompStone": "地震重踏: 石块掩护",
+                    "TitanSwingProne": "泰坦挥击: 推离",
+                    "TitanSwingBleed": "泰坦挥击: 流血"
+                },
+                "TitanSwing": {
+                    "NoteFifteenFeet": "目标被推离15尺。",
+                    "NoteProne": "目标被推离通常距离的两倍，并被击@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}。",
+                    "NoteTenFeet": "目标被推离10尺。",
+                    "NoteFiveFeet": "目标被推离5尺。"
+                },
+                "BoneSpikes": {
+                    "ReachLabel": "扩展骨刺",
+                    "StrikeLabel": "骨刺 Bone Spike"
+                },
+                "Dragon": {
+                    "EnergyPrompt": "选择你的龙类能力对应的能量"
+                }
+            },
+            "TrapFinder": {
+                "DefendingLabel": "寻找陷阱（防御陷阱效果）",
+                "SearchLabel": "寻找陷阱（搜索陷阱）"
+            },
+            "Nagaji": {
+                "VenomSpit": {
+                    "HoodedNote": "目标还陷入@UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩 Dazzled}，直到你下回合开始。",
+                    "CriticalNote": "目标受到等于武器伤害骰数量的[[/r (1+@weapon.system.runes.striking)[persistent,poison]]]{持续毒素伤害}"
+                }
+            },
+            "OverwhelmingBlow": {
+                "CriticalHit": "凶猛痛殴造成重击"
+            },
+            "Fighter": {
+                "DoubleSlice": {
+                    "SecondAttackLabel": "双重切割第二击"
+                }
+            },
+            "DivineAlly": {
+                "AllowedDrops": "神卫职业特性",
+                "Prompt": "选择神圣盟友"
+            },
+            "CatharticMage": {
+                "EmotionalState": {
+                    "Prompt": "选择宣洩情绪"
+                }
+            },
+            "LitCandle": "蜡烛被点燃",
+            "WardenHuman": {
+                "HitPoints": "4生命值",
+                "Fortitude": "强韧豁免为专家",
+                "MediumArmor": "中甲熟练度为受训"
+            },
+            "Vishkanya": {
+                "VenomResistantVishkanya": {
+                    "PoisonSaveNote": "每次对抗毒素苦难进展的豁免检定若成功，阶段降低2；大成功则降低3。",
+                    "VirulentSaveNote": "每次对抗恶性毒素苦难进展的豁免检定若成功，阶段降低1；大成功则降低2。"
                 }
             }
         },
@@ -1551,7 +1675,12 @@
             "ImpersonateHumanVersion": "乔装为他们自己的人类形态时",
             "TellTheTruth": "讲述真相",
             "ThickVegetation": "茂密植被中",
-            "AcidicEnvironment": "酸性环境中"
+            "AcidicEnvironment": "酸性环境中",
+            "RunningWater": "在流动的水中",
+            "DimLight": "在昏暗光中",
+            "AgainstDemons": "对抗恶魔",
+            "Underwater": "水下",
+            "Raining": "下雨"
         },
         "OracleCurses": {
             "Label": {
@@ -1691,7 +1820,15 @@
                 "Kill": "侍奉-杀戮"
             },
             "LegionArchonFlameOfJustice": "正义明焰-重击",
-            "MarilithFocusedAssault": "六臂蛇魔挥舞着多少把长剑？",
+            "MarilithFocusedAssault": {
+                "One": "1把长剑",
+                "Two": "2把长剑",
+                "Three": "3把长剑",
+                "Four": "4把长剑",
+                "Five": "5把长剑",
+                "Six": "6把长剑",
+                "Prompt": "六臂蛇魔持握的长剑数量？"
+            },
             "YetiNightmareGuardianRage": "噩梦守护者狂暴",
             "PunishingStrike": {
                 "Note": "鲁莽的攻击让使用者陷入@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及}直到下一回合开始。如果命中，可以在打击中添加@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{推离Push}效果"
@@ -1713,7 +1850,31 @@
             "LegionArchon": {
                 "FlameOfJustice": "正义之炎 - 重击"
             },
-            "KrampusPunishTheNaughty": "坎普斯对抗“淘气”目标掷骰"
+            "KrampusPunishTheNaughty": "坎普斯对抗“淘气”目标掷骰",
+            "Seugathi": {
+                "MindfogSuppression": "压制迷心灵光"
+            },
+            "Surgeon": {
+                "MedicalMalpracticeCriticalSuccess": "医疗事故（重击）"
+            },
+            "IoseffXarwin": {
+                "FulviasRing": {
+                    "SavePossess": "豁免，对抗持有芙薇娅戒指的目标",
+                    "SaveWear": "豁免，对抗装备芙薇娅戒指的目标",
+                    "TargetPossess": "目标持有芙薇娅的戒指",
+                    "TargetWear": "目标装备芙薇娅的戒指"
+                }
+            },
+            "HellboundAttorney": {
+                "OpeningStatementCriticalSuccess": "开场陈述（大成功）"
+            },
+            "PaleStranger": {
+                "TargetNeverKilled": "目标从未杀过一个活物",
+                "TargetMurderedPaleStranger": "目标是苍陌客的杀手"
+            },
+            "KallasDevil": {
+                "DisguisedAsChild": "正伪装成孩子"
+            }
         },
         "UI": {
             "RuleElements": {
