@@ -673,6 +673,41 @@
                 "Warning": {
                     "NoSkill": "解译文书时会使用到不同的技能，但没有明确指定。可以用奥法技能解译科学或魔法文献，用神秘技能解译秘传和哲学文本，用宗教技能解译教会经文，用社交技能解译密码或是古代书写等。"
                 }
+            },
+            "Perform": {
+                "Notes": {
+                    "criticalSuccess": "<strong>大成功</strong> 你的表演震撼人心，观众可能在之后四处表扬你的才能。",
+                    "success": "<strong>成功</strong> 你完全地展现了自己的才华，观众们感谢你的演技。",
+                    "failure": "<strong>失败</strong>你的表演什么效果都没有。",
+                    "criticalFailure": "<strong>大失败</strong>成功的展现了自己有多废。"
+                },
+                "Title": {
+                    "Comedy": "表演-喜剧",
+                    "Acting": "表演-戏剧",
+                    "Dance": "表演-舞蹈",
+                    "Oratory": "表演-演说",
+                    "Percussion": "表演-演奏打击乐器",
+                    "Keyboards": "表演-演奏键盘乐器",
+                    "Singing": "表演-歌唱",
+                    "Strings": "表演-演奏弦乐乐器",
+                    "Winds": "表演-演奏管乐器"
+                },
+                "Warning": {
+                    "UnknownVariant": "用于表演的变体“{variant}”未知，请使用戏剧、喜剧、舞蹈、键盘、演讲、打击乐、歌唱、弦乐或管乐。"
+                }
+            },
+            "Subsist": {
+                "AfterExplorationPenalty": "探索后",
+                "Notes": {
+                    "criticalSuccess": "<strong>大成功</strong> 你可以为自己加上另一个生物提供足以维生程度的饮食和住所，或是为自己一个人提供舒适生活标准程度的食物和住所。",
+                    "success": "<strong>成功</strong> 你为自己找到了足以保证基本生活和遮风避雨的食物及住所。",
+                    "failure": "<strong>失败</strong> 你被风吹雨淋而且没有吃饱，直到你下一次成功获得足够好的饮食和住所前你陷入疲乏状态。",
+                    "criticalFailure": "<strong>Critical Failure</strong>你给自己招来麻烦，吃错了东西，或是造成了其他会让你变得更惨的结果。你在接下来一周中所有的求生检定上承受-2环境减值，并且你没有获得任何食物。如果你没有储备的话，可能你很快就会死于冻饿饥渴。@UUID[Compendium.pf2e.other-effects.wHWWHkjDXmJl4Ia6]{Effect: Adverse Subsist Situation}"
+                },
+                "Title": "求生",
+                "Warning": {
+                    "NoSkill": "求生行动可使用不同的技能，但目前未指定任何技能。如果你在定居点，这通常使用社群，如果你在野外，则使用生存。"
+                }
             }
         },
         "Item": {
@@ -1329,7 +1364,8 @@
                 "ShieldDamagedForNBroken": "他们的盾牌也受到 {shieldDamage}点伤害，并破损。",
                 "ShieldDamagedForNDestroyed": "他们的盾牌也受到 {shieldDamage}点伤害，并破坏。",
                 "ShieldNotRaised": "{actor} 并未举起他们的盾牌。",
-                "TakesNoDamage": "<actor>{actor}</actor>没有受到伤害。"
+                "TakesNoDamage": "<actor>{actor}</actor>没有受到伤害。",
+                "TheTarget": "目标"
             },
             "Character": {
                 "AbilityBuilder": {
@@ -1399,7 +1435,8 @@
                     "ValidItemTypes": {
                         "All": "所有魔法物品",
                         "Scroll": "仅卷轴"
-                    }
+                    },
+                    "TraditionSpellcasting": "{tradition}施法能力"
                 },
                 "Sense": {
                     "Acuity": {
@@ -2128,7 +2165,16 @@
             "PersistentTooltip": "持续{damageType}",
             "IncreasedFrom": "从 {original} 增加到最少一个",
             "Scatter": "散射伤害",
-            "Precision": "精准"
+            "Precision": "精准",
+            "Dialog": {
+                "CriticalDamageRoll": "重击伤害掷骰",
+                "Label": "标签",
+                "None": "无",
+                "BonusDice": "额外骰",
+                "Bonus": "额外{dice}",
+                "DamageRoll": "伤害掷骰",
+                "Splash": "{damageType} 溅射"
+            }
         },
         "DamageCategoriesLabel": "伤害类别",
         "DamageDieD10": "d10",
@@ -5873,7 +5919,8 @@
         "TraitEtchedOntoAWeaponWOAxiomaticRune": "蚀刻到没有公理符文的武器上",
         "TraitEtchedOntoAWeaponWOUnholyRune": "蚀刻到没有邪恶符文的武器上",
         "TraitEtchedOntoAWeaponWOAnarchicRune": "蚀刻到没有混沌符文的武器上",
-        "TraitEtchedOntoAWeaponWOHolyRune": "蚀刻到没有神圣符文的武器上"
+        "TraitEtchedOntoAWeaponWOHolyRune": "蚀刻到没有神圣符文的武器上",
+        "Category": "类别"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
