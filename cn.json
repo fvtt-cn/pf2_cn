@@ -5613,7 +5613,9 @@
             "PropertyDescriptionPilotingCheck": "表中列出了驾驶载具所需的驾驶技能检定。一些技能可能增加驾驶DC，在技能后的括号内列出DC调整值。",
             "PropertyDescriptionSpeed": "载具的速度。 括号内表示载具的动力和相应的速度。需要动物拖拽的载具标注了需要的动物数量。",
             "PropertyDescriptionCollisionDC": "载具的DC用于豁免骰以减轻伤害。",
-            "PropertyDescriptionCollisionDamage": "载具的碰撞伤害。除非另有说明，否则碰撞会造成钝击伤害。"
+            "PropertyDescriptionCollisionDamage": "载具的碰撞伤害。除非另有说明，否则碰撞会造成钝击伤害。",
+            "CurrentHPTitle": "当前生命值",
+            "LevelN": "载具 {level}"
         },
         "Familiar": {
             "Master": "主人",
@@ -5843,7 +5845,7 @@
         "LanguageOcotan": "",
         "LanguageRazatlani": "",
         "LanguageKibwani": "",
-        "TraitDescriptionGoloma": "",
+        "TraitDescriptionGoloma": "长着无数眼睛的孤僻类人种族。",
         "LanguageOkaiyan": "",
         "LanguageDrooni": "",
         "TraitDescriptionGhul": "贪婪而暴食的不死鬼巨灵，它们起源自巨灵。",
@@ -5920,7 +5922,9 @@
         "TraitEtchedOntoAWeaponWOUnholyRune": "蚀刻到没有邪恶符文的武器上",
         "TraitEtchedOntoAWeaponWOAnarchicRune": "蚀刻到没有混沌符文的武器上",
         "TraitEtchedOntoAWeaponWOHolyRune": "蚀刻到没有神圣符文的武器上",
-        "Category": "类别"
+        "Category": "类别",
+        "TraitAppliedToMediumHeavyArmor": "应用于中甲或重甲",
+        "TraitDescriptionVishkanya": "形似蛇并拥有猛毒的族裔。"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
