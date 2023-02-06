@@ -1045,7 +1045,7 @@
                     "Prompt": "选择一种世代仇敌"
                 },
                 "SparkFist": {
-                    "Note": "每次你用拳头命中时，你承受[[/r (1+@weapon.data.data.runes.striking)[fire]]]{火焰伤害}。"
+                    "Note": "每次你用拳头命中时，你承受[[/r (1+@weapon.system.runes.striking)[fire]]]{火焰伤害}。"
                 },
                 "TombWatchersGlare": {
                     "Note": "当你重击一个亡灵生物，亡灵@UUID[Compendium.pf2e.conditionitems.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}，持续1回合。"
@@ -1231,7 +1231,7 @@
                 "Lodovka": "洛多夫卡 Lodovka"
             },
             "TerrainExpertise": {
-                "Prompt": "选择要获得专家的地形"
+                "Prompt": "选择一种地形"
             },
             "WardingRune": {
                 "Prompt": "选择一个预言系以外的魔法学派"
