@@ -1399,6 +1399,11 @@
                 "Label": "完美学社",
                 "Prompt": "选择一个完美学社",
                 "UnblinkingFlame": "静焰宗"
+            },
+            "Champion": {
+                "DivineSmite": {
+                    "Label": "神圣制裁"
+                }
             }
         },
         "RuleElement": {
