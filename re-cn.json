@@ -880,6 +880,10 @@
                 },
                 "PhantomShroud": {
                     "StrikeLabel": "幽灵之手 Ghostly Hand"
+                },
+                "NosoiCharm": {
+                    "PerformanceLabel": "疫鸟魅力(演奏乐器，演说或歌唱)",
+                    "RequestLabel": "疫鸟魅力(请求)"
                 }
             },
             "FighterWeaponMasteryLegend": {
@@ -954,7 +958,8 @@
                 "LevelOneOrTwoClassFeat": "选择一个1或2级职业专长",
                 "PathToPerfection": "选择一种完美之道",
                 "DragonBreathWeapon": "选择一种龙类吐息。",
-                "WeaponOrUnarmed": "选择一把武器或无武装打击。"
+                "WeaponOrUnarmed": "选择一把武器或无武装打击。",
+                "ClassDCAbilityScore": "选择职业DC的属性值。"
             },
             "SterlingDynamo": {
                 "Label": "纹银机铠士",
@@ -1474,7 +1479,8 @@
                     "StormingBreathEscape": "风暴吐息: 快速逃脱",
                     "TectonicStompStone": "地震重踏: 石块掩护",
                     "TitanSwingProne": "泰坦挥击: 推离",
-                    "TitanSwingBleed": "泰坦挥击: 流血"
+                    "TitanSwingBleed": "泰坦挥击: 流血",
+                    "AwakenedLabel": "觉醒"
                 },
                 "TitanSwing": {
                     "NoteFifteenFeet": "目标被推离15尺。",
@@ -1497,7 +1503,8 @@
             "Nagaji": {
                 "VenomSpit": {
                     "HoodedNote": "目标还陷入@UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩 Dazzled}，直到你下回合开始。",
-                    "CriticalNote": "目标受到等于武器伤害骰数量的[[/r (1+@weapon.system.runes.striking)[persistent,poison]]]{持续毒素伤害}"
+                    "CriticalNote": "目标受到等于武器伤害骰数量的[[/r (1+@weapon.system.runes.striking)[persistent,poison]]]{持续毒素伤害}",
+                    "StrikeLabel": "毒液喷吐"
                 }
             },
             "OverwhelmingBlow": {
@@ -1515,6 +1522,9 @@
             "CatharticMage": {
                 "EmotionalState": {
                     "Prompt": "选择宣洩情绪"
+                },
+                "Love": {
+                    "Toggle": "施展一个法术让你的情绪焦点获得好处"
                 }
             },
             "LitCandle": "蜡烛被点燃",
@@ -1528,6 +1538,13 @@
                     "PoisonSaveNote": "每次对抗毒素苦难进展的豁免检定若成功，阶段降低2；大成功则降低3。",
                     "VirulentSaveNote": "每次对抗恶性毒素苦难进展的豁免检定若成功，阶段降低1；大成功则降低2。"
                 }
+            },
+            "BottledOmen": {
+                "Label": "使用你的预兆"
+            },
+            "MechanicalTorch": {
+                "LitCone": "点燃机械火炬（锥形）",
+                "LitRadius": "点燃机械火炬（半径）"
             }
         },
         "RuleElement": {
@@ -1680,7 +1697,9 @@
             "DimLight": "在昏暗光中",
             "AgainstDemons": "对抗恶魔",
             "Underwater": "水下",
-            "Raining": "下雨"
+            "Raining": "下雨",
+            "Orate": "演说",
+            "TarPit": "焦油坑内"
         },
         "OracleCurses": {
             "Label": {
