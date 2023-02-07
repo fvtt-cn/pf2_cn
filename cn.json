@@ -1100,7 +1100,7 @@
                     "EndOfTurn": "回合结束"
                 },
                 "ShowTokenIcon": "显示指示物图标？",
-                "AddBadge": "增加记数",
+                "AddBadge": "增加",
                 "BadgeType": {
                     "Counter": "记数",
                     "counter": "计数",
