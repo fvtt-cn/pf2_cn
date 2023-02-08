@@ -255,15 +255,6 @@
                 },
                 "Title": "Command an Animal"
             },
-            "ConcealAnObject": {
-                "Notes": {
-                    "criticalSuccess": "<strong>Success</strong> The object remains undetected.",
-                    "success": "<strong>Success</strong> The object remains undetected.",
-                    "failure": "<strong>Failure</strong> The searcher finds the object.",
-                    "criticalFailure": "<strong>Failure</strong> The searcher finds the object."
-                },
-                "Title": "Conceal an Object"
-            },
             "CreateADiversion": {
                 "DistractingWords": "Create a Diversion - Distracting Words",
                 "Gesture": "Create a Diversion - Gesture",
@@ -461,15 +452,6 @@
                 },
                 "Title": "Maneuver in Flight"
             },
-            "PalmAnObject": {
-                "Notes": {
-                    "criticalSuccess": "<strong>Success</strong> The creature does not notice you Palming the Object.",
-                    "success": "<strong>Success</strong> The creature does not notice you Palming the Object.",
-                    "failure": "<strong>Failure</strong> The creature notices you Palming the Object, and the GM determines the creature's response.",
-                    "criticalFailure": "<strong>Failure</strong> The creature notices you Palming the Object, and the GM determines the creature's response."
-                },
-                "Title": "Palm an Object"
-            },
             "Perform": {
                 "Notes": {
                     "criticalSuccess": "<strong>Critical Success</strong> Your performance impresses the observers, and they're likely to share stories of your ability.",
@@ -614,16 +596,6 @@
                     "criticalFailure": "<strong>Critical Failure</strong> You become stuck in the tight space. While you're stuck, you can spend 1 minute attempting another Acrobatics check at the same DC. Any result on that check other than a critical failure causes you to become unstuck."
                 },
                 "Title": "Squeeze"
-            },
-            "Steal": {
-                "Notes": {
-                    "criticalSuccess": "<strong>Success</strong> You steal the item without the bearer noticing, or an observer doesn't see you take or attempt to take the item.",
-                    "success": "<strong>Success</strong> You steal the item without the bearer noticing, or an observer doesn't see you take or attempt to take the item.",
-                    "failure": "<strong>Failure</strong> The item's bearer notices your attempt before you can take the object, or an observer sees you take or attempt to take the item. The GM determines the response of any creature that notices your theft.",
-                    "criticalFailure": "<strong>Failure</strong> The item's bearer notices your attempt before you can take the object, or an observer sees you take or attempt to take the item. The GM determines the response of any creature that notices your theft."
-                },
-                "Pocketed": "Object pocketed or protected",
-                "Title": "Steal"
             },
             "SteelYourResolve": {
                 "Title": "Steel Your Resolve",
