@@ -1894,7 +1894,7 @@
         "ConditionTypeObserved": "可见",
         "ConditionTypeParalyzed": "麻痹",
         "ConditionTypePersistent": "持续伤害",
-        "ConditionTypePersistentShort": "恒久",
+        "ConditionTypePersistentShort": "持续",
         "ConditionTypePetrified": "石化",
         "ConditionTypeProne": "倒地",
         "ConditionTypeQuickened": "迅捷",
