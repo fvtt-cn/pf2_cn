@@ -577,7 +577,7 @@
                 "Notes": {
                     "criticalSuccess": "<strong>大成功</strong> 你的篡改非常有效。如果你篡改了武器，敌人在使用该武器进行的攻击骰和伤害骰上承受-2环境罚值。如果你篡改了护甲，护甲会妨碍敌人的移动，令敌人陷入措手不及且在速度上承受-10罚值。该效果持续到敌人交互以移除，无论你选择进行何种篡改。 @UUID[Compendium.pf2e.feat-effects.rzcpTJU9MvW1x1gz]{效果: Armor Tampered With (大成功)} @UUID[Compendium.pf2e.feat-effects.o7qm13OmaYOMwgib]{效果: Weapon Tampered With (大成功)}",
                     "success": "<strong>成功</strong> 你的篡改暂时有效。如大成功，但效果持续到你的下回合开始，即使敌人没有进行交互以移除。 @UUID[Compendium.pf2e.feat-effects.IfRkgjyh0JzGalIy]{效果：篡改护甲（成功）} @UUID[Compendium.pf2e.feat-effects.4QWayYR3JSL9bk2T]{效果：篡改武器（成功）}",
-                    "criticalFailure": "<strong>大失败</strong> 你的篡改引起了华丽的麻烦，你的工具或器械发生了小规模的爆炸。你承受等于 [[/r (@details.level.value}[fire] # Tamper Backfire]]{你等级的火焰伤害}。"
+                    "criticalFailure": "<strong>大失败</strong> 你的篡改引起了华丽的麻烦，你的工具或器械发生了小规模的爆炸。你承受等于[[/r (@actor.level)[fire] #Tamper Backfire]]{你等级的火焰伤害}。"
                 },
                 "Title": "篡改"
             },
@@ -4877,7 +4877,7 @@
             "corrosive": {
                 "Name": "腐蚀符文",
                 "Note": {
-                    "criticalSuccess": "重击时，目标的盔甲受到 [[/r (3d6}[acid] #Corrosive Rune]]{3d6 acid} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。"
+                    "criticalSuccess": "重击时，目标的盔甲受到[[/r 3d6[acid] #Corrosive Rune]]{3d6酸液}伤害(计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。"
                 }
             },
             "crushing": {
@@ -4949,7 +4949,7 @@
             "greaterCorrosive": {
                 "Name": "高等腐蚀符文",
                 "Note": {
-                    "criticalSuccess": "该武器造成的酸液伤害无视酸液抗力。 重击时，目标的盔甲受到 [[/r (6d6}[acid]]{6d6 酸液} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。",
+                    "criticalSuccess": "该武器造成的酸液伤害无视酸液抗力。 重击时，目标的盔甲受到[[/r 6d6[acid]]]{6d6酸液} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。",
                     "success": "<strong>Greater Corrosive Rune</strong> 该武器造成的酸液伤害无视酸液抗力。"
                 }
             },
@@ -5642,7 +5642,7 @@
                     "AttackOfOpportunity": "<p><strong>触发</strong> 位于怪物触及范围内的一个生物使用操作动作、移动动作、远程攻击，或是在一次移动动作中离开了该方格。</p>\n<hr />\n<p><strong>效果</strong> 怪物尝试对触发的生物发动一次近战打击。如果这次攻击是一次重击，并且是由操作动作触发，则怪物打断了该动作。这次打击不会计算多重攻击减值，并且多重攻击减值也不适用于这次打击。</p>",
                     "AtWillSpells": "<p>怪物可以施放任意多次随意法术而无需花费法术位。</p>",
                     "Aura": "<p>怪物的灵光会自动影响怪物周边指定发散范围内的一切事物。怪物无需在灵光上花费任何动作；灵光将在特定的时间起效，例如生物在灵光内结束其回合或是生物进入灵光。</p>\n<p>如果一个灵光仅造成伤害，它的条目中只会列出半径、伤害和豁免检定。这类灵光在生物进入灵光或是在灵光内开始其回合时对生物造成伤害。一个生物在同一回合内仅会被此灵光伤害一次。</p>\n<p>GM也许会判定怪物的光环不会影响其盟友。例如，一个生物在与某怪物长时间同处之后可能会免疫此怪物的气势凶猛。</p>",
-                    "Buck": "<hr />\n<p>大多数充当坐骑的怪物都会尝试甩脱那些讨厌恼人的骑手，不过除非是收到了惊吓或是虐待，否则大多数坐骑不会对被信任的生物使用这种反应动作。</p>\n<p><strong>触发</strong> 一个生物在骑在怪物上时使用@UUID[Compendium.pf2e.actionspf2e.PM5jvValFkbFH3TV]{骑乘 Mounts}或是@UUID[Compendium.pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{指挥怪物 Command an Animal}动作。</p>\n<hr />\n<p><strong>效果</strong>触发的生物必须成功通过一次所列DC的反射豁免检定，否则被摔落且@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}。如果豁免结果是大失败，触发的生物还会在正常的坠落伤害外额外承受 [[/roll {1d6}[bludgeoning]]]{1d6钝击伤害}。</p>",
+                    "Buck": "<hr />\n<p>大多数充当坐骑的怪物都会尝试甩脱那些讨厌恼人的骑手，不过除非是收到了惊吓或是虐待，否则大多数坐骑不会对被信任的生物使用这种反应动作。</p>\n<p><strong>触发</strong> 一个生物在骑在怪物上时使用@UUID[Compendium.pf2e.actionspf2e.PM5jvValFkbFH3TV]{骑乘 Mounts}或是@UUID[Compendium.pf2e.actionspf2e.q9nbyIF0PEBqMtYe]{指挥怪物 Command an Animal}动作。</p>\n<hr />\n<p><strong>效果</strong>触发的生物必须成功通过一次所列DC的反射豁免检定，否则被摔落且@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}。如果豁免结果是大失败，触发的生物还会在正常的坠落伤害外额外承受[[/roll 1d6[bludgeoning]]]{1d6钝击伤害}。</p>",
                     "CatchRock": "<p><strong>要求</strong> 怪物必须有一只空闲手，但是能够@UUID[Compendium.pf2e.actionspf2e.wQYmDStjdjn0I26t]{松开}手上握持的物品作为此反应动作的一部分。</p>\n<p><strong>触发</strong> 怪物成为一次投石打击的目标，或是石块将要掉落到怪物上。</p>\n<hr />\n<p><strong>效果</strong> 怪物在对抗此次攻击的AC或是任何对抗落石的防御上获得+4环境加值。如果攻击未命中或是怪物成功避免了落石，怪物接住了石头，避免了伤害。现在，是这只怪物握住了石头。</p>",
                     "ChangeShape": "<p>怪物无限期地改变了其形态。它能够使用此动作恢复原形或是改为一个新的形态。除非另有说明，否则怪物无法使用变身能力呈现出某个特定个体。使用变身也被视为使用欺骗技能的@UUID[Compendium.pf2e.actionspf2e.AJstokjdG6iDjVjE]{乔装 Impersonate}来伪装自身。在判别所变化形态的生物族裔或是生物类型时，怪物的变形将自动成功对抗察觉DC，并且在防止从其他方面识破其伪装的欺骗DC上获得+4状态加值。变身能力指定了怪物能够变化的形态。怪物仅能变化其生理形态，并不会获得新形态的特殊能力。例如，在每个形态下，它都会替换其正常速度与打击，并且可能改变其感官或体型。所有变更都会在数据栏中列出。</p>",
                     "ConstantSpells": "<p>一个恒定法术将持续对怪物生效而无需怪物施放之，并且法术的持续时间为永久。如果一个恒定法术被反制，则怪物可以花费此法术正常情况下所要求的施法动作来将其重新激活。</p>",
