@@ -1240,7 +1240,7 @@
             },
             "Hobgoblin": {
                 "AgonizingRebuke": {
-                    "Note": "当你成功对一个敌人@UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{挫败士气 Demoralize}时，只要该敌人仍然处于@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧 Frightened}状态并正在与你交战，就会在每回合开始时承受[[/r (1d4)[mental]]]{1d4心灵伤害}。如果你在威吓技能上达到大师熟练，伤害提升至[[/r (2d4)[mental]]]{2d4}，如果你有传奇熟练，伤害提升至[[/r (3d4)[mental]]]{3d4}。"
+                    "Note": "当你成功对一个敌人@UUID[Compendium.pf2e.actionspf2e.2u915NdUyQan6uKF]{挫败士气 Demoralize}时，只要该敌人仍然处于@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧 Frightened}状态并正在与你交战，就会在每回合开始时承受[[/r 1d4[mental]]]{1d4心灵伤害}。如果你在威吓技能上达到大师熟练，伤害提升至[[/r 2d4[mental]]]{2d4}，如果你有传奇熟练，伤害提升至[[/r 3d4[mental]]]{3d4}。"
                 },
                 "CantorianReinforcement": {
                     "Note": "当你在一个抵抗疾病或毒素的豁免骰中获得成功，你的苦难阶段降低2（对于恶性疾病或毒素则降低1），当你获得大成功，阶段降低3（对于恶性的疾病或毒素则降低2）。"
