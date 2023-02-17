@@ -7,7 +7,8 @@
         "TypeAnimalCompanion": "动物伙伴",
         "TypeCharacter": "玩家角色",
         "TypeEidolon": "幻灵",
-        "TypeFamiliar": "仆从"
+        "TypeFamiliar": "仆从",
+        "TypeParty": "队伍"
     },
     "ITEM": {
         "TypeAction": "动作",
@@ -708,6 +709,28 @@
                 "Warning": {
                     "NoSkill": "求生行动可使用不同的技能，但目前未指定任何技能。如果你在定居点，这通常使用社群，如果你在野外，则使用生存。"
                 }
+            },
+            "ConcealAnObject": {
+                "Notes": {
+                    "success": "<strong>成功</strong> 你隐秘地随身藏着这件物品。",
+                    "failure": "<strong>失败</strong> 搜查者发现了你带着的物品。"
+                },
+                "Title": "隐藏物件"
+            },
+            "PalmAnObject": {
+                "Notes": {
+                    "success": "<strong>成功</strong> 其他生物没有注意到你在手心藏有物品。",
+                    "failure": "<strong>失败</strong> 其他生物注意到你在掌中藏有物品，GM会决定它们将因此而做出何种反应。"
+                },
+                "Title": "手上功夫"
+            },
+            "Steal": {
+                "Pocketed": "物品被随身携带或被严密保护",
+                "Title": "盗窃",
+                "Notes": {
+                    "success": "<strong>成功</strong> 你成功偷走了物品而未被发觉，或是旁观者没有注意到你的偷窃行为。",
+                    "failure": "<strong>失败</strong> 受害者注意到你的偷窃或是旁观者发现你在偷东西，GM会决定它们将因此而做出何种反应。"
+                }
             }
         },
         "Item": {
@@ -767,7 +790,8 @@
                     "Error": {
                         "DoesNotExist": "该角色上没有正持续的{damageType}伤害"
                     },
-                    "RollDamage": "投骰伤害"
+                    "RollDamage": "投骰伤害",
+                    "AssistedRecovery": "协助复苏掷骰"
                 }
             },
             "Deity": {
@@ -1286,7 +1310,15 @@
             },
             "Rules": {
                 "Apply": "应用",
-                "Close": "关闭"
+                "Close": "关闭",
+                "Hint": {
+                    "UUID": "此物品的通用唯一标识符",
+                    "SourceId": "原始集合包中的物品UUID",
+                    "Slug": "一个稳定的、可读的标识符：设置后即使物品被重命名，标识符也将保持不变。"
+                },
+                "New": "新规则元素",
+                "RegenerateSlug": "(重新)生成短标签",
+                "Tab": "规则"
             },
             "Spell": {
                 "PlaceMeasuredTemplate": "放置{size}-{unit} {shape}",
@@ -2306,7 +2338,8 @@
             "Sustained": "持续的？",
             "UnlimitedDuration": "无限持续",
             "UntilEncounterEnds": "直到遭遇结束",
-            "Unidentified": "不明"
+            "Unidentified": "不明",
+            "RollDamageToolTip": "[左键单击]伤害掷骰"
         },
         "EmptySlot": "空位",
         "EquipmentEquippedLabel": "已装备",
