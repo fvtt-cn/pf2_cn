@@ -5072,7 +5072,7 @@
             "holy": {
                 "Name": "神圣符文",
                 "Note": {
-                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每日一次)<br /><strong>触发</strong> 你用该武器对一邪恶生物重击成功<br /><br /><strong>效果</strong>你获得该邪恶生物等级双倍的HP。这是一个善良、正能量、治疗效果。"
+                    "criticalSuccess": "(<span class=\"pf2-icon\">R</span> 命令; 每日一次)<br /><strong>触发</strong> 你用该武器对一邪恶生物重击成功<br /><strong>效果</strong>你获得该邪恶生物等级双倍的HP。这是一个善良、正能量、治疗效果。"
                 }
             },
             "hopeful": {
