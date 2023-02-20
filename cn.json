@@ -731,6 +731,29 @@
                     "success": "<strong>成功</strong> 你成功偷走了物品而未被发觉，或是旁观者没有注意到你的偷窃行为。",
                     "failure": "<strong>失败</strong> 受害者注意到你的偷窃或是旁观者发现你在偷东西，GM会决定它们将因此而做出何种反应。"
                 }
+            },
+            "AdministerFirstAid": {
+                "Stabilize": {
+                    "Notes": {
+                        "success": "<strong>成功</strong> 你急救的生物不再处于濒死状态（但仍然昏迷）。",
+                        "criticalFailure": "<strong>大失败</strong>生物濒死等级+1。"
+                    },
+                    "Title": "进行急救- 稳定伤势",
+                    "DifficultyClass": {
+                        "Label": "进行急救DC"
+                    }
+                },
+                "StopBleeding": {
+                    "Notes": {
+                        "criticalFailure": "<strong>大失败</strong>生物立刻承受一次等于他承受的持续流血伤害数值的伤害。",
+                        "success": "<strong>成功</strong> 那么生物可以再进行一次无修正测试来尝试移除流血。"
+                    },
+                    "Title": "进行急救-止血"
+                },
+                "Warning": {
+                    "TargetNotDying": "目标生物没有陷入濒死。",
+                    "UnknownVariant": "进行急救所使用的变体'{variant}' 未知，请使用稳定伤势或止血。"
+                }
             }
         },
         "Item": {
