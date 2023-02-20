@@ -5980,7 +5980,10 @@
         "TraitEtchedOntoAWeaponWOHolyRune": "蚀刻到没有神圣符文的武器上",
         "Category": "类别",
         "TraitAppliedToMediumHeavyArmor": "应用于中甲或重甲",
-        "TraitDescriptionVishkanya": "形似蛇并拥有猛毒的族裔。"
+        "TraitDescriptionVishkanya": "形似蛇并拥有猛毒的族裔。",
+        "TraitDescriptionKashrishi": "一种长有独特水晶尖角的强韧种族，天生拥有心灵感应能力。",
+        "TraitKashrishi": "犀牛裔",
+        "LanguageKashrishi": "犀牛语"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
