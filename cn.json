@@ -6030,7 +6030,7 @@
             "AndLabel": "以上全部",
             "OrLabel": "以上任一"
         },
-        "ArmorGroupSkeletal": "骨头",
+        "ArmorGroupSkeletal": "骨甲",
         "ArmorGroupWood": "木质",
         "TraitDescriptionAquadynamic": "该盔甲被设计为水下使用，具有流线型的设计，并且在关键部位使用了具有浮力的材料。在水中或类似流体中时，你的特技或运动检定不会受到盔甲的检定减值。",
         "TraitDescriptionExpandable": "具有膨胀特征的物品在启动时会增大到特定的体型尺寸。除非另有说明，否则它占据的空间必须和你相邻并位于地面上，道具需要有足够开放空间来膨胀，否则启动后没有效果。当效果结束时，膨胀道具如果是消耗品会自动分解，如果不是消耗品就会缩回正常大小。",
