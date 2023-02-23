@@ -6085,7 +6085,7 @@
         "TraitPonderous": "笨重",
         "TraitLozenge": "含片",
         "TraitDescriptionLozenge": "你能将一枚炼金含片含进嘴里来启动它。它会留在你嘴里，慢慢溶解，随着时间的推进缓慢释放它的成分。你也可以选择一口嚼碎含片来获得次要效果。所需要采取的动作会列在条目的“次要效果”中。当次要效果结束时，含片就被消耗殆尽，并且它给你的好处也会结束。当你含着含片时，你可以引用灵药、药水和饮料，但你一次只能含一枚含片。如果你在嘴里同时含有两枚含片，它们就都会失效。你可以花费一个单动作，一口吐出含片来结束它的效果，这会让含片失效。含片溶解主要靠的是它的炼金材料，所以即便你不会分泌口水，它依然可以生效。",
-        "TraitAdjusted": "已改修",
+        "TraitAdjusted": "已调整",
         "TraitDescriptionAdjusted": "该装备带有条目中所描述的改修。这种改修永久性地内置在装备中，这意味着该装备无法添加其他改修，也无法将其替换为其他改修。如果改修改变了物品的基础属性，例如添加了嘈杂特征，它会反映在物品的数据块中。",
         "TraitAquadynamic": "水下",
         "TraitDescriptionHindering": "该盔甲时如此笨重，它总是会减慢你的移动速度。你的所有速度都有-5尺减值（速度最少为5尺）。该减值和盔甲的速度减值是分别计算的，即便你的力量或能力可以让你减少或无视盔甲的速度减值，它依然会对你造成影响。",
@@ -6144,7 +6144,12 @@
         "WeaponRange200": "200尺",
         "TraitAffixedToFirearmWithTheKickbackTrait": "附着在具有反冲特征的火器上",
         "TraitDescriptionVehicular": "载具武器需附着到载具上或由一个坐骑穿戴，通常只能由载具的驾驶员或坐骑的主要骑手来使用。驾驶员或骑手可以使用和驾驶载具或引导坐骑时使用的相同的手来控制载具武器。可以通过将控制器（通常是坐骑的缰绳或载具的驾驶设备）从持用者手中打掉来对载具武器卸武。",
-        "TraitVehicular": "载具"
+        "TraitVehicular": "载具",
+        "StackGroupSprayPellets": "泼溅弹丸",
+        "TraitAdditive0": "添加剂 0",
+        "TraitAffixedToCrossbowOrFirearm": "附在弩或火器上",
+        "TraitAffixedToFirearm": "附在火器上",
+        "TraitAffixedToFirearmWithAReloadOf1": "附在具有装填1的火器上"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
