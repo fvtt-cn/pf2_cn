@@ -754,6 +754,23 @@
                     "TargetNotDying": "目标生物没有陷入濒死。",
                     "UnknownVariant": "进行急救所使用的变体'{variant}' 未知，请使用稳定伤势或止血。"
                 }
+            },
+            "CreateForgery": {
+                "ForgedDocument": {
+                    "Description": "<p>一个粗略看过伪造的文书并被骗过的读者可能之后再次仔细地阅读这份文件，使用更加严格和深刻的方式尝试从你成功伪造的文本中发现问题。这时，他们可以尝试一个@Check[type:perception|dc:{societyDC}] 或是@Check[type:society|dc:{societyDC}]对抗你的社群技能DC（成功则发现你的文本是假的）。</p>",
+                    "Name": "伪造文书",
+                    "FailureGmNote": "<p>这些文书存在一些明显的问题，GM会允许任何读者在阅读它时被动进行一个察觉检定或是社群技能检定（取其高者）与结果{total}对抗，从而看出它的漏洞，成功或失败情况见下。一旦GM为伪造的文书进行了一次检定，无论多少读者观察了这份文件和他们的察觉DC，他们都会对抗这单次检定的结果。</p>\n<p>{success}</p>\n<p>{failure}</p>",
+                    "SuccessGmNote": "<p>文书伪造得足够好，通常的读者不会直接发现问题。只有那些非常仔细的审查文件的人才可以尝试一个@Check[type:perception|dc:{societyDC}|showDC:gm]或是@Check[type:society|dc:{societyDC}|showDC:gm]检定对抗你的社群技能DC，尝试找出这份伪物的破绽。</p>"
+                },
+                "ForgedDocumentCreatedNotification": "伪造的文书已经添加至{name}的仓库。",
+                "Notes": {
+                    "failure": "<strong>失败</strong> 读者发现你的文书是伪造的。",
+                    "success": "<strong>成功</strong> 读者看不出你的文书是伪造的。",
+                    "criticalSuccess": "<strong>成功</strong> 读者看不出你的文书是伪造的。",
+                    "criticalFailure": "<strong>失败</strong> 读者发现你的文书是伪造的。"
+                },
+                "Title": "进行伪造",
+                "UnspecificHandwriting": "非特定手写"
             }
         },
         "Item": {
@@ -792,7 +809,26 @@
                     "half-plate": "半身甲",
                     "full-plate": "全身甲",
                     "hellknight-plate": "地狱骑士板甲",
-                    "armored-coat": "衬甲外套"
+                    "armored-coat": "衬甲外套",
+                    "bastion-plate": "堡垒甲",
+                    "buckle-armor": "搭扣甲",
+                    "coral-armor": "珊瑚甲",
+                    "fortress-plate": "要塞甲",
+                    "gi": "武道服",
+                    "hellknight-breastplate": "地狱骑士胸甲",
+                    "hellknight-half-plate": "地狱骑士半身甲",
+                    "lamellar-breastplate": "分层胸甲",
+                    "lattice-armor": "格栅甲",
+                    "leaf-weave": "织叶衣",
+                    "leather-lamellar": "分层皮甲",
+                    "mantis-shell": "螳螂壳",
+                    "niyahaat": "兽骨甲",
+                    "o-yoroi": "大铠",
+                    "quilted-armor": "棉甲",
+                    "sankeit": "木条甲",
+                    "scroll-robes": "卷轴袍",
+                    "wooden-breastplate": "木制胸甲",
+                    "ceramic-plate": "陶瓷甲"
                 }
             },
             "CannotAddType": "无法将{type}物品添加到此角色。",
@@ -1380,6 +1416,10 @@
                 "Error": {
                     "RestrictedStageItem": "只有效果可以直接添加到苦难中"
                 }
+            },
+            "GMNotes": {
+                "Add": "添加GM日志",
+                "Title": "GM日志"
             }
         },
         "ActionsCheck": {
@@ -5983,7 +6023,15 @@
         "TraitDescriptionVishkanya": "形似蛇并拥有猛毒的族裔。",
         "TraitDescriptionKashrishi": "一种长有独特水晶尖角的强韧种族，天生拥有心灵感应能力。",
         "TraitKashrishi": "犀虫裔",
-        "LanguageKashrishi": "犀虫语"
+        "LanguageKashrishi": "犀虫语",
+        "Slug": "短标签",
+        "ItemDescriptionHeader": "描述",
+        "BrowserFilterConjunction": {
+            "AndLabel": "以上全部",
+            "OrLabel": "以上任一"
+        },
+        "ArmorGroupSkeletal": "骨头",
+        "ArmorGroupWood": "木质"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
