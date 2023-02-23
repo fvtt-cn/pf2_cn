@@ -56,7 +56,8 @@
                 "Wing": "翼击",
                 "Thorn": "棘刺",
                 "LavaFist": "熔岩拳",
-                "Thorns": "棘刺"
+                "Thorns": "棘刺",
+                "Bite": "咬 Bite"
             },
             "Note": {
                 "GrabbingTrunk": {
@@ -537,6 +538,10 @@
                 },
                 "DemonbaneWarrior": {
                     "Note": "如果你的行动强迫一个恶魔受到它弱点罪孽造成的伤害，专长的伤害再增加 [[/r 2]]。"
+                },
+                "Atavism": {
+                    "AllowedDrops": "精灵族裔传承",
+                    "Prompt": "选择一个精灵族裔传承"
                 }
             },
             "Kobold": {
@@ -589,7 +594,8 @@
                 "Prompt": "选择哈罗牌组"
             },
             "SubstituteRoll": {
-                "Assurance": "驾轻就熟"
+                "Assurance": "驾轻就熟",
+                "EffectType": "{type} ({substitution})"
             },
             "Ghoul": {
                 "Satiated": "满足",
@@ -1230,7 +1236,10 @@
                 }
             },
             "Target": {
-                "Necromancer": "目标是死灵师"
+                "Necromancer": "目标是死灵师",
+                "AgainstDemons": "对抗恶魔",
+                "AgainstDevils": "对抗魔鬼",
+                "AgainstHumanoids": "对抗类人生物"
             },
             "TrinityGeodeLabel": "三一晶洞",
             "SkillMastery": {
@@ -1401,6 +1410,10 @@
                 },
                 "TorchGoblin": {
                     "Note": "只要你受到持续的火焰伤害，你对相邻生物的所有近战攻击都会额外造成每个武器伤害骰[[/r 1[fire]]]{1火焰伤害}。"
+                },
+                "ChosenOfLamashtu": {
+                    "AllowedDrops": "地精族裔传承",
+                    "Prompt": "选择一个地精族裔传承"
                 }
             },
             "HalfElf": {
@@ -1434,7 +1447,8 @@
             "Swashbuckler": {
                 "Style": {
                     "Prompt": "选择一种风格"
-                }
+                },
+                "Panache": "你获得@UUID[Compendium.pf2e.feat-effects.uBJsxCzNhje8m8jj]{派头 Panache}。"
             },
             "Gnome": {
                 "GrimInsight": {
@@ -1452,7 +1466,8 @@
             "Champion": {
                 "DivineSmite": {
                     "Label": "神圣制裁"
-                }
+                },
+                "BladeAllyRune": "为利刃盟友选择一个性能符文"
             },
             "DeviantAbilities": {
                 "AwakenedPower": {
@@ -1481,7 +1496,8 @@
                     "TectonicStompStone": "地震重踏: 石块掩护",
                     "TitanSwingProne": "泰坦挥击: 推离",
                     "TitanSwingBleed": "泰坦挥击: 流血",
-                    "AwakenedLabel": "觉醒"
+                    "AwakenedLabel": "觉醒",
+                    "HighSpeedRegenerationRecovery": "高速再生：紧急再生"
                 },
                 "TitanSwing": {
                     "NoteFifteenFeet": "目标被推离15尺。",
@@ -1546,6 +1562,13 @@
             "MechanicalTorch": {
                 "LitCone": "点燃机械火炬（锥形）",
                 "LitRadius": "点燃机械火炬（半径）"
+            },
+            "ScionOfDomora": {
+                "GuardiansEmbrace": {
+                    "ProtectionLabel": "获得对物理攻击的抗性",
+                    "PhysicalAttackLabel": "防御一次物理攻击"
+                },
+                "SpiritualFlurryNote": "目标陷入@Compendium[pf2e.conditionitems.Flat-Footed]{措手不及 Flat-Footed}，直到你当前回合结束。"
             }
         },
         "RuleElement": {
@@ -1700,7 +1723,8 @@
             "Underwater": "水下",
             "Raining": "下雨",
             "Orate": "演说",
-            "TarPit": "焦油坑内"
+            "TarPit": "焦油坑内",
+            "LeyLine": "灵脉附近"
         },
         "OracleCurses": {
             "Label": {
