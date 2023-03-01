@@ -752,7 +752,7 @@
                 },
                 "Warning": {
                     "TargetNotDying": "目标生物没有陷入濒死。",
-                    "UnknownVariant": "进行急救所使用的变体'{variant}' 未知，请使用稳定伤势或止血。"
+                    "UnknownVariant": "进行急救所使用的变体{variant}未知，请使用{variants}。"
                 }
             },
             "CreateForgery": {
