@@ -2650,7 +2650,7 @@
         "LanguageMunavri": "白化人语",
         "LanguageMwangi": "芒吉语",
         "LanguageMzunu": "玛祖语",
-        "LanguageNagaji": "纳迦语",
+        "LanguageNagaji": "娜迦语",
         "LanguageNecril": "死灵语",
         "LanguageOrcish": "兽人语",
         "LanguageOsiriani": "奥斯利昂语",
@@ -6166,7 +6166,8 @@
         "TraitShieldThrow20": "掷盾20尺",
         "TraitShieldThrow30": "掷盾30尺",
         "TraitDescriptionFoldaway": "<p>该盾牌能折叠成更小的形态，并附着在铁手套上以方便携带并维持稳定。你可以使用一个交互动作部署或收回盾牌。当盾牌部署时，只要你装备盾牌的那只手是空手，或持握着非武器的轻负载物体，你就可以举起盾牌。盾牌在部署时会妨碍你的手，你不能用那只手持用武器，操作任何需要两只手的东西，或使用盾牌附着的铁手套攻击。</p><p>折叠盾牌必须附着在铁手套上才能保持稳定。可以花费10分钟时间，并成功通过一个DC 10的手艺检定，将其附着到一件物品上；如果需要，这也包括了从上一个铁手套上拆下盾牌的时间。如果铁手套被摧毁，折叠盾牌通常可以被抢救回来。盾牌的折叠性质让其无法安装附着武器。</p>",
-        "TraitHefty14": "沉重14"
+        "TraitHefty14": "沉重14",
+        "TraitDescriptionNagaji": "一种长着蛇头、具有爬行生物特征的传统族裔。"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
