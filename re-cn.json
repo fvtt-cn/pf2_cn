@@ -1521,7 +1521,7 @@
                 "VenomSpit": {
                     "HoodedNote": "目标还陷入@UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩 Dazzled}，直到你下回合开始。",
                     "CriticalNote": "目标受到等于武器伤害骰数量的[[/r (1+@weapon.system.runes.striking)[persistent,poison]]]{持续毒素伤害}",
-                    "StrikeLabel": "毒液喷吐"
+                    "StrikeLabel": "剧毒喷吐 Venomous Spit"
                 }
             },
             "OverwhelmingBlow": {
