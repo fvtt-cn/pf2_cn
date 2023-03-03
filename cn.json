@@ -4603,7 +4603,7 @@
             "TravelDuration": "旅途持续时间",
             "ExplorationActivity": "探索活动",
             "ExplorationSpeed": "探索速度",
-            "DetectionMode": "侦测魔法/搜索模式",
+            "DetectionMode": "侦测魔法/搜寻模式",
             "Feet": "尺",
             "Hours": "小时",
             "HoursPerDay": "每日旅行时间",
@@ -4629,7 +4629,7 @@
                 "Investigate": "调查",
                 "RepeatASpell": "复唱法术",
                 "Scout": "侦察",
-                "Search": "搜索",
+                "Search": "搜寻",
                 "Track": "追踪",
                 "None": "无 (全速)",
                 "HalfSpeed": "其他 (半速)"
