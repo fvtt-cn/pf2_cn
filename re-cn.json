@@ -1568,7 +1568,7 @@
                     "ProtectionLabel": "获得对物理攻击的抗性",
                     "PhysicalAttackLabel": "防御一次物理攻击"
                 },
-                "SpiritualFlurryNote": "目标陷入@Compendium[pf2e.conditionitems.Flat-Footed]{措手不及 Flat-Footed}，直到你当前回合结束。"
+                "SpiritualFlurryNote": "目标陷入@UUID[Compendium.pf2e.conditionitems.Flat-Footed]{措手不及 Flat-Footed}，直到你当前回合结束。"
             }
         },
         "RuleElement": {
