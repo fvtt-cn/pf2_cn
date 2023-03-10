@@ -126,7 +126,8 @@
                     "StaminaPoints": "耐力点数已恢复。",
                     "TemporaryItems": "临时物品已移除。",
                     "WandsCharges": "魔杖已充能。",
-                    "Frequencies": "动作频次已刷新。"
+                    "Frequencies": "动作频次已刷新。",
+                    "HitPointsSingle": "恢复了{hitPoints}点生命值。"
                 }
             },
             "Strike": {
@@ -267,7 +268,10 @@
                     "criticalSuccess": "<strong>大成功</strong>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}状态，并可以开始尝试@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 。这个效果持续到你的回合结束或是进行任何除了@UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{躲藏 Hide} ，@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed}，然后你立刻对其变得@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}，除非GM有其他的看法。",
                     "criticalFailure": "<strong>大失败</strong> 如果你的检定结果未能超过其他生物的察觉DC，则你不能使他们分神，并且这些生物立刻意识到你在尝试欺骗他们。"
                 },
-                "Trick": "让敌人分神 - 唬骗"
+                "Trick": "让敌人分神 - 唬骗",
+                "Warning": {
+                    "UnknownVariant": "让敌人分神所使用的变体{variant}未知，请使用{variants}之一。"
+                }
             },
             "Demoralize": {
                 "Notes": {
@@ -752,7 +756,7 @@
                 },
                 "Warning": {
                     "TargetNotDying": "目标生物没有陷入濒死。",
-                    "UnknownVariant": "进行急救所使用的变体{variant}未知，请使用{variants}。"
+                    "UnknownVariant": "进行急救所使用的变体{variant}未知，请使用{variants}之一。"
                 }
             },
             "CreateForgery": {
@@ -771,6 +775,14 @@
                 },
                 "Title": "进行伪造",
                 "UnspecificHandwriting": "非特定手写"
+            },
+            "Escape": {
+                "Notes": {
+                    "criticalSuccess": "<strong>大成功</strong>你获得自由，移除目标对你施加的擒抱、禁足或束缚状态。你还能立刻行走至多5尺。",
+                    "success": "<strong>成功</strong>你获得自由，移除目标对你施法的擒抱、禁足或束缚状态。",
+                    "criticalFailure": "<strong>大失败</strong> 你没有获得自由，且直到你的下一轮你无法再进行逃脱尝试。"
+                },
+                "Title": "逃脱"
             }
         },
         "Item": {
@@ -1238,7 +1250,7 @@
                         "armbands": "臂章",
                         "armor": "护甲",
                         "backpack": "背包",
-                        "barding": "坐骑盔甲",
+                        "barding": "伙伴护甲",
                         "belt": "腰带",
                         "beltpouch": "腰包",
                         "bracelet": "手镯",
@@ -1260,7 +1272,8 @@
                         "ring": "戒指",
                         "saddle": "马鞍",
                         "shoes": "鞋子",
-                        "wrist": "手腕上"
+                        "wrist": "手腕上",
+                        "footwear": "鞋子"
                     }
                 },
                 "OtherTags": {
@@ -1439,11 +1452,13 @@
             "society": "社群检定",
             "stealth": "隐秘检定",
             "survival": "生存检定",
-            "thievery": "贼活检定"
+            "thievery": "贼活检定",
+            "unarmed": "无武装攻击骰"
         },
         "ActionsWarning": {
             "DeceptionUnknownVariant": "用于欺骗的未知变体 '{variant}' , 请使用言语干扰、姿势干扰、唬骗其中之一。",
-            "NoActor": "在投骰子前请至少选择一个指示物，或者指定默认角色."
+            "NoActor": "在投骰子前请至少选择一个指示物，或者指定默认角色.",
+            "NoStatistic": "角色 {name} ({id})不具有关于{statistic}的统计信息。"
         },
         "ActionsActionsHeader": "动作",
         "ActionsFreeActionsHeader": "自由动作列表",
@@ -1531,7 +1546,8 @@
                         "All": "所有魔法物品",
                         "Scroll": "仅卷轴"
                     },
-                    "TraditionSpellcasting": "{tradition}施法能力"
+                    "TraditionSpellcasting": "{tradition}施法能力",
+                    "Rituals": "仪式"
                 },
                 "Sense": {
                     "Acuity": {
@@ -3110,8 +3126,8 @@
                 "Hint": "设置以取消背包加载"
             },
             "EnabledRulesUI": {
-                "Name": "进阶规则要素UI",
-                "Hint": "启用时，在物品上显示额外规则UI。注意：本功能可能导致角色和物品崩溃。"
+                "Name": "玩家规则要素权限",
+                "Hint": "启用时，玩家可以看到并利用物品表上的规则要素面板。"
             },
             "ResetChanges": "重置更改",
             "Automation": {
@@ -3897,7 +3913,7 @@
         "TraitDescriptionCatfolk": "拥有本特征的生物为猫族。",
         "TraitDescriptionChampion": "指神卫职业能力。",
         "TraitDescriptionChangeling": "拥有本特征的生物为替换儿。",
-        "TraitDescriptionChaotic": "混乱效果通常会操作来自混乱阵营位面的能量，并且对于守序神祇的神职者或守序阵营的神职者来说是禁忌。有着该特征的生物在阵营上是混乱的。只有混乱生物才能选择具有该特征的能力。",
+        "TraitDescriptionChaotic": "混乱效果通常会操作来自混乱阵营位面的能量，并且对于守序神祇的神职者或守序阵营的神职者来说是禁忌。有着该特征的生物在阵营上是混乱的。",
         "TraitDescriptionCharm": "通过魔法手段影响态度的能力。",
         "TraitDescriptionClass": "拥有职业特征的变体表现了你拓展了职业特性的多样性，但也仅限于你职业能力范畴之内。你只能选择与你本职业具有同样名称的职业变体。职业变体总是会改变或替换那些固定的职业特性，并提供一些新的专长选项。如果该变体会替换某些初始的职业特性的话，你在1级的时候就会选择这个职业变体。在这种情况下，你在2级的时候必须选择该变体的入门专长，之后就按正常的方式成长。你永远不能选择超过一个职业变体。",
         "TraitDescriptionCleric": "指牧师职业能力。",
@@ -3947,7 +3963,7 @@
         "TraitDescriptionElf": "具有此特征的生物是精灵族裔的一份子。精灵是一神秘的民族，有着深厚的魔法与学术传统，并通常拥有昏暗视觉。具有此特征的能力只能由精灵使用或选择。具有此特征的武器是精灵创造并使用的。",
         "TraitDescriptionEmotion": "该效果会改变生物的情绪。具有该特征的效果总是同时具有心灵（mental）特征。经过特殊训练，或有着机械或人工智能的生物对生物对情绪效果免疫。",
         "TraitDescriptionEnchantment": "具有此特征的效果和魔法物品与魔法惑控学派相关联，通常包括心灵控制、情绪改变或其他精神效果。",
-        "TraitDescriptionEvil": "邪恶效果通常操作来自邪恶阵营外层界域的能量，与善良阵营的圣仆或善良神祇的圣仆相对立。具有此特征的生物在阵营上是邪恶的。具有此特征的能力只能由邪恶生物选择或使用。",
+        "TraitDescriptionEvil": "邪恶效果通常操作来自邪恶阵营外层界域的能量，与善良阵营的圣仆或善良神祇的圣仆相对立。具有此特征的生物在阵营上是邪恶的。",
         "TraitDescriptionEvocation": "具有此特征的效果和魔法物品与魔法塑能学派相关联，通常包含能量和元素的效果。",
         "TraitDescriptionExploration": "具有此特征的行动需要花费超过1轮的时间，并只能在探索模式之中使用。",
         "TraitDescriptionExtradimensional": "这个效果或物品会创造一个异次元空间。将一个异次元效果放入另一个异次元空间中会导致其失效，直到被从空间中取出。",
@@ -3975,7 +3991,7 @@
         "TraitDescriptionGnoll": "豺狼人是类似鬣狗的人形生物。",
         "TraitDescriptionGnome": "具有此特征的生物是侏儒族裔的一员。侏儒是一些擅长魔法的小人，喜欢探求新的经历，并通常拥有昏暗视觉。具有此特征的能力只能由侏儒使用或选择。具有此特征的武器是由侏儒创造并使用的。",
         "TraitDescriptionGoblin": "具有此特征的生物可能来自多种生物部落，包括地精，大地精，熊地精。地精通常拥有黑暗视觉。具有此特征的能力只能由地精使用或选择。具有此特征的武器是由地精创造并使用的。",
-        "TraitDescriptionGood": "善良效果通常会操作来自善良阵营外层界域的能量，是邪恶阵营的圣仆或邪恶神祇的圣仆相对立。具有此特征的生物在阵营上是善良的。具有此特征的能力只能由善良生物选择或使用。",
+        "TraitDescriptionGood": "善良效果通常会操作来自善良阵营外层界域的能量，是邪恶阵营的圣仆或邪恶神祇的圣仆相对立。具有此特征的生物在阵营上是善良的。",
         "TraitDescriptionGrapple": "即使你没有空手，仍然能以此武器用运动技能对敌人进行擒抱。此时使用武器的触及范围（若其与你的触及范围不同），并将武器给予攻击的物品加值（若有）加至运动检定上。若你在使用该武器时，擒抱检定大失败，你可以抛弃该武器，视之为普通失败。",
         "TraitDescriptionGrimoire": "对于大部分施法者来说，法术书是用来记录法术和符文的最有用的工具，但大多数法术书不过是羊皮纸上写着墨水文字。魔典则不同，它吸收了书中咒语的魔力，知识渊博的执法者可以用它来增强自己的法术。",
         "TraitDescriptionGrippli": "树蛙人是一个类似青蛙的人形生物种族",
@@ -4009,7 +4025,7 @@
         "TraitDescriptionKobold": "具有这种特征的生物是狗头人族裔的成员。",
         "TraitDescriptionKickback": "反冲武器非常强力但难以使用。以反冲武器做出所有攻击都能造成1点额外伤害。使用反冲武器射击时会给攻击骰带来-2环境减值，但拥有14或更高力量的角色能无视该减值。在武器上附加稳定器能降低或抵消此减值。",
         "TraitDescriptionKitsune": "可以变形的类人生物，其真实形态类似于狐狸。",
-        "TraitDescriptionLawful": "守序效果通常能操作来自守序阵营外层界域的能量，并与混乱阵营的圣仆或混乱神祇的圣仆相对立。具有此特征的生物在阵营上是守序的。具有此特征的能力只能由守序生物使用或选择。",
+        "TraitDescriptionLawful": "守序效果通常能操作来自守序阵营外层界域的能量，并与混乱阵营的圣仆或混乱神祇的圣仆相对立。具有此特征的生物在阵营上是守序的",
         "TraitDescriptionLeshy": "这些是小型的植物生物，在形态上大致呈人形。",
         "TraitDescriptionLight": "光亮效果能克服区域中非魔法的黑暗，并能够反制魔法黑暗。你必须使用你的光亮魔法直接瞄准一个黑暗魔法以反制黑暗，但有些光亮魔法能自动尝试反制黑暗。",
         "TraitDescriptionLinguistic": "具有该特征的效果是基于语言理解的。瞄准一个生物的言语效果只在该生物理解你所使用的语言时才能生效。",
@@ -4582,7 +4598,7 @@
         "TraitWornAnklets": "穿戴袜子",
         "TraitWornCirclet": "穿戴圆环",
         "TraitWornHorseshoes": "穿戴马掌",
-        "TraitWornBarding": "穿戴马铠",
+        "TraitWornBarding": "穿戴伙伴护甲",
         "TraitWornOnBelt": "穿戴腰部挂饰",
         "TraitWornSaddle": "穿戴凉鞋",
         "TraitEtchedOntoArmor": "刻在盔甲上",
@@ -6168,7 +6184,14 @@
         "TraitDescriptionFoldaway": "<p>该盾牌能折叠成更小的形态，并附着在铁手套上以方便携带并维持稳定。你可以使用一个交互动作部署或收回盾牌。当盾牌部署时，只要你装备盾牌的那只手是空手，或持握着非武器的轻负载物体，你就可以举起盾牌。盾牌在部署时会妨碍你的手，你不能用那只手持用武器，操作任何需要两只手的东西，或使用盾牌附着的铁手套攻击。</p><p>折叠盾牌必须附着在铁手套上才能保持稳定。可以花费10分钟时间，并成功通过一个DC 10的手艺检定，将其附着到一件物品上；如果需要，这也包括了从上一个铁手套上拆下盾牌的时间。如果铁手套被摧毁，折叠盾牌通常可以被抢救回来。盾牌的折叠性质让其无法安装附着武器。</p>",
         "TraitHefty14": "沉重14",
         "TraitDescriptionNagaji": "一种长着蛇头、具有爬行生物特征的传统族裔。",
-        "TraitDescriptionVanara": "一种具有灵长类动物特征、长有卷尾的好奇族裔。"
+        "TraitDescriptionVanara": "一种具有灵长类动物特征、长有卷尾的好奇族裔。",
+        "TraitDeflectingPiercing": "偏转穿刺",
+        "TraitDescriptionProcessed": "具有添加剂特征的炼金消耗品可以用快速炼金术制造，但过于复杂，无法用单动作来制造。",
+        "TraitBarding": "伙伴护甲",
+        "TraitDescriptionBarding": "你可以为动物购买特殊的盔甲，称为伙伴护甲。所有动物在轻型伙伴护甲上都具有受训熟练程度，而经过战斗训练的动物则在重型伙伴护甲上受训。伙伴护甲与其他护甲的使用规则相同，但以下规则例外。伙伴护甲的价格和数量取决于动物的大小。与一套普通护甲不同，伙伴护甲的力量需求栏所列数值为调整值，而不是力量值本身。尽管可能存在特殊的魔法伙伴护甲，但伙伴护甲本身不能蚀刻符文。",
+        "TraitDescriptionArtifact": "具有此特征的物品是神器。这些魔法物品不能用一般方法去制造，也不能用一般方法破坏。神器总是罕见或独特的。",
+        "TraitAffixedToGroundIn10FtRadius": "沿着半径10尺的圆环贴在地面上的4个方格内",
+        "TraitHeldOneHandFreeStanding": "单手持握或无需持握"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
