@@ -487,6 +487,14 @@
                     "Initial": {
                         "AllowedDrops": "1级发明家职业特性",
                         "Prompt": "选择一种初始改装"
+                    },
+                    "NonlethalBluntShot": "非致命钝头弹射击",
+                    "NonlethalModularHead": "非致命模块化头部",
+                    "NonlethalPacificationTools": "非致命镇暴工具",
+                    "InnovationCollapsed": "创新爆破",
+                    "Breakthrough": {
+                        "Prompt": "选择一个突破性改修。",
+                        "AllowedDrops": "7级或者更低的发明家职业特性"
                     }
                 }
             },
@@ -725,17 +733,36 @@
             "Barbarian": {
                 "Dragon": {
                     "Prompt": "选择一种龙",
-                    "NormalRageDamage": "造成正常的狂暴伤害"
+                    "NormalRageDamage": "造成正常的狂暴伤害",
+                    "ToggleLabel": "龙类狂暴"
                 },
                 "Animal": {
-                    "Prompt": "选择一种动物"
+                    "Prompt": "选择一种动物",
+                    "Frog": "蛙",
+                    "Deer": "鹿",
+                    "Cat": "猫",
+                    "Bull": "牛",
+                    "Bear": "熊",
+                    "Ape": "猿",
+                    "Wolf": "狼",
+                    "Snake": "蛇",
+                    "Shark": "鲨鱼"
                 },
                 "Instinct": {
-                    "Prompt": "选择一种本能"
+                    "Prompt": "选择一种本能",
+                    "Drops": "1级野蛮人职业特性"
                 },
                 "Giant": {
                     "prompt": "为狂暴抗力选择一种能量类型",
                     "Prompt": "选择狂暴的能量抗力类型。"
+                },
+                "Spirit": {
+                    "PositiveDamage": "正能量伤害",
+                    "NegativeDamage": "负能量伤害",
+                    "ToggleLabel": "精魂狂暴"
+                },
+                "Superstition": {
+                    "TargetingCaster": "目标是施法者"
                 }
             },
             "Bard": {
@@ -966,7 +993,8 @@
                 "PathToPerfection": "选择一种完美之道",
                 "DragonBreathWeapon": "选择一种龙类吐息。",
                 "WeaponOrUnarmed": "选择一把武器或无武装打击。",
-                "ClassDCAbilityScore": "选择职业DC的属性值。"
+                "ClassDCAbilityScore": "选择职业DC的属性值。",
+                "VersatileTrait": "选择一种多用伤害类型。"
             },
             "SterlingDynamo": {
                 "Label": "纹银机铠士",
@@ -1004,7 +1032,8 @@
             },
             "Gunslinger": {
                 "Way": {
-                    "Prompt": "选择道途"
+                    "Prompt": "选择道途",
+                    "Spellshot": "魔弹射手之道（变体）"
                 }
             },
             "Oracle": {
@@ -1103,7 +1132,8 @@
             },
             "Ranger": {
                 "HuntersEdge": {
-                    "Prompt": "选择一种猎手优势"
+                    "Prompt": "选择一种猎手优势",
+                    "FirstAttack": "这一轮首次攻击猎杀目标"
                 },
                 "HamstringingStrike": {
                     "Prompt": "选择打击结果。",
@@ -1307,7 +1337,21 @@
             "Stance": {
                 "Attack": {
                     "WolfJaws": "狼咬",
-                    "CobraFang": "眼镜蛇牙"
+                    "CobraFang": "蛇牙",
+                    "FireTalon": "火爪",
+                    "GorillaSlam": "猩猩挥击",
+                    "FlowingWave": "流波",
+                    "FlashingSpark": "烁焰",
+                    "IronSweep": "铁鞭",
+                    "FallingStone": "落石",
+                    "ShadowGrasp": "影爪",
+                    "LashingBranch": "枝扫",
+                    "DragonTail": "龙尾",
+                    "CraneWing": "鹤翼",
+                    "TigerClaw": "虎爪",
+                    "StumblingSwing": "晃身劝酒",
+                    "StingingLash": "蛰刺抽打",
+                    "SkywardSlash": "天空劈"
                 }
             },
             "CriticalDeck": {
@@ -1362,6 +1406,9 @@
             "UndeadSlayer": {
                 "SlayersBlessing": {
                     "Note": "目标@UUID[Compendium.pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{逃跑 Fleeing}1轮。"
+                },
+                "SlayersPresence": {
+                    "Note": "目标陷入1轮@UUID[Compendium.pf2e.conditionitems.sDPxOjQ9kx2RZE8D]{逃跑}。"
                 }
             },
             "BountyHunterDedication": {
@@ -1386,7 +1433,8 @@
             },
             "Cleric": {
                 "Doctrine": {
-                    "Prompt": "选择一种信条"
+                    "Prompt": "选择一种信条",
+                    "AllowedDrops": "1级牧师职业特性"
                 }
             },
             "Conrasu": {
@@ -1570,6 +1618,16 @@
                     "PhysicalAttackLabel": "防御一次物理攻击"
                 },
                 "SpiritualFlurryNote": "目标陷入@UUID[Compendium.pf2e.conditionitems.Flat-Footed]{措手不及 Flat-Footed}，直到你当前回合结束。"
+            },
+            "FanesFourberie": {
+                "Prompt": "将卡牌当作飞镖或匕首？"
+            },
+            "PowderPunchStance": {
+                "Label": "本轮首次近战攻击",
+                "Note": "目标被额外推离5尺。"
+            },
+            "TwinnedDefense": {
+                "Prompt": "是否持用一把招架武器？"
             }
         },
         "RuleElement": {
