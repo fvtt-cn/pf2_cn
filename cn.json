@@ -5026,7 +5026,7 @@
                 "Name": "传导符文"
             },
             "corrosive": {
-                "Name": "腐蚀符文",
+                "Name": "酸蚀符文",
                 "Note": {
                     "criticalSuccess": "重击时，目标的盔甲受到[[/r 3d6[acid] #Corrosive Rune]]{3d6酸液}伤害(计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。"
                 }
@@ -5098,7 +5098,7 @@
                 }
             },
             "greaterCorrosive": {
-                "Name": "高等腐蚀符文",
+                "Name": "高等酸蚀符文",
                 "Note": {
                     "criticalSuccess": "该武器造成的酸液伤害无视酸液抗力。 重击时，目标的盔甲受到[[/r 6d6[acid]]]{6d6酸液} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。",
                     "success": "<strong>Greater Corrosive Rune</strong> 该武器造成的酸液伤害无视酸液抗力。"
