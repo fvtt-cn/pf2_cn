@@ -841,6 +841,10 @@
                     "scroll-robes": "卷轴袍",
                     "wooden-breastplate": "木制胸甲",
                     "ceramic-plate": "陶瓷甲"
+                },
+                "Category": {
+                    "light-barding": "轻型坐骑护甲",
+                    "heavy-barding": "重型坐骑护甲"
                 }
             },
             "CannotAddType": "无法将{type}物品添加到此角色。",
