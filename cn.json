@@ -134,6 +134,10 @@
                 "MeleeLabel": "近战攻击:{weapon}",
                 "RangedLabel": "远程攻击: {weapon}",
                 "OutOfRange": "目标超出范围。"
+            },
+            "Type": {
+                "Activity": "行动",
+                "Free": "自由行动"
             }
         },
         "ActionActionTypeLabel": "动作类型",
