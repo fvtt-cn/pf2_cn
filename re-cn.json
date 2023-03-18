@@ -2170,7 +2170,7 @@
             "ExplosiveAmmunition": {
                 "Greater": {
                     "Title": "高等爆炸弹药",
-                    "Text": "爆炸弹药命中了一个目标便会发生爆炸，对@Template[type:burst|distance:10]范围内的每个生物都造成[[/r 10d6[fire]]]伤害（包括目标）。每个生物都必须尝试一次@Check[type:reflex|dc:30|basic:true|name:Explosive Ammunition (Greater)]豁免。"
+                    "Text": "爆炸弹药命中了一个目标便会发生爆炸，对@Template[type:burst|distance:10]范围内的每个生物都造成[[/r 10d6[fire]]]伤害（包括目标）。每个生物都必须尝试一次@Check[type:reflex|dc:30|basic:true|name:Explosive Ammunition]豁免。"
                 },
                 "Normal": {
                     "Text": "爆炸弹药命中了一个目标便会发生爆炸，对@Template[type:burst|distance:10]范围内的每个生物都造成[[/r 6d6[fire]]]伤害（包括目标）。每个生物都必须尝试一次@Check[type:reflex|dc:25|basic:true|name:Explosive Ammunition]豁免。",
