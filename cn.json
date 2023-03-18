@@ -137,7 +137,9 @@
             },
             "Type": {
                 "Activity": "行动",
-                "Free": "自由行动"
+                "Free": "自由行动",
+                "Reaction": "反应",
+                "Single": "单动作"
             }
         },
         "ActionActionTypeLabel": "动作类型",
@@ -264,18 +266,25 @@
                 "Title": "指挥动物"
             },
             "CreateADiversion": {
-                "DistractingWords": "让敌人分神 - 言语干扰",
-                "Gesture": "让敌人分神 - 姿势干扰",
+                "DistractingWords": {
+                    "Title": "让敌人分神 - 言语干扰"
+                },
+                "Gesture": {
+                    "Title": "让敌人分神 - 姿势干扰"
+                },
                 "Notes": {
                     "success": "<strong>成功</strong>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}状态，并可以开始尝试@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 。这个效果持续到你的回合结束或是进行任何除了@UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{躲藏 Hide} ，@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed}，然后你立刻对其变得@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}，除非GM有其他的看法。",
                     "failure": "<strong>失败</strong> 如果你的检定结果未能超过其他生物的察觉DC，则你不能使他们分神，并且这些生物立刻意识到你在尝试欺骗他们。",
                     "criticalSuccess": "<strong>大成功</strong>对于所有你的检定结果超过或等同其察觉DC的生物，你视为进入@UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{藏匿 Hidden}状态，并可以开始尝试@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 。这个效果持续到你的回合结束或是进行任何除了@UUID[Compendium.pf2e.actionspf2e.XMcnh4cSI32tljXa]{躲藏 Hide} ，@UUID[Compendium.pf2e.actionspf2e.VMozDqMMuK5kpoX4]{潜行 Sneak} 或是快步以外的动作为止。如果你对你拥有隐匿状态的生物发动攻击，该生物会对这一次攻击视为@UUID[Compendium.pf2e.conditionitems.AJh5ex99aV6VTggg]{措手不及 Flat-Footed}，然后你立刻对其变得@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}。如果你进行的是其他动作，那么则是你在行动之前立刻变得@UUID[Compendium.pf2e.conditionitems.1wQY3JYyhMYeeV2G]{可见 Observed}，除非GM有其他的看法。",
                     "criticalFailure": "<strong>大失败</strong> 如果你的检定结果未能超过其他生物的察觉DC，则你不能使他们分神，并且这些生物立刻意识到你在尝试欺骗他们。"
                 },
-                "Trick": "让敌人分神 - 唬骗",
+                "Trick": {
+                    "Title": "让敌人分神 - 唬骗"
+                },
                 "Warning": {
                     "UnknownVariant": "让敌人分神所使用的变体{variant}未知，请使用{variants}之一。"
-                }
+                },
+                "Title": "分神"
             },
             "Demoralize": {
                 "Notes": {
@@ -690,19 +699,36 @@
                     "failure": "<strong>失败</strong>你的表演什么效果都没有。",
                     "criticalFailure": "<strong>大失败</strong>成功的展现了自己有多废。"
                 },
-                "Title": {
-                    "Comedy": "表演-喜剧",
-                    "Acting": "表演-戏剧",
-                    "Dance": "表演-舞蹈",
-                    "Oratory": "表演-演说",
-                    "Percussion": "表演-演奏打击乐器",
-                    "Keyboards": "表演-演奏键盘乐器",
-                    "Singing": "表演-歌唱",
-                    "Strings": "表演-演奏弦乐乐器",
-                    "Winds": "表演-演奏管乐器"
-                },
+                "Title": "表演",
                 "Warning": {
                     "UnknownVariant": "用于表演的变体“{variant}”未知，请使用戏剧、喜剧、舞蹈、键盘、演讲、打击乐、歌唱、弦乐或管乐。"
+                },
+                "Acting": {
+                    "Title": "表演-戏剧"
+                },
+                "Comedy": {
+                    "Title": "表演-喜剧"
+                },
+                "Dance": {
+                    "Title": "表演-舞蹈"
+                },
+                "Keyboards": {
+                    "Title": "表演-演奏键盘乐器"
+                },
+                "Oratory": {
+                    "Title": "表演-演说"
+                },
+                "Percussion": {
+                    "Title": "表演-演奏打击乐器"
+                },
+                "Singing": {
+                    "Title": "表演-歌唱"
+                },
+                "Strings": {
+                    "Title": "表演-演奏弦乐乐器"
+                },
+                "Winds": {
+                    "Title": "表演-演奏管乐器"
                 }
             },
             "Subsist": {
@@ -2088,7 +2114,11 @@
             "ToggleQuickAlchemy": "高速炼金术",
             "UndeletableTooltip": "这个制作公式是另一个物品的一部分，不能单独删除。",
             "QuickAddTitle": "添加此配方到一个或多个制造列表中",
-            "NoEligibleEntry": "未找到符合条件的制造列表。"
+            "NoEligibleEntry": "未找到符合条件的制造列表。",
+            "RemoveFormulaDialogTitle": "删除公式",
+            "UnprepareFormulaDialogQuestion": "是否确定要取消{name}准备的公式？",
+            "RemoveFormulaDialogQuestion": "是否确定要删除 {name}的公式？",
+            "UnprepareFormulaDialogTitle": "取消准备的公式"
         },
         "CraftDCTitle": "DC",
         "CraftItemTitle": "手艺",
