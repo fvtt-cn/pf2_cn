@@ -50,7 +50,10 @@
         "Settings": "遭遇列表设置",
         "SidebarTitle": "遭遇列表",
         "SkipDefeatedHint": "自动跳过标记为战败的参战者？",
-        "UnknownCombatant": "未知参战者"
+        "UnknownCombatant": "未知参战者",
+        "ToggleTargeting": "切换目标",
+        "TargetedBy": "目标为{list}",
+        "PingInvisibleToken": "你无法看到此参战者的指示物。"
     },
     "COMPENDIUM": {
         "Filter": "筛选集合包",
@@ -1462,6 +1465,9 @@
                 "OnsetLabel": "潜伏期",
                 "Error": {
                     "RestrictedStageItem": "只有效果可以直接添加到苦难中"
+                },
+                "Linked": {
+                    "Title": "如果设置，在苦难持续期间不会移除该状态"
                 }
             },
             "GMNotes": {
@@ -1492,7 +1498,12 @@
         "ActionsWarning": {
             "DeceptionUnknownVariant": "用于欺骗的未知变体 '{variant}' , 请使用言语干扰、姿势干扰、唬骗其中之一。",
             "NoActor": "在投骰子前请至少选择一个指示物，或者指定默认角色.",
-            "NoStatistic": "角色 {name} ({id})不具有关于{statistic}的统计信息。"
+            "NoStatistic": "角色 {name} ({id})不具有关于{statistic}的统计信息。",
+            "Variants": {
+                "Nonexisting": "特殊变体'{variant}'无法应用于'{action}'",
+                "Multiple": "'{action}'动作具有多个变体，但未进行指定。",
+                "None": "'{action}'动作不存在变体，但指定了'{variant}'变体。"
+            }
         },
         "ActionsActionsHeader": "动作",
         "ActionsFreeActionsHeader": "自由动作列表",
@@ -2423,7 +2434,9 @@
             "HideName": "隐藏名称",
             "NoActiveEncounter": "没有正在进行的遭遇。",
             "NoTokenInScene": "{actor} 在场景中没有指示物。",
-            "RevealName": "显露名称"
+            "RevealName": "显露名称",
+            "InitiativeSet": "{actor}的先攻被设定为{initiative}。",
+            "NotParticipating": "{actor}没有参加正在激活的遭遇。"
         },
         "Edit": "编辑",
         "EditHazardLabel": "编辑危害",
@@ -6229,7 +6242,14 @@
         "TraitDescriptionBarding": "你可以为动物购买特殊的盔甲，称为伙伴护甲。所有动物在轻型伙伴护甲上都具有受训熟练程度，而经过战斗训练的动物则在重型伙伴护甲上受训。伙伴护甲与其他护甲的使用规则相同，但以下规则例外。伙伴护甲的价格和数量取决于动物的大小。与一套普通护甲不同，伙伴护甲的力量需求栏所列数值为调整值，而不是力量值本身。尽管可能存在特殊的魔法伙伴护甲，但伙伴护甲本身不能蚀刻符文。",
         "TraitDescriptionArtifact": "具有此特征的物品是神器。这些魔法物品不能用一般方法去制造，也不能用一般方法破坏。神器总是罕见或独特的。",
         "TraitAffixedToGroundIn10FtRadius": "沿着半径10尺的圆环贴在地面上的4个方格内",
-        "TraitHeldOneHandFreeStanding": "单手持握或无需持握"
+        "TraitHeldOneHandFreeStanding": "单手持握或无需持握",
+        "SellItemQuestion": "你确定要出售{item}吗？",
+        "SellItemConfirmHeader": "出售确认",
+        "ListPartsAnd": {
+            "two": "{first}和{second}",
+            "end": "{first}, 和{second}"
+        },
+        "TraitTouched": "接触"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
