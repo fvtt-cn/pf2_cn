@@ -2176,6 +2176,11 @@
                     "Text": "爆炸弹药命中了一个目标便会发生爆炸，对@Template[type:burst|distance:10]范围内的每个生物都造成[[/r 6d6[fire]]]伤害（包括目标）。每个生物都必须尝试一次@Check[type:reflex|dc:25|basic:true|name:Explosive Ammunition]豁免。",
                     "Title": "爆炸弹药"
                 }
+            },
+            "AntlerArrow": {
+                "CriticalText": "拔出弹头的运动检定的DC提升至@Check[type:athletics|dc:15|name:拔出弹头|showDC:all]",
+                "Text": "目标必须成功通过一个@Check[type:reflex|dc:16|name:鹿角箭]豁免否则会困在平面上，受到弓箭的重击专精效果",
+                "Title": "鹿角箭"
             }
         }
     }
