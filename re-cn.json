@@ -1628,6 +1628,15 @@
             },
             "TwinnedDefense": {
                 "Prompt": "是否持用一把招架武器？"
+            },
+            "Marshal": {
+                "DreadMarshalStance": {
+                    "Note": "当你的打击重击一名敌人时，对方陷入@UUID[Compendium.pf2e.conditionitems.TBSHQspnbcqxsmjL]{惊惧 1}。",
+                    "Title": "恐怖军势灵光"
+                }
+            },
+            "SmokingSword": {
+                "StokeFlames": "燃火"
             }
         },
         "RuleElement": {
@@ -2185,6 +2194,25 @@
             "ShiningAmmunition": {
                 "Title": "闪光弹药",
                 "Text": "该弹药使半径20尺范围内成为明亮照明（并使更远的20尺范围内成为昏暗照明），持续10分钟。如果它命中了一个目标，它会固定在目标身上，使目标发出同样的光芒。@UUID[Compendium.pf2e.equipment-effects.Sf6UO6vgCeicggOK]{Effect: Shining Ammunition}"
+            },
+            "ExsanguinatingAmmunition": {
+                "Normal": {
+                    "Title": "放血弹药",
+                    "Text": "在你用启动的放血弹药对一个生物造成伤害后的1分钟内，该生物获得对持续流血伤害的1点弱点。此外在过程中，终止持续流血伤害的任何纯骰检定的DC都从15增加到17（在接受特别有效的帮助时从10增加到12）。@UUID[Compendium.pf2e.equipment-effects.Fz3cSffzDAxhCh2D]{Effect:放血弹药 Exsanguinating Ammunition}"
+                },
+                "Major": {
+                    "Title": "上等放血弹药",
+                    "Text": "在你用启动的放血弹药对一个生物造成伤害后的1分钟内，该生物获得对持续流血伤害的5点弱点。此外在过程中，终止持续流血伤害的任何纯骰检定的DC都从15增加到17（在接受特别有效的帮助时从10增加到12）。@UUID[Compendium.pf2e.equipment-effects.mrwg2XftLtSLj197]{Effect: 上等放血弹药 Exsanguinating Ammunition (Major)}"
+                },
+                "Greater": {
+                    "Title": "高等放血弹药",
+                    "Text": "在你用启动的放血弹药对一个生物造成伤害后的1分钟内，该生物获得对持续流血伤害的3点弱点。此外在过程中，终止持续流血伤害的任何纯骰检定的DC都从15增加到17（在接受特别有效的帮助时从10增加到12）。@UUID[Compendium.pf2e.equipment-effects.5lZWAvm0oGxvF4bm]{Effect:高等放血弹药 Exsanguinating Ammunition (Greater)}"
+                }
+            },
+            "MeteorShot": {
+                "Normal": {
+                    "Title": "流星弹"
+                }
             }
         }
     }
