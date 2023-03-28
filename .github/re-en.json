@@ -1646,6 +1646,9 @@
                 },
                 "TorchGoblin": {
                     "Note": "As long as you are suffering persistent fire damage, all your melee attacks against adjacent creatures deal an additional [[/r 1[fire]]]{1 Fire Damage} per weapon damage die."
+                },
+                "ScaldingSpit": {
+                    "BoilingSpit": "Boiling Spit"
                 }
             },
             "Gunslinger": {
@@ -2055,6 +2058,11 @@
                 "TrainSkill": {
                     "Prompt": "Select a skill to become trained in."
                 }
+            },
+            "SaveSuccessToCriticalSuccess": {
+                "Fortitude": "When you roll a success on a Fortitude save, you get a critical success instead.",
+                "Reflex": "When you roll a success on a Reflex save, you get a critical success instead.",
+                "Will": "When you roll a success on a Will save, you get a critical success instead."
             },
             "ScionOfDomora": {
                 "GuardiansEmbrace": {
