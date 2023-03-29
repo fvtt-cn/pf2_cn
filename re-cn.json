@@ -1637,6 +1637,11 @@
             },
             "SmokingSword": {
                 "StokeFlames": "燃火"
+            },
+            "SaveSuccessToCriticalSuccess": {
+                "Reflex": "当你反射豁免成功时，会变为大成功。",
+                "Fortitude": "当你强韧豁免成功时，会变为大成功。",
+                "Will": "当你意志豁免成功时，会变为大成功。"
             }
         },
         "RuleElement": {
@@ -2211,8 +2216,13 @@
             },
             "MeteorShot": {
                 "Normal": {
-                    "Title": "流星弹"
-                }
+                    "Title": "流星弹",
+                    "Text": "除了武器的正常伤害外，流星弹还会造成火焰伤害，并使得该区域变为困难地形。它会在目标周围@Template[type:emanation|distance:5]区域内造成 [[/r 3d6[fire]]] 伤害 (@Check[type:reflex|dc:23|basic:true|name:Meteor Shot] 豁免)."
+                },
+                "Major": {
+                    "Title": "上等流星弹"
+                },
+                "CriticalFailureText": "当大失败时，武器会哑火。"
             }
         }
     }
