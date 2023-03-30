@@ -6249,7 +6249,8 @@
             "two": "{first}和{second}",
             "end": "{first}, 和{second}"
         },
-        "TraitTouched": "接触"
+        "TraitTouched": "接触",
+        "TraitAppliedToAWeapon": "添加到一把武器上"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
