@@ -763,6 +763,11 @@
                 },
                 "Superstition": {
                     "TargetingCaster": "目标是施法者"
+                },
+                "InuredToAlchemy": {
+                    "CriticalSuccess": "每次对抗炼金毒药、毒品或成瘾的豁免获得大成功可降低3阶段。",
+                    "Success": "每次对抗炼金毒药、毒品或成瘾的成功豁免可降低2阶段",
+                    "CriticalSuccessVirulent": "每次对抗炼金毒药、毒品或成瘾的豁免获得大成功可降低2阶段。"
                 }
             },
             "Bard": {
@@ -1609,8 +1614,8 @@
                 "Label": "使用你的预兆"
             },
             "MechanicalTorch": {
-                "LitCone": "点燃机械火炬（锥形）",
-                "LitRadius": "点燃机械火炬（半径）"
+                "LitCone": "锥形",
+                "LitRadius": "半径"
             },
             "ScionOfDomora": {
                 "GuardiansEmbrace": {
@@ -1797,7 +1802,8 @@
             "Raining": "下雨",
             "Orate": "演说",
             "TarPit": "焦油坑内",
-            "LeyLine": "灵脉附近"
+            "LeyLine": "灵脉附近",
+            "EscapeForceOpenOrLift": "逃脱、破拆或提起重物"
         },
         "OracleCurses": {
             "Label": {
