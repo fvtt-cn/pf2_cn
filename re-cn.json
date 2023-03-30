@@ -1357,7 +1357,8 @@
                     "TigerClaw": "虎爪",
                     "StumblingSwing": "晃身劝酒",
                     "StingingLash": "蛰刺抽打",
-                    "SkywardSlash": "天空劈"
+                    "SkywardSlash": "天空劈",
+                    "WindCrash": "风袭"
                 }
             },
             "CriticalDeck": {
@@ -1655,6 +1656,14 @@
             },
             "SteadyBalance": {
                 "Note": "如果你在一次保持平衡技能动作的检定上获得了成功结果，你会视为获得了大成功结果。"
+            },
+            "Spellheart": {
+                "BeastmastersSigil": {
+                    "AdjacentLabel": "目标和一个兽王印记召唤出的生物相邻"
+                }
+            },
+            "Mindmoppet": {
+                "BrokenShell": "盾牌已破损"
             }
         },
         "RuleElement": {
@@ -1698,7 +1707,8 @@
             "AdjustDegreeOfSuccess": "调整成功程度",
             "CraftingFormula": "制作配方",
             "FlatModifier": "固定调整值",
-            "MarkToken": "标记指示物"
+            "MarkToken": "标记指示物",
+            "EphemeralEffect": "灵体效果"
         },
         "SkillVariant": {
             "Buried": "活埋",
@@ -1814,7 +1824,8 @@
             "EscapeForceOpenOrLift": "逃脱、破拆或提起重物",
             "VsSleeping": "对抗睡眠的目标",
             "ForestsOrSnow": "在森林或雪地中",
-            "Tundra": "在苔原"
+            "Tundra": "在苔原",
+            "DisableADevice": "解除装置"
         },
         "OracleCurses": {
             "Label": {
