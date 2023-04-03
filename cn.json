@@ -6015,7 +6015,7 @@
             "TripleShort": "三倍",
             "ShieldBlock": "[点击]在应用伤害前切换所选角色的盾牌格挡状态。",
             "ShieldBlockContext": "盾牌格挡",
-            "ShieldBlockShort": "Block",
+            "ShieldBlockShort": "格挡",
             "Healing": "[点击]对选定目标施加完整治疗。",
             "HealingContext": "施加治疗",
             "HealingShort": "治疗",
