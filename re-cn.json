@@ -1711,7 +1711,7 @@
             "CraftingFormula": "制作配方",
             "FlatModifier": "固定调整值",
             "MarkToken": "标记指示物",
-            "EphemeralEffect": "灵体效果"
+            "EphemeralEffect": "临时效果"
         },
         "SkillVariant": {
             "Buried": "活埋",
