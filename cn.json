@@ -873,7 +873,8 @@
                     "sankeit": "木条甲",
                     "scroll-robes": "卷轴袍",
                     "wooden-breastplate": "木制胸甲",
-                    "ceramic-plate": "陶瓷甲"
+                    "ceramic-plate": "陶瓷甲",
+                    "armored-cloak": "护盾手枪"
                 },
                 "Category": {
                     "light-barding": "轻型坐骑护甲",
@@ -1215,6 +1216,10 @@
                     "WaterApocryphal": {
                         "Label": "水(伪典)",
                         "Description": "你可以控制水和水的各种形态。不是所有神职都被传授了正典。有些是口耳秘授，从一名牧师传给传给可信的侍僧，或是经由分裂教派誊抄的典籍。"
+                    },
+                    "Introspection": {
+                        "Description": "你引导他人审视自己的生活、情绪和行为动机，最终成为更真实的自己——这往往是一个困难且痛苦的过程。",
+                        "Label": "自省"
                     }
                 },
                 "Category": {
@@ -4992,7 +4997,10 @@
                 "falcata": "反曲剑",
                 "earthbreaker": "裂地锤",
                 "combat-lure": "战斗饵",
-                "chain-sword": "链剑"
+                "chain-sword": "链剑",
+                "khakkhara": "禅杖",
+                "shield-pistol": "护盾手枪",
+                "wrist-launcher": "腕部发射器"
             }
         },
         "WeaponAbilityLabel": "武器能力",
@@ -6247,10 +6255,14 @@
         "SellItemConfirmHeader": "出售确认",
         "ListPartsAnd": {
             "two": "{first}和{second}",
-            "end": "{first}, 和{second}"
+            "end": "{first}, 和{second}",
+            "middle": "{first}, {second}",
+            "start": "{first}, {second}"
         },
         "TraitTouched": "接触",
-        "TraitAppliedToAWeapon": "添加到一把武器上"
+        "TraitAppliedToAWeapon": "添加到一把武器上",
+        "TraitDeadlyD4": "致命 d4",
+        "LanguageElderThing": "远古者语"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
