@@ -63,7 +63,17 @@
                 "GrabbingTrunk": {
                     "Text": "你的长鼻攻击命中中型或更小体型的生物后可以将其@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{攫抓 Grabbed}。如果你成功通过@UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒拿 Grapple}检定对抗你长鼻所攫抓的生物，则可以带着该生物一起移动。",
                     "Title": "鼻卷"
-                }
+                },
+                "Grab": "击中后你可以花费一个动作@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{擒抱}目标"
+            },
+            "DaemonForm": {
+                "CeustodaemonDamageNote": "任何成功的噬咬或爪击都会造成额外的[[/r {1d6}]]{1d6点伤害}，并且你会受到等量伤害"
+            },
+            "MonstrosityForm": {
+                "ShroudOfFlame": "火焰护罩"
+            },
+            "AngelForm": {
+                "DeafenedNote": "重击时@UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋}一轮"
             }
         },
         "BombNotes": {
