@@ -1677,7 +1677,27 @@
             },
             "Mindmoppet": {
                 "BrokenShell": "盾牌已破损"
-            }
+            },
+            "Tattoo": {
+                "WildwoodInk": {
+                    "Normal": {
+                        "InForestLabel": "丛林墨印 (在森林中)"
+                    },
+                    "Major": {
+                        "InForestLabel": "上等丛林墨印(在森林中)"
+                    },
+                    "Greater": {
+                        "InForestLabel": "高等丛林墨印(在森林中)"
+                    }
+                }
+            },
+            "Ifrit": {
+                "Lavasoul": {
+                    "MagmaSpike": "熔岩尖刺",
+                    "MagmaSpikeCriticalSpecialization": "目标受到[[/r 1d6[persistent,fire]]]点伤害，而不是正常的重击专精效果；你获得等同于你无武装攻击时的物品加值到该持续伤害加值当中。"
+                }
+            },
+            "LitFirePoi": "火焰绳球已被点燃"
         },
         "RuleElement": {
             "Aura": "灵光",
