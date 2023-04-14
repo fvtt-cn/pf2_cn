@@ -64,7 +64,8 @@
                     "Text": "你的长鼻攻击命中中型或更小体型的生物后可以将其@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{攫抓 Grabbed}。如果你成功通过@UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒拿 Grapple}检定对抗你长鼻所攫抓的生物，则可以带着该生物一起移动。",
                     "Title": "鼻卷"
                 },
-                "Grab": "击中后你可以花费一个动作@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{擒抱}目标"
+                "Grab": "击中后你可以花费一个动作@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{擒抱}目标",
+                "Shove": "你可以在攻击命中后立刻花费一个动作将目标推离5尺，如同成功的@UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{推撞 Shove}动作一般"
             },
             "DaemonForm": {
                 "CeustodaemonDamageNote": "任何成功的噬咬或爪击都会造成额外的[[/r {1d6}]]{1d6点伤害}，并且你会受到等量伤害"
@@ -74,6 +75,13 @@
             },
             "AngelForm": {
                 "DeafenedNote": "重击时@UUID[Compendium.pf2e.conditionitems.9PR9y0bi4JPKnHPR]{耳聋}一轮"
+            },
+            "CosmicForm": {
+                "MoonNote": "目标陷入@UUID[Compendium.pf2e.conditionitems.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。",
+                "SunNote": "目标陷入@UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩Dazzled}，持续一轮。"
+            },
+            "OozeForm": {
+                "GelatinousCubeNote": "你的面触打击命中的生物必须成功通过一次@Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)|traits:incapacitation]豁免，对抗你的法术DC，否则获得@UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{震慑 Stunned 1}（或者大失败时@UUID[Compendium.pf2e.conditionitems.6uEgoh53GbXuHpTF]{麻痹 Paralyzed}持续1轮）；该豁免具有失能特征。"
             }
         },
         "BombNotes": {
@@ -1010,7 +1018,8 @@
                 "DragonBreathWeapon": "选择一种龙类吐息。",
                 "WeaponOrUnarmed": "选择一把武器或无武装打击。",
                 "ClassDCAbilityScore": "选择职业DC的属性值。",
-                "VersatileTrait": "选择一种多用伤害类型。"
+                "VersatileTrait": "选择一种多用伤害类型。",
+                "DegreeOfSuccess": "选择成功等级"
             },
             "SterlingDynamo": {
                 "Label": "纹银机铠士",
@@ -1859,7 +1868,9 @@
             "ForestsOrSnow": "在森林或雪地中",
             "Tundra": "在苔原",
             "DisableADevice": "解除装置",
-            "DecayingPlantFungus": "在腐烂的植物质或真菌中"
+            "DecayingPlantFungus": "在腐烂的植物质或真菌中",
+            "ForceOpenGrappleShoveOrTrip": "破拆、擒拿、推撞或摔绊",
+            "ForestsOrJungles": "在森林或丛林中"
         },
         "OracleCurses": {
             "Label": {
