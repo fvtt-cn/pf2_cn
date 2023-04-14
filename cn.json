@@ -53,7 +53,8 @@
         "UnknownCombatant": "未知参战者",
         "ToggleTargeting": "切换目标",
         "TargetedBy": "目标为{list}",
-        "PingInvisibleToken": "你无法看到此参战者的指示物。"
+        "PingInvisibleToken": "你无法看到此参战者的指示物。",
+        "PingCombatant": "高亮指示物"
     },
     "COMPENDIUM": {
         "Filter": "筛选集合包",
@@ -2352,7 +2353,7 @@
         "DCAdjustmentIncrediblyEasy": "极其简单",
         "DCAdjustmentVeryEasy": "非常简单",
         "DCAdjustmentEasy": "简单",
-        "DCAdjustmentNormal": "一般",
+        "DCAdjustmentNormal": "基线",
         "DCAdjustmentHard": "困难",
         "DCAdjustmentVeryHard": "非常困难",
         "DCAdjustmentIncrediblyHard": "极端困难",
@@ -3036,7 +3037,9 @@
             "SixthAttempt": "6th DC",
             "SpecificLore": "特定学识",
             "UnspecificLore": "通常学识",
-            "Skill": "技能"
+            "Skill": "技能",
+            "LoreVeryEasy": "可用学识(非常简单)",
+            "LoreEasy": "可用学识(简单)"
         },
         "Recovery": {
             "critFailure": "增加2层濒死状态。",
@@ -4294,7 +4297,7 @@
         "TraitHalfElf": "半精灵",
         "TraitHalfOrc": "半兽人",
         "TraitHalfling": "半身人",
-        "TraitHampering": "妨碍",
+        "TraitHampering": "阻碍",
         "TraitHantu": "物灵",
         "TraitHaunt": "闹鬼",
         "TraitHealing": "治疗",
@@ -6262,7 +6265,8 @@
         "TraitTouched": "接触",
         "TraitAppliedToAWeapon": "添加到一把武器上",
         "TraitDeadlyD4": "致命 d4",
-        "LanguageElderThing": "远古者语"
+        "LanguageElderThing": "远古者语",
+        "TraitCarried": "携带"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
