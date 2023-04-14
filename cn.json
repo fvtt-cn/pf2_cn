@@ -1626,7 +1626,8 @@
                     "RangeLabel": "距离",
                     "WithAcuity": "{sense} ({acuity})",
                     "WithAcuityAndRange": "{sense} ({acuity} {range} 尺)"
-                }
+                },
+                "AbilityModifiers": "属性调整值"
             },
             "Dead": "死亡",
             "Hazard": {
@@ -1660,6 +1661,11 @@
                     },
                     "Notification": "生成NPC攻击: {attack}",
                     "Label": "生成攻击"
+                },
+                "Identification": {
+                    "Skills": {
+                        "Tooltip": "“用来辨识某生物的技能，通常取决于该生物的特征，如表格10-7，但你也可放宽技能的应用范围。”——核心规则书506页"
+                    }
                 }
             },
             "Plural": "角色",
@@ -4058,7 +4064,7 @@
         "TraitDescriptionHalfElf": "具有该特征的生物同时具有人类和精灵的部分。具有该特征的能力只能由半精灵使用或选择。",
         "TraitDescriptionHalfOrc": "具有该特征的生物同时具由人类和兽人的部分。具有该特征的能力只能由半兽人使用或选择。",
         "TraitDescriptionHalfling": "具有此特征的生物是半身人族裔的一份子。这些小型的人物是友善的漫游者，被认为十分幸运。具有此特征的能力只能由半身人使用或选择。具有此特征的武器是半身人创造并使用的。",
-        "TraitDescriptionHampering": "你可以使用交互动作在武器可触及范围内的方格中敲击武器。在你使用武器攻击、移动或在下一回合开始时停止对该方格的敲击之前，该方格将成为困难地形。",
+        "TraitDescriptionHampering": "带有阻碍特性的武器被设计成可以通过被摇动、向外投掷或鞭打来控制战场上的空间。你可以使用一个交互动作在武器的范围内鞭打武器。这个方格会变成困难地形，直到你用该武器攻击、移动或停止有意地抽打它才会中止。",
         "TraitDescriptionHaunt": "具有这种特征的危害是一种精神所成的回响，通常是一个不幸死亡的生物。使鬼魂安息通常需要解决鬼魂所未完成的事情。一个作祟（Haunts），如果没有得到适当的安抚，那它总是会在一段时间后再次回归。",
         "TraitDescriptionHealing": "治疗效果能够复原生物的肉体，通常体现为恢复其生命值，但也可能为其祛除疾病或其他衰弱效果。",
         "TraitDescriptionHex": "巫术是一种女巫释放的聚能法术。",
