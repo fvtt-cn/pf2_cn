@@ -64,7 +64,7 @@
                     "Text": "你的长鼻攻击命中中型或更小体型的生物后可以将其@UUID[Compendium.pf2e.conditionitems.kWc1fhmv9LBiTuei]{攫抓 Grabbed}。如果你成功通过@UUID[Compendium.pf2e.actionspf2e.PMbdMWc2QroouFGD]{擒拿 Grapple}检定对抗你长鼻所攫抓的生物，则可以带着该生物一起移动。",
                     "Title": "鼻卷"
                 },
-                "Grab": "击中后你可以花费一个动作@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{擒抱}目标",
+                "Grab": "击中后你可以立即花费一个动作@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Tkd8sH4pwFIPzqTr]{擒抱}目标",
                 "Shove": "你可以在攻击命中后立刻花费一个动作将目标推离5尺，如同成功的@UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{推撞 Shove}动作一般"
             },
             "DaemonForm": {
