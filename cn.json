@@ -1664,7 +1664,12 @@
                 },
                 "Identification": {
                     "Skills": {
-                        "Tooltip": "“用来辨识某生物的技能，通常取决于该生物的特征，如表格10-7，但你也可放宽技能的应用范围。”——核心规则书506页"
+                        "Tooltip": "“用来辨识某生物的技能，通常取决于该生物的特征，如表格10-7，但你也可放宽技能的应用范围。”——核心规则书506页",
+                        "Label": "{skills}: DC {dc} ({adjustment})"
+                    },
+                    "Lore": {
+                        "Tooltip": "“使用可用学识通常具有一个简单或非常简单的DC（在调整稀有度之前）。”–CRB第506页",
+                        "Label": "可用学识：DC {dc1} ({adjustment1}) 或者 DC {dc2} ({adjustment2})"
                     }
                 }
             },
@@ -5332,6 +5337,9 @@
                     "criticalSuccess": "当你用血光武器重击一个生物时，你额外造成[[/r {1d6*2}[persistent,bleed]]] @UUID[Compendium.pf2e.conditionitems.Persistent Damage]{持续流血伤害 Persistent Bleed Damage}。",
                     "success": "当你用血光武器击中一个生物时， 你额外造成[[/r {1d6}[persistent,bleed]]] @UUID[Compendium.pf2e.conditionitems.lDVqvLKA6eF3Df60]{持续流血伤害 Persistent Bleed Damage}。"
                 }
+            },
+            "demolishing": {
+                "Name": "拆解"
             }
         },
         "WeaponPropertyRuneAnarchic": "混沌",
