@@ -57,7 +57,8 @@
                 "Thorn": "棘刺",
                 "LavaFist": "熔岩拳",
                 "Thorns": "棘刺",
-                "Bite": "咬 Bite"
+                "Bite": "咬 Bite",
+                "Web": "蛛网"
             },
             "Note": {
                 "GrabbingTrunk": {
@@ -82,6 +83,12 @@
             },
             "OozeForm": {
                 "GelatinousCubeNote": "你的面触打击命中的生物必须成功通过一次@Check[type:fortitude|dc:resolve(@actor.attributes.spellDC.value)|traits:incapacitation]豁免，对抗你的法术DC，否则获得@UUID[Compendium.pf2e.conditionitems.dfCMdR4wnpbYNTix]{震慑 Stunned 1}（或者大失败时@UUID[Compendium.pf2e.conditionitems.6uEgoh53GbXuHpTF]{麻痹 Paralyzed}持续1轮）；该豁免具有失能特征。"
+            },
+            "InsectForm": {
+                "SpiderWebNote": "一次成功的蛛网攻击会纠缠目标1轮，但不会造成伤害"
+            },
+            "AberrantForm": {
+                "GugSqueezeNote": "你的多关节可以让你适应狭小的空间，如同一个中型生物一样。"
             }
         },
         "BombNotes": {
@@ -1712,6 +1719,10 @@
                 "Fiend": {
                     "ToggleLabel": "重复一个非打击动作"
                 }
+            },
+            "CorrosiveBody": {
+                "Note9th": "每回合首次以这种方式对生物造成酸液伤害时，你会获得[[/r 5d6 #Temporary Hit Points]]{5d6点临时生命}",
+                "Note": "每回合首次以这种方式对生物造成酸液伤害时，你会获得[[/r 3d6 #Temporary Hit Points]]{3d6点临时生命}"
             }
         },
         "RuleElement": {
@@ -1876,7 +1887,8 @@
             "DisableADevice": "解除装置",
             "DecayingPlantFungus": "在腐烂的植物质或真菌中",
             "ForceOpenGrappleShoveOrTrip": "破拆、擒拿、推撞或摔绊",
-            "ForestsOrJungles": "在森林或丛林中"
+            "ForestsOrJungles": "在森林或丛林中",
+            "RecallKnowledgeDeadSubject": "回忆关于已故受术者的知识"
         },
         "OracleCurses": {
             "Label": {
