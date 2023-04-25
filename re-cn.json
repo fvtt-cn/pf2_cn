@@ -58,7 +58,8 @@
                 "LavaFist": "熔岩拳",
                 "Thorns": "棘刺",
                 "Bite": "咬 Bite",
-                "Web": "蛛网"
+                "Web": "蛛网",
+                "LightningLash": "闪电冲击"
             },
             "Note": {
                 "GrabbingTrunk": {
@@ -89,6 +90,10 @@
             },
             "AberrantForm": {
                 "GugSqueezeNote": "你的多关节可以让你适应狭小的空间，如同一个中型生物一样。"
+            },
+            "ElementEmbodied": {
+                "WaterPushPullNote": "附加@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{推离}或拉近10尺",
+                "AirPushNote": "附加@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.t6cx9FOODmeZQNYl]{推离}10尺"
             }
         },
         "BombNotes": {
@@ -613,7 +618,9 @@
                 "WildClaws": "野性之爪 Wild Claws",
                 "WildJaws": "野性大颚 Wild Jaws",
                 "LongVines": "长藤蔓 Long Vines",
-                "ElementalMatter": "元素物质 Elemental Matter"
+                "ElementalMatter": "元素物质 Elemental Matter",
+                "PromptThree": "选择第三个化形。",
+                "PromptTwo": "选择第二个化形。"
             },
             "HarrowDeck": {
                 "HarrowSuits": {
@@ -1102,7 +1109,8 @@
             "Shisk": {
                 "PiercingQuills": {
                     "Note": "你的尖刺无武装攻击在一次命中大成功时造成@Localize[PF2E.PersistentDamage.Bleed1d4.success]。"
-                }
+                },
+                "Quills": "羽尖"
             },
             "Shoony": {
                 "EsteemedVisitor": {
@@ -1723,7 +1731,8 @@
             "CorrosiveBody": {
                 "Note9th": "每回合首次以这种方式对生物造成酸液伤害时，你会获得[[/r 5d6 #Temporary Hit Points]]{5d6点临时生命}",
                 "Note": "每回合首次以这种方式对生物造成酸液伤害时，你会获得[[/r 3d6 #Temporary Hit Points]]{3d6点临时生命}"
-            }
+            },
+            "LitCandlecap": "蜡烛帽已被点燃"
         },
         "RuleElement": {
             "Aura": "灵光",
