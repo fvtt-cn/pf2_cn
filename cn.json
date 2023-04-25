@@ -1421,7 +1421,11 @@
                 "Damage": {
                     "DiceNumber": "骰数"
                 },
-                "FromABP": "自动成长加值已将该武器的{property}调整为{value}。"
+                "FromABP": "自动成长加值已将该武器的{property}调整为{value}。",
+                "Reload": {
+                    "LabelN": "装填 {value}",
+                    "OneMinute": "1分钟"
+                }
             },
             "Rules": {
                 "Apply": "应用",
@@ -1679,6 +1683,19 @@
                 "Type": "类型",
                 "Exceptions": "例外",
                 "DoubleVs": "双倍于"
+            },
+            "Party": {
+                "BlankSlate": "这个队伍没有任何成员。从角色边栏中拖入一个生物。 ",
+                "Coin": "货币",
+                "Languages": "队伍语言",
+                "MembersLabel": "成员: ",
+                "NoSpecialSenses": "无特殊感官",
+                "Tabs": {
+                    "Overview": "总览",
+                    "Inventory": "物品"
+                },
+                "Total": "队伍合计",
+                "Wealth": "财富"
             }
         },
         "ActorSizeGargantuan": "巨型",
@@ -6280,7 +6297,9 @@
         "TraitAppliedToAWeapon": "添加到一把武器上",
         "TraitDeadlyD4": "致命 d4",
         "LanguageElderThing": "远古者语",
-        "TraitCarried": "携带"
+        "TraitCarried": "携带",
+        "TraitDescriptionTandem": "具有此特征的动作涉及到你和幻灵的共同行动。你在以下场合无法使用同步动作：你和幻灵任意一方无法行动、你没有显现你的幻灵、或者你没有将幻灵显现成分离的实体（例如使用了融入幻灵专长）。同步动作通常让你和幻灵进行不同的动作，但这些必须是你和幻灵分别执行的动作；你不能使用同步动作进行另一个同步动作。",
+        "TraitDescriptionEvolution": "具有此特征的专长会影响你的幻灵而非你自己，通常会为其提供更多的身体能力。"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
