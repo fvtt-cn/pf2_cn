@@ -2289,7 +2289,8 @@
                 "success": "[[/r 1d6[persistent,mental]]]"
             },
             "Mental2d6": {
-                "criticalSuccess": "[[/r (2*2d6)[persistent,mental]]]"
+                "criticalSuccess": "[[/r (2*2d6)[persistent,mental]]]",
+                "success": "[[/r 2d6[persistent,mental]]]"
             },
             "Fire1d10": {
                 "success": "[[/r 1d10[persistent,fire]]]",
@@ -2318,6 +2319,54 @@
             "Mental1d8": {
                 "criticalSuccess": "[[/r (2*1d8)[persistent,mental]]]",
                 "success": "[[/r 1d8[persistent,mental]]]"
+            },
+            "Negative1d6": {
+                "success": "[[/r 1d6[persistent,negative]]]",
+                "criticalSuccess": "[[/r (2*1d6)[persistent,negative]]]"
+            },
+            "Negative1d8": {
+                "criticalSuccess": "[[/r (2*1d8)[persistent,negative]]]",
+                "success": "[[/r 1d8[persistent,negative]]]"
+            },
+            "Poison1d6": {
+                "criticalSuccess": "[[/r (2*1d6)[persistent,poison]]]",
+                "success": "[[/r 1d6[persistent,poison]]]"
+            },
+            "Poison1d12": {
+                "criticalSuccess": "[[/r (2*1d12)[persistent,poison]]]",
+                "success": "[[/r 1d12[persistent,poison]]]"
+            },
+            "Poison2d6": {
+                "success": "[[/r 2d6[persistent,poison]]]",
+                "criticalSuccess": "[[/r (2*2d6)[persistent,poison]]]"
+            },
+            "Mental3d6": {
+                "success": "[[/r 3d6[persistent,mental]]]",
+                "criticalSuccess": "[[/r (2*3d6)[persistent,mental]]]"
+            },
+            "Negative1d10": {
+                "success": "[[/r 1d10[persistent,negative]]]",
+                "criticalSuccess": "[[/r (2*1d10)[persistent,negative]]]"
+            },
+            "Poison1d4": {
+                "criticalSuccess": "[[/r (2*1d4)[persistent,poison]]]",
+                "success": "[[/r 1d4[persistent,poison]]]"
+            },
+            "Poison2d4": {
+                "criticalSuccess": "[[/r (2*2d4)[persistent,poison]]]",
+                "success": "[[/r 2d4[persistent,poison]]]"
+            },
+            "Negative2d10": {
+                "criticalSuccess": "[[/r (2*2d10)[persistent,negative]]]",
+                "success": "[[/r 2d10[persistent,negative]]]"
+            },
+            "Piercing2d8+8": {
+                "success": "[[/r (2d8+8)[persistent,piercing]]]",
+                "criticalSuccess": "[[/r (2*2d8+16)[persistent,piercing]]]"
+            },
+            "Poison1d8": {
+                "criticalSuccess": "[[/r (2*1d8)[persistent,poison]]]",
+                "success": "[[/r 1d8[persistent,poison]]]"
             }
         },
         "Terrain": {
