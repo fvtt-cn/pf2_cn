@@ -1104,6 +1104,9 @@
                 },
                 "WolfDrag": {
                     "Note": "打击成功时，你将目标击至@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}。"
+                },
+                "DragonRoar": {
+                    "Label": "第一次攻击惊惧的生物"
                 }
             },
             "Shisk": {
@@ -1210,6 +1213,9 @@
                 },
                 "TrainSkill": {
                     "Prompt": "选择一个你要受训的技能"
+                },
+                "DistractingFeint": {
+                    "Text": "当一个生物被你虚招而陷入措手不及时，它同时在察觉检定和反射豁免上获得-2环境减值。@UUID[Compendium.pf2e.feat-effects.7hRgBo0fRQBxMK7g]{效果：分身虚招}"
                 }
             },
             "Sorcerer": {
@@ -1732,7 +1738,25 @@
                 "Note9th": "每回合首次以这种方式对生物造成酸液伤害时，你会获得[[/r 5d6 #Temporary Hit Points]]{5d6点临时生命}",
                 "Note": "每回合首次以这种方式对生物造成酸液伤害时，你会获得[[/r 3d6 #Temporary Hit Points]]{3d6点临时生命}"
             },
-            "LitCandlecap": "蜡烛帽已被点燃"
+            "LitCandlecap": "蜡烛帽已被点燃",
+            "BonusLabel": {
+                "PlusTwo": "+2",
+                "PlusOne": "+1",
+                "PlusThree": "+3",
+                "NegativeOne": "-1",
+                "PlusFour": "+4"
+            },
+            "AquaticCombat": {
+                "FireNote": "你不能在水下施放火焰法术或使用带火焰特征的动作。",
+                "RangedNote": "当攻击者或是目标在水下时，造成钝击或挥砍伤害的远程攻击会自动失手，造成穿刺伤害的远程攻击的射程增量减半。"
+            },
+            "Actions": {
+                "ThreeActions": "3动作",
+                "TwoActions": "2动作"
+            },
+            "BloodlettingKukri": {
+                "Note": "若你在重击成功时若目标身上无持续流血伤害，你还能获得[[/r 1d8]]点临时生命值。"
+            }
         },
         "RuleElement": {
             "Aura": "灵光",
@@ -2367,6 +2391,22 @@
             "Poison1d8": {
                 "criticalSuccess": "[[/r (2*1d8)[persistent,poison]]]",
                 "success": "[[/r 1d8[persistent,poison]]]"
+            },
+            "Poison3d4": {
+                "criticalSuccess": "[[/r (2*3d4)[persistent,poison]]]",
+                "success": "[[/r 3d4[persistent,poison]]]"
+            },
+            "Poison3d6": {
+                "success": "[[/r 3d6[persistent,poison]]]",
+                "criticalSuccess": "[[/r (2*3d6)[persistent,poison]]]"
+            },
+            "Poison2d8": {
+                "criticalSuccess": "[[/r (2*2d8)[persistent,poison]]]",
+                "success": "[[/r 2d8[persistent,poison]]]"
+            },
+            "Poison4d6": {
+                "criticalSuccess": "[[/r (2*4d6)[persistent,poison]]]",
+                "success": "[[/r 4d6[persistent,poison]]]"
             }
         },
         "Terrain": {
