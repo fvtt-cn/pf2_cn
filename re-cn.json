@@ -1756,6 +1756,14 @@
             },
             "BloodlettingKukri": {
                 "Note": "若你在重击成功时若目标身上无持续流血伤害，你还能获得[[/r 1d8]]点临时生命值。"
+            },
+            "SpellEffectEvolutionSurge": {
+                "Fly": "飞行速度",
+                "Climb": "攀爬速度",
+                "Speed": "速度+20尺状态加值",
+                "Amphibious": "游泳速度",
+                "Sight": "昏暗视觉和黑暗视觉",
+                "Prompt": "选择一种进化浪潮"
             }
         },
         "RuleElement": {
