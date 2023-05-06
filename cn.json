@@ -5221,7 +5221,7 @@
             "greaterFlaming": {
                 "Name": "高等炽焰符文",
                 "Note": {
-                    "criticalSuccess": "该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。当你用此武器的打击重击时，你对目标额外造成[[/r 2d10[persistent,fire]]]。",
+                    "criticalSuccess": "该武器造成的火焰伤害（包括持续火焰伤害）忽略目标的火焰抗力。",
                     "success": "该武器造成的火焰伤害忽略目标的火焰抗力。"
                 }
             },
