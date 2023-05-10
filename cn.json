@@ -1692,7 +1692,8 @@
                 "NoSpecialSenses": "无特殊感官",
                 "Tabs": {
                     "Overview": "总览",
-                    "Inventory": "物品"
+                    "Inventory": "物品",
+                    "Orphaned": "孤立物品"
                 },
                 "Total": "队伍合计",
                 "Wealth": "财富"
@@ -2324,7 +2325,8 @@
                     "sickened": "恶心",
                     "trip": "摔拌",
                     "vorpal-adamantine": "斩首精金",
-                    "damage-from-spells": "法术伤害"
+                    "damage-from-spells": "法术伤害",
+                    "glass": "玻璃"
                 },
                 "ActorIsImmune": "{actor} 对{effect}免疫。",
                 "ActorIsUnaffected": "{actor}不受{effect}影响。"
@@ -2408,7 +2410,9 @@
             "PT1H": "小时",
             "PT24H": "24小时",
             "day": "日",
-            "P1W": "周"
+            "P1W": "周",
+            "P1Y": "年",
+            "P1M": "月"
         },
         "Encounter": {
             "Broadcast": {
