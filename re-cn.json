@@ -1056,7 +1056,7 @@
             },
             "WellspringMage": {
                 "CriticalSuccess": "你暂时恢复一个由你选择的任何环位的已消耗法术位。这个暂时恢复的临时法术位将会持续一分钟，如果你不在一分钟内使用它，你将在法术位过期时产生@UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{泉源涌动 Wellspring Surge}。",
-                "Initiative": "当你为一场非不重要的战斗骰先攻和由GM选择的其它高压情形时，你的魔力将开始涌动。进行一个@Check[type:flat|dc:6|traits:wellspring-magic]检定。",
+                "Initiative": "当你为一场非不重要的战斗骰先攻和由GM选择的其它高压情形时，你的魔力将开始涌动。进行一个@Check[type:flat|dc:6|traits:wellspring-magic]。",
                 "Failure": "你立刻产生@UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{泉源涌动 Wellspring Surge}，法术环位将从你最高的三个环位随机决定（或者你全部的法术环位，如果你的最高环位小于三）。",
                 "Success": "你暂时恢复一个从你最高的三个环位随机决定恢复的已消耗法术位。这个暂时恢复的临时法术位将会持续3回合，如果你不在一分钟内使用它，你将在法术位过期时产生@UUID[Compendium.pf2e.rollable-tables.N0pDFNCffTe2Du39]{泉源涌动 Wellspring Surge}。"
             },
