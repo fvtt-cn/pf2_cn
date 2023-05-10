@@ -1033,7 +1033,8 @@
                 "WeaponOrUnarmed": "选择一把武器或无武装打击。",
                 "ClassDCAbilityScore": "选择职业DC的属性值。",
                 "VersatileTrait": "选择一种多用伤害类型。",
-                "DegreeOfSuccess": "选择成功等级"
+                "DegreeOfSuccess": "选择成功等级",
+                "Alignment": "选择一个阵营"
             },
             "SterlingDynamo": {
                 "Label": "纹银机铠士",
@@ -1764,6 +1765,9 @@
                 "Amphibious": "游泳速度",
                 "Sight": "昏暗视觉和黑暗视觉",
                 "Prompt": "选择一种进化浪潮"
+            },
+            "Anadi": {
+                "SpiderOrHybridForm": "在真实形态或蜘蛛形态下"
             }
         },
         "RuleElement": {
@@ -1929,7 +1933,10 @@
             "DecayingPlantFungus": "在腐烂的植物质或真菌中",
             "ForceOpenGrappleShoveOrTrip": "破拆、擒拿、推撞或摔绊",
             "ForestsOrJungles": "在森林或丛林中",
-            "RecallKnowledgeDeadSubject": "回忆关于已故受术者的知识"
+            "RecallKnowledgeDeadSubject": "回忆关于已故受术者的知识",
+            "VsDemons": "对抗恶魔",
+            "JumpOrClimb": "跳跃或攀爬",
+            "ImpersonatePastSelf": "模仿过去的自己"
         },
         "OracleCurses": {
             "Label": {
