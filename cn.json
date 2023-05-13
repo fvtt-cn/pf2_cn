@@ -1697,6 +1697,11 @@
                 },
                 "Total": "队伍合计",
                 "Wealth": "财富"
+            },
+            "Familiar": {
+                "Master": {
+                    "Perception": "大师察觉"
+                }
             }
         },
         "ActorSizeGargantuan": "巨型",
@@ -2039,7 +2044,7 @@
             "TabFeat": "专长/特性",
             "TabHazard": "危害",
             "TabSpell": "法术",
-            "TabSettings": "加载包",
+            "TabSettings": "设置",
             "TakeLabel": "拿取道具",
             "BuyLabel": "购买物品",
             "Title": "浏览合集包"
