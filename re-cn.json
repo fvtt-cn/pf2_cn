@@ -1936,7 +1936,10 @@
             "RecallKnowledgeDeadSubject": "回忆关于已故受术者的知识",
             "VsDemons": "对抗恶魔",
             "JumpOrClimb": "跳跃或攀爬",
-            "ImpersonatePastSelf": "模仿过去的自己"
+            "ImpersonatePastSelf": "模仿过去的自己",
+            "ClimbHighJumpLongJumpOrDisarm": "攀爬、跳高、跳远或者缴械",
+            "PalmAnObjectOrSteal": "手上功夫或盗窃",
+            "ConcealAnObject": "隐藏物件"
         },
         "OracleCurses": {
             "Label": {
