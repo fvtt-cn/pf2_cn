@@ -1483,6 +1483,21 @@
             "GMNotes": {
                 "Add": "添加GM日志",
                 "Title": "GM日志"
+            },
+            "Action": {
+                "Category": {
+                    "Defensive": "防御",
+                    "None": "无",
+                    "Offensive": "打击",
+                    "Interaction": "交互动作"
+                },
+                "CategoryLabel": "类别",
+                "Type": {
+                    "Reaction": "反应动作",
+                    "Single": "单动作",
+                    "Free": "自由动作",
+                    "Activity": "行动"
+                }
             }
         },
         "ActionsCheck": {
@@ -2209,7 +2224,8 @@
                     "resistance": "具有{type}抗力: {adjustment}",
                     "unaffected": "不受{type}影响:{adjustment}",
                     "weakness": "具有{type}弱点: {adjustment}",
-                    "ignored": "忽略了对{type}的抗力！"
+                    "ignored": "忽略了对{type}的抗力！",
+                    "reduction": "对{type}减弱：{adjustment}"
                 },
                 "CompositeLabel": {
                     "Exceptions0DoubleVs0": "{type} {value}",
@@ -2375,6 +2391,10 @@
                 "Bonus": "额外{dice}",
                 "DamageRoll": "伤害掷骰",
                 "Splash": "{damageType} 溅射"
+            },
+            "Hardness": {
+                "Half": "半数硬度",
+                "Full": "硬度"
             }
         },
         "DamageCategoriesLabel": "伤害类别",
@@ -3498,6 +3518,17 @@
             "TOTMToggles": {
                 "Name": "启用心灵剧场",
                 "Hint": "在人物卡上添加额外的开关，以播放心灵剧场。 此操作将允许启用某些功能而无需在Foundry中选定目标。"
+            },
+            "CompendiumBrowserSources": {
+                "IgnoreAsGM": "令GM忽略筛选并查看所有条目。",
+                "Hint": "设置将会令合集包浏览器中仅显示具有指定来源的条目。",
+                "DeleteAllTitle": "重置设置",
+                "DeleteAllQuestion": "确定要重置所包含来源的相关设置？",
+                "DeleteAllInfo": "可以浏览所有合集包文件，也包括那些来源为空的文件。",
+                "SourcesListHeader": "指定来源",
+                "ShowUnknownSources": "不会筛选未知来源的条目。",
+                "ShowEmptySources": "不会筛选无来源的条目。",
+                "Name": "所包含的来源"
             }
         },
         "SaveDCLabel": "豁免DC {dc} {type}",
@@ -6308,7 +6339,9 @@
         "LanguageElderThing": "远古者语",
         "TraitCarried": "携带",
         "TraitDescriptionTandem": "具有此特征的动作涉及到你和幻灵的共同行动。你在以下场合无法使用同步动作：你和幻灵任意一方无法行动、你没有显现你的幻灵、或者你没有将幻灵显现成分离的实体（例如使用了融入幻灵专长）。同步动作通常让你和幻灵进行不同的动作，但这些必须是你和幻灵分别执行的动作；你不能使用同步动作进行另一个同步动作。",
-        "TraitDescriptionEvolution": "具有此特征的专长会影响你的幻灵而非你自己，通常会为其提供更多的身体能力。"
+        "TraitDescriptionEvolution": "具有此特征的专长会影响你的幻灵而非你自己，通常会为其提供更多的身体能力。",
+        "TraitRelic": "圣物",
+        "TraitReach200": "长触及 200 ft"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
