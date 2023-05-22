@@ -1272,7 +1272,11 @@
                     "Added": "{item}已添加到{category}。"
                 },
                 "LevelLabel": "专长",
-                "LevelN": "专长 {level}"
+                "LevelN": "专长 {level}",
+                "KeyAbilityOptions": {
+                    "Label": "关键属性选项",
+                    "Hint": "由职业提供额外的关键属性选项"
+                }
             },
             "Heritage": {
                 "AncestryNotFound": "找不到引用的族裔模板。",
@@ -1639,7 +1643,8 @@
                         "LowLightVision": "昏暗视觉",
                         "Scent": "灵敏嗅觉",
                         "Motionsense": "运动感知",
-                        "Spiritsense": "灵魂感知"
+                        "Spiritsense": "灵魂感知",
+                        "Thoughtsense": "思维感知"
                     },
                     "Label": "感官",
                     "RangeLabel": "距离",
@@ -1717,6 +1722,9 @@
                 "Master": {
                     "Perception": "大师察觉"
                 }
+            },
+            "Hardness": {
+                "ShortLabel": "硬度"
             }
         },
         "ActorSizeGargantuan": "巨型",
@@ -2437,7 +2445,9 @@
             "day": "日",
             "P1W": "周",
             "P1Y": "年",
-            "P1M": "月"
+            "P1M": "月",
+            "turn": "回合",
+            "round": "轮"
         },
         "Encounter": {
             "Broadcast": {
@@ -6341,7 +6351,13 @@
         "TraitDescriptionTandem": "具有此特征的动作涉及到你和幻灵的共同行动。你在以下场合无法使用同步动作：你和幻灵任意一方无法行动、你没有显现你的幻灵、或者你没有将幻灵显现成分离的实体（例如使用了融入幻灵专长）。同步动作通常让你和幻灵进行不同的动作，但这些必须是你和幻灵分别执行的动作；你不能使用同步动作进行另一个同步动作。",
         "TraitDescriptionEvolution": "具有此特征的专长会影响你的幻灵而非你自己，通常会为其提供更多的身体能力。",
         "TraitRelic": "圣物",
-        "TraitReach200": "长触及 200 ft"
+        "TraitReach200": "长触及 200 ft",
+        "RevertDamage": {
+            "HealingMessage": "应用于{actor}的治疗已撤销",
+            "DamageMessage": "应用于{actor}的伤害已撤销",
+            "ButtonTooltip": "撤销"
+        },
+        "BrowserSettingsSaved": "设定已保存"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
