@@ -956,6 +956,11 @@
                 "NosoiCharm": {
                     "PerformanceLabel": "疫鸟魅力(演奏乐器，演说或歌唱)",
                     "RequestLabel": "疫鸟魅力(请求)"
+                },
+                "BoastfulHunter": {
+                    "MisfireNote": "使用被侮辱的<em>吹嘘猎手</em>的所有攻击承受@Check[type:flat|dc:5]失火风险直到这把武器被安抚。",
+                    "InsultedLabel": "吹嘘猎手被侮辱",
+                    "BoredLabel": "吹嘘猎手感到无聊"
                 }
             },
             "FighterWeaponMasteryLegend": {
@@ -1768,6 +1773,20 @@
             },
             "Anadi": {
                 "SpiderOrHybridForm": "在真实形态或蜘蛛形态下"
+            },
+            "AdjustDegreeOfSuccess": {
+                "Squeeze": {
+                    "CriticalFailureSuccessBetter": "当你在挤入检定上投出大失败时，会立即变为失败，而当你投出成功时，会立即变为大成功。"
+                }
+            },
+            "AerialPiledriver": {
+                "CriticalFailureText": "你陷入@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}，目标不再被你擒抱或束缚。",
+                "FailureText": "你失去了对目标的控制，它不再被你擒抱或束缚。",
+                "SuccessText": "目标陷入@UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{倒地 Prone}。"
+            },
+            "AdoptedAncestry": {
+                "Prompt": "选择一个常见族裔。",
+                "AllowedDrops": "自身以外的族裔"
             }
         },
         "RuleElement": {
@@ -1939,7 +1958,35 @@
             "ImpersonatePastSelf": "模仿过去的自己",
             "ClimbHighJumpLongJumpOrDisarm": "攀爬、跳高、跳远或者缴械",
             "PalmAnObjectOrSteal": "手上功夫或盗窃",
-            "ConcealAnObject": "隐藏物件"
+            "ConcealAnObject": "隐藏物件",
+            "CraftAlchemical": "制作炼金物品",
+            "ForestsOrUnderground": "在森林或地下区域",
+            "Diversion": "分神",
+            "CraftSnare": "制作圈套",
+            "CraftAlchemicalOrMedicine": "制作炼金或医疗用品",
+            "JumpOrSwim": "跳跃或游泳",
+            "ImpersonateMound": "乔装土坡",
+            "ImpersonateInanimate": "乔装非生物物体",
+            "Poison": "制作毒药",
+            "PickALock": "开锁",
+            "Moist": "在潮湿环境中",
+            "TrackCreator": "追踪其创造者",
+            "TumbleThroughMediumOrLarger": "翻滚穿过中等或更大的生物的占据空间",
+            "TumbleThrough": "翻滚",
+            "Ruins": "在废墟中",
+            "Prophecy": "道出预言",
+            "Swardlands": "在沼泽地里",
+            "ShootingGallery": "在靶场",
+            "HideInDim": "在昏暗的光线中躲藏",
+            "DarknessOrSmoke": "在黑暗或烟雾中",
+            "TrackHalfHealth": "追踪生命值低于一半以下的生物",
+            "HideInBody": "隐藏于身",
+            "FortuneTelling": "占卜",
+            "Lute": "弹奏鲁特琴",
+            "ImpersonateClothing": "乔装衣物",
+            "ImitateVoice": "模仿声音",
+            "SewersScrapyards": "在下水道和废料场",
+            "RecallKnowledge": "回忆知识"
         },
         "OracleCurses": {
             "Label": {
@@ -2136,6 +2183,9 @@
             },
             "RaptorGuardWight": {
                 "TerrorMaster": "尸妖猛禽精卫正戴着它的恐龙头骨头盔。"
+            },
+            "Necrohulk": {
+                "AlchemicalCartridgeRuptured": "炼金定装弹破裂"
             }
         },
         "UI": {
