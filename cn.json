@@ -6357,7 +6357,9 @@
             "DamageMessage": "应用于{actor}的伤害已撤销",
             "ButtonTooltip": "撤销"
         },
-        "BrowserSettingsSaved": "设定已保存"
+        "BrowserSettingsSaved": "设定已保存",
+        "TraitEtchedOntoABludgeoningWeapon": "蚀刻到钝击武器上",
+        "TraitEtchedOntoAPiercingOrSlashingWeapon": "蚀刻到穿刺或挥砍武器上"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
