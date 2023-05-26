@@ -10,7 +10,7 @@
   ],
   "compatibility": {
     "minimum": "10",
-    "verified": "10"
+    "verified": "11.299"
   },
   "systems": [ "pf2e" ],
   "languages": [
@@ -25,11 +25,13 @@
       "path": "re-cn.json"
     }
   ],
-  "dependencies": [{
-    "name": "pf2e",
-    "type": "system",
-    "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json"
-  }],
+  "relationships": {
+    "systems": [{
+      "id": "pf2e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json"
+    }]
+  },
   "changelog": "Auto replaced",
   "version": "Auto replaced",
   "url": "Auto replaced",
