@@ -1725,6 +1725,20 @@
             },
             "Hardness": {
                 "ShortLabel": "硬度"
+            },
+            "Inventory": {
+                "ItemQuantity": {
+                    "Increase": {
+                        "ControlClick": "[Ctrl+点击]增加10个",
+                        "Click": "[点击]增加1个",
+                        "ShiftClick": "[Shift+点击]增加5个"
+                    },
+                    "Decrease": {
+                        "Click": "[点击]减少1个",
+                        "ShiftClick": "[Shift+点击]减少5个",
+                        "ControlClick": "[Crtl+点击]减少10个"
+                    }
+                }
             }
         },
         "ActorSizeGargantuan": "巨型",
@@ -4685,7 +4699,7 @@
         "TraitVersatileS": "多用 S",
         "TraitVersatileSonic": "多用音波",
         "TraitVigilante": "侠客",
-        "TraitVirulent": "致命",
+        "TraitVirulent": "恶性",
         "TraitVishkanya": "蝮血裔",
         "TraitVisual": "视觉",
         "TraitVolley20": "远射 20 ft.",
@@ -5241,7 +5255,7 @@
                 "Name": "高等酸蚀符文",
                 "Note": {
                     "criticalSuccess": "该武器造成的酸液伤害无视酸液抗力。 重击时，目标的盔甲受到[[/r 6d6[acid]]]{6d6酸液} 伤害 (计算硬度之前)；如果目标举起了一块盾牌，则盾牌会代替受到这次伤害。",
-                    "success": "<strong>Greater Corrosive Rune</strong> 该武器造成的酸液伤害无视酸液抗力。"
+                    "success": "<strong>高等酸蚀符文</strong> 该武器造成的酸液伤害无视酸液抗力。"
                 }
             },
             "greaterCrushing": {
@@ -5407,6 +5421,9 @@
             },
             "demolishing": {
                 "Name": "拆解"
+            },
+            "earthbinding": {
+                "Name": "地缚符文"
             }
         },
         "WeaponPropertyRuneAnarchic": "混沌",
