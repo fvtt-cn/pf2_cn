@@ -360,7 +360,8 @@
                 "Lesser": {
                     "success": "<strong>效果</strong> 这颗炸弹同时造成[[/r 1d4[persistent,fire]]]和[[/r (1[splash])[fire]]]{1火焰溅射伤害}。",
                     "criticalSuccess": "<strong>效果</strong> 这颗炸弹同时造成[[/r (2*1d4)[persistent,fire]]]、[[/r (1[splash])[fire]]]{1 fire splash damage}火焰溅射伤害}，且目标因为燃烧脂肪的恶臭陷入@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 Sickened 1}。持续伤害生效期间，生物无法将恶心值降到1以下。"
-                }
+                },
+                "criticalSuccess": "如果造成重击，一个因为油脂炸弹而受到持续火焰伤害的生物将会因为燃烧脂肪的恶臭而陷入@UUID[Compendium.pf2e.conditionitems.fesd1n5eVhpCSS18]{恶心 Sickened 1}，并且在火焰伤害持续期间，无法将恶心值降低到1以下。"
             },
             "RedpitchBomb": {
                 "Greater": {
@@ -1787,6 +1788,11 @@
             "AdoptedAncestry": {
                 "Prompt": "选择一个常见族裔。",
                 "AllowedDrops": "自身以外的族裔"
+            },
+            "GoldenBladeOfMzali": {
+                "LitLabel": "玛扎利黄金之刃正在发光",
+                "ElementalFormLabel": "你已通过玛扎利黄金之刃施放元素形态",
+                "PersistentDamageNote": "与通常情况不同的是，一名生物只需要成功通过一次纯骰检定，便能摆脱上述效果所带来的两种持续伤害。"
             }
         },
         "RuleElement": {
