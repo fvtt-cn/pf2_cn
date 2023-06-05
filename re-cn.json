@@ -524,7 +524,7 @@
                     "NonlethalPacificationTools": "非致命镇暴工具",
                     "InnovationCollapsed": "创新爆破",
                     "Breakthrough": {
-                        "Prompt": "选择一个突破性改修。",
+                        "Prompt": "选择一个突破性改进。",
                         "AllowedDrops": "7级或者更低的发明家职业特性"
                     }
                 }
