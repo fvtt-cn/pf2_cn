@@ -1493,7 +1493,8 @@
                     "Defensive": "防御",
                     "None": "无",
                     "Offensive": "打击",
-                    "Interaction": "交互动作"
+                    "Interaction": "交互动作",
+                    "Familiar": "魔宠能力"
                 },
                 "CategoryLabel": "类别",
                 "Type": {
@@ -1574,7 +1575,8 @@
                     "BackgroundMissingHelp": "选择背景以选择提升。",
                     "ClassMissingHelp": "选择职业以选择提升。",
                     "NotSelected": "未选定",
-                    "Complete": "完成"
+                    "Complete": "完成",
+                    "AlternateBoostsLabel": "替换提升"
                 },
                 "AncestryClass": "{ancestry} {class}",
                 "Rest": {
@@ -1716,7 +1718,12 @@
                     "Orphaned": "孤立物品"
                 },
                 "Total": "队伍合计",
-                "Wealth": "财富"
+                "Wealth": "财富",
+                "InvalidCampaign": {
+                    "Message": "此队伍具有类型为 {current}的战役数据，但目前配置的类型是{configured}。是否要删除现有的战役数据？",
+                    "Title": "无效的战役({party})",
+                    "Hint": "战役数据无效"
+                }
             },
             "Familiar": {
                 "Master": {
@@ -2018,7 +2025,8 @@
                     "perception": "察觉DC",
                     "reflex": "反射DC",
                     "stealth": "隐秘DC",
-                    "will": "意志DC"
+                    "will": "意志DC",
+                    "armor": "AC"
                 },
                 "Unspecific": "DC"
             },
@@ -2084,7 +2092,11 @@
             "TabSettings": "设置",
             "TakeLabel": "拿取道具",
             "BuyLabel": "购买物品",
-            "Title": "浏览合集包"
+            "Title": "浏览合集包",
+            "Settings": {
+                "SourcesLabel": "来源",
+                "PacksLabel": "合集包"
+            }
         },
         "Condition": {
             "ActiveLabel": "有效的",
@@ -3553,6 +3565,14 @@
                 "ShowUnknownSources": "不会筛选未知来源的条目。",
                 "ShowEmptySources": "不会筛选无来源的条目。",
                 "Name": "所包含的来源"
+            },
+            "CampaignType": {
+                "Choices": {
+                    "kingmaker": "拥王者",
+                    "none": "无"
+                },
+                "Name": "战役类型",
+                "Hint": "为队伍扩展战役规则类型"
             }
         },
         "SaveDCLabel": "豁免DC {dc} {type}",
@@ -4441,14 +4461,14 @@
         "TraitMindless": "无心智",
         "TraitMinion": "仆从",
         "TraitMisfortune": "厄运",
-        "TraitModification": "改修",
+        "TraitModification": "改进",
         "TraitModular": "模块化 B, P, 或 S",
         "TraitMonitor": "观察者",
         "TraitMonk": "武僧",
         "TraitMorlock": "摩洛克",
         "TraitMorph": "化形",
         "TraitMortic": "死灵裔",
-        "TraitMounted": "骑乘",
+        "TraitMounted": "安装式",
         "TraitMove": "移动",
         "TraitMulticlass": "兼职",
         "TraitMummy": "木乃伊",
@@ -4463,7 +4483,7 @@
         "TraitNonlethalAttacks": "非致命攻击",
         "TraitNonmagicalAttacks": "非魔法攻击",
         "TraitNymph": "宁芙",
-        "TraitOath": "誓言",
+        "TraitOath": "誓约",
         "TraitObjectImmunities": "物品免疫",
         "TraitOccult": "异能",
         "TraitOil": "油",
@@ -5424,6 +5444,9 @@
             },
             "earthbinding": {
                 "Name": "地缚符文"
+            },
+            "authorized": {
+                "Name": "授权"
             }
         },
         "WeaponPropertyRuneAnarchic": "混沌",
@@ -5943,7 +5966,8 @@
             "ArmorClass": "防护等级",
             "Offenses": "进攻",
             "AttackRoll": "攻击骰",
-            "Skills": "技能"
+            "Skills": "技能",
+            "AbilitiesLabel": "属性"
         },
         "NPC": {
             "Abilities": {
@@ -6320,7 +6344,7 @@
         "WeaponRange200": "200尺",
         "TraitAffixedToFirearmWithTheKickbackTrait": "附着在具有反冲特征的火器上",
         "TraitDescriptionVehicular": "载具武器需附着到载具上或由一个坐骑穿戴，通常只能由载具的驾驶员或坐骑的主要骑手来使用。驾驶员或骑手可以使用和驾驶载具或引导坐骑时使用的相同的手来控制载具武器。可以通过将控制器（通常是坐骑的缰绳或载具的驾驶设备）从持用者手中打掉来对载具武器卸武。",
-        "TraitVehicular": "载具",
+        "TraitVehicular": "搭载",
         "StackGroupSprayPellets": "泼溅弹丸",
         "TraitAdditive0": "添加剂 0",
         "TraitAffixedToCrossbowOrFirearm": "附在弩或火器上",
@@ -6381,5 +6405,41 @@
     "DOCUMENT": {
         "Combat": "遭遇",
         "Combats": "遭遇"
+    },
+    "TYPES": {
+        "Actor": {
+            "npc": "NPC",
+            "loot": "战利品",
+            "hazard": "危害",
+            "familiar": "仆从",
+            "eidolon": "幻灵",
+            "character": "玩家角色",
+            "vehicle": "载具",
+            "party": "盟友"
+        },
+        "Item": {
+            "feat": "专长/特征",
+            "equipment": "装备",
+            "effect": "效果",
+            "deity": "神祗",
+            "consumable": "消耗品",
+            "condition": "状态",
+            "class": "职业",
+            "book": "书",
+            "backpack": "背包",
+            "background": "背景",
+            "armor": "护甲",
+            "ancestry": "种族",
+            "affliction": "苦难",
+            "action": "动作",
+            "spell": "法术",
+            "melee": "NPC攻击",
+            "lore": "学识技能",
+            "kit": "工具包",
+            "heritage": "传承",
+            "weapon": "武器",
+            "treasure": "宝物",
+            "spellcastingEntry": "法术列表"
+        }
     }
 }
