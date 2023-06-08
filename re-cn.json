@@ -848,7 +848,7 @@
                     "Prompt": "选择一种能量类型"
                 },
                 "AutomatonArmament": {
-                    "Prompt": "选择一种非武装打击"
+                    "Prompt": "选择一种无武装打击"
                 },
                 "CoreCannon": {
                     "AttackNote": "你需要将最高的潜能符文加成手动加成到此次攻击检定上",
