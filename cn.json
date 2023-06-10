@@ -2096,6 +2096,12 @@
             "Settings": {
                 "SourcesLabel": "来源",
                 "PacksLabel": "合集包"
+            },
+            "RollTable": {
+                "AddLabel": "添加至随机表",
+                "CreateDialogText": "通过{count}结果创建随机表？",
+                "CreateLabel": "创建随机表",
+                "SelectTableTitle": "选择表"
             }
         },
         "Condition": {
@@ -6400,7 +6406,8 @@
         },
         "BrowserSettingsSaved": "设定已保存",
         "TraitEtchedOntoABludgeoningWeapon": "蚀刻到钝击武器上",
-        "TraitEtchedOntoAPiercingOrSlashingWeapon": "蚀刻到穿刺或挥砍武器上"
+        "TraitEtchedOntoAPiercingOrSlashingWeapon": "蚀刻到穿刺或挥砍武器上",
+        "TraitHarrowCourt": "哈罗庭院"
     },
     "DOCUMENT": {
         "Combat": "遭遇",
