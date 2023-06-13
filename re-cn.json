@@ -468,12 +468,12 @@
                 }
             },
             "GooGrenade": {
-                "success": "<strong>效果</strong> 在命中时，该生物因粘在身上的粘性物质而获得速度减值。 @UUID[Compendium.pf2e.equipment-effects.5JYchreCttBg7RcD]{效果: Goo Grenade}",
+                "success": "<strong>效果</strong> 在命中时，该生物因粘在身上的粘性物质而获得速度减值。 @UUID[Compendium.pf2e.equipment-effects.5JYchreCttBg7RcD]{效果: 粘性手雷 Goo Grenade}",
                 "Greater": "高等",
                 "Lesser": "次等",
                 "Major": "上等",
                 "Moderate": "中等",
-                "Prompt": "选择粘着手雷的品级。"
+                "Prompt": "选择粘性手雷的品级。"
             },
             "BioluminescenceBomb": {
                 "success": "<p>炸弹落点@Template[type:emanation|distance:10]{10尺}内的所有生物都必须尝试@Check[type:reflex|dc:17] 豁免，否则会沾染荧光剂，持续发光24小时。受影响的生物还必须尝试@Check[type:fortitude|dc:17]豁免来对抗爆发的强光。</p><p><strong>成功</strong> 生物不受影响。</p><p><strong>失败</strong> 生物@UUID[Compendium.pf2e.conditionitems.TkIyaNPgTZFBCCuh]{目眩 Dazzled}1轮。</p><p><strong>大失败</strong> 生物@UUID[Compendium.pf2e.conditionitems.XgEqL1kFApUbl5Z2]{目盲 Blinded}1轮，然后再目眩1轮。</p>"
