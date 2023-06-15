@@ -1697,7 +1697,8 @@
                         "Tooltip": "“使用可用学识通常具有一个简单或非常简单的DC（在调整稀有度之前）。”–CRB第506页",
                         "Label": "可用学识：DC {dc1} ({adjustment1}) 或者 DC {dc2} ({adjustment2})"
                     }
-                }
+                },
+                "SimpleSheet": "简易NPC表"
             },
             "Plural": "角色",
             "IWREditor": {
