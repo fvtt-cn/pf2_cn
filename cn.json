@@ -2103,7 +2103,8 @@
                 "CreateDialogText": "通过{count}结果创建随机表？",
                 "CreateLabel": "创建随机表",
                 "SelectTableTitle": "选择表",
-                "WeightLabel": "Weight"
+                "WeightLabel": "Weight",
+                "AddDialogText": "是否将 {count} 个结果添加到随机表？"
             }
         },
         "Condition": {
