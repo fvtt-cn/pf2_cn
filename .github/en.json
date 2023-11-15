@@ -189,6 +189,9 @@
                     },
                     "Title": "Configure Character"
                 },
+                "Crafting": {
+                    "Cost": "Cost"
+                },
                 "HandsOccupied": "Hands Occupied",
                 "Proficiency": {
                     "Attack": {
@@ -821,7 +824,7 @@
         "CharacterTraits": "Character Traits",
         "CharacterTraitsHeader": "Traits & Other Details",
         "ChatRollDetails": {
-            "ModifiersEmpty": "No Modifiers",
+            "ModifiersAndDice": "Modifiers and Dice",
             "FlatCheckNoModifiers": "Flat checks never include any modifiers, bonuses, or penalties.",
             "RollOptions": "Roll Options",
             "Select": "Inspect Roll",
