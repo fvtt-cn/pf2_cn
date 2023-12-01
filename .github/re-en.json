@@ -584,14 +584,15 @@
                 "ImpulseFireFrom": "impulse fire from {origin}",
                 "MagicalBludgeoning": "magical bludgeoning",
                 "MagicalColdIron": "magical cold iron",
-                "MagicalDarkwood": "magical duskwood",
+                "MagicalDuskwood": "magical duskwood",
                 "MagicalSilver": "magical silver",
                 "MagicalSilverWeapons": "magical silver weapons",
                 "MagicalWeaponsBrightLight": "magical weapons shedding bright light",
                 "NonWeapons": "non-weapons",
                 "PersistentPoison": "persistent poison",
                 "PhysicalRangedAttacks": "physical ranged attacks",
-                "RangedWeaponAttacks": "ranged weapon attacks"
+                "RangedWeaponAttacks": "ranged weapon attacks",
+                "VoidZonKuthonFollowers": "void from followers of Zon-Kuthon"
             }
         },
         "Mutagens": {
@@ -1348,6 +1349,7 @@
             "MakeAnImpression": "To Make an Impression",
             "ManeuverInFlight": "To Maneuver in Flight",
             "Moist": "In Moist Environments",
+            "Moonlight": "In Moonlight",
             "Mountains": "In Mountains",
             "Navigate": "To Navigate",
             "NearTheOcean": "Near The Ocean",
@@ -2402,6 +2404,7 @@
             "LitCandlecap": "Candlecap is lit",
             "LitFirePoi": "Fire Poi is lit",
             "LitFulminatingSpear": "Fulminating Spear is lit",
+            "LitItem": "{item} is lit",
             "LitTorch": "Torch is lit",
             "Lizardfolk": {
                 "GuidedByTheStars": {
