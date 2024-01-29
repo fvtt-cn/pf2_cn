@@ -397,7 +397,9 @@
                 "Moderate": {
                     "criticalSuccess": "<strong>Effect</strong> The bomb also deals [[/r (2*2d4)[persistent,piercing]]] and [[/r (2[splash])[poison]]]{2 poison splash damage}. The bomb's splash area is coated in vegetation, becoming difficult terrain for 1 round.",
                     "success": "<strong>Effect</strong> The bomb also deals [[/r 2d4[persistent,piercing]]] and [[/r (2[splash])[poison]]]{2 poison splash damage}. The bomb's splash area is coated in vegetation, becoming difficult terrain for 1 round."
-                }
+                },
+                "Terrain": "Except on a critical failure, the bomb's splash area is coated in vegetation, becoming difficult terrain for 1 round.",
+                "TerrainMajor": "Except on a critical failure, the bomb's splash area is coated in vegetation, becoming difficult terrain for 1 minute."
             },
             "PeshspineGrenade": {
                 "Greater": {
@@ -2367,6 +2369,9 @@
                 "ToggleLabel": "In Combat"
             },
             "Inventor": {
+                "BoostModulation": {
+                    "Prompt": "Select an additional offensive boost"
+                },
                 "Innovation": {
                     "Armor": {
                         "AllowedDrops": "level-zero unique armor",
@@ -2402,6 +2407,7 @@
                     "Chill": "Chill (Cold)",
                     "Ignition": "Ignition (Fire)",
                     "Jolt": "Jolt (Electricity)",
+                    "Label": "Offensive Boost",
                     "Momentum": "Momentum (Bludgeoning)",
                     "Prompt": "Select an offensive boost.",
                     "Saws": "Saws (Slashing)",
