@@ -587,6 +587,9 @@
             "White": "White",
             "Yellow": "Yellow"
         },
+        "FireShield": { 
+            "DefendingAgainstWaterLabel": "Defending against a water effect"
+        },
         "IWR": {
             "Custom": {
                 "AdamantineBludgeoning": "adamantine bludgeoning",
@@ -742,6 +745,7 @@
                     "Leshy": "Leshy",
                     "Lizard": "Lizard",
                     "Mantis": "Mantis",
+                    "Moose": "Moose",
                     "Morrigna": "Morrigna",
                     "Mushroom": "Mushroom",
                     "NaiadQueen": "Naiad Queen",
@@ -756,6 +760,7 @@
                     "RajaKrodha": "Raja-Krodha",
                     "Rat": "Rat",
                     "Scorpion": "Scorpion",
+                    "Shark": "Shark",
                     "Succubus": "Succubus",
                     "Tree": "Tree",
                     "Unicorn": "Unicorn",
@@ -1079,6 +1084,9 @@
                 }
             },
             "TreerazerPlantAttack": "Attack a Plant",
+            "Tyrafdir": {
+                "DeceptiveJaws": "Deceptive Jaws"
+            },
             "Vampire": {
                 "JiangShi": {
                     "StanceOfDeath": {
