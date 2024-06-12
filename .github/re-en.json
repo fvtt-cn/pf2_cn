@@ -588,11 +588,9 @@
             "White": "White",
             "Yellow": "Yellow"
         },
-        "FireShield": { 
-            "DefendingAgainstWaterLabel": "Defending against a water effect"
-        },
         "IWR": {
             "Custom": {
+                "AcidAndSpellsThatCauseRust": "acid and spells that cause rust",
                 "AdamantineBludgeoning": "adamantine bludgeoning",
                 "AllDamageFromArcaneSpells": "all damage from arcane spells",
                 "AllDamageFromFungus": "all damage from fungus",
@@ -1047,6 +1045,21 @@
                 "InspireEnvoyEffectAttack": "Bonus to Attack",
                 "InspireEnvoyEffectChoice": "Granted Effect",
                 "InspireEnvoyEffectPercWillCha": "Bonus to Will, Perception and Charisma-based skill checks"
+            },
+            "StargutHydra": {
+                "SkymetalMetamorphosis": {
+                    "Djezet": {
+                        "Label": "Skymetal Metamorphosis (Djezet)"
+                    },
+                    "Noqual": {
+                        "Label": "Skymetal Metamorphosis (Noqual)"
+                    },
+                    "Siccatite": {
+                        "Chilled": "Chilled",
+                        "Label": "Skymetal Metamorphosis (Siccatite)",
+                        "Superheated": "Superheated"
+                    }
+                }
             },
             "StoneSpider": {
                 "StoneFangs": "Stone Fangs"
@@ -2616,6 +2629,9 @@
                     "spear": "Simple & Martial Spears",
                     "sword": "Simple & Martial Swords"
                 }
+            },
+            "FireShield": { 
+                "DefendingAgainstWaterLabel": "Defending against a water effect"
             },
             "Fleshwarp": {
                 "CoatingOfSlime": {
