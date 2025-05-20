@@ -767,6 +767,16 @@
                     "Note": "When Abstalar casts <em>heal</em> to heal a single creature other than himself, he regains @Damage[@item.rank[vitality,healing]|shortLabel] Hit Points."
                 }
             },
+            "AeonStoneSwarm": {
+                "AeonResonance": {
+                    "Defensive": "Defensive",
+                    "DefensiveResistance": "Defensive Resonance",
+                    "Illumination": "Illumination",
+                    "IlluminationColor": "Illumination Resonance",
+                    "Sensory": "Sensory",
+                    "Subterfuge": "Subterfuge"
+                }
+            },
             "AlchemicalGolem": {
                 "Sickness": "Sickness"
             },
@@ -881,6 +891,7 @@
                     "Fox": "Fox",
                     "Fungus": "Fungus",
                     "Gancanagh": "Gancanagh",
+                    "Ghost": "Ghost",
                     "Gimmerling": "Gimmerling",
                     "Gosreg": "Gosreg",
                     "Gourd": "Gourd",
@@ -923,6 +934,7 @@
                     "Scorpion": "Scorpion",
                     "SeaSerpent": "Sea Serpent",
                     "Shark": "Shark",
+                    "Skeleton": "Skeleton",
                     "SnappingFlytrap": "Snapping Flytrap",
                     "Spider": "Spider",
                     "Succubus": "Succubus",
@@ -938,7 +950,8 @@
                     "WingedHumanoid": "Winged Humanoid",
                     "Wolf": "Wolf",
                     "WolfDire": "Dire Wolf",
-                    "Yaoguai": "Yaoguai"
+                    "Yaoguai": "Yaoguai",
+                    "Zombie": "Zombie"
                 },
                 "Label": "Current Form"
             },
@@ -5519,6 +5532,14 @@
                 "OwlEyes": "Owl Eyes",
                 "Wings": "Wings"
             },
+            "SpellEffectAugmentedBody": {
+                "AblativePlating": "Ablative Plating",
+                "ClockworkArm": "Clockwork Arm",
+                "ClockworkFist": "Clockwork Fist",
+                "Prompt": "Select an augmentation.",
+                "SpinedFingertips": "Spined Fingertips",
+                "SpringLoadedLegs": "Spring-Loaded Legs"
+            },
             "SpellEffectBoneFlense": {
                 "Label": "Bone Flense"
             },
@@ -5532,6 +5553,9 @@
             },
             "SpellEffectFieryBody": {
                 "Note": "The attacker takes @Damage[(ternary(gte(@item.level,9),4,3))d6[fire]] damage."
+            },
+            "SpellEffectFurnaceBody": {
+                "Note": "The attacker takes @Damage[3d6[fire]] damage."
             },
             "SpellEffectGluttonsJaw": {
                 "Text": "If you hit with your jaws and deal damage, you gain [[/r (ceil(@item.level/2))d6 #Temporary Hit Points]] temporary Hit Points."
